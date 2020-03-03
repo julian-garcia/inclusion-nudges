@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: karla;
+  margin: 0;
+}
+
+p {
+  font-family: 'cormorant garamond';
+  font-size: 1.2rem;
+}
+
+.site-title {
+  &--top {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    @media (min-width: $phone) { 
+      margin-top: 3rem;
+    }
+  }
+  &--bottom {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+}

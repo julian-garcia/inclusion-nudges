@@ -1,3 +1,55 @@
-main {
-  background-color: antiquewhite;
+.header {
+  max-width: $maxwidth;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "logo" "title";
+
+  @media (min-width: $phone) { 
+    margin-top: 2rem;
+    justify-content: left;
+    grid-template-columns: repeat(4, 1fr) .7fr;
+    grid-template-areas: "title title title logo logo";
+  }
+  @media (min-width: $tablet) { 
+    grid-template-columns: repeat(4, 1fr) .7fr;
+    grid-template-areas: "title title title logo nudges";
+  }
+}
+
+.header-title-container {
+  grid-area: title;
+  padding-left: 1rem;
+
+  @media (min-width: $desktop) {
+    padding-left: 0;
+  }
+}
+
+.header-logo-container {
+  grid-area: logo;
+  text-align: center;
+}
+
+.header-logo, .header-nudges {
+  width: 120px;
+
+  @media (min-width: $phone) { 
+    width: 100%;
+  }
+}
+
+.header-nudges {
+  position: absolute;
+  bottom: -2rem;
+  transform: rotate(10deg);
+
+  &-container {
+    grid-area: nudges;
+    position: relative;
+    display: none;
+    @media (min-width: $phone) { 
+      display: block;
+    }
+  }
 }
