@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header-title-container">
       <h1 className="site-title site-title--top">A global movement </h1>
-      <h1 className="site-title site-title--bottom">We are people worldwide making inclusion the default and norm </h1>
+      <h1 className="site-title site-title--bottom">We are people worldwide<br />making inclusion the default and norm </h1>
     </div>
     <Link to="/" className="header-logo-container">
       <picture>

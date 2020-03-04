@@ -12,6 +12,7 @@
     grid-template-areas: "title title title logo logo";
   }
   @media (min-width: $tablet) { 
+    margin-bottom: 2rem;
     grid-template-columns: repeat(4, 1fr) .7fr;
     grid-template-areas: "title title title logo nudges";
   }
@@ -41,7 +42,7 @@
 
 .header-nudges {
   position: absolute;
-  bottom: -2rem;
+  bottom: -4rem;
   transform: rotate(10deg);
 
   &-container {
@@ -52,4 +53,8 @@
       display: block;
     }
   }
+}
+
+.container {
+  margin: 0 0 2rem;
 }

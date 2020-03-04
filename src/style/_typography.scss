@@ -8,6 +8,16 @@ p {
   font-size: 1.2rem;
 }
 
+a {
+  color: $accent-3;
+  font-weight: bold;
+  text-decoration: none;
+
+  &.dark {
+    color: black;
+  }
+}
+
 .site-title {
   &--top {
     margin-top: 1rem;
@@ -22,4 +32,9 @@ p {
     font-weight: 700;
     margin-bottom: 2rem;
   }
+}
+
+.page-heading {
+  text-align: center;
+  margin: 4rem 0 2rem;
 }
