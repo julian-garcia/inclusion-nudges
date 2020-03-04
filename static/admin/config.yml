@@ -14,5 +14,9 @@ collections:
       - {label: "Path", name: "path"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+<<<<<<< HEAD
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: "false"}
+=======
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+>>>>>>> 50709324e825e79ddbf06bc6667970ac1b801f84
       - {label: "Nudge", name: "nudge", widget: "markdown"}
