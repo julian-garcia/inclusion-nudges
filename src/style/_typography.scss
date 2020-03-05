@@ -1,11 +1,11 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, button, label {
   font-family: karla;
   margin: 0;
 }
 
-p {
+p, input, textarea {
   font-family: 'cormorant garamond';
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 .site-title {
   &--top {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
     @media (min-width: $phone) { 
       margin-top: 3rem;
@@ -37,4 +37,5 @@ a {
 .page-heading {
   text-align: center;
   margin: 4rem 0 2rem;
+  font-size: 2rem;
 }

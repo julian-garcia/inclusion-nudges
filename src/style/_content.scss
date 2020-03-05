@@ -62,9 +62,23 @@
   grid-template-columns: 1fr;
 
   &.centered {
-    align-items: center;
-    justify-content: center;
     text-align: center;
+  }
+
+  &.bottom {
+    &>div {
+      position: relative;
+      &>h2, &>p {
+        position: absolute;
+        left: 1rem;
+      }
+      &>h2 {
+        bottom: 4rem;
+      }
+      &>p {
+        bottom: -.5rem;
+      }
+    }
   }
 
   &>div {
@@ -76,7 +90,7 @@
   }
 
   @media (min-width: $desktop) { 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
@@ -85,4 +99,35 @@
   transform: translateY(50%);
   width: 2.5em;
   position: absolute;
+
+  &-heading {
+    margin: .5rem auto 0;
+    padding: 0 .5rem 0 0;
+    font-size: 2.5rem;
+  }
+}
+
+.grid-item-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 275px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  @media (min-width: $phone) {
+    min-height: 315px;
+  }
+
+  @media (min-width: $tablet) {
+    min-height: 275px;
+  }
+
+  @media (min-width: $desktop-m) {
+    min-height: 350px;
+  }
+
+  @media (min-width: $desktop-l) {
+    min-height: 460px;
+  }
 }

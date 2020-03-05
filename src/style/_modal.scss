@@ -1,0 +1,64 @@
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  top: 0;
+  left: -100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  padding: 0 1rem;
+
+  &__content {
+    max-width: 500px;
+    background: white;
+    margin: 5rem auto;
+    min-height: 300px;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+    & .icon-heading {
+      position: absolute;
+      top: 0;
+      right: 1rem;
+    }
+  }
+
+  &.show {
+    left: 0;
+    opacity: 1;
+  }
+
+  &-title {
+    text-align: center;
+    margin: 0 0 1rem;
+    font-size: 2rem;
+  }
+
+  &-form {
+    max-width: 100%;
+    margin: 0 auto;
+
+    &__label {
+      font-size: 1.4rem;
+    }
+
+    &__button {
+      background: $accent-3;
+      font-size: 1.2rem;
+      border-style: none;
+      border-radius: 3px;
+      padding: 10px 30px;
+    }
+
+    &__input, &__textarea {
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      margin: 1rem 0;
+      border: 2px solid $accent-3;
+      border-radius: 3px;
+      padding: 10px;
+    }
+  }
+}
