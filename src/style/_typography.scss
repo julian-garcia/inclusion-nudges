@@ -18,6 +18,11 @@ a {
   }
 }
 
+button.apply-link-style {
+  color: $accent-3;
+  font-weight: bold;
+}
+
 .site-title {
   &--top {
     margin-top: 1rem;

@@ -5,12 +5,20 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons"
 
 function closeModal(modalClass, e) {
   const classes = e.target.classList;
-  if (!(classes.contains('modal-form') || 
+  if (!(classes.contains('modal__content') || 
+        classes.contains('modal-social-icon') || 
+        classes.contains('modal-social-link') || 
+        classes.contains('modal-form') || 
         classes.contains('modal-form__input') ||
         classes.contains('modal-form__textarea') ||
         classes.contains('modal-form__label'))){
     document.querySelector(`.${modalClass}`).classList.remove('show');
   }
+  const video = document.querySelector(`.${modalClass} video`);
+  const iframe = document.querySelector(`.${modalClass} iframe`);
+  
+  if (video) { video.pause() }
+	if (iframe) { const iframeSrc = iframe.src; iframe.src = iframeSrc; }
 }
 
 export function showModal(modalClass) {

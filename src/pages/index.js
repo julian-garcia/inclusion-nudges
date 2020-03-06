@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
+import ModalDownload from "../components/modal-download"
 
 import NudgesImg from "../images/nudges.png"
 import IconHandsImg from "../images/icon-hands.png"
@@ -34,8 +35,8 @@ const IndexPage = () => (
         <h3>HOW</h3>
         <p>We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</p>
         <p>Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society <br />to be inclusive by default and norm</p>
-        <h3 style={{marginBottom:`1rem`}}><Link to='/'>Purchase your guide book</Link></h3>
-        <h3><Link to='/'>Download a free taster</Link></h3>
+        <h3 style={{marginBottom:`1rem`, fontSize:`1.3rem`}}><Link to='/'>Purchase your guide book</Link></h3>
+        <button onClick={() => showModal('modal-download')} className="unstyled-button apply-link-style" >Download a free taster</button>
       </div>
     </div>
     <h2 className="page-heading">What people say about Inclusion Nudges</h2>
@@ -50,19 +51,19 @@ const IndexPage = () => (
     <div className="row-auto bottom">
       <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}}>
         <h2>Why we started the Inclusion Nudges Initiative?</h2> 
-        <p><strong onClick={() => showModal('modal-video')}>The Founders</strong></p>
+        <p><button onClick={() => showModal('modal-video-1')} className="unstyled-button">The Founders</button></p>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}}>
         <h2>Nudging behaviour for a more inclusive world</h2>
-        <p><strong>TEDx Talk by Tinna C. Nielsen</strong></p>
+        <p><button onClick={() => showModal('modal-video-2')} className="unstyled-button">TEDx Talk by Tinna C. Nielsen</button></p>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${LisaImg})`}}>
         <h2>Mitigating bias in talent decisions</h2> 
-        <p><strong>TEDx Talk by Lisa Kepinski</strong></p>
+        <p><button onClick={() => showModal('modal-video-3')} className="unstyled-button">TEDx Talk by Lisa Kepinski</button></p>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}}>
         <h2>Writings, Podcasts, Videos</h2>
-        <p><strong>Free Resources<br />Articles & Podcasts</strong></p>
+        <p><Link to="/" className="unstyled-button">Free Resources<br />Articles & Podcasts</Link></p>
       </div>
     </div>
     <h2 className="page-heading">Actions you can take & assistance you can get</h2>
@@ -102,11 +103,24 @@ const IndexPage = () => (
         <img src={IconHandsWhiteImg} alt="Inclusion Nudges" className="icon" style={{marginLeft:"-2rem"}} />
       </picture>
       <div>
-        <FontAwesomeIcon icon={faTwitter} className="icon-heading" />
-        <FontAwesomeIcon icon={faLinkedin} className="icon-heading" />
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook%20you%20get%20101%20examples%20of%20behavioural%20insight%20design%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+          <FontAwesomeIcon icon={faTwitter} className="icon-heading" style={{color:'white'}} />
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+          <FontAwesomeIcon icon={faLinkedin} className="icon-heading" style={{color:'white'}} />
+        </a>
       </div>
     </div>
-    <ModalVideo />
+    <ModalVideo videoClass="modal-video-1"
+                videoUrl="http://inclusion-nudges.org/wp-content/uploads/2017/10/founders.mp4" 
+                placeHolder="http://inclusion-nudges.org/wp-content/uploads/2017/10/placeholder.png" />
+    <ModalVideo videoClass="modal-video-2"
+                videoUrl="https://www.youtube.com/embed/VggAqa0xOwM" 
+                placeHolder="" />
+    <ModalVideo videoClass="modal-video-3"
+                videoUrl="https://www.youtube.com/embed/4DpZm0GNqfQ" 
+                placeHolder="" />
+    <ModalDownload />
   </Layout>
 )
 
