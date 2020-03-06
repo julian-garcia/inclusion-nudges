@@ -5,7 +5,8 @@ import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { showContactModal } from "../components/modal-contact"
+import { showModal } from "../components/modal"
+import ModalVideo from "../components/modal-video"
 
 import NudgesImg from "../images/nudges.png"
 import IconHandsImg from "../images/icon-hands.png"
@@ -49,7 +50,7 @@ const IndexPage = () => (
     <div className="row-auto bottom">
       <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}}>
         <h2>Why we started the Inclusion Nudges Initiative?</h2> 
-        <p><strong>The Founders</strong></p>
+        <p><strong onClick={() => showModal('modal-video')}>The Founders</strong></p>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}}>
         <h2>Nudging behaviour for a more inclusive world</h2>
@@ -74,17 +75,17 @@ const IndexPage = () => (
       <div className="accent-2">
         <h2>Get online coaching</h2>
         <p><strong>from the experts<br />Lisa & Tinna</strong></p>
-        <h3><Link to='/' className="colour-white" onClick={showContactModal}>Write us</Link></h3>
+        <button onClick={() => showModal('modal')} className="contact-us unstyled-button">Write us</button>
       </div>
       <div className="accent-4">
         <h2>Share your Inclusion Nudge</h2> 
         <p><strong>examples<br />to inspire others</strong></p>
-        <h3><a href="mailto:contact@inclusion-nudges.org" className="colour-white" onClick={showContactModal}>Write us</a></h3>
+        <button onClick={() => showModal('modal')} className="contact-us unstyled-button">Write us</button>
       </div>
       <div className="accent-1">
         <h2>Get bespoke design support</h2>
         <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
-        <h3><a href="mailto:contact@inclusion-nudges.org" className="colour-white" onClick={showContactModal}>Write us</a></h3>
+        <button onClick={() => showModal('modal')} className="contact-us unstyled-button">Write us</button>
       </div>
     </div>
     <div style={{textAlign:"center", position:"relative", padding:"3rem 1rem"}}>
@@ -105,6 +106,7 @@ const IndexPage = () => (
         <FontAwesomeIcon icon={faLinkedin} className="icon-heading" />
       </div>
     </div>
+    <ModalVideo />
   </Layout>
 )
 

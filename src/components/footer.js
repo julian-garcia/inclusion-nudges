@@ -1,5 +1,5 @@
 import React from "react"
-import { showContactModal } from "./modal-contact"
+import { showModal } from "./modal"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faTwitter, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-icons"
@@ -9,7 +9,7 @@ const Footer = () => (
   <footer className="footer row-auto">
     <div style={{}}>
       <h3>Get in Touch</h3>
-      <FontAwesomeIcon icon={faEnvelope} className="icon-heading" onClick={showContactModal} />
+      <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal')} />
     </div>
     <div>
       <h3>Follow Inclusion Nudges</h3>
