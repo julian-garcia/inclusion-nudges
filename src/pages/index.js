@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
 import ModalDownload from "../components/modal-download"
+import ModalSignup from "../components/modal-signup"
 
 import NudgesImg from "../images/nudges.png"
 import IconHandsImg from "../images/icon-hands.png"
@@ -90,7 +91,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div style={{textAlign:"center", position:"relative", padding:"3rem 1rem"}}>
-      <h2 className="text" style={{display:"inline-block", paddingRight:"3rem"}}>Join this global movement for inclusiveness – Sign up <Link to='/'>HERE</Link> to stay updated</h2>
+      <h2 className="text" style={{display:"inline-block", paddingRight:"3rem"}}>Join this global movement for inclusiveness – Sign up <button onClick={() => showModal('modal-signup')} className="unstyled-button apply-link-style" style={{fontSize:'1.5rem'}}>HERE</button> to stay updated</h2>
       <picture>
         <source srcSet={IconHandsImg} />
         <img src={IconHandsImg} alt="Inclusion Nudges" className="icon" style={{marginLeft:"-2rem"}} />
@@ -121,6 +122,7 @@ const IndexPage = () => (
                 videoUrl="https://www.youtube.com/embed/4DpZm0GNqfQ" 
                 placeHolder="" />
     <ModalDownload />
+    <ModalSignup />
   </Layout>
 )
 

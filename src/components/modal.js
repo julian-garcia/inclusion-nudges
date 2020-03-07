@@ -9,8 +9,11 @@ function closeModal(modalClass, e) {
         classes.contains('modal-social-icon') || 
         classes.contains('modal-social-link') || 
         classes.contains('modal-form') || 
+        classes.contains('modal-form__button') ||
         classes.contains('modal-form__input') ||
         classes.contains('modal-form__textarea') ||
+        classes.contains('modal-form__check') ||
+        classes.contains('modal-form__checkbox') ||
         classes.contains('modal-form__label'))){
     document.querySelector(`.${modalClass}`).classList.remove('show');
   }
