@@ -37,21 +37,21 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `nudges`,
-        path: `${__dirname}/nudges`,
+        path: `${__dirname}/data/nudges`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `testimonials`,
-        path: `${__dirname}/testimonials`,
+        path: `${__dirname}/data/testimonials`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `external`,
-        path: `${__dirname}/external`,
+        path: `${__dirname}/data/external`,
       },
     },
     `gatsby-transformer-remark`,
