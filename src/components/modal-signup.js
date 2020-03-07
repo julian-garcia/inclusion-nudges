@@ -22,7 +22,7 @@ const ModalSignup = () => (
         <input type="checkbox" id="gdpr" name="gdpr[3549]" className="modal-form__checkbox" value="Y" />
         <span className="modal-form__check"></span>
       </label>
-      <button className="modal-form__button" type="button" onClick={_signup}>Receive updates</button>
+      <button className="modal-form__button" onClick={_signup}>Receive updates</button>
     </form>
   </Modal>
 )
