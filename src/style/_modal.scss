@@ -81,6 +81,10 @@
     height: 2rem;
     border: 2px solid $accent-3;
     border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__label {
@@ -90,6 +94,11 @@
     &.gdpr {
       max-width: 200px;
       display: inline-block;
+
+      &:hover {
+        cursor: pointer;
+      }
+
       @media (min-width: $phone) { 
         max-width: 260px;
       }
