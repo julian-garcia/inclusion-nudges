@@ -5,8 +5,8 @@ position: >-
   Public Policy Program
 organisation: 'Kennedy School of Government, Harvard University, U.S.'
 testimonial: >-
-  *The Inclusion Nudges Guidebook shows how practitioners can use behavioural
+  The Inclusion Nudges Guidebook shows how practitioners can use behavioural
   insights to create more inclusive, more diverse, and better organisations. I
-  recommend it to all who care and want to make a difference.*
+  recommend it to all who care and want to make a difference.
 ---
 
