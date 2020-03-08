@@ -36,13 +36,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `nudges`,
-        path: `${__dirname}/data/nudges`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `testimonials`,
         path: `${__dirname}/data/testimonials`,
       },
