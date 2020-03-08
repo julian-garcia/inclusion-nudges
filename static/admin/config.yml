@@ -7,17 +7,17 @@ public_folder: "/images/uploads"
 collections:
   - name: "testimonial"
     label: "Testimonial"
-    folder: "testimonials"
+    folder: "content/testimonials"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Position", name: "position", widget: "string", required: false}
       - {label: "Organisation", name: "organisation", widget: "string", required: false}
       - {label: "Testimonial", name: "testimonial", widget: "markdown"}
   - name: "external-media"
     label: "External Media"
-    folder: "external"
+    folder: "content/external"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:

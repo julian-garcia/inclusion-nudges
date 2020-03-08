@@ -37,14 +37,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `testimonials`,
-        path: `${__dirname}/data/testimonials`,
+        path: `${__dirname}/content/testimonials`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `external`,
-        path: `${__dirname}/data/external`,
+        path: `${__dirname}/content/external`,
       },
     },
     `gatsby-transformer-remark`,
