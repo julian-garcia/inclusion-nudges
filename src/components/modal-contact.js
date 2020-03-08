@@ -9,7 +9,7 @@ function sendMail(){
     "message_html": document.querySelector('.modal-form__textarea').value
   }
   if (templateParams.message_html && templateParams.reply_to) {
-    emailjs.send('default_service','julian-garcia.uk', templateParams, process.env.EMAILJS_USERID)
+    emailjs.send('default_service','julian-garcia.uk', templateParams, process.env.GATSBY_EMAILJS_USERID)
     .then((response) => {
           console.log(response.status);
         }, (err) => {
