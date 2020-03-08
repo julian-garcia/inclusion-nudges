@@ -26,7 +26,7 @@ const ModalContact = () => (
       <input id="email" type="email" name="email" className="modal-form__input" required /><br />
       <label htmlFor="message" className="modal-form__label">Message</label><br />
       <textarea name="message" className="modal-form__textarea" required></textarea><br />
-      <button onClick={sendMail} className="modal-form__button">Send</button>
+      <button onClick={sendMail} className="modal-form__button" type="button">Send</button>
     </form>
   </Modal>
 )

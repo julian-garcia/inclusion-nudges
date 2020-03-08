@@ -5,7 +5,7 @@ import addToMailchimp from "gatsby-plugin-mailchimp"
 const _signup = async () => {
   const email = document.querySelector('#emailSignup').value;
   const name = document.querySelector('#name').value;
-  const gdpr = document.querySelector('#gdpr').value;
+  const gdpr = document.querySelector('#gdpr').checked ? 'Y' : 'N';
   if (email && name && gdpr) { await addToMailchimp(email, {'NAME': name, 'gdpr[3549]': gdpr}) }
 }
 
@@ -22,7 +22,7 @@ const ModalSignup = () => (
         <input type="checkbox" id="gdpr" name="gdpr[3549]" className="modal-form__checkbox" value="Y" />
         <span className="modal-form__check"></span>
       </label>
-      <button className="modal-form__button" onClick={_signup}>Receive updates</button>
+      <button className="modal-form__button" onClick={_signup} type="button">Receive updates</button>
     </form>
   </Modal>
 )
