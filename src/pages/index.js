@@ -15,6 +15,8 @@ import NudgesImg from "../images/nudges.png"
 import IconHandsImg from "../images/icon-hands.png"
 import IconHandsWhiteImg from "../images/icon-hands-white.png"
 import InitiativeImg from "../images/initiative.png"
+import FoundersImg from "../images/founder-video-poster.png"
+import FoundersVideo from "../videos/founders.mp4"
 import TinnaImg from "../images/tinna-tedx.jpg"
 import LisaImg from "../images/lisa-tedx.png"
 import PublicationsImg from "../images/publications.png"
@@ -115,8 +117,8 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
     <ModalVideo videoClass="modal-video-1"
-                videoUrl="http://inclusion-nudges.org/wp-content/uploads/2017/10/founders.mp4" 
-                placeHolder="http://inclusion-nudges.org/wp-content/uploads/2017/10/placeholder.png" />
+                videoUrl={FoundersVideo}
+                placeHolder={FoundersImg} />
     <ModalVideo videoClass="modal-video-2"
                 videoUrl="https://www.youtube.com/embed/VggAqa0xOwM" 
                 placeHolder="" />
