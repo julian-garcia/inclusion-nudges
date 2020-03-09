@@ -1,0 +1,43 @@
+.slider {
+  background: $footer-bg;
+  padding: 2rem 0;
+  position: relative;
+  transition: height .5s linear;
+
+  .slide {
+    max-width: $maxwidth;
+    margin: 0 auto;
+    text-align: center;
+    height: 0;
+    opacity: 0;
+    transition: opacity .5s linear;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &.show {
+      opacity: 1;
+    }
+
+    p { margin: 0; }
+  }
+
+  &__bullets {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__bullet {
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: lightgray;
+    transition: color .5s linear;
+
+    &.show {
+      color: black;
+    }
+  }
+}

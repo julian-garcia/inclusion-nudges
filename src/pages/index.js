@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
@@ -9,6 +9,7 @@ import { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
 import ModalDownload from "../components/modal-download"
 import ModalSignup from "../components/modal-signup"
+import Slider from "../components/slider"
 
 import NudgesImg from "../images/nudges.png"
 import IconHandsImg from "../images/icon-hands.png"
@@ -18,7 +19,7 @@ import TinnaImg from "../images/tinna-tedx.jpg"
 import LisaImg from "../images/lisa-tedx.png"
 import PublicationsImg from "../images/publications.png"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Inclusion Nudges" />
     <div className="accent-1">
@@ -41,6 +42,7 @@ const IndexPage = () => (
       </div>
     </div>
     <h2 className="page-heading">What people say about Inclusion Nudges</h2>
+    <Slider testimonials={data} />
     <div className="accent-3" style={{textAlign:"center", position:"relative"}}>
       <picture>
         <source srcSet={IconHandsImg} />
@@ -127,3 +129,20 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const testimonialsQuery = graphql`
+  query testQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+            position
+            organisation
+            testimonial
+          }
+        }
+      }
+    }
+  }
+`
