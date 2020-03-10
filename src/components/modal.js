@@ -13,7 +13,8 @@ function closeModal(modalClass, e) {
         classes.contains('modal-form__textarea') ||
         classes.contains('modal-form__check') ||
         classes.contains('modal-form__checkbox') ||
-        classes.contains('modal-form__label'))){
+        classes.contains('modal-form__label') ||
+        e.target.tagName === 'VIDEO')){
     document.querySelector(`.${modalClass}`).classList.remove('show');
   }
   const video = document.querySelector(`.${modalClass} video`);
@@ -28,7 +29,7 @@ export function showModal(modalClass) {
 }
 
 const Modal = ({ children, modalClass }) => (
-  <div className={modalClass} onClick={(e) => closeModal(modalClass, e)}>
+  <div className={modalClass} role="button" onClick={(e) => closeModal(modalClass, e)} onKeyDown={(e) => closeModal(modalClass, e)} tabIndex={0}>
     <div className="modal__content">
       <FontAwesomeIcon icon={faTimes} className="icon-heading close-modal" onClick={(e) => closeModal(modalClass, e)} />
       {children}

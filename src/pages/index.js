@@ -17,6 +17,7 @@ import IconHandsWhiteImg from "../images/icon-hands-white.png"
 import InitiativeImg from "../images/initiative.png"
 import FoundersImg from "../images/founder-video-poster.png"
 import FoundersVideo from "../videos/founders.mp4"
+import FoundersVTT from "file-loader!../videos/founders.vtt"
 import TinnaImg from "../images/tinna-tedx.jpg"
 import LisaImg from "../images/lisa-tedx.png"
 import PublicationsImg from "../images/publications.png"
@@ -68,7 +69,7 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}}>
         <h2>Writings, Podcasts, Videos</h2>
-        <p><Link to="/" className="unstyled-button">Free Resources<br />Articles & Podcasts</Link></p>
+        <p><Link to="/articles-podcasts-videos" className="unstyled-button">Free Resources<br />Articles & Podcasts</Link></p>
       </div>
     </div>
     <h2 className="page-heading">Actions you can take & assistance you can get</h2>
@@ -118,7 +119,8 @@ const IndexPage = ({ data }) => (
     </div>
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={FoundersVideo}
-                placeHolder={FoundersImg} />
+                placeHolder={FoundersImg}
+                subtitles={FoundersVTT} />
     <ModalVideo videoClass="modal-video-2"
                 videoUrl="https://www.youtube.com/embed/VggAqa0xOwM" 
                 placeHolder="" />
@@ -133,7 +135,7 @@ const IndexPage = ({ data }) => (
 export default IndexPage
 
 export const testimonialsQuery = graphql`
-  query testQuery {
+  query {
     allMarkdownRemark {
       edges {
         node {
