@@ -18,7 +18,7 @@
 .modal__content {
   max-width: 500px;
   background: white;
-  margin: 5rem auto;
+  margin: 1rem auto;
   min-height: 300px;
   border-radius: 1rem;
   padding: 2rem;
@@ -40,6 +40,10 @@
   .modal-download > &, [class^="modal-video"] > & {
     text-align: center;
     padding-top: 3rem;
+  }
+
+  @media (min-width: $tablet) {
+    margin: 5rem auto;
   }
 }
 
@@ -89,7 +93,7 @@
 
   &__label {
     position: relative;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
     &.gdpr {
       max-width: 200px;

@@ -10,7 +10,7 @@ const ExternalMediaPage = ({ data }) => {
   });
   return (
     <Layout>
-      <SEO title="Articles" />
+      <SEO title="Articles, Podcasts, Videos" />
       <div className="accent-1">
         <h2 className="text">Articles, Podcasts, Videos</h2>
       </div>

@@ -20,7 +20,7 @@ Gatsby implementation for non profit organisation [Inclusion Nudges](https://inc
 - See [package.json](package.json) for a full list of packages used
 
 ## Structure
-    .
+    ├─ src
     ├── components
     ├──── footer
     ├──── header
@@ -30,16 +30,15 @@ Gatsby implementation for non profit organisation [Inclusion Nudges](https://inc
     ├── pages
     ├──── 404
     ├──── index
-    ├── templates
+    ├──── articles-podcasts-videos
+    ├── images / videos
     └──── external-media
-
 
 ## Developer Notes
 
 1.  Install gatsby-cli and generate a new local project based on this implementation:
 
     ```shell
-    # create a new Gatsby site using the default starter
     gatsby new inclusion-nudges https://github.com/julian-garcia/inclusion-nudges
     ```
 

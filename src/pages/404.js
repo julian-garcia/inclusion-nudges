@@ -8,7 +8,7 @@ const NotFoundPage = () => (
     <SEO title="Not found" />
     <div className="accent-2">
       <h2 className="text">Page Not Found</h2>
-      <h3 className="text">We couldn't find that page. Please <button className="contact-us" onClick={showModal}>get in touch</button> if you have any questions.</h3>
+      <h3 className="text">We couldn't find that page. Please <button className="contact-us unstyled-button apply-link-style" onClick={() => showModal('modal')}>get in touch</button> if you have any questions.</h3>
     </div>
   </Layout>
 )

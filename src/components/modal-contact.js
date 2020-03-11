@@ -5,11 +5,11 @@ import emailjs from 'emailjs-com'
 function sendMail(){
   const templateParams = {
     "reply_to": document.querySelector('#email').value,
-    "to_name": "Inclusion Nudges",
+    "subject": sessionStorage.getItem('recipient'),
     "message_html": document.querySelector('.modal-form__textarea').value
   }
   if (templateParams.message_html && templateParams.reply_to) {
-    emailjs.send('default_service','julian-garcia.uk', templateParams, process.env.GATSBY_EMAILJS_USERID)
+    emailjs.send('mailjet','inclusion_nudges', templateParams, process.env.GATSBY_EMAILJS_USERID)
     .then((response) => {
           console.log(response.status);
         }, (err) => {

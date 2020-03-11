@@ -19,10 +19,21 @@
   color: white;
 }
 
-.text {
+.text, .center-content {
   max-width: $maxwidth;
   margin: 0 auto;
+}
+
+.text {
   font-weight: 200;
+}
+
+.center-content {
+  margin: 2rem auto;
+
+  h3 {
+    margin: 2rem 0 1rem;
+  }
 }
 
 .contact-us, .close-modal, button {

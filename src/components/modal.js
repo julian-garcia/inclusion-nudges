@@ -24,8 +24,10 @@ function closeModal(modalClass, e) {
 	if (iframe) { const iframeSrc = iframe.src; iframe.src = iframeSrc; }
 }
 
-export function showModal(modalClass) {
+export function showModal(modalClass, recipient) {
   document.querySelector(`.${modalClass}`).classList.add('show');
+  sessionStorage.removeItem('recipient');
+  sessionStorage.setItem('recipient', recipient || 'General Enquiry');
 }
 
 const Modal = ({ children, modalClass }) => (

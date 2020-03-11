@@ -17,11 +17,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `inclusion-nudges`,
+        short_name: `inclusion`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#5f264f`,
+        theme_color: `#5f264f`,
         display: `minimal-ui`,
         icon: `src/images/logo-small.jpg`,
       },

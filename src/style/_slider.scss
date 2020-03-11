@@ -6,6 +6,7 @@
 
   .slide {
     max-width: $maxwidth;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
     height: 0;
@@ -20,6 +21,10 @@
     }
 
     p { margin: 0; }
+
+    @media (min-width: $tablet) {
+      width: 60%;
+    }
   }
 
   &__bullets {
