@@ -25,9 +25,11 @@ function closeModal(modalClass, e) {
 }
 
 export function showModal(modalClass, recipient) {
-  document.querySelector(`.${modalClass}`).classList.add('show');
   sessionStorage.removeItem('recipient');
-  sessionStorage.setItem('recipient', recipient || 'General Enquiry');
+  sessionStorage.setItem('recipient', recipient);
+  const modal = document.querySelector(`.${modalClass}`);
+  modal.querySelector('.modal-title').textContent = `Contact ${recipient || 'Us'}`;
+  modal.classList.add('show');
 }
 
 const Modal = ({ children, modalClass }) => (
