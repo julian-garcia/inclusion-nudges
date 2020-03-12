@@ -28,7 +28,10 @@ export function showModal(modalClass, recipient) {
   sessionStorage.removeItem('recipient');
   sessionStorage.setItem('recipient', recipient);
   const modal = document.querySelector(`.${modalClass}`);
-  modal.querySelector('.modal-title').textContent = `Contact ${recipient || 'Us'}`;
+  const modalTitle = modal.querySelector('.modal-title');
+  if (modalTitle) {
+    modalTitle.textContent = `Contact ${recipient || 'Us'}`;
+  }
   modal.classList.add('show');
 }
 
