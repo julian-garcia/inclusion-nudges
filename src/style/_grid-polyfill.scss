@@ -1,0 +1,34 @@
+.header {
+  display:flex;
+
+  .header-title-container {
+    flex: 4;
+  }
+  .header-logo-container {
+    flex: 2;
+  }
+  .header-nudges-container {
+    flex: 1;
+  }
+}
+
+.row-left-aside {
+  display:flex;
+
+  > *:nth-child(1) {
+    flex: 1;
+  }
+
+  > *:nth-child(2) {
+    flex: 3;
+  }
+}
+
+.row-auto {
+  display: flex;
+  justify-content: stretch;
+
+  > * {
+    flex: 1;
+  }
+}

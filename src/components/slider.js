@@ -3,6 +3,10 @@ import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDotCircle } from "@fortawesome/free-solid-svg-icons"
 
+if (window.NodeList && !NodeList.prototype.forEach) {
+  NodeList.prototype.forEach = Array.prototype.forEach;
+}
+
 function showSlide(index) {
   setTimeout(() => {
     let currentSlideHeight = 0;
