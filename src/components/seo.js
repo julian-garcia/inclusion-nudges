@@ -14,17 +14,6 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
-        allFile(filter: {name: {eq: "logo-small"}}) {
-          edges {
-            node {
-              childImageSharp {
-                fluid {
-                  src
-                }
-              }
-            }
-          }
-        }
       }
     `
   )
@@ -50,10 +39,6 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
-        },
-        {
-          property: `og:image`,
-          content: `${window.location.origin}${allFile.edges[0].node.childImageSharp.fluid.src}`,
         },
         {
           property: `og:image:width`,
