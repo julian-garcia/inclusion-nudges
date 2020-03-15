@@ -1,6 +1,6 @@
 .accent-1, .accent-2, .accent-3, .accent-4 {
   color: white;
-  padding: 3rem 1rem;
+  padding: 1.5rem 1rem;
 }
 .accent-1 {
   background-color: $accent-1;
@@ -42,6 +42,10 @@
   }
 }
 
+.contact-us {
+  font-weight: bold;
+}
+
 .nudges-image {
   width: 40%;
   margin: 0 auto;
@@ -51,16 +55,28 @@
   }
 }
 
+.image-tedx {
+  width: 100px;
+  margin: 1rem;
+}
+
 .icon {
   bottom: 50%;
   transform: translateY(50%);
-  width: 2.5em;
+  width: 3.5em;
   position: absolute;
 
   &-heading {
     margin: .5rem auto 0;
-    padding: 0 .5rem 0 0;
-    font-size: 2.5rem;
+    padding: 0 1rem 0 0;
+    font-size: 3rem;
+  }
+
+  &-right {
+    margin-left: -3rem; 
+    @media (min-width: $desktop) {
+      margin-left: 0;
+    }
   }
 }
 

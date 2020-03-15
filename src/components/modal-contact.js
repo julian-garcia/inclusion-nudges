@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com'
 function sendMail(){
   const templateParams = {
     "reply_to": document.querySelector('#email').value,
-    "subject": sessionStorage.getItem('recipient'),
+    "subject": sessionStorage.getItem('subject'),
     "message_html": document.querySelector('.modal-form__textarea').value
   }
   if (templateParams.message_html && templateParams.reply_to) {

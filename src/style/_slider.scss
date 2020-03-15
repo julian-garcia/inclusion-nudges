@@ -20,6 +20,10 @@
       opacity: 1;
     }
 
+    &__text {
+      margin-bottom: 1rem;
+    }
+
     p { margin: 0; }
 
     @media (min-width: $tablet) {
@@ -29,7 +33,7 @@
 
   &__bullets {
     position: absolute;
-    bottom: 1rem;
+    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -45,4 +49,20 @@
       color: black;
     }
   }
+
+  &__arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 3rem;
+  }
+
+  &__left, &__right  {
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  &__left { left: 10%; }
+  &__right { right: 10%; }
 }

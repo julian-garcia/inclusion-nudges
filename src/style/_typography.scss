@@ -29,18 +29,18 @@ button.apply-link-style {
     font-size: 1.3rem;
     font-weight: 400;
     @media (min-width: $phone) { 
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
   }
   &--bottom {
     font-size: 1.7rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
 .page-heading {
   text-align: center;
-  margin: 4rem 0 2rem;
+  margin: 2rem 0 1.5rem;
   font-size: 2rem;
 }

@@ -24,13 +24,13 @@ function closeModal(modalClass, e) {
 	if (iframe) { const iframeSrc = iframe.src; iframe.src = iframeSrc; }
 }
 
-export function showModal(modalClass, recipient) {
-  sessionStorage.removeItem('recipient');
-  sessionStorage.setItem('recipient', recipient);
+export function showModal(modalClass, modalTitle) {
+  sessionStorage.removeItem('subject');
+  sessionStorage.setItem('subject', modalTitle);
   const modal = document.querySelector(`.${modalClass}`);
-  const modalTitle = modal.querySelector('.modal-title');
+  const modalTitleElement = modal.querySelector('.modal-title');
   if (modalTitle) {
-    modalTitle.textContent = `Contact ${recipient || 'Us'}`;
+    modalTitleElement.textContent = modalTitle;
   }
   modal.classList.add('show');
 }
