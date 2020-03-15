@@ -26,6 +26,19 @@
 
 .text {
   font-weight: 200;
+
+  &.share {
+    display: inline-block;
+    max-width: 100%;
+
+    @media (min-width: $tablet) { 
+      max-width: 440px;
+    }
+
+    @media (min-width: $desktop) { 
+      max-width: inherit;
+    }
+  }
 }
 
 .center-content {
@@ -73,9 +86,17 @@
   }
 
   &-right {
-    margin-left: -3rem; 
+    display: none;
+
+    @media (min-width: $tablet) {
+      display:block;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
     @media (min-width: $desktop) {
-      margin-left: 0;
+      top: 1rem;
+      right: 5%;
     }
   }
 }

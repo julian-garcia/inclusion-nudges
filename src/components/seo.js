@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+  const { site, allFile } = useStaticQuery(
     graphql`
       query {
         site {
@@ -12,6 +12,17 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+          }
+        }
+        allFile(filter: {name: {eq: "logo-small"}}) {
+          edges {
+            node {
+              childImageSharp {
+                fluid {
+                  src
+                }
+              }
+            }
           }
         }
       }
@@ -39,6 +50,18 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: `${window.location.origin}${allFile.edges[0].node.childImageSharp.fluid.src}`,
+        },
+        {
+          property: `og:image:width`,
+          content: `100`,
+        },
+        {
+          property: `og:image:height`,
+          content: `100`,
         },
         {
           property: `og:type`,

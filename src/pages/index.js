@@ -92,7 +92,7 @@ const IndexPage = ({ data }) => (
     </div>
     <div style={{padding:"1rem"}}></div>
     <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1.5rem 1rem 1rem"}}>
-      <h2 className="text" style={{display:"inline-block", paddingRight:"3rem"}}>Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h2>
+      <h2 className="text share">Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h2>
       <picture>
         <source srcSet={IconHandsWhiteImg} />
         <img src={IconHandsWhiteImg} alt="Inclusion Nudges" className="icon icon-right" />
