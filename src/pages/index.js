@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => (
         <source srcSet={NudgesImg} />
         <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
       </picture>
-      <div>
+      <div className="paragraphs-large-text">
         <h3>WHAT</h3>
         <p>More than 100 examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</p>
         <h3>HOW</h3>
@@ -42,7 +42,7 @@ const IndexPage = ({ data }) => (
         <p>Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</p>
         <h3 style={{marginBottom:`1rem`, fontSize:`1.3rem`}}><Link to='/'>Order your guide book</Link></h3>
         <button onClick={() => showModal('modal-download','Download a free taster')} className="unstyled-button apply-link-style">Download a free taster</button>
-        <button onClick={() => showModal('modal-signup','Join us')} className="unstyled-button apply-link-style" style={{display:'block', marginTop:'1rem'}}>Join us - stay updated</button>
+        <button onClick={() => showModal('modal-signup',`Inclusion Nudges global movement and community. It’s free to join – we are in it for the impact`)} className="unstyled-button apply-link-style" style={{display:'block', marginTop:'1rem'}}>Join us - stay updated</button>
       </div>
     </div>
     <Slider testimonials={data} />
@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
     <h2 className="page-heading">Actions you can take & assistance you can get</h2>
-    <div className="row-auto centered">
+    <div className="row-auto centered actions">
       <div className="accent-3">
         <h2>Connect & Learn</h2> 
         <p><strong>Community<br/>online platform</strong></p>
@@ -91,7 +91,7 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
     <div style={{padding:"1rem"}}></div>
-    <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1.5rem 1rem"}}>
+    <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1.5rem 1rem 1rem"}}>
       <h2 className="text" style={{display:"inline-block", paddingRight:"3rem"}}>Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h2>
       <picture>
         <source srcSet={IconHandsWhiteImg} />

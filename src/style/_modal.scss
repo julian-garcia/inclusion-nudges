@@ -21,8 +21,10 @@
   margin: 1rem auto;
   min-height: 300px;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 2.3rem 1.5rem 1rem;
   position: relative;
+  overflow-y: scroll;
+  height: 100%;
 
   & .icon-heading {
     position: absolute;
@@ -31,15 +33,23 @@
   }
 
   & .modal-social-icon {
-    color: black;
+    color: $accent-3;
     font-size: 2rem;
     display: inline-block;
-    margin: 1rem 1rem;
+    margin: 1rem 1rem .5rem;
+    cursor: pointer;
   }
 
   .modal-download > &, [class^="modal-video"] > & {
-    text-align: center;
     padding-top: 3rem;
+  }
+
+  [class^="modal-video"] > & {
+    text-align: center;
+  }
+
+  @media (min-width: $phone) {
+    height: auto;
   }
 
   @media (min-width: $tablet) {
@@ -50,7 +60,7 @@
 .modal-title {
   text-align: center;
   margin: 0 0 1rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .modal-form {
@@ -93,7 +103,7 @@
 
   &__label {
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     &.gdpr {
       max-width: 200px;
@@ -104,7 +114,7 @@
       }
 
       @media (min-width: $phone) { 
-        max-width: 260px;
+        max-width: 280px;
       }
     }
   }
@@ -123,7 +133,7 @@
     width: 100%;
     min-width: 100%;
     max-width: 100%;
-    margin: 1rem 0;
+    margin: .5rem 0 1rem;
     border: 2px solid $accent-3;
     border-radius: 3px;
     padding: 10px;

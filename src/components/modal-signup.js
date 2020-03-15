@@ -12,7 +12,7 @@ const _signup = async () => {
 const ModalSignup = () => (
   <Modal modalClass="modal-signup">
     <h1 className="modal-title">Updates</h1>
-    <h3>If you want an update about Inclusion Nudges a couple of times a year, all you need to do is sign up with your email here</h3>
+    <h3>If you want to connect, learn more and be a part of a global movement that fundamentally changes how to achieve inclusion, diversity, gender parity, and equality faster and make it sustainable, all you have to do is sign up here. </h3>
     <form className="modal-form">
       <label htmlFor="name" className="modal-form__label">Name</label><br />
       <input id="name" type="text" name="name" className="modal-form__input" required /><br />
@@ -22,7 +22,7 @@ const ModalSignup = () => (
         <input type="checkbox" id="gdpr" name="gdpr[3549]" className="modal-form__checkbox" value="Y" />
         <span className="modal-form__check"></span>
       </label>
-      <button className="modal-form__button" onClick={_signup} type="button">Receive updates</button>
+      <button className="modal-form__button" onClick={_signup} type="button">Count me in</button>
     </form>
   </Modal>
 )

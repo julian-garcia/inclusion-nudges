@@ -6,8 +6,7 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons"
 function closeModal(modalClass, e) {
   const classes = e.target.classList;
   if (!(classes.contains('modal__content') || 
-        classes.contains('modal-social-icon') || 
-        classes.contains('modal-social-link') || 
+        classes.contains('modal-social-icons') || 
         classes.contains('modal-form') || 
         classes.contains('modal-form__input') ||
         classes.contains('modal-form__textarea') ||

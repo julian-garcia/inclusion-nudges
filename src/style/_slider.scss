@@ -62,6 +62,11 @@
     position: absolute;
     font-size: 3rem;
     cursor: pointer;
+    display: none;
+
+    @media (min-width: $tablet) {
+      display: block;
+    }
   }
   &__left { left: 10%; }
   &__right { right: 10%; }

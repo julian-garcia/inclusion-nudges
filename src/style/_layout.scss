@@ -87,7 +87,7 @@
   }
 
   @media (min-width: $tablet) { 
-    grid-template-columns: 1fr 2.5fr;
+    grid-template-columns: 1fr 2.7fr;
   }
 
   @media (min-width: $desktop) { 
@@ -122,11 +122,11 @@
 
   &>div {
     height: 100%;
+  }
 
-    .container & {
-      @media (min-width: $tablet) { 
-        padding: 4rem 0;
-      }
+  &.actions>div {
+    @media (min-width: $tablet) { 
+      padding: 4rem 0;
     }
   }
 
