@@ -4,10 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDotCircle, faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons"
 let slideTimer;
 
-if (window.NodeList && !NodeList.prototype.forEach) {
-  NodeList.prototype.forEach = Array.prototype.forEach;
-}
-
 function showSlide(index) {
   setTimeout(() => {
     let currentSlideHeight = 0;
@@ -15,6 +11,9 @@ function showSlide(index) {
     if (typeof document !== `undefined`) {
       const slider = document.querySelector('.slider');
       const sliderTitleHeight = slider.querySelector('.page-heading').offsetHeight;
+      if (window.NodeList && !NodeList.prototype.forEach) {
+        NodeList.prototype.forEach = Array.prototype.forEach;
+      }
       if (slider) {
         document.querySelectorAll('.slide').forEach((slide) => {
           slide.classList.remove('show');
