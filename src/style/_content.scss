@@ -1,6 +1,6 @@
 .accent-1, .accent-2, .accent-3, .accent-4 {
   color: white;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
 }
 .accent-1 {
   background-color: $accent-1;
@@ -76,13 +76,13 @@
 .icon {
   bottom: 50%;
   transform: translateY(50%);
-  width: 3.5em;
+  width: 3em;
   position: absolute;
 
   &-heading {
     margin: .5rem auto 0;
     padding: 0 1rem 0 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   &-right {
@@ -95,7 +95,7 @@
       right: 1rem;
     }
     @media (min-width: $desktop) {
-      top: 1rem;
+      top: .5rem;
       right: 5%;
     }
   }

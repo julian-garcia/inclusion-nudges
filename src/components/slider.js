@@ -10,11 +10,11 @@ function showSlide(index) {
     let sliderHeight = 0;
     if (typeof document !== `undefined`) {
       const slider = document.querySelector('.slider');
-      const sliderTitleHeight = slider.querySelector('.page-heading').offsetHeight;
       if (window.NodeList && !NodeList.prototype.forEach) {
         NodeList.prototype.forEach = Array.prototype.forEach;
       }
       if (slider) {
+        const sliderTitleHeight = slider.querySelector('.page-heading').offsetHeight;
         document.querySelectorAll('.slide').forEach((slide) => {
           slide.classList.remove('show');
           currentSlideHeight = slide.querySelector('.slide__text').offsetHeight + sliderTitleHeight;

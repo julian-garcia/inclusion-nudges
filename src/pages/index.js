@@ -46,27 +46,6 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
     <Slider testimonials={data} />
-    <h2 className="page-heading">Learn more</h2>
-    <div className="row-auto bottom">
-      <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}}>
-        <h2>Why we started the Inclusion Nudges Initiative?</h2> 
-        <p><button onClick={() => showModal('modal-video-1')} className="unstyled-button">The Founders</button></p>
-      </div>
-      <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}}>
-        <img src={TedXImg} alt="Tedx" className="image-tedx" />
-        <h2>Nudging behaviour for a more inclusive world</h2>
-        <p><button onClick={() => showModal('modal-video-2')} className="unstyled-button">TEDx Talk by Tinna C. Nielsen</button></p>
-      </div>
-      <div className="grid-item-image" style={{backgroundImage:`url(${LisaImg})`}}>
-        <img src={TedXImg} alt="Tedx" className="image-tedx" />
-        <h2>Mitigating bias in talent decisions</h2> 
-        <p><button onClick={() => showModal('modal-video-3')} className="unstyled-button">TEDx Talk by Lisa Kepinski</button></p>
-      </div>
-      <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}}>
-        <h2>Writings, Podcasts, Videos</h2>
-        <p><Link to="/articles-podcasts-videos" className="unstyled-button">Free Resources<br />Articles & Podcasts</Link></p>
-      </div>
-    </div>
     <h2 className="page-heading">Actions you can take & assistance you can get</h2>
     <div className="row-auto centered actions">
       <div className="accent-3">
@@ -90,9 +69,29 @@ const IndexPage = ({ data }) => (
         <button onClick={() => showModal('modal','Get bespoke design support')} className="contact-us unstyled-button">Write us</button>
       </div>
     </div>
-    <div style={{padding:"1rem"}}></div>
-    <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1.5rem 1rem 1rem"}}>
-      <h2 className="text share">Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h2>
+    <h2 className="page-heading">Learn more</h2>
+    <div className="row-auto bottom">
+      <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}}>
+        <h2>Why we started the Inclusion Nudges Initiative?</h2> 
+        <p><button onClick={() => showModal('modal-video-1')} className="unstyled-button">The Founders</button></p>
+      </div>
+      <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}}>
+        <img src={TedXImg} alt="Tedx" className="image-tedx" />
+        <h2>Nudging behaviour for a more inclusive world</h2>
+        <p><button onClick={() => showModal('modal-video-2')} className="unstyled-button">TEDx Talk by Tinna C. Nielsen</button></p>
+      </div>
+      <div className="grid-item-image" style={{backgroundImage:`url(${LisaImg})`}}>
+        <img src={TedXImg} alt="Tedx" className="image-tedx" />
+        <h2>Mitigating bias in talent decisions</h2> 
+        <p><button onClick={() => showModal('modal-video-3')} className="unstyled-button">TEDx Talk by Lisa Kepinski</button></p>
+      </div>
+      <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}}>
+        <h2>Writings, Podcasts, Videos</h2>
+        <p><Link to="/articles-podcasts-videos" className="unstyled-button">Free Resources<br />Articles & Podcasts</Link></p>
+      </div>
+    </div>
+    <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1rem 1rem .5rem"}}>
+      <h3 className="text share">Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h3>
       <picture>
         <source srcSet={IconHandsWhiteImg} />
         <img src={IconHandsWhiteImg} alt="Inclusion Nudges" className="icon icon-right" />
