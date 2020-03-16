@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes } from "@fortawesome/free-solid-svg-icons"
+import LogoImg from "../images/logo-small.jpg"
+import SignatureImg from "../images/signature.png"
 
 function closeModal(modalClass, e) {
   const classes = e.target.classList;
@@ -37,8 +39,10 @@ export function showModal(modalClass, modalTitle) {
 const Modal = ({ children, modalClass }) => (
   <div className={modalClass} role="button" onClick={(e) => closeModal(modalClass, e)} onKeyDown={(e) => closeModal(modalClass, e)} tabIndex={0}>
     <div className="modal__content">
+      <img src={LogoImg} alt="Inclusion Nudges" className="modal-logo" />
       <FontAwesomeIcon icon={faTimes} className="icon-heading close-modal" onClick={(e) => closeModal(modalClass, e)} />
       {children}
+      <img src={SignatureImg} alt="Lisa & Tinna" className="modal-signature" />
     </div>
   </div>
 )

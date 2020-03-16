@@ -18,14 +18,14 @@ const ModalDownload = () => {
   }
   return (
   <Modal modalClass="modal-download">
-    <h1 className="modal-title">Download a free taster</h1>
-    <h3>Yes, thank you! Send me a free taster of the Inclusion Nudges Guidebook</h3>
+    <h3 className="modal-title">Download a free taster</h3>
+    <p style={{textAlign:'center'}}>Yes, thank you! Send me a free taster of the Inclusion Nudges Guidebook</p>
     <form className="modal-form">
       <label htmlFor="name" className="modal-form__label">Name</label><br />
       <input id="name" type="text" name="name" className="modal-form__input" required /><br />
       <label htmlFor="email" className="modal-form__label">Email</label><br />
       <input id="emailSignup" type="email" name="email" className="modal-form__input" required /><br />
-      <label htmlFor="gdpr" className="modal-form__label gdpr">Opt in to allow us to send you the free taster of the guidebook:
+      <label htmlFor="gdpr" className="modal-form__label gdpr">Opt in to allow us to send you emails - it's the only way we can send you the free taster:
         <input type="checkbox" id="gdpr" name="gdpr[3537]" className="modal-form__checkbox" value="Y" />
         <span className="modal-form__check"></span>
       </label>

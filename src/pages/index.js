@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Inclusion Nudges" />
     <div className="accent-1">
-      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed by Lisa Kepinski and Tinna C. Nielsen based on extensive experience as global change makers combined with their background in behavioural sciences</h3>
+      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed by Lisa Kepinski and Tinna C. Nielsen<br className="desktop-only"/>based on extensive experience as global change makers combined with their background in behavioural sciences</h3>
     </div>
     <h2 className="page-heading">Inclusion Nudges Guidebook</h2>
     <div className="row-left-aside">
@@ -34,60 +34,69 @@ const IndexPage = ({ data }) => (
         <source srcSet={NudgesImg} />
         <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
       </picture>
-      <div className="paragraphs-large-text">
-        <h3>WHAT</h3>
-        <p>More than 100 examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</p>
-        <h3>HOW</h3>
-        <p>We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</p>
-        <p>Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</p>
-        <h3 style={{marginBottom:`1rem`, fontSize:`1.3rem`}}><Link to='/'>Order your guide book</Link></h3>
-        <button onClick={() => showModal('modal-download','Download a free taster')} className="unstyled-button apply-link-style">Download a free taster</button>
-        <button onClick={() => showModal('modal-signup',`Inclusion Nudges global movement and community. It’s free to join – we are in it for the impact`)} className="unstyled-button apply-link-style" style={{display:'block', marginTop:'1rem'}}>Join us - stay updated</button>
+      <div>
+        <h3>What</h3>
+        <h4 className="headline">More than 100 examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</h4>
+        <h3>How</h3>
+        <h4 className="headline">We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h4>
+        <h4 className="headline">Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</h4>
+        <h3 style={{marginBottom:`1rem`}}><Link to='/' className="guidebook-link">Order your guide book</Link></h3>
+        <button onClick={() => showModal('modal-download','Download a free taster')} className="unstyled-button guidebook-link">Download a free taster</button>
+        <button onClick={() => showModal('modal-signup',`Inclusion Nudges global movement and community. It’s free to join – we are in it for the impact`)} className="unstyled-button guidebook-link" style={{display:'block', marginTop:'1rem'}}>Join us - stay updated</button>
       </div>
     </div>
     <Slider testimonials={data} />
-    <h2 className="page-heading">Actions you can take & assistance you can get</h2>
+    <h2 className="page-heading">Helping change makers make changes for inclusion</h2>
     <div className="row-auto centered actions">
       <div className="accent-3">
-        <h2>Connect & Learn</h2> 
-        <p><strong>Community<br/>online platform</strong></p>
-        <button onClick={() => showModal('modal','Join to connect & learn')} className="contact-us unstyled-button">Join</button>
+        <div className="vertical-center">
+          <h2>Connect & Learn</h2> 
+          <p><strong>Community<br/>online platform</strong></p>
+          <button onClick={() => showModal('modal','Join to connect & learn')} className="contact-us unstyled-button">Join</button>
+        </div>
       </div>
       <div className="accent-2">
-        <h2>Get online coaching</h2>
-        <p><strong>from the experts<br />Lisa & Tinna</strong></p>
-        <button onClick={() => showModal('modal','Get online coaching')} className="contact-us unstyled-button">Write us</button>
+        <div className="vertical-center">
+          <h2>Get online coaching</h2>
+          <p><strong>from the experts<br />Lisa & Tinna</strong></p>
+          <button onClick={() => showModal('modal','Get online coaching')} className="contact-us unstyled-button">Write us</button>
+        </div>
       </div>
       <div className="accent-4">
-        <h2>Share your Inclusion Nudge</h2> 
-        <p><strong>examples<br />to inspire others</strong></p>
-        <button onClick={() => showModal('modal','Share your Inclusion Nudge')} className="contact-us unstyled-button">Write us</button>
+        <div className="vertical-center">
+          <h2>Share your Inclusion Nudge</h2> 
+          <p><strong>examples<br />to inspire others</strong></p>
+          <button onClick={() => showModal('modal','Share your Inclusion Nudge')} className="contact-us unstyled-button">Write us</button>
+        </div>
       </div>
       <div className="accent-1">
-        <h2>Get bespoke design support</h2>
-        <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
-        <button onClick={() => showModal('modal','Get bespoke design support')} className="contact-us unstyled-button">Write us</button>
+        <div className="vertical-center">
+          <h2>Get bespoke design support</h2>
+          <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
+          <button onClick={() => showModal('modal','Get bespoke design support')} className="contact-us unstyled-button">Write us</button>
+        </div>
       </div>
     </div>
     <h2 className="page-heading">Learn more</h2>
     <div className="row-auto bottom">
-      <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}}>
+      <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}} onClick={() => showModal('modal-video-1')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-1')}>
         <h2>Why we started the Inclusion Nudges Initiative?</h2> 
-        <p><button onClick={() => showModal('modal-video-1')} className="unstyled-button">The Founders</button></p>
+        <h2>The Founders</h2>
       </div>
-      <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}}>
+      <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}} onClick={() => showModal('modal-video-2')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-2')}>
         <img src={TedXImg} alt="Tedx" className="image-tedx" />
         <h2>Nudging behaviour for a more inclusive world</h2>
-        <p><button onClick={() => showModal('modal-video-2')} className="unstyled-button">TEDx Talk by Tinna C. Nielsen</button></p>
+        <h2>TEDx Talk by Tinna C. Nielsen</h2>
       </div>
-      <div className="grid-item-image" style={{backgroundImage:`url(${LisaImg})`}}>
+      <div className="grid-item-image" style={{backgroundImage:`url(${LisaImg})`}} onClick={() => showModal('modal-video-3')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-3')}>
         <img src={TedXImg} alt="Tedx" className="image-tedx" />
         <h2>Mitigating bias in talent decisions</h2> 
-        <p><button onClick={() => showModal('modal-video-3')} className="unstyled-button">TEDx Talk by Lisa Kepinski</button></p>
+        <h2>TEDx Talk by Lisa Kepinski</h2> 
       </div>
-      <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}}>
+      <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}} >
+        <Link to="/articles-podcasts-videos" className="unstyled-button"></Link>
         <h2>Writings, Podcasts, Videos</h2>
-        <p><Link to="/articles-podcasts-videos" className="unstyled-button">Free Resources<br />Articles & Podcasts</Link></p>
+        <h2>Free Resources<br />Articles & Podcasts</h2>
       </div>
     </div>
     <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1rem 1rem .5rem"}}>

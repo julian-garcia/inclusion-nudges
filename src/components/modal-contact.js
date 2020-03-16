@@ -20,7 +20,7 @@ function sendMail(){
 
 const ModalContact = () => (
   <Modal modalClass="modal">
-    <h1 className="modal-title">Contact Us</h1>
+    <h3 className="modal-title">Contact Us</h3>
     <form className="modal-form">
       <label htmlFor="email" className="modal-form__label">Email</label><br />
       <input id="email" type="email" name="email" className="modal-form__input" required /><br />
