@@ -76,6 +76,13 @@
 
   &__checkbox {
     opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 2rem);
+    height: 100%;
+    z-index: 99;
+    cursor: pointer;
   }
 
   &__checkbox:checked ~ &__check {
