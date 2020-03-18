@@ -29,10 +29,11 @@ button.apply-link-style {
   font-weight: bold;
 }
 
-.guidebook-link, .unstyled-button.guidebook-link {
-  font-size: 1rem;
-  color: $accent-1;
-  font-weight: bold;
+.guidebook-link.guidebook-link {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: normal;
+  text-align: center;
 }
 
 .site-title {
@@ -47,8 +48,12 @@ button.apply-link-style {
   &--bottom {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem;
     letter-spacing: -2px;
+
+    @media (min-width:$tablet-l) {
+      margin: 2rem 0 1rem;
+    }
   }
 }
 

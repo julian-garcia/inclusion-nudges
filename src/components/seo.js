@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+  const { site, allFile } = useStaticQuery(
     graphql`
       query {
         site {
@@ -14,11 +14,19 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
+        allFile(filter: {name: {eq: "logo"}}) {
+          edges {
+            node {
+              publicURL
+            }
+          }
+        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const siteURL = typeof window !== 'undefined' ? window.location.href : '';
 
   return (
     <Helmet
@@ -37,20 +45,36 @@ function SEO({ description, lang, meta, title }) {
           content: title,
         },
         {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: siteURL,
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: `${siteURL}${allFile.edges[0].node.publicURL.substr(1)}`,
+        },
+        {
+          property: `og:image:secure_url`,
+          content: `${siteURL}${allFile.edges[0].node.publicURL.substr(1)}`,
+        },
+        {
           property: `og:image:width`,
-          content: `100`,
+          content: `200`,
         },
         {
           property: `og:image:height`,
-          content: `100`,
+          content: `200`,
         },
         {
-          property: `og:type`,
-          content: `website`,
+          property: `og:image:type`,
+          content: `image/jpeg`,
         },
         {
           name: `twitter:card`,

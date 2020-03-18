@@ -141,7 +141,7 @@
   }
 
   @media (min-width: $tablet) { 
-    grid-template-columns: 1fr 3.1fr;
+    grid-template-columns: 1fr 3.4fr;
   }
 
   @media (min-width: $desktop) { 
@@ -213,4 +213,29 @@
 .desktop-only {
   display: none;
   @media (min-width: $desktop) { display: inherit; }
+}
+
+.guide-book-links {
+  grid-template-columns: auto;
+  gap: 1rem;
+
+  .guidebook-link {
+    margin: 0;
+    padding: 10px;
+    
+    &:nth-child(1) {
+      background-color: $accent-2;
+      color: white;
+    }
+    &:nth-child(2) {
+      background-color: $accent-4;
+    }
+    &:nth-child(3) {
+      background-color: $accent-3;
+    }
+  }
+
+  @media (min-width: $tablet) { 
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
 }

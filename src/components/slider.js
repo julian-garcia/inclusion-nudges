@@ -46,7 +46,7 @@ function moveSlider(direction, numSlides) {
   clickShowSlide(slideNumber);
 }
 
-function autoLoop(numSlides) {
+function autoLoop(numSlides, delay) {
   clearInterval(slideTimer);
   setTimeout(() => {
     let i = 1;
@@ -55,7 +55,7 @@ function autoLoop(numSlides) {
       showSlide(i);
       if (++i === numSlides) i = 0;
     }, 12000)
-  }, 0)
+  }, delay)
 }
 
 const Slider = ({testimonials}) => {
@@ -63,9 +63,9 @@ const Slider = ({testimonials}) => {
     if (item.node.frontmatter.testimonial) { return true }
     return false;
   });
-  autoLoop(filteredData.length);
+  autoLoop(filteredData.length, 0);
   return (
-    <div className="slider" onMouseLeave={() => autoLoop(filteredData.length)} role="button" tabIndex={0}>
+    <div className="slider" onMouseLeave={() => autoLoop(filteredData.length, 3000)} role="button" tabIndex={0}>
       <h2 className="page-heading" style={{margin:'0 0 1rem'}}>What people say about Inclusion Nudges</h2>
       {filteredData.map(({node}, i) => (
         node.frontmatter.testimonial &&

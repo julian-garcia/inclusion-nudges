@@ -12,7 +12,7 @@ const Footer = () => (
       <div className="row-auto">
         <div>
           <h3>Get in Touch<br/>&nbsp;</h3>
-          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Us')} />
+          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Us','Send')} />
         </div>
         <div>
           <h3>Follow<br/>Inclusion Nudges</h3>
@@ -34,7 +34,7 @@ const Footer = () => (
           <a href="https://www.linkedin.com/in/lisakepinski" target="_blank" title="Lisa Kepinski LinkedIn" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" />
           </a>
-          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Lisa')} />
+          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Lisa','Send')} />
         </div>
         <div>
           <h3>Follow Co-Founder<br/>Tinna Nielsen</h3>
@@ -44,7 +44,7 @@ const Footer = () => (
           <a href="https://www.linkedin.com/in/tinna-c-nielsen-115b3b2/" target="_blank" title="Tinna Nielsen LinkedIn" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" />
           </a>
-          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Tinna')} />
+          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Tinna','Send')} />
         </div>
       </div>
     </footer>

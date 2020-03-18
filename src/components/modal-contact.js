@@ -1,6 +1,7 @@
 import React from "react"
 import Modal from "../components/modal"
 import emailjs from 'emailjs-com'
+import addToMailchimp from "gatsby-plugin-mailchimp"
 
 function sendMail(){
   const templateParams = {
@@ -15,6 +16,14 @@ function sendMail(){
         }, (err) => {
           console.log(err);
         });
+    signup(templateParams.reply_to);
+  }
+}
+
+async function signup(email) {
+  const mailingList = sessionStorage.getItem('mailingList');
+  if (email && mailingList === 'webcasts') {
+    await addToMailchimp(email, {}, process.env.GATSBY_MAILCHIMP_WEBCASTS);
   }
 }
 

@@ -35,45 +35,47 @@ const IndexPage = ({ data }) => (
         <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
       </picture>
       <div>
-        <h3>What</h3>
-        <h4 className="headline">More than 100 examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</h4>
-        <h3>How</h3>
-        <h4 className="headline">We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h4>
-        <h4 className="headline">Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</h4>
-        <h3 style={{marginBottom:`1rem`}}><Link to='/' className="guidebook-link">Order your guide book</Link></h3>
-        <button onClick={() => showModal('modal-download','Download a free taster')} className="unstyled-button guidebook-link">Download a free taster</button>
-        <button onClick={() => showModal('modal-signup',`Inclusion Nudges global movement and community. It’s free to join – we are in it for the impact`)} className="unstyled-button guidebook-link" style={{display:'block', marginTop:'1rem'}}>Join us - stay updated</button>
+        <h2>What</h2>
+        <h3 className="headline">More than 100 examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</h3>
+        <h2>How</h2>
+        <h3 className="headline">We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
+        <h3 className="headline">Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
+        <div className="row-auto guide-book-links">
+          <Link to='/' className="dark modal-form__button guidebook-link">Purchase your guidebook</Link>
+          <button onClick={() => showModal('modal-download','Download a quick guide')} className="modal-form__button guidebook-link">Download a quick guide</button>
+          <button onClick={() => showModal('modal-signup',`Inclusion Nudges global movement and community. It’s free to join – we are in it for the impact`)} className="modal-form__button guidebook-link">Join - stay updated</button>
+        </div>
       </div>
     </div>
     <Slider testimonials={data} />
-    <h2 className="page-heading">Helping change makers make changes for inclusion</h2>
+    <h2 className="page-heading">Actions to make it happen</h2>
     <div className="row-auto centered actions">
       <div className="accent-3">
         <div className="vertical-center">
           <h2>Connect & Learn</h2> 
-          <p><strong>Community<br/>online platform</strong></p>
-          <button onClick={() => showModal('modal','Join to connect & learn')} className="contact-us unstyled-button">Join</button>
+          <p><strong>Webcasts to understand this change approach</strong></p>
+          <button onClick={() => showModal('modal','Connect and Learn','Sign Up','webcasts')} className="contact-us unstyled-button">Sign up</button>
         </div>
       </div>
       <div className="accent-2">
         <div className="vertical-center">
           <h2>Get online coaching</h2>
           <p><strong>from the experts<br />Lisa & Tinna</strong></p>
-          <button onClick={() => showModal('modal','Get online coaching')} className="contact-us unstyled-button">Write us</button>
+          <button onClick={() => showModal('modal','Get online coaching','Write us')} className="contact-us unstyled-button">Write us</button>
         </div>
       </div>
       <div className="accent-4">
         <div className="vertical-center">
           <h2>Share your Inclusion Nudge</h2> 
           <p><strong>examples<br />to inspire others</strong></p>
-          <button onClick={() => showModal('modal','Share your Inclusion Nudge')} className="contact-us unstyled-button">Write us</button>
+          <button onClick={() => showModal('modal','Share your Inclusion Nudge','Write us')} className="contact-us unstyled-button">Write us</button>
         </div>
       </div>
       <div className="accent-1">
         <div className="vertical-center">
           <h2>Get bespoke design support</h2>
           <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
-          <button onClick={() => showModal('modal','Get bespoke design support')} className="contact-us unstyled-button">Write us</button>
+          <button onClick={() => showModal('modal','Get bespoke design support','Write us')} className="contact-us unstyled-button">Write us</button>
         </div>
       </div>
     </div>

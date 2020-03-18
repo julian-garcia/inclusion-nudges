@@ -25,13 +25,22 @@ function closeModal(modalClass, e) {
 	if (iframe) { const iframeSrc = iframe.src; iframe.src = iframeSrc; }
 }
 
-export function showModal(modalClass, modalTitle) {
-  sessionStorage.removeItem('subject');
-  sessionStorage.setItem('subject', modalTitle);
+export function showModal(modalClass, modalTitle, buttonName, mailingList) {
   const modal = document.querySelector(`.${modalClass}`);
   const modalTitleElement = modal.querySelector('.modal-title');
-  if (modalTitle) {
-    modalTitleElement.textContent = modalTitle;
+  const modalButtonElement = modal.querySelector('.modal-form__button');
+
+  sessionStorage.removeItem('subject');
+  sessionStorage.removeItem('mailingList');
+
+  if (modalTitle) { sessionStorage.setItem('subject', modalTitle); }
+  if (mailingList) { sessionStorage.setItem('mailingList', mailingList); }
+  if (modalTitle) { modalTitleElement.textContent = modalTitle; }
+
+  if (modalButtonElement) {
+    if (buttonName) { 
+      modalButtonElement.textContent = buttonName; 
+    }
   }
   modal.classList.add('show');
 }
