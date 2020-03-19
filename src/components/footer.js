@@ -62,6 +62,9 @@ const Footer = () => (
         <Link to="/privacy-policy" className="dark"><FontAwesomeIcon icon={faLockOpen} /> Privacy Policy</Link>
       </div>
     </div>
+    <div className="footer-address">
+      <h4 className="footer-address__text">Inclusion Nudges is a non-profit organisation registered in Denmark. VAT: 39140071 Fuglesangs Alle 11, 8210 DK-Aarhus</h4>
+    </div>
   </>
 )
 

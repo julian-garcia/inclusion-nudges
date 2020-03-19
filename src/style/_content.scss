@@ -79,6 +79,7 @@
 .image-tedx {
   width: 100px;
   margin: 1rem;
+  position: relative;
 }
 
 .icon {
@@ -137,6 +138,30 @@
     }
   }
 
+  &:nth-child(1) { 
+    &:before {
+      background-image: linear-gradient(rgba($accent-3,.3), rgba(0,0,0,.6));
+    }
+  }
+
+  &:nth-child(2) { 
+    &:before {
+      background-image: linear-gradient(rgba($accent-2,.6), rgba(0,0,0,.3));
+    }
+  }
+
+  &:nth-child(3) { 
+    &:before {
+      background-image: linear-gradient(rgba($accent-4,.6), rgba(0,0,0,.3));
+    }
+  }
+
+  &:nth-child(4) { 
+    &:before {
+      background-image: linear-gradient(rgba($accent-1,.6), rgba(0,0,0,.6));
+    }
+  }
+
   &:hover {
     cursor: pointer;
   }
@@ -166,4 +191,14 @@
   font-family: karla;
   padding: 0;
   text-shadow: inherit;
+}
+
+.footer-address {
+  background: $footer-address;
+  text-align: center;
+  padding: 1rem;
+
+  &__text {
+    font-weight: normal;
+  }
 }

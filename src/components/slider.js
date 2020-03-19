@@ -47,8 +47,8 @@ function moveSlider(direction, numSlides) {
 }
 
 function autoLoop(numSlides, delay) {
-  clearInterval(slideTimer);
   setTimeout(() => {
+    clearInterval(slideTimer);
     let i = 1;
     showSlide(0);
     slideTimer = setInterval(() => {
