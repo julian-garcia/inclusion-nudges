@@ -15,8 +15,8 @@ const _signup = async () => {
 
 const ModalSignup = () => (
   <Modal modalClass="modal-signup">
-    <h3 className="modal-title">Updates</h3>
-    <p style={{textAlign:'center'}}>If you want to connect, learn more and be a part of a global movement that fundamentally changes how to achieve inclusion, diversity, gender parity, and equality faster and make it sustainable, all you have to do is sign up here. </p>
+    <h3 className="modal-title">Join the Inclusion Nudges <br/>global initiative and community. <br/>It’s free to join – we are in it for the impact.</h3>
+    <p style={{textAlign:'center'}}>If you want to connect, learn more and be a part of a global movement that fundamentally changes how to achieve inclusion, diversity, gender parity, and equality faster and make it sustainable, all you have to do is sign up here.</p>
     <form className="modal-form">
       <label htmlFor="nameSignup" className="modal-form__label">Name</label><br />
       <input id="nameSignup" type="text" name="name" className="modal-form__input" required /><br />

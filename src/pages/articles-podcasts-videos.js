@@ -18,7 +18,6 @@ const ExternalMediaPage = ({ data }) => {
         {filteredData.map(({node}, i) => (
           node.frontmatter.category &&
           <div className="post-grid__item" key={`post-grid__item${i}`}>
-            {/* <h3 className="post-grid__title">{node.frontmatter.title}</h3> */}
             <a href={node.frontmatter.link} className="post-grid__title" target="_blank" rel="noopener noreferrer">
               {node.frontmatter.title}
             </a>

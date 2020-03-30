@@ -9,9 +9,10 @@ import { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
 import ModalDownload from "../components/modal-download"
 import ModalSignup from "../components/modal-signup"
+import ModalBook from "../components/modal-book"
 import Slider from "../components/slider"
 
-import NudgesImg from "../images/nudges.png"
+import NudgesImg from "../images/guidebook.png"
 import IconHandsWhiteImg from "../images/icon-hands-white.png"
 import InitiativeImg from "../images/initiative.png"
 import FoundersImg from "../images/founder-video-poster.png"
@@ -21,12 +22,14 @@ import TinnaImg from "../images/tinna-tedx.jpg"
 import LisaImg from "../images/lisa-tedx.png"
 import PublicationsImg from "../images/publications.png"
 import TedXImg from "../images/ted-x.png"
+import SignatureTinnaImg from "../images/signature-tinna.png"
+import SignatureLisaImg from "../images/signature-lisa.png"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Inclusion Nudges" />
     <div className="accent-1">
-      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed by Lisa Kepinski and Tinna C. Nielsen<br className="desktop-only"/>based on extensive experience as global change makers combined with their background in behavioural sciences</h3>
+      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed by Lisa Kepinski and Tinna C. Nielsen<br className="desktop-only"/> based on extensive experience as global change makers combined with their background in behavioural sciences</h3>
     </div>
     <h2 className="page-heading">Inclusion Nudges Guidebook</h2>
     <div className="row-left-aside">
@@ -34,16 +37,17 @@ const IndexPage = ({ data }) => (
         <source srcSet={NudgesImg} />
         <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
       </picture>
-      <div>
+      <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
-        <h3 className="headline">More than 100 examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</h3>
+        <h3 className="headline">More than 100 How-To examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</h3>
         <h2>How</h2>
         <h3 className="headline">We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
         <h3 className="headline">Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
         <div className="row-auto guide-book-links">
           <Link to='/' className="dark modal-form__button guidebook-link">Purchase your guidebook</Link>
-          <button onClick={() => showModal('modal-download','Download a quick guide')} className="modal-form__button guidebook-link">Download a quick guide</button>
-          <button onClick={() => showModal('modal-signup',`Inclusion Nudges global movement and community. It’s free to join – we are in it for the impact`)} className="modal-form__button guidebook-link">Join - stay updated</button>
+          <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick Guide</button>
+          <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
+          <button onClick={() => showModal('modal','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
         </div>
       </div>
     </div>
@@ -53,8 +57,8 @@ const IndexPage = ({ data }) => (
       <div className="accent-3">
         <div className="vertical-center">
           <h2>Connect & Learn</h2> 
-          <p><strong>Webcasts to understand this change approach</strong></p>
-          <button onClick={() => showModal('modal','Connect and Learn','Sign Up','webcasts')} className="contact-us unstyled-button">Sign up</button>
+          <p><strong>Webcasts to understand <br/>this change approach</strong></p>
+          <button onClick={() => showModal('modal','Connect and Learn','Book now','webcasts')} className="contact-us unstyled-button">Book now</button>
         </div>
       </div>
       <div className="accent-2">
@@ -66,9 +70,9 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="accent-4">
         <div className="vertical-center">
-          <h2>Share your Inclusion Nudge</h2> 
-          <p><strong>examples<br />to inspire others</strong></p>
-          <button onClick={() => showModal('modal','Share your Inclusion Nudge','Write us')} className="contact-us unstyled-button">Write us</button>
+          <h2>Book talks & masterclasses</h2> 
+          <p><strong>in-person or virtual</strong></p>
+          <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
         </div>
       </div>
       <div className="accent-1">
@@ -116,16 +120,19 @@ const IndexPage = ({ data }) => (
         </a>
       </div>
     </div>
+    <ModalBook />
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={FoundersVideo}
                 placeHolder={FoundersImg}
                 subtitles={FoundersVTT} />
     <ModalVideo videoClass="modal-video-2"
                 videoUrl="https://www.youtube.com/embed/VggAqa0xOwM" 
-                placeHolder="" />
+                placeHolder=""
+                signature={SignatureTinnaImg} />
     <ModalVideo videoClass="modal-video-3"
                 videoUrl="https://www.youtube.com/embed/4DpZm0GNqfQ" 
-                placeHolder="" />
+                placeHolder=""
+                signature={SignatureLisaImg} />
     <ModalDownload />
     <ModalSignup />
   </Layout>

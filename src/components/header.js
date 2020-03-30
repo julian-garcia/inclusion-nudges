@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import NudgesImg from "../images/nudges.png"
+import NudgesImg from "../images/nudges.jpg"
 import LogoImg from "../images/logo.jpg"
 
 const Header = ({ siteTitle }) => (

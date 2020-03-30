@@ -144,7 +144,7 @@
     grid-template-columns: 1fr 3.4fr;
   }
 
-  @media (min-width: $desktop) { 
+  @media (min-width: $maxwidth) { 
     padding: 0;
     column-gap: 1rem;
   }
@@ -231,6 +231,10 @@
       background-color: $accent-4;
     }
     &:nth-child(3) {
+      background-color: $accent-1;
+      color: white;
+    }
+    &:nth-child(4) {
       background-color: $accent-3;
     }
   }

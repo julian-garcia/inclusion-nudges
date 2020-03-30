@@ -11,6 +11,7 @@ function closeModal(modalClass, e) {
         classes.contains('modal-social-icons') || 
         classes.contains('modal-form') || 
         classes.contains('modal-form__input') ||
+        classes.contains('modal-form__select') ||
         classes.contains('modal-form__textarea') ||
         classes.contains('modal-form__check') ||
         classes.contains('modal-form__checkbox') ||
@@ -29,13 +30,21 @@ export function showModal(modalClass, modalTitle, buttonName, mailingList) {
   const modal = document.querySelector(`.${modalClass}`);
   const modalTitleElement = modal.querySelector('.modal-title');
   const modalButtonElement = modal.querySelector('.modal-form__button');
+  const gdprBox = modal.querySelector('.gdpr-box');
 
   sessionStorage.removeItem('subject');
   sessionStorage.removeItem('mailingList');
 
   if (modalTitle) { sessionStorage.setItem('subject', modalTitle); }
-  if (mailingList) { sessionStorage.setItem('mailingList', mailingList); }
   if (modalTitle) { modalTitleElement.textContent = modalTitle; }
+  if (gdprBox) { gdprBox.classList.remove('show'); }
+
+  if (mailingList) { 
+    sessionStorage.setItem('mailingList', mailingList); 
+    if (mailingList === 'webcasts') {
+      modal.querySelector('.gdpr-box').classList.add('show');
+    }
+  }
 
   if (modalButtonElement) {
     if (buttonName) { 
@@ -45,19 +54,26 @@ export function showModal(modalClass, modalTitle, buttonName, mailingList) {
   modal.classList.add('show');
 }
 
-const Modal = ({ children, modalClass }) => (
+const Modal = ({ children, modalClass, signature }) => (
   <div className={modalClass} role="button" onClick={(e) => closeModal(modalClass, e)} onKeyDown={(e) => closeModal(modalClass, e)} tabIndex={0}>
     <div className="modal__content">
       <img src={LogoImg} alt="Inclusion Nudges" className="modal-logo" />
       <FontAwesomeIcon icon={faTimes} className="icon-heading close-modal" onClick={(e) => closeModal(modalClass, e)} />
       {children}
-      <img src={SignatureImg} alt="Lisa & Tinna" className="modal-signature" />
+      {signature &&
+        <img src={SignatureImg} alt="Lisa & Tinna" className="modal-signature" />
+      }
     </div>
   </div>
 )
 
 Modal.propTypes = {
-  modalClass: PropTypes.string.isRequired
+  modalClass: PropTypes.string.isRequired,
+  signature: PropTypes.bool
+}
+
+Modal.defaultProps = {
+  signature: true 
 }
 
 export default Modal

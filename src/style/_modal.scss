@@ -1,4 +1,5 @@
-.modal, .modal-download, .modal-download-confirm, .modal-signup, [class^="modal-video"] {
+.modal, .modal-download, .modal-download-confirm, 
+.modal-signup, .modal-connect, .modal-booking, [class^="modal-video"] {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -66,6 +67,16 @@
   }
 }
 
+.modal-booking {
+  .modal__content {
+    @media (min-width: $phone) {
+      max-width: 700px;
+      overflow-y: scroll;
+      height: 90%;
+    }
+  }
+}
+
 .modal-title {
   text-align: center;
   margin: 0 0 1rem;
@@ -80,11 +91,23 @@
   margin: 0 auto .5rem;
   max-width: 150px;
   display: block;
+
+  &-single {
+    max-width: 60px;
+  }
 }
 
 .modal-form {
   max-width: 100%;
   margin: 1rem auto 0;
+
+  .gdpr-box {
+    display: none;
+    
+    &.show {
+      display: block;
+    }
+  }
 
   &__checkbox {
     opacity: 0;
@@ -127,6 +150,11 @@
     }
   }
 
+  &__select {
+    height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
   &__label {
     position: relative;
     font-size: 1rem;
@@ -155,7 +183,7 @@
     margin: 1rem auto;
   }
 
-  &__input, &__textarea {
+  &__input, &__textarea, &__select {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
@@ -163,5 +191,9 @@
     border: 2px solid $accent-3;
     border-radius: 3px;
     padding: 10px;
+  }
+
+  &__input, &__select {
+    height: 3rem;
   }
 }

@@ -1,8 +1,8 @@
 ---
 title: 'Amy Cuddy, PhD'
 position: >-
-  Social psychologist, author, speaker & Harvard University lecturer, U.S
-organisation: 'Harvard University'
+  Social psychologist, speaker & Harvard University lecturer and author of Presence
+organisation: ''
 testimonial: >-
   Many people now understand bias but are still searching for truly effective ways to reduce it. This 
   refreshing and timely book is filled with behavioural science-based practical examples, referred to 
