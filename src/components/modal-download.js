@@ -39,7 +39,7 @@ const ModalDownload = () => {
     <Modal modalClass="modal-download-confirm">
       <h3 className="modal-title">Thank you, please pay with a Tweet or a LinkedIn share</h3>
       <div style={{textAlign:'center'}} className="modal-social-icons">
-        <FontAwesomeIcon icon={faTwitter} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook%20you%20get%20101%20examples%20of%20behavioural%20insight%20design%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21')} />
+        <FontAwesomeIcon icon={faTwitter} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21')} />
         <FontAwesomeIcon icon={faLinkedinIn} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F')} />
       </div>
     </Modal>

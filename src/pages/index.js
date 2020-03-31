@@ -39,13 +39,13 @@ const IndexPage = ({ data }) => (
       </picture>
       <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
-        <h3 className="headline">More than 100 How-To examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences & stuck patterns for inclusion.</h3>
+        <h3 className="headline">100 how-to examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences and address stuck patterns for inclusion.</h3>
         <h2>How</h2>
-        <h3 className="headline">We share with you HOW you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
-        <h3 className="headline">Each example <strong>EMPOWERS you</strong> <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
+        <h3 className="headline">We share with you how you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
+        <h3 className="headline">Each example empowers you <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
         <div className="row-auto guide-book-links">
-          <Link to='/' className="dark modal-form__button guidebook-link">Purchase your guidebook</Link>
-          <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick Guide</button>
+          <Link to='/' className="dark modal-form__button guidebook-link">Purchase your Guidebook</Link>
+          <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick&nbsp;Guide</button>
           <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
           <button onClick={() => showModal('modal','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
         </div>
@@ -56,7 +56,7 @@ const IndexPage = ({ data }) => (
     <div className="row-auto centered actions">
       <div className="accent-3">
         <div className="vertical-center">
-          <h2>Connect & Learn</h2> 
+          <h2>Connect & learn</h2> 
           <p><strong>Webcasts to understand <br/>this change approach</strong></p>
           <button onClick={() => showModal('modal','Connect and Learn','Book now','webcasts')} className="contact-us unstyled-button">Book now</button>
         </div>
@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => (
       <div className="accent-4">
         <div className="vertical-center">
           <h2>Book talks & masterclasses</h2> 
-          <p><strong>in-person or virtual</strong></p>
+          <p><strong>in-person or virtual</strong><br/>&nbsp;</p>
           <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
         </div>
       </div>
@@ -112,7 +112,7 @@ const IndexPage = ({ data }) => (
         <img src={IconHandsWhiteImg} alt="Inclusion Nudges" className="icon icon-right" />
       </picture>
       <div>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook%20you%20get%20101%20examples%20of%20behavioural%20insight%20design%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faTwitter} className="icon-heading" style={{color:'white'}} />
         </a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">

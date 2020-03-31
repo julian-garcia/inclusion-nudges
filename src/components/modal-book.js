@@ -64,6 +64,8 @@ const ModalBook = () => {
       <Modal modalClass="modal-booking">
         <h3 className="modal-title">Book Talks & Masterclasses</h3>
         <p>We do interactive speaking and masterclasses about the Inclusion Nudges change approach and design methodology. It’s a combination of behavioural insights and design, expertise in inclusive behaviour, culture, systems, leadership, and co-creation. We give you practical how-to designs and practical examples that empower you to make your organisation, community, and society inclusive as the default and norm.</p>
+        <p>We come to your organisation or event and do it inperson or virtually. It’s up to you.</p>
+        <p>We do this all over the world—at the EU Commission, local government organisations, the UN, some of the world’s biggest companies, at universities, in refugee camps, in public organisations, at conferences focused on innovation, the economy, the UN SDGs, entrepreneurship, leadership development, inclusion & diversity, human resources, and more. We see a need everywhere for making inclusion the default and norm. We can link our knowledge as change makers for inclusion to all fields and challenges. Let us know yours.</p>
         <form className="modal-form">
           <label htmlFor="nameBooking" className="modal-form__label">Name</label><br />
           <input id="nameBooking" type="text" name="name" className="modal-form__input" required /><br />
