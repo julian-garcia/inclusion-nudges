@@ -25,7 +25,7 @@ function showSlide(index) {
         });
         document.querySelector(`.slide-${index}`).classList.add('show');
         document.querySelector(`.slider__bullet-${index}`).classList.add('show');
-        slider.style.height = `${sliderHeight + 120}px`
+        slider.style.height = `calc(${sliderHeight}px + 9rem)`;
       }
     }
   }, 0)
@@ -72,7 +72,7 @@ const Slider = ({testimonials}) => {
         <div className={`slide slide-${i} ${(i === 0 ? 'show' : 'hide')}`} key={`slide-${i}`} data-slide={i}>
           <div className={`slide__text slide__text-${i}`}>
             <h3 style={{marginBottom:'1rem'}}>{node.frontmatter.testimonial}</h3>
-            <p>{node.frontmatter.title}, {node.frontmatter.position}, {node.frontmatter.organisation}</p>
+            <p>{node.frontmatter.title}, {node.frontmatter.position} {node.frontmatter.organisation}</p>
           </div>
         </div>
       ))}

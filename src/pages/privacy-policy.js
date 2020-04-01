@@ -47,7 +47,7 @@ const PrivacyPolicyPage = () => (
       <p>These rights may not be available in all circumstances, and we will tell you if this is the case.  Where you wish to exercise your rights, please contact us via contact@inclusion-nudges.org and we will respond within the applicable statutory time period.  If we are not sure of your identity, we may require you to provide further information in order for us to confirm who you are.</p>
       <p>We will respect your personal information and undertake to comply with all applicable EU data protection legislation, both in respect of the personal information supplied by you on registration or as part of the recruitment process and in respect of any personal information which we may process.</p>
       <p>If you are unhappy about the way we are handling your personal data, please contact us and we will try to rectify the situation.</p>
-      <p>Further details of our and your legal obligations and duties, including details of how to make a compliant, can be found at The European Data Protection Supervisor website at: <a href="https://edps.europa.eu/edps-homepage_en" target="_blank" rel="noopener noreferrer">edps.europa.eu</a></p>
+      <p>Further details of our and your legal obligations and duties can be found at The European Data Protection Supervisor website at: <a href="https://edps.europa.eu/edps-homepage_en" target="_blank" rel="noopener noreferrer">edps.europa.eu</a></p>
 
       <h3>Linking to external websites</h3>
       <p>We provide links to third party sites. As we do not control these websites, we cannot advise you on the content or nature of their privacy policies (if they have any). We therefore encourage you to look at the relevant privacy policy posted on any third party sites.</p>

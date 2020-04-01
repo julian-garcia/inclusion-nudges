@@ -2,7 +2,7 @@
 title: 'Amy Cuddy, PhD'
 position: >-
   Social psychology, speaker, Harvard University lecturer
-organisation: 'author of Presence'
+organisation: '& author of Presence'
 testimonial: >-
   Many people now understand bias but are still searching for truly effective ways to reduce it. This 
   refreshing and timely book is filled with behavioural science-based practical examples, referred to 

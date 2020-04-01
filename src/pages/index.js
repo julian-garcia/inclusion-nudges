@@ -35,7 +35,9 @@ const IndexPage = ({ data }) => (
     <div className="row-left-aside">
       <picture style={{textAlign:"center"}}>
         <source srcSet={NudgesImg} />
-        <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
+        </a>
       </picture>
       <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
@@ -44,7 +46,7 @@ const IndexPage = ({ data }) => (
         <h3 className="headline">We share with you how you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
         <h3 className="headline">Each example empowers you <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
         <div className="row-auto guide-book-links">
-          <Link to='/' className="dark modal-form__button guidebook-link">Purchase your Guidebook</Link>
+          <a href="#" className="dark modal-form__button guidebook-link" target="_blank" rel="noopener noreferrer">Purchase your Guidebook</a>
           <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick&nbsp;Guide</button>
           <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
           <button onClick={() => showModal('modal','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
