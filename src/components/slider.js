@@ -51,19 +51,21 @@ function moveSlider(direction, numSlides) {
 
 function autoLoop(numSlides, delay) {
   clearTimeout(loopTimeout);
-  loopTimeout = setTimeout(() => {
-    let currentSlide = document.querySelector('.slide.show');
-    clearInterval(slideTimer);
-    let i = 0;
-    if (currentSlide) {
-      i = Number(currentSlide.getAttribute('data-slide'));
-    }
-    showSlide(i);
-    slideTimer = setInterval(() => {
-      if (++i === numSlides) i = 0;
+  if (typeof document !== `undefined`) {
+    loopTimeout = setTimeout(() => {
+      let currentSlide = document.querySelector('.slide.show');
+      clearInterval(slideTimer);
+      let i = 0;
+      if (currentSlide) {
+        i = Number(currentSlide.getAttribute('data-slide'));
+      }
       showSlide(i);
-    }, 12000)
-  }, delay)
+      slideTimer = setInterval(() => {
+        if (++i === numSlides) i = 0;
+        showSlide(i);
+      }, 12000)
+    }, delay);
+  }
 }
 
 const Slider = ({testimonials}) => {

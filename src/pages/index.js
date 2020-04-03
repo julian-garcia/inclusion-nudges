@@ -58,7 +58,7 @@ const IndexPage = ({ data }) => (
     <div className="row-auto centered actions">
       <div className="accent-3">
         <div className="vertical-center">
-          <h2>Connect & learn</h2>
+          <h2>Join our webinars</h2>
           <p><strong>Webcasts to understand <br/>this change approach</strong></p>
           <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
         </div>
