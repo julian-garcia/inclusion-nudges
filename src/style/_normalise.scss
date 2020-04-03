@@ -13,3 +13,6 @@ html, body {
 p {
   margin-top: 0;
 }
+:active, :focus {
+  outline: 0;
+}

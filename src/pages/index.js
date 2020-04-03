@@ -35,9 +35,9 @@ const IndexPage = ({ data }) => (
     <div className="row-left-aside">
       <picture style={{textAlign:"center"}}>
         <source srcSet={NudgesImg} />
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <button onClick={() => showModal('modal-purchase')} className="unstyled-button">
           <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
-        </a>
+        </button>
       </picture>
       <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => (
         <h3 className="headline">We share with you how you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
         <h3 className="headline">Each example empowers you <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
         <div className="row-auto guide-book-links">
-          <a href="#" className="dark modal-form__button guidebook-link" target="_blank" rel="noopener noreferrer">Purchase your Guidebook</a>
+          <button onClick={() => showModal('modal-purchase')} className="dark modal-form__button guidebook-link">Purchase your Guidebook</button>
           <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick&nbsp;Guide</button>
           <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
           <button onClick={() => showModal('modal','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
@@ -148,6 +148,22 @@ const IndexPage = ({ data }) => (
           <a href="https://www.eventbrite.dk/x/inclusion-nudges-introduction-how-you-get-started-and-overcome-barriers-tickets-101804173022" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">29 April 2020 at 9 AM (GMT+2:00 Copenhagen)</a>
           <a href="https://www.eventbrite.dk/x/inclusion-nudges-introduction-how-you-get-started-and-overcome-barriers-tickets-101826965194" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">6 May 2020 at 5:00 PM (GMT+2:00 Copenhagen)</a><br/>
         </div>
+      </div>
+    </Modal>
+    <Modal modalClass='modal-purchase'>
+      <div style={{textAlign:'center'}}>
+        <h3 className="modal-title">Purchase your Guidebook</h3>
+        <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(150px, 1fr))',gap:'1rem'}}>
+          <a href="https://www.amazon.com/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.com</a>
+          <a href="https://www.amazon.ca/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.ca</a>
+          <a href="https://www.amazon.co.jp/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.co.jp</a>
+          <a href="https://www.amazon.co.uk/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.co.uk</a>
+          <a href="https://www.amazon.de/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.de</a>
+          <a href="https://www.amazon.es/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.es</a>
+          <a href="https://www.amazon.fr/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.fr</a>
+          <a href="https://www.amazon.it/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.it</a>
+        </div>
+        <br/>
       </div>
     </Modal>
   </Layout>
