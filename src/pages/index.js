@@ -5,7 +5,7 @@ import { faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { showModal } from "../components/modal"
+import Modal, { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
 import ModalDownload from "../components/modal-download"
 import ModalSignup from "../components/modal-signup"
@@ -58,9 +58,9 @@ const IndexPage = ({ data }) => (
     <div className="row-auto centered actions">
       <div className="accent-3">
         <div className="vertical-center">
-          <h2>Connect & learn</h2> 
+          <h2>Connect & learn</h2>
           <p><strong>Webcasts to understand <br/>this change approach</strong></p>
-          <button onClick={() => showModal('modal','Connect and Learn','Book now','webcasts')} className="contact-us unstyled-button">Book now</button>
+          <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
         </div>
       </div>
       <div className="accent-2">
@@ -137,6 +137,19 @@ const IndexPage = ({ data }) => (
                 signature={SignatureLisaImg} />
     <ModalDownload />
     <ModalSignup />
+    <Modal modalClass='modal-connect'>
+      <div style={{textAlign:'center'}}>
+        <h3 className="modal-title">Web Sessions</h3>
+        <h4 style={{marginBottom:'1rem'}}>Inclusion Nudges introduction – how you get started and overcome barriers</h4>
+        <p>Join the Founders and Authors Lisa Kepinski and Tinna C. Nielsen<br/>
+        You learn about how to design Inclusion Nudges and apply behavioural insights for inclusion.</p>
+        <h4 style={{marginBottom:'1rem'}}>Sign up for one of the two web sessions:</h4>
+        <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))',gap:'1rem'}}>
+          <a href="https://www.eventbrite.dk/x/inclusion-nudges-introduction-how-you-get-started-and-overcome-barriers-tickets-101804173022" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">29 April 2020 at 9 AM (GMT+2:00 Copenhagen)</a>
+          <a href="https://www.eventbrite.dk/x/inclusion-nudges-introduction-how-you-get-started-and-overcome-barriers-tickets-101826965194" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">6 May 2020 at 5:00 PM (GMT+2:00 Copenhagen)</a><br/>
+        </div>
+      </div>
+    </Modal>
   </Layout>
 )
 

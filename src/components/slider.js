@@ -3,9 +3,12 @@ import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDotCircle, faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons"
 let slideTimer;
+let showSlideTimeout;
+let loopTimeout;
 
 function showSlide(index) {
-  setTimeout(() => {
+  clearTimeout(showSlideTimeout);
+  showSlideTimeout = setTimeout(() => {
     let currentSlideHeight = 0;
     let sliderHeight = 0;
     if (typeof document !== `undefined`) {
@@ -47,13 +50,18 @@ function moveSlider(direction, numSlides) {
 }
 
 function autoLoop(numSlides, delay) {
-  setTimeout(() => {
+  clearTimeout(loopTimeout);
+  loopTimeout = setTimeout(() => {
+    let currentSlide = document.querySelector('.slide.show');
     clearInterval(slideTimer);
-    let i = 1;
-    showSlide(0);
+    let i = 0;
+    if (currentSlide) {
+      i = Number(currentSlide.getAttribute('data-slide'));
+    }
+    showSlide(i);
     slideTimer = setInterval(() => {
-      showSlide(i);
       if (++i === numSlides) i = 0;
+      showSlide(i);
     }, 12000)
   }, delay)
 }
@@ -65,7 +73,7 @@ const Slider = ({testimonials}) => {
   });
   autoLoop(filteredData.length, 0);
   return (
-    <div className="slider" onMouseLeave={() => autoLoop(filteredData.length, 3000)} role="button" tabIndex={0}>
+    <div className="slider" onMouseLeave={() => autoLoop(filteredData.length, 0)} role="button" tabIndex={0}>
       <h2 className="page-heading" style={{margin:'0 0 1rem'}}>What people say about Inclusion Nudges</h2>
       {filteredData.map(({node}, i) => (
         node.frontmatter.testimonial &&

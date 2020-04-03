@@ -2,6 +2,7 @@ import React from "react"
 import Modal, { showModal } from "../components/modal"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons"
 import addToMailchimp from "gatsby-plugin-mailchimp"
 
 const _signup = async () => {
@@ -41,6 +42,10 @@ const ModalDownload = () => {
       <div style={{textAlign:'center'}} className="modal-social-icons">
         <FontAwesomeIcon icon={faTwitter} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21')} />
         <FontAwesomeIcon icon={faLinkedinIn} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F')} />
+        <h4 style={{marginTop:'2rem'}}>After sharing, please check your email. Or download it:</h4>
+        <a href="https://mcusercontent.com/8d45affb75f11d2e7956403df/files/a8c2413b-e8ed-4efd-8277-b364c023d9a8/Guidebook_Quick_Guide.pdf" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFilePdf} className="modal-social-icon apply-link-style" />
+        </a>
       </div>
     </Modal>
   </>
