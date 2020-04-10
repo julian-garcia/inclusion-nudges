@@ -22,6 +22,15 @@
 
     &__text {
       margin-bottom: 1rem;
+
+      h3 {
+        color: $testimonial-quote;
+      }
+
+      p {
+        color: $testimonial-quote;
+        font-size: 1.2rem;
+      }
     }
 
     p { margin: 0; }
@@ -38,6 +47,8 @@
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
+    // Hiding bullets for now
+    display: none;
   }
 
   &__bullet {

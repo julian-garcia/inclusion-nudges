@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import Modal from "../components/modal"
 import emailjs from 'emailjs-com'
 import addToMailchimp from "gatsby-plugin-mailchimp"
@@ -30,9 +31,10 @@ async function signup(email) {
   }
 }
 
-const ModalContact = () => (
-  <Modal modalClass="modal" signature={true}>
+const ModalContact = ({ children, modalClass, signature }) => (
+  <Modal modalClass={modalClass} signature={signature}>
     <h3 className="modal-title">Contact Us</h3>
+    {children}
     <form className="modal-form">
       <label htmlFor="email" className="modal-form__label">Email</label><br />
       <input id="email" type="email" name="email" className="modal-form__input" required /><br />
@@ -49,5 +51,15 @@ const ModalContact = () => (
     </form>
   </Modal>
 )
+
+Modal.propTypes = {
+  modalClass: PropTypes.string,
+  signature: PropTypes.string,
+}
+
+Modal.defaultProps = {
+  modalClass: 'modal',
+  signature: 'both'
+}
 
 export default ModalContact

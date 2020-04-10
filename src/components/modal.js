@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes } from "@fortawesome/free-solid-svg-icons"
 import LogoImg from "../images/logo-small.jpg"
 import SignatureImg from "../images/signature.png"
+import SignatureLisaImg from "../images/signature-lisa.png"
+import SignatureTinnaImg from "../images/signature-tinna.png"
 
 function closeModal(modalClass, e) {
   const classes = e.target.classList;
@@ -60,8 +62,14 @@ const Modal = ({ children, modalClass, signature }) => (
       <img src={LogoImg} alt="Inclusion Nudges" className="modal-logo" />
       <FontAwesomeIcon icon={faTimes} className="icon-heading close-modal" onClick={(e) => closeModal(modalClass, e)} />
       {children}
-      {signature &&
+      {signature === 'both' &&
         <img src={SignatureImg} alt="Lisa & Tinna" className="modal-signature" />
+      }
+      {signature === 'lisa' &&
+        <img src={SignatureLisaImg} alt="Lisa" className="modal-signature-single" />
+      }
+      {signature === 'tinna' &&
+        <img src={SignatureTinnaImg} alt="Tinna" className="modal-signature-single" />
       }
     </div>
   </div>
@@ -69,11 +77,11 @@ const Modal = ({ children, modalClass, signature }) => (
 
 Modal.propTypes = {
   modalClass: PropTypes.string.isRequired,
-  signature: PropTypes.bool
+  signature: PropTypes.string
 }
 
 Modal.defaultProps = {
-  signature: true 
+  signature: 'both' 
 }
 
 export default Modal

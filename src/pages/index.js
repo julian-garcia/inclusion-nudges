@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 import Layout from "../components/layout"
@@ -8,6 +9,7 @@ import SEO from "../components/seo"
 import Modal, { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
 import ModalDownload from "../components/modal-download"
+import ModalContact from "../components/modal-contact"
 import ModalSignup from "../components/modal-signup"
 import ModalBook from "../components/modal-book"
 import Slider from "../components/slider"
@@ -29,7 +31,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Inclusion Nudges" />
     <div className="accent-1">
-      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed by Lisa Kepinski and Tinna C. Nielsen<br className="desktop-only"/> based on extensive experience as global change makers combined with their background in behavioural sciences</h3>
+      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed in 2013 by <a href="https://www.amazon.com/Lisa-Kepinski/e/B086QZH4HJ/ref=dp_byline_cont_book_1" target="_blank" rel="noopener noreferrer">Lisa&nbsp;Kepinski</a> and <a href="https://www.amazon.com/Tinna-C-Nielsen/e/B086Q6TP2Q/ref=dp_byline_cont_book_2" target="_blank" rel="noopener noreferrer">Tinna&nbsp;C.&nbsp;Nielsen</a><br className="desktop-only"/> based on our extensive experience as global change makers combined with our background in behavioural sciences</h3>
     </div>
     <h2 className="page-heading">Inclusion Nudges Guidebook</h2>
     <div className="row-left-aside">
@@ -41,20 +43,20 @@ const IndexPage = ({ data }) => (
       </picture>
       <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
-        <h3 className="headline">100 how-to examples of Inclusion Nudges.<br />Inclusion Nudges are designed interventions based on insights from behavioural and social sciences and address stuck patterns for inclusion.</h3>
+        <h3 className="headline">Inclusion Nudges are practical steps you can take to influence the unconscious mind to automatically be inclusive in daily actions, leadership, and decision-making. Inclusion Nudges are redesign of processes, reframing of perceptions, as well as eye-openers that motivate and engage people in making inclusion the new normal everywhere, for everyone.</h3>
+        <h3 className="headline">The Inclusion Nudges Guidebook is a collection of 100 how-to examples designed based on behavioural and social sciences and insights about stuck patterns for inclusion. These are all designed and applied by us and a global community of change makers who share their own proven examples.</h3>
         <h2>How</h2>
-        <h3 className="headline">We share with you how you can apply and design Inclusion Nudges to minimise the impact of unconscious bias in systems, processes, cultures, and behaviours.</h3>
-        <h3 className="headline">Each example empowers you <br />to change your organisation, community, and society to be inclusive by default and norm</h3>
-        <div className="row-auto guide-book-links">
-          <button onClick={() => showModal('modal-purchase')} className="dark modal-form__button guidebook-link">Purchase your Guidebook</button>
-          <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick&nbsp;Guide</button>
-          <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
-          <button onClick={() => showModal('modal','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
-        </div>
+        <h3 className="headline">This Inclusion Nudges Guidebook shows step by step how you can apply Inclusion Nudges in your organisation, community, and society - basically everywhere. We share with you how you can minimise the impact of cognitive bias in systems, processes, cultures, and behaviours to benefit from the diversity of people, and stay agile and innovative, perform better and create a more sustainable future for us all. <br/>You make it happen!</h3>
       </div>
     </div>
+    <div className="row-auto indented-row guide-book-links">
+      <button onClick={() => showModal('modal-purchase')} className="dark modal-form__button guidebook-link">Purchase your Guidebook now</button>
+      <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick&nbsp;Guide</button>
+      <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
+      <button onClick={() => showModal('modal-share','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
+    </div>
     <Slider testimonials={data} />
-    <h2 className="page-heading">Actions to make it happen</h2>
+    <h2 className="page-heading">The Inclusion&nbsp;Nudges Hub - How you can make it happen</h2>
     <div className="row-auto centered actions">
       <div className="accent-3">
         <div className="vertical-center">
@@ -72,16 +74,16 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="accent-4">
         <div className="vertical-center">
-          <h2>Book talks & masterclasses</h2> 
+          <h2>Book talks & learning</h2> 
           <p><strong>in-person or virtual</strong><br/>&nbsp;</p>
           <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
         </div>
       </div>
       <div className="accent-1">
         <div className="vertical-center">
-          <h2>Get bespoke design support</h2>
+          <h2>Get design support</h2>
           <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
-          <button onClick={() => showModal('modal','Get bespoke design support','Write us')} className="contact-us unstyled-button">Write us</button>
+          <button onClick={() => showModal('modal','Get design support','Write us')} className="contact-us unstyled-button">Write us</button>
         </div>
       </div>
     </div>
@@ -103,8 +105,8 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}} >
         <Link to="/articles-podcasts-videos" className="unstyled-button"></Link>
+        <h2>Resources</h2>
         <h2>Writings, Podcasts, Videos</h2>
-        <h2>Free Resources<br />Articles & Podcasts</h2>
       </div>
     </div>
     <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1rem 1rem .5rem"}}>
@@ -115,10 +117,13 @@ const IndexPage = ({ data }) => (
       </picture>
       <div>
         <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21" target="_blank" rel="noopener noreferrer" className="modal-social-link">
-          <FontAwesomeIcon icon={faTwitter} className="icon-heading" style={{color:'white'}} />
+          <FontAwesomeIcon icon={faTwitter} className="icon-heading large" style={{color:'white'}} />
         </a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">
-          <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" style={{color:'white'}} />
+          <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading large" style={{color:'white'}} />
+        </a>
+        <a href="mailto:?subject=Inclusion%20Nudges&body=Hi!%20I%20just%20visited%20this%20website%20and%20thought%20you%20might%20find%20the%20Inclusion%20Nudges%20global%20initiative%20and%20the%20Inclusion%20Nudges%20Guidebook%20interesting.%20%0Awww.inclusion-nudges.org" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+          <FontAwesomeIcon icon={faEnvelope} className="icon-heading large" style={{color:'white'}} />
         </a>
       </div>
     </div>
@@ -153,6 +158,7 @@ const IndexPage = ({ data }) => (
     <Modal modalClass='modal-purchase'>
       <div style={{textAlign:'center'}}>
         <h3 className="modal-title">Purchase your Guidebook</h3>
+        <p>The book is available for sale through Amazon. Select the Amazon link below for your location or the one closest to you.</p>
         <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(150px, 1fr))',gap:'1rem'}}>
           <a href="https://www.amazon.com/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.com</a>
           <a href="https://www.amazon.ca/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.ca</a>
@@ -166,6 +172,10 @@ const IndexPage = ({ data }) => (
         <br/>
       </div>
     </Modal>
+    <ModalContact modalClass='modal-share'>
+      <p style={{textAlign:'center'}}>Write us and let us know what kind of inclusive designs that work for you.<br/>You only share with us here.<br/>
+      We will collaborate with you and explore what you have done and how, and based on our conversation decide if we can publish your example in the next Inclusion Nudges Guidebook.</p>
+    </ModalContact>
   </Layout>
 )
 

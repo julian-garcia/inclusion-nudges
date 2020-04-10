@@ -10,17 +10,18 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     align-items: flex-start;
-    height: 100%;
     overflow-x: hidden;
+    margin-top: 1rem;
 
     @media (min-width: $tablet) {
-      grid-template-rows: 1fr 2fr;
+      grid-template-rows: 1fr;
     }
   }
 
   &__image {
     height: auto;
     width: 100%;
+    display: none;
   }
 
   &__title {
@@ -29,8 +30,48 @@
     color: black;
   }
 
-  @media (min-width: $phone) {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  .col {
+    padding: 1rem 1.5rem;
+
+    h2 {
+      min-height: inherit;
+      @media (min-width: $tablet-l) {
+        min-height: 4rem;
+      }
+    }
+  }
+
+  .founders {
+    background: $footer-bg;
+    
+    hr {
+      border-color: $accent-2;
+    }
+  }
+
+  .podcasts {
+    background: darken($footer-bg, 2);
+    
+    hr {
+      border-color: $accent-4;
+    }
+  }
+
+  .community {
+    background: darken($footer-bg, 4);
+    
+    hr {
+      border-color: $accent-3;
+    }
+  }
+
+  hr {
+    border: 2px solid darken($footer-bg, 10);
+    border-radius: 2px;
+  }
+
+  @media (min-width: $tablet-l) {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   @media (min-width: $desktop) {

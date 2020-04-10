@@ -28,7 +28,7 @@ function showSlide(index) {
         });
         document.querySelector(`.slide-${index}`).classList.add('show');
         document.querySelector(`.slider__bullet-${index}`).classList.add('show');
-        slider.style.height = `calc(${sliderHeight}px + 9rem)`;
+        slider.style.height = `calc(${sliderHeight}px + 4rem)`;
       }
     }
   }, 0)
@@ -76,7 +76,7 @@ const Slider = ({testimonials}) => {
   autoLoop(filteredData.length, 0);
   return (
     <div className="slider" onMouseLeave={() => autoLoop(filteredData.length, 0)} role="button" tabIndex={0}>
-      <h2 className="page-heading" style={{margin:'0 0 1rem'}}>What people say about Inclusion Nudges</h2>
+      <h2 className="page-heading" style={{margin:'0 0 1rem'}}>What people are saying about Inclusion&nbsp;Nudges</h2>
       {filteredData.map(({node}, i) => (
         node.frontmatter.testimonial &&
         <div className={`slide slide-${i} ${(i === 0 ? 'show' : 'hide')}`} key={`slide-${i}`} data-slide={i}>

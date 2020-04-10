@@ -4,9 +4,5 @@ position: >-
   Social psychology, speaker, Harvard University lecturer
 organisation: '& author of Presence'
 testimonial: >-
-  Many people now understand bias but are still searching for truly effective ways to reduce it. This 
-  refreshing and timely book is filled with behavioural science-based practical examples, referred to 
-  as ‘Inclusion Nudges’, that are designed for easy use by people in their organisations and 
-  communities to de-bias, reduce harassment and create greater inclusion. It’s time to move from 
-  discussing to acting, and that’s what the Inclusion Nudges Guidebook will help you to do.
+  This refreshing & timely book is filled with behavioural science-based practical examples, designed for easy use by people to de-bias, reduce harassment & create greater inclusion.
 ---

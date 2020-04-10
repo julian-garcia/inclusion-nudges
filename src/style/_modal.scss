@@ -1,7 +1,8 @@
 .modal, .modal-download, .modal-download-confirm, 
 .modal-signup, .modal-connect, .modal-booking, 
 .modal-booking-confirm, .modal-connect,
-.modal-purchase, [class^="modal-video"] {
+.modal-purchase, .modal-share, .modal-tinna, 
+.modal-lisa, [class^="modal-video"] {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -60,7 +61,7 @@
     height: auto;
     border-radius: 1rem;
     margin: 1rem auto;
-    max-width: 500px;
+    max-width: 550px;
     overflow-y: hidden;
 
     .modal-purchase > & {
@@ -100,6 +101,8 @@
 
   &-single {
     max-width: 60px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
