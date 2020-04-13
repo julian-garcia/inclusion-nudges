@@ -5,7 +5,8 @@ import { faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import addToMailchimp from "gatsby-plugin-mailchimp"
 import GuidebookPDF from "../docs/Guidebook_Quick-Guide.pdf"
 
-const _signup = async () => {
+const _signup = async (e) => {
+  e.preventDefault();
   const email = document.querySelector('#emailDownload').value;
   const name = document.querySelector('#nameDownload').value;
   const gdpr = document.querySelector('#gdprDownload').checked ? 'Y' : 'N';
