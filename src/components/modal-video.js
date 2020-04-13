@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Modal from "../components/modal"
-import SignatureImg from "../images/signature.png"
 
 const ModalVideo = ({ videoClass, videoUrl, placeHolder, subtitles, signature }) => (
   <Modal modalClass={videoClass} signature={signature}>
@@ -16,9 +15,6 @@ const ModalVideo = ({ videoClass, videoUrl, placeHolder, subtitles, signature })
     }
     {signature &&
       <img src={signature} alt="Signature" className="modal-signature-single" />
-    }
-    {!signature &&
-      <img src={SignatureImg} alt="Signature" className="modal-signature" />
     }
   </Modal>
 )

@@ -26,6 +26,10 @@ import PublicationsImg from "../images/publications.png"
 import TedXImg from "../images/ted-x.png"
 import SignatureTinnaImg from "../images/signature-tinna.png"
 import SignatureLisaImg from "../images/signature-lisa.png"
+import Hub1Img from "../images/hub1.jpg"
+import Hub2Img from "../images/hub2.jpg"
+import Hub3Img from "../images/hub3.jpg"
+import Hub4Img from "../images/hub4.jpg"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -37,7 +41,7 @@ const IndexPage = ({ data }) => (
     <div className="row-left-aside">
       <picture style={{textAlign:"center"}}>
         <source srcSet={NudgesImg} />
-        <button onClick={() => showModal('modal-purchase')} className="unstyled-button">
+        <button onClick={() => showModal('modal-purchase')} className="unstyled-button nudges-image-button">
           <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
         </button>
       </picture>
@@ -56,34 +60,46 @@ const IndexPage = ({ data }) => (
       <button onClick={() => showModal('modal-share','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your<br/> Inclusion&nbsp;Nudges</button>
     </div>
     <Slider testimonials={data} />
-    <h2 className="page-heading">The Inclusion&nbsp;Nudges Hub - How you can make it happen</h2>
+    <h2 className="page-heading">The Inclusion&nbsp;Nudges Hub - How you can make it happen now</h2>
     <div className="row-auto centered actions">
-      <div className="accent-3">
-        <div className="vertical-center">
-          <h2>Join our webinars</h2>
-          <p><strong>Web sessions to learn<br/> about Inclusion Nudges</strong></p>
-          <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
+      <div className="action-container">
+        <div className="accent-3" onClick={() => showModal('modal-connect')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-connect')}>
+          <div className="vertical-center">
+            <h2>Join our webinars</h2>
+            <p><strong>Web sessions to learn<br/> about Inclusion Nudges</strong></p>
+            <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
+          </div>
+        </div>
+        <img src={Hub1Img} alt="Inclusion Nudges Hub" className="action-image" />
+      </div>
+      <div className="action-container">
+        <img src={Hub2Img} alt="Inclusion Nudges Hub" className="action-image" />
+        <div className="accent-2" onClick={() => showModal('modal','Get online coaching','Write us')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Get online coaching','Write us')}>
+          <div className="vertical-center">
+            <h2>Get online coaching</h2>
+            <p><strong>from the experts<br />Lisa & Tinna</strong></p>
+            <button onClick={() => showModal('modal','Get online coaching','Write us')} className="contact-us unstyled-button">Write us</button>
+          </div>
         </div>
       </div>
-      <div className="accent-2">
-        <div className="vertical-center">
-          <h2>Get online coaching</h2>
-          <p><strong>from the experts<br />Lisa & Tinna</strong></p>
-          <button onClick={() => showModal('modal','Get online coaching','Write us')} className="contact-us unstyled-button">Write us</button>
+      <div className="action-container">
+        <div className="accent-4" onClick={() => showModal('modal-booking')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-booking')}>
+          <div className="vertical-center">
+            <h2>Book talks & learning</h2> 
+            <p><strong>in-person or virtual</strong><br/>&nbsp;</p>
+            <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
+          </div>
         </div>
+        <img src={Hub3Img} alt="Inclusion Nudges Hub" className="action-image" />
       </div>
-      <div className="accent-4">
-        <div className="vertical-center">
-          <h2>Book talks & learning</h2> 
-          <p><strong>in-person or virtual</strong><br/>&nbsp;</p>
-          <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
-        </div>
-      </div>
-      <div className="accent-1">
-        <div className="vertical-center">
-          <h2>Get design support</h2>
-          <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
-          <button onClick={() => showModal('modal','Get design support','Write us')} className="contact-us unstyled-button">Write us</button>
+      <div className="action-container">
+        <img src={Hub4Img} alt="Inclusion Nudges Hub" className="action-image" />
+        <div className="accent-1" onClick={() => showModal('modal','Get design support','Write us')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Get design support','Write us')}>
+          <div className="vertical-center">
+            <h2>Get design support</h2>
+            <p><strong>by collaborating<br />with Tinna & Lisa</strong></p>
+            <button onClick={() => showModal('modal','Get design support','Write us')} className="contact-us unstyled-button">Write us</button>
+          </div>
         </div>
       </div>
     </div>

@@ -186,20 +186,28 @@
     height: 100%;
   }
 
-  &.actions>div {
+  &.actions [class^="accent-"] {
     position: relative;
+    cursor: pointer;
+  }
+
+  &.actions [class="action-image"] {
+    width: 100%;
+    display: none;
+
+    @media (min-width: $tablet) { 
+      display: block;
+    }
+  }
+
+  &.actions .action-container {
+    display: grid;
+    grid-template-rows: auto;
     min-height: 150px;
 
     @media (min-width: $tablet) { 
-      min-height: 250px;
-    }
-
-    @media (min-width: $desktop) { 
-      min-height: 300px;
-    }
-
-    @media (min-width: $desktop-m) { 
-      min-height: 350px;
+      grid-template-rows: 1fr 1fr;
+      min-height: inherit;
     }
   }
 
