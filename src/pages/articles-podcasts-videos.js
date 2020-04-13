@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostGridItem from "../components/post-grid-item"
+import { showModal } from "../components/modal"
 
 const ExternalMediaPage = ({ data }) => {
   const externalMediaData = data.allMarkdownRemark.edges;
@@ -38,6 +39,8 @@ const ExternalMediaPage = ({ data }) => {
         <div className="col community">
           <h2>By people in this community</h2>
           <hr/>
+          <h3 style={{marginTop:'1rem'}}>Have you written about Inclusion Nudges?</h3>
+          <button onClick={() => showModal('modal')} className="modal-form__button" style={{margin:'.2rem 0 1rem 0'}}>Let us know</button>
           {externalMediaData.map(({node}, i) => (
             node.frontmatter.category === 'By people in this community' &&
             <PostGridItem key={i}
@@ -55,7 +58,10 @@ export default ExternalMediaPage
 
 export const externalMediaQuery = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {
+      fields: [frontmatter___sequence, frontmatter___title],
+      order: ASC
+    }) {
       edges {
         node {
           frontmatter {

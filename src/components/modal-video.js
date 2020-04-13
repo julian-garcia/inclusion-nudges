@@ -4,7 +4,7 @@ import Modal from "../components/modal"
 import SignatureImg from "../images/signature.png"
 
 const ModalVideo = ({ videoClass, videoUrl, placeHolder, subtitles, signature }) => (
-  <Modal modalClass={videoClass} signature={false}>
+  <Modal modalClass={videoClass} signature={signature}>
     {!videoUrl.includes('youtube') && 
       <video poster={placeHolder} controls="controls" width="100%" height="auto">
         <source src={videoUrl} type="video/mp4" />

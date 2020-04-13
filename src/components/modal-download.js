@@ -3,6 +3,7 @@ import Modal, { showModal } from "../components/modal"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import addToMailchimp from "gatsby-plugin-mailchimp"
+import GuidebookPDF from "../docs/Guidebook_Quick-Guide.pdf"
 
 const _signup = async () => {
   const email = document.querySelector('#emailDownload').value;
@@ -11,9 +12,9 @@ const _signup = async () => {
   if (email && name && gdpr) { 
     await addToMailchimp(email, {'FULLNAME': name, 'gdpr[3537]': gdpr}, process.env.GATSBY_MAILCHIMP_FREE);
     await addToMailchimp(email, {'NAME': name, 'gdpr[3549]': gdpr});
+    document.querySelector('#downloadLink').click();
+    showModal('modal-download-confirm');
   }
-  window.open('https://mcusercontent.com/8d45affb75f11d2e7956403df/files/a8c2413b-e8ed-4efd-8277-b364c023d9a8/Guidebook_Quick_Guide.pdf', '_blank');
-  showModal('modal-download-confirm');
 }
 
 const ModalDownload = () => {
@@ -23,18 +24,21 @@ const ModalDownload = () => {
   return (
   <>
     <Modal modalClass="modal-download">
-      <h3 className="modal-title">Download the Inclusion&nbsp;Nudges Quick&nbsp;Guide</h3>
-      <p style={{textAlign:'center'}}>Yes, thank you! Send me a free taster of the Inclusion&nbsp;Nudges&nbsp;Guidebook</p>
+      <h3 className="modal-title">Download the Inclusion&nbsp;Nudges Quick&nbsp;Guide & share with others</h3>
+      <p style={{textAlign:'center'}}>All you pay for the Quick Guide is by sharing with people in your network. Your sharing matters!<br/>
+      This way you support the Inclusion Nudges global movement of fundamentally changing how we make inclusion the new normal everywhere, for everyone.</p>
       <form className="modal-form">
         <label htmlFor="nameDownload" className="modal-form__label">Name</label><br />
         <input id="nameDownload" type="text" name="name" className="modal-form__input" required /><br />
         <label htmlFor="emailDownload" className="modal-form__label">Email</label><br />
         <input id="emailDownload" type="email" name="email" className="modal-form__input" required /><br />
-        <label htmlFor="gdprDownload" className="modal-form__label gdpr">Opt in to allow us to send you emails - it's the only way we can send you the free taster:
+        <label htmlFor="gdprDownload" className="modal-form__label gdpr">
+          Opt in if you would like us<br/> to send you emails in future
           <input type="checkbox" id="gdprDownload" name="gdpr[3537]" className="modal-form__checkbox" value="Y" />
-          <span className="modal-form__check"></span>
+          <span className="modal-form__check" style={{top:'0'}}></span>
         </label>
-        <button className="modal-form__button" onClick={_signup} type="button">Download the Inclusion&nbsp;Nudges Quick&nbsp;Guide</button>
+        <button className="modal-form__button" onClick={_signup}>Download the Inclusion&nbsp;Nudges Quick&nbsp;Guide</button>
+        <a href={GuidebookPDF} download="Inclusion Nudges Quick Guide.pdf" id="downloadLink" style={{display:'none'}}>Guidbook</a>
       </form>
     </Modal>
     <Modal modalClass="modal-download-confirm">

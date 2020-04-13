@@ -15,6 +15,7 @@ collections:
       - {label: "Position", name: "position", widget: "string", required: false}
       - {label: "Organisation", name: "organisation", widget: "string", required: false}
       - {label: "Testimonial", name: "testimonial", widget: "markdown"}
+      - {label: "Sequence", name: "sequence", widget: "number", valueType: "int", required: false}
   - name: "external-media"
     label: "External Media"
     folder: "content/external"
@@ -25,3 +26,4 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Sequence", name: "sequence", widget: "number", valueType: "int", required: false}

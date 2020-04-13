@@ -43,17 +43,17 @@ const IndexPage = ({ data }) => (
       </picture>
       <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
-        <h3 className="headline">Inclusion Nudges are practical steps you can take to influence the unconscious mind to automatically be inclusive in daily actions, leadership, and decision-making. Inclusion Nudges are redesign of processes, reframing of perceptions, as well as eye-openers that motivate and engage people in making inclusion the new normal everywhere, for everyone.</h3>
-        <h3 className="headline">The Inclusion Nudges Guidebook is a collection of 100 how-to examples designed based on behavioural and social sciences and insights about stuck patterns for inclusion. These are all designed and applied by us and a global community of change makers who share their own proven examples.</h3>
+        <h3 className="headline">Inclusion Nudges are <strong>practical designs</strong> to influence the unconscious mind to automatically be inclusive in daily actions, leadership, and decision-making. Inclusion Nudges are redesign of processes, reframing of perceptions, as well as eye-openers that motivate and engage people in making inclusion the new normal everywhere, for everyone.</h3>
+        <h3 className="headline">The Inclusion Nudges Guidebook is a collection of <strong>100 how-to examples</strong> designed based on behavioural and social sciences and insights about stuck patterns for inclusion. These are all designed and applied by us and a global community of change makers who share their own proven examples.</h3>
         <h2>How</h2>
-        <h3 className="headline">This Inclusion Nudges Guidebook shows step by step how you can apply Inclusion Nudges in your organisation, community, and society - basically everywhere. We share with you how you can minimise the impact of cognitive bias in systems, processes, cultures, and behaviours to benefit from the diversity of people, and stay agile and innovative, perform better and create a more sustainable future for us all. <br/>You make it happen!</h3>
+        <h3 className="headline">This Inclusion Nudges Guidebook shows <strong>step by step how you can</strong> apply Inclusion Nudges in your organisation, community, and society - basically everywhere. We share with you how you can minimise the impact of cognitive bias in systems, processes, cultures, and behaviours to benefit from the diversity of people, and stay agile and innovative, perform better and create a more sustainable future for us all. <br/><strong>You make it happen!</strong></h3>
       </div>
     </div>
     <div className="row-auto indented-row guide-book-links">
-      <button onClick={() => showModal('modal-purchase')} className="dark modal-form__button guidebook-link">Purchase your Guidebook now</button>
-      <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a Quick&nbsp;Guide</button>
-      <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to stay updated</button>
-      <button onClick={() => showModal('modal-share','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your Inclusion&nbsp;Nudges</button>
+      <button onClick={() => showModal('modal-purchase')} className="dark modal-form__button guidebook-link">Purchase your<br/> Guidebook&nbsp;now</button>
+      <button onClick={() => showModal('modal-download')} className="modal-form__button guidebook-link">Download a<br/> Quick&nbsp;Guide</button>
+      <button onClick={() => showModal('modal-signup')} className="modal-form__button guidebook-link">Join to<br/> stay&nbsp;updated</button>
+      <button onClick={() => showModal('modal-share','Share your Inclusion Nudges','Share your Inclusion Nudge')} className="modal-form__button guidebook-link">Share your<br/> Inclusion&nbsp;Nudges</button>
     </div>
     <Slider testimonials={data} />
     <h2 className="page-heading">The Inclusion&nbsp;Nudges Hub - How you can make it happen</h2>
@@ -61,7 +61,7 @@ const IndexPage = ({ data }) => (
       <div className="accent-3">
         <div className="vertical-center">
           <h2>Join our webinars</h2>
-          <p><strong>Webcasts to understand <br/>this change approach</strong></p>
+          <p><strong>Web sessions to learn<br/> about Inclusion Nudges</strong></p>
           <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
         </div>
       </div>
@@ -90,25 +90,26 @@ const IndexPage = ({ data }) => (
     <h2 className="page-heading">Learn more</h2>
     <div className="row-auto bottom">
       <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}} onClick={() => showModal('modal-video-1')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-1')}>
-        <h2>Why we started the Inclusion Nudges Initiative?</h2> 
+        <h2 className="grid-item-title">Why we started the Inclusion Nudges Initiative?</h2> 
         <h2>The Founders</h2>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}} onClick={() => showModal('modal-video-2')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-2')}>
         <img src={TedXImg} alt="Tedx" className="image-tedx" />
-        <h2>Nudging behaviour for a more inclusive world</h2>
+        <h2 className="grid-item-title">Nudging behaviour for a more inclusive world</h2>
         <h2>TEDx Talk by Tinna C. Nielsen</h2>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${LisaImg})`}} onClick={() => showModal('modal-video-3')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-3')}>
         <img src={TedXImg} alt="Tedx" className="image-tedx" />
-        <h2>Mitigating bias in talent decisions</h2> 
+        <h2 className="grid-item-title">Mitigating bias in talent decisions</h2> 
         <h2>TEDx Talk by Lisa Kepinski</h2> 
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${PublicationsImg})`}} >
         <Link to="/articles-podcasts-videos" className="unstyled-button"></Link>
-        <h2>Resources</h2>
+        <h2 className="grid-item-title">Resources</h2>
         <h2>Writings, Podcasts, Videos</h2>
       </div>
     </div>
+    <h2 className="page-heading">Share to inspire others</h2>
     <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1rem 1rem .5rem"}}>
       <h3 className="text share">Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h3>
       <picture>
@@ -145,13 +146,13 @@ const IndexPage = ({ data }) => (
     <Modal modalClass='modal-connect'>
       <div style={{textAlign:'center'}}>
         <h3 className="modal-title">Web Sessions</h3>
-        <h4 style={{marginBottom:'1rem'}}>Inclusion Nudges introduction – how you get started and overcome barriers</h4>
-        <p>Join the Founders and Authors Lisa Kepinski and Tinna C. Nielsen<br/>
-        You learn about how to design Inclusion Nudges and apply behavioural insights for inclusion.</p>
+        <h4 style={{marginBottom:'1rem'}}>A conversation with the authors about Inclusion Nudges and the Guidebook</h4>
+        <p>Join the founders and authors, Tinna C. Nielsen & Lisa Kepinski, in a conversation.<br/>
+        We want to hear what challenges you face when promoting inclusion, diversity, belonging, and equality. We share ways Inclusion Nudges can help address these.</p>
         <h4 style={{marginBottom:'1rem'}}>Sign up for one of the two web sessions:</h4>
         <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))',gap:'1rem'}}>
-          <a href="https://www.eventbrite.dk/x/inclusion-nudges-introduction-how-you-get-started-and-overcome-barriers-tickets-101804173022" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">29 April 2020 at 9 AM (GMT+2:00 Copenhagen)</a>
-          <a href="https://www.eventbrite.dk/x/inclusion-nudges-introduction-how-you-get-started-and-overcome-barriers-tickets-101826965194" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">6 May 2020 at 5:00 PM (GMT+2:00 Copenhagen)</a><br/>
+          <a href="https://www.eventbrite.dk/x/a-conversation-with-the-authors-about-inclusion-nudges-and-the-guidebook-tickets-101804173022" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">29 April 2020 at 9:00 AM (CET: Central European Time)</a>
+          <a href="https://www.eventbrite.dk/x/a-conversation-with-the-authors-about-inclusion-nudges-and-the-guidebook-tickets-101826965194" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">6 May 2020 at 5:00 PM (CET: Central European Time)</a><br/>
         </div>
       </div>
     </Modal>
@@ -183,7 +184,10 @@ export default IndexPage
 
 export const testimonialsQuery = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {
+      fields: [frontmatter___sequence, frontmatter___title],
+      order: ASC
+    }) {
       edges {
         node {
           frontmatter {

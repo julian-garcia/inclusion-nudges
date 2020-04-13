@@ -37,24 +37,10 @@ button.apply-link-style {
 }
 
 .site-title {
-  &--top {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    @media (min-width: $phone) { 
-      margin-top: 2rem;
-    }
-  }
-  &--bottom {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin: 0 0 1rem;
-    letter-spacing: -2px;
-
-    @media (min-width:$tablet-l) {
-      margin: 1.5rem 0 1rem;
-    }
-  }
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  letter-spacing: -2px;
 }
 
 .page-heading {

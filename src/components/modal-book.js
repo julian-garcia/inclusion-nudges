@@ -69,10 +69,10 @@ const ModalBook = () => {
         <form className="modal-form">
           <label htmlFor="nameBooking" className="modal-form__label">Name</label><br />
           <input id="nameBooking" type="text" name="name" className="modal-form__input" required /><br />
-          <div className="row-auto" style={{gap:'1rem'}}>
+          <div className="row-auto" style={{gap:'1rem', marginBottom:'1rem'}}>
             <div>
               <label htmlFor="orgBooking" className="modal-form__label">Organisation</label><br />
-              <input id="orgBooking" type="text" name="org" className="modal-form__input" required /><br />
+              <input id="orgBooking" type="text" name="org" className="modal-form__input" style={{marginBottom:'0'}} required /><br />
             </div>
             <div>
               <label htmlFor="emailBooking" className="modal-form__label">Email</label><br />
