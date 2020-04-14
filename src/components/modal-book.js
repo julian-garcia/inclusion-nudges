@@ -30,7 +30,7 @@ function sendMail(){
     "message_html": message
   }
   if (eventDescription.value && templateParams.reply_to) {
-    emailjs.send('mailjet','inclusion_nudges', templateParams, process.env.GATSBY_EMAILJS_USERID)
+    emailjs.send('smtp_server','inclusion_nudges', templateParams, process.env.GATSBY_EMAILJS_USERID)
     .then((response) => {
           console.log(response.status);
           showModal('modal-booking-confirm');

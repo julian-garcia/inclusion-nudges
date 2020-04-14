@@ -6,12 +6,12 @@ import addToMailchimp from "gatsby-plugin-mailchimp"
 
 function sendMail(){
   const templateParams = {
-    "reply_to": document.querySelector('.modal #email').value,
+    "reply_to": document.querySelector('.show #email').value,
     "subject": sessionStorage.getItem('subject'),
-    "message_html": document.querySelector('.modal .modal-form__textarea').value
+    "message_html": document.querySelector('.show .modal-form__textarea').value
   }
   if (templateParams.message_html && templateParams.reply_to) {
-    emailjs.send('mailjet','inclusion_nudges', templateParams, process.env.GATSBY_EMAILJS_USERID)
+    emailjs.send('smtp_server','inclusion_nudges', templateParams, process.env.GATSBY_EMAILJS_USERID)
     .then((response) => {
           console.log(response.status);
         }, (err) => {
