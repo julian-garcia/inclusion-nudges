@@ -24,8 +24,6 @@ import TinnaImg from "../images/tinna-tedx.jpg"
 import LisaImg from "../images/lisa-tedx.png"
 import PublicationsImg from "../images/publications.png"
 import TedXImg from "../images/ted-x.png"
-import SignatureTinnaImg from "../images/signature-tinna.png"
-import SignatureLisaImg from "../images/signature-lisa.png"
 import Hub1Img from "../images/hub1.jpg"
 import Hub2Img from "../images/hub2.jpg"
 import Hub3Img from "../images/hub3.jpg"
@@ -70,10 +68,10 @@ const IndexPage = ({ data }) => (
             <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
           </div>
         </div>
-        <img src={Hub1Img} alt="Inclusion Nudges Hub" className="action-image" />
+        <div className="action-image" style={{backgroundImage:'url(' + Hub1Img + ')'}}></div>
       </div>
       <div className="action-container">
-        <img src={Hub2Img} alt="Inclusion Nudges Hub" className="action-image" />
+        <div className="action-image" style={{backgroundImage:'url(' + Hub2Img + ')'}}></div>
         <div className="accent-2" onClick={() => showModal('modal','Get online coaching','Write us')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Get online coaching','Write us')}>
           <div className="vertical-center">
             <h2>Get online coaching</h2>
@@ -90,10 +88,10 @@ const IndexPage = ({ data }) => (
             <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
           </div>
         </div>
-        <img src={Hub3Img} alt="Inclusion Nudges Hub" className="action-image" />
+        <div className="action-image" style={{backgroundImage:'url(' + Hub3Img + ')'}}></div>
       </div>
       <div className="action-container">
-        <img src={Hub4Img} alt="Inclusion Nudges Hub" className="action-image" />
+        <div className="action-image" style={{backgroundImage:'url(' + Hub4Img + ')'}}></div>
         <div className="accent-1" onClick={() => showModal('modal','Get design support','Write us')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Get design support','Write us')}>
           <div className="vertical-center">
             <h2>Get design support</h2>
@@ -148,15 +146,19 @@ const IndexPage = ({ data }) => (
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={FoundersVideo}
                 placeHolder={FoundersImg}
-                subtitles={FoundersVTT} />
+                subtitles={FoundersVTT}
+                signature="Lisa Kepinski and Tinna C. Nielsen" 
+                roles="The Inclusion Nudges Founders and Authors" />
     <ModalVideo videoClass="modal-video-2"
                 videoUrl="https://www.youtube.com/embed/VggAqa0xOwM" 
                 placeHolder=""
-                signature={SignatureTinnaImg} />
+                signature="Tinna C. Nielsen"
+                roles="Co-Founder and Co-author" />
     <ModalVideo videoClass="modal-video-3"
                 videoUrl="https://www.youtube.com/embed/4DpZm0GNqfQ" 
                 placeHolder=""
-                signature={SignatureLisaImg} />
+                signature="Lisa Kepinski"
+                roles="Co-Founder and Co-author" />
     <ModalDownload />
     <ModalSignup />
     <Modal modalClass='modal-connect'>
@@ -176,6 +178,7 @@ const IndexPage = ({ data }) => (
       <div style={{textAlign:'center'}}>
         <h3 className="modal-title">Purchase your Guidebook</h3>
         <p>The book is available for sale through Amazon. Select the Amazon link below for your location or the one closest to you.</p>
+        <p>Note: Due to the Corona crisis lock down, the book is only available on Amazon.com in the US – please select one of the other sites for outside the US.</p>
         <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(150px, 1fr))',gap:'1rem'}}>
           <a href="https://www.amazon.com/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.com</a>
           <a href="https://www.amazon.ca/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.ca</a>

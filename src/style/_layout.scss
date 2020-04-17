@@ -192,6 +192,9 @@
   }
 
   &.actions [class="action-image"] {
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     display: none;
 
@@ -207,7 +210,21 @@
 
     @media (min-width: $tablet) { 
       grid-template-rows: 1fr 1fr;
-      min-height: inherit;
+      height: 100vw;
+    }
+
+    @media (min-width: $desktop) { 
+      height: 50vw;
+    }
+  }
+
+  &.actions {
+    @media (min-width: $tablet) { 
+      grid-template-columns: repeat(2, 50vw);
+    }
+  
+    @media (min-width: $desktop) { 
+      grid-template-columns: repeat(4, 25vw);
     }
   }
 
