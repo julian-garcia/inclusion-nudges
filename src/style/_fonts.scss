@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url('../fonts/cormorantgaramond-light-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url('../fonts/cormorantgaramond-medium-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url('../fonts/cormorantgaramond-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Karla'), local('Karla-Regular'), url('../fonts/karla-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Karla Bold'), local('Karla-Bold'), url('../fonts/karla-bold-webfont.woff2') format('woff2');
+}

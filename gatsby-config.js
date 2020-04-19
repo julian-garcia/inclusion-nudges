@@ -49,16 +49,6 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `karla\:400,700`,
-          `cormorant garamond\:300,500,700`
-        ],
-        display: 'swap'
-      }
-    },
-    {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
           endpoint: `${process.env.MAILCHIMP_ENDPOINT}`,

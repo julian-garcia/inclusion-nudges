@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import LogoImg from "../images/logo.jpg"
+import LogoImgSmall from "../images/logo-small.jpg"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
@@ -10,7 +11,8 @@ const Header = ({ siteTitle }) => (
     </div>
     <Link to="/" className="header-logo-container">
       <picture>
-        <source srcSet={LogoImg} />
+        <source media="(min-width: 400px)" srcSet={LogoImg} />
+        <source media="(min-width: 0px)" srcSet={LogoImgSmall} />
         <img src={LogoImg} alt="Inclusion Nudges" className="header-logo" />
       </picture>
     </Link>

@@ -15,6 +15,7 @@ import ModalBook from "../components/modal-book"
 import Slider from "../components/slider"
 
 import NudgesImg from "../images/guidebook.png"
+import NudgesImgSmall from "../images/guidebook-small.png"
 import IconHandsWhiteImg from "../images/icon-hands-white.png"
 import InitiativeImg from "../images/initiative.png"
 import FoundersImg from "../images/founder-video-poster.png"
@@ -37,12 +38,13 @@ const IndexPage = ({ data }) => (
     </div>
     <h2 className="page-heading">Inclusion Nudges Guidebook</h2>
     <div className="row-left-aside">
-      <picture style={{textAlign:"center"}}>
-        <source srcSet={NudgesImg} />
-        <button onClick={() => showModal('modal-purchase')} className="unstyled-button nudges-image-button">
-          <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
-        </button>
-      </picture>
+      <button onClick={() => showModal('modal-purchase')} className="unstyled-button nudges-image-button">
+        <picture style={{textAlign:"center"}}>
+          <source media="(min-width: 550px)" srcSet={NudgesImg} />
+          <source media="(min-width: 0px)" srcSet={NudgesImgSmall}></source>
+            <img src={NudgesImg} alt="Inclusion Nudges" className="nudges-image" />
+        </picture>
+      </button>
       <div style={{marginTop:'1rem'}}>
         <h2>What</h2>
         <h3 className="headline">Inclusion Nudges are <strong>practical designs</strong> to influence the unconscious mind to automatically be inclusive in daily actions, leadership, and decision-making. Inclusion Nudges are redesign of processes, reframing of perceptions, as well as eye-openers that motivate and engage people in making inclusion the new normal everywhere, for everyone.</h3>
