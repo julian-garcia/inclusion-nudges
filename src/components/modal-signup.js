@@ -10,6 +10,10 @@ const _signup = async () => {
   
   if (email && name && gdpr) { 
     await addToMailchimp(email, {'NAME': name, 'gdpr[3549]': gdpr, 'ORG': org});
+    typeof window !== "undefined" && window.gtag &&
+    window.gtag("event", "click", 
+                {'event_category':'Button Click',
+                 'event_label':'Join the Inclusion Nudges Community'});
   }
 }
 

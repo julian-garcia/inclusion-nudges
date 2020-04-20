@@ -34,6 +34,10 @@ function sendMail(){
     .then((response) => {
           console.log(response.status);
           showModal('modal-booking-confirm');
+          typeof window !== "undefined" && window.gtag &&
+          window.gtag("event", "click", 
+                {'event_category':'Email',
+                 'event_label':'Booking request sent'});
         }, (err) => {
           console.log(err);
         });

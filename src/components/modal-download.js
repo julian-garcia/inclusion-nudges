@@ -15,11 +15,19 @@ const _signup = async (e) => {
     await addToMailchimp(email, {'NAME': name, 'gdpr[3549]': gdpr});
     document.querySelector('#downloadLink').click();
     showModal('modal-download-confirm');
+    typeof window !== "undefined" && window.gtag &&
+    window.gtag("event", "click", 
+                {'event_category':'Button Click',
+                 'event_label':'Download the Inclusion Nudges Quick Guide'});
   }
 }
 
 const ModalDownload = () => {
-  function socialShare(url) {
+  function socialShare(url, socialSite) {
+    typeof window !== "undefined" && window.gtag &&
+    window.gtag("event", "click", 
+                {'event_category':'Social Share',
+                 'event_label':'Pay with a ' + socialSite});
     window.open(url, '_blank', "noopener,noreferrer");
   }
   return (
@@ -39,14 +47,14 @@ const ModalDownload = () => {
           <span className="modal-form__check" style={{top:'0'}}></span>
         </label>
         <button className="modal-form__button" onClick={_signup}>Download the Inclusion&nbsp;Nudges Quick&nbsp;Guide</button>
-        <a href={GuidebookPDF} download="Inclusion Nudges Quick Guide.pdf" id="downloadLink" style={{display:'none'}}>Guidbook</a>
+        <a href={GuidebookPDF} download="Inclusion Nudges Quick Guide.pdf" id="downloadLink" style={{display:'none'}}>Guidebook - Downloaded</a>
       </form>
     </Modal>
     <Modal modalClass="modal-download-confirm">
       <h3 className="modal-title">Thank you, please pay with a Tweet or a LinkedIn share</h3>
       <div style={{textAlign:'center'}} className="modal-social-icons">
-        <FontAwesomeIcon icon={faTwitter} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21')} />
-        <FontAwesomeIcon icon={faLinkedinIn} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F')} />
+        <FontAwesomeIcon icon={faTwitter} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21', 'Tweet')} />
+        <FontAwesomeIcon icon={faLinkedinIn} className="modal-social-icon apply-link-style" onClick={(e) => socialShare('https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F', 'LinkedIn share')} />
       </div>
     </Modal>
   </>

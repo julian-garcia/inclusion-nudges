@@ -7,6 +7,19 @@ import Footer from "./footer"
 import ModalContact from "./modal-contact"
 import "../style/main.scss"
 
+function eventListeners() {
+  if (typeof document !== `undefined`) {
+    document.addEventListener('click', (event) => {
+      if (event.target.nodeName === 'A' && event.target.hasAttribute('href')) {
+        typeof window !== "undefined" && window.gtag &&
+        window.gtag("event", "link", 
+                    {'event_category':'Page link',
+                    'event_label':'Link pressed: ' + event.target.textContent});
+      }
+    });
+  }
+}
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -17,7 +30,7 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
+  eventListeners();
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />

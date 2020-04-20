@@ -14,6 +14,10 @@ function sendMail(){
     emailjs.send('smtp_server','inclusion_nudges', templateParams, process.env.GATSBY_EMAILJS_USERID)
     .then((response) => {
           console.log(response.status);
+          typeof window !== "undefined" && window.gtag &&
+          window.gtag("event", "click", 
+                      {'event_category':'Email',
+                      'event_label':'Website enquiry: ' + sessionStorage.getItem('subject')});
         }, (err) => {
           console.log(err);
         });
