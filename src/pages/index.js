@@ -13,6 +13,7 @@ import ModalContact from "../components/modal-contact"
 import ModalSignup from "../components/modal-signup"
 import ModalBook from "../components/modal-book"
 import Slider from "../components/slider"
+import EventList from "../components/event-list"
 
 import NudgesImg from "../images/guidebook.png"
 import NudgesImgSmall from "../images/guidebook-small.png"
@@ -169,11 +170,8 @@ const IndexPage = ({ data }) => (
         <h4 style={{marginBottom:'1rem'}}>A conversation with the authors about Inclusion Nudges and the Guidebook</h4>
         <p>Join the founders and authors, Tinna C. Nielsen & Lisa Kepinski, in a conversation.<br/>
         We want to hear what challenges you face when promoting inclusion, diversity, belonging, and equality. We share ways Inclusion Nudges can help address these.</p>
-        <h4 style={{marginBottom:'1rem'}}>Sign up for one of the two web sessions:</h4>
-        <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))',gap:'1rem'}}>
-          <a href="https://www.eventbrite.dk/x/a-conversation-with-the-authors-about-inclusion-nudges-and-the-guidebook-tickets-101804173022" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">29 April 2020 at 9:00 AM (CET: Central European Time)</a>
-          <a href="https://www.eventbrite.dk/x/a-conversation-with-the-authors-about-inclusion-nudges-and-the-guidebook-tickets-101826965194" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">6 May 2020 at 5:00 PM (CET: Central European Time)</a><br/>
-        </div>
+        <h4 style={{marginBottom:'1rem'}}>Sign up for one of the following web sessions:</h4>
+        <EventList events={data} />
       </div>
     </Modal>
     <Modal modalClass='modal-purchase'>
@@ -216,6 +214,8 @@ export const testimonialsQuery = graphql`
             position
             organisation
             testimonial
+            date
+            link
           }
         }
       }

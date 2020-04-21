@@ -47,6 +47,13 @@ module.exports = {
         path: `${__dirname}/content/external`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `events`,
+        path: `${__dirname}/content/events`,
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-mailchimp',
