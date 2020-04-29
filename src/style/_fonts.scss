@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
-  font-weight: 300;
+  font-weight: lighter;
   font-display: swap;
   src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url('../fonts/cormorantgaramond-light-webfont.woff2') format('woff2');
 }
@@ -9,17 +9,17 @@
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-display: swap;
-  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url('../fonts/cormorantgaramond-medium-webfont.woff2') format('woff2');
+  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url('../fonts/cormorantgaramond-regular-webfont.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-display: swap;
-  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url('../fonts/cormorantgaramond-regular-webfont.woff2') format('woff2');
+  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url('../fonts/cormorantgaramond-bold-webfont.woff2') format('woff2');
 }
 
 @font-face {

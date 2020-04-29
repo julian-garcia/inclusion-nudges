@@ -170,7 +170,7 @@ const IndexPage = ({ data }) => (
         <h4 style={{marginBottom:'1rem'}}>A conversation with the authors about Inclusion Nudges and the Guidebook</h4>
         <p>Join the founders and authors, Tinna C. Nielsen & Lisa Kepinski, in a conversation.<br/>
         We want to hear what challenges you face when promoting inclusion, diversity, belonging, and equality. We share ways Inclusion Nudges can help address these.</p>
-        <h4 style={{marginBottom:'1rem'}}>Sign up for one of the following web sessions:</h4>
+        <h4 style={{marginBottom:'1rem'}}>Sign up for a web session:</h4>
         <EventList events={data} />
       </div>
     </Modal>
@@ -179,6 +179,7 @@ const IndexPage = ({ data }) => (
         <h3 className="modal-title">Purchase your Guidebook</h3>
         <p>The book is available for sale through Amazon. Select the Amazon link below for your location or the one closest to you.</p>
         <p>Note: Due to the Corona crisis lock down, the book is only available on Amazon.com in the US – please select one of the other sites for outside the US.</p>
+        <p>If you experience that none of the Amazon sites ship to your country, please write us on <a href="mailto:contact@inclusion-nudges.org" target="_blank" rel="noopener noreferrer" style={{fontWeight:'bold'}}>contact@inclusion-nudges.org</a> with your address, telephone number and number of books. We will send you an invoice via Pay Pal and ship the book after payment is received. The fee will be the price of the book on Amazon, packaging, and shipping cost.</p>
         <div className="row-auto" style={{gridTemplateColumns:'repeat(auto-fit, minmax(150px, 1fr))',gap:'1rem'}}>
           <a href="https://www.amazon.com/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.com</a>
           <a href="https://www.amazon.ca/Inclusion-Nudges-Guidebook-how-bias/dp/B086PMRGNY" className="modal-form__button" style={{margin:'0'}} target="_blank" rel="noopener noreferrer">amazon.ca</a>
