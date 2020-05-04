@@ -15,6 +15,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,
     {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://inclusion-nudges.org`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `inclusion-nudges`,

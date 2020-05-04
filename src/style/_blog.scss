@@ -1,0 +1,28 @@
+.blog {
+  a {
+    font-family: karla;
+    font-size: 1.2rem;
+  }
+}
+
+.blog-post {
+  max-width: $maxwidth;
+  margin: 0 1rem;
+  padding-top: 1rem; 
+
+  figure img {
+    max-width: 200px;
+  }
+
+  h4:first-of-type {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: $maxwidth + 20px) { 
+    margin: 0 auto;
+  }
+}

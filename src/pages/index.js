@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter, faLinkedinIn, faFacebookF } from "@fortawesome/free-brands-svg-icons"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -139,6 +139,9 @@ const IndexPage = ({ data }) => (
         </a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading large" style={{color:'white'}} />
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+          <FontAwesomeIcon icon={faFacebookF} className="icon-heading large" style={{color:'white'}} />
         </a>
         <a href="mailto:?subject=Inclusion%20Nudges&body=Hi!%20I%20just%20visited%20this%20website%20and%20thought%20you%20might%20find%20the%20Inclusion%20Nudges%20global%20initiative%20and%20the%20Inclusion%20Nudges%20Guidebook%20interesting.%20%0Awww.inclusion-nudges.org" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading large" style={{color:'white'}} />
