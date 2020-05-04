@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostGridItem from "../components/post-grid-item"
@@ -17,6 +17,9 @@ const ExternalMediaPage = ({ data }) => {
         <div className="col founders">
           <h2>By the Founders</h2>
           <hr/>
+          <div className="post-grid__item">
+            <Link to="/blog" className="post-grid__title">Inclusion Nudges Blog</Link>
+          </div>
           {externalMediaData.map(({node}, i) => (
             node.frontmatter.category === 'By the Founders' &&
             <PostGridItem key={i}

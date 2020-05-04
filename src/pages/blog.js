@@ -10,7 +10,7 @@ const BlogPage = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <div className="accent-2">
-        <h2 className="text">Blog</h2>
+        <h2 className="text">Inclusion Nudges Blog</h2>
       </div>
       <div className="post-grid blog">
         {mediumPostsData.map((post, i) => (

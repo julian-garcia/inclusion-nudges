@@ -7,7 +7,7 @@ import LogoImgSmall from "../images/logo-small.jpg"
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header-title-container">
-      <h1 className="site-title">Let’s make inclusion the norm<br/>- everywhere, for everyone</h1>
+      <h1 className="site-title">Let's make inclusion the norm<br/>- everywhere, for everyone</h1>
     </div>
     <Link to="/" className="header-logo-container">
       <picture>
