@@ -220,7 +220,7 @@ export default IndexPage
 export const testimonialsQuery = graphql`
   query {
     allMarkdownRemark(sort: {
-      fields: [frontmatter___sequence, frontmatter___title],
+      fields: [frontmatter___date, frontmatter___sequence, frontmatter___title],
       order: ASC
     }) {
       edges {
