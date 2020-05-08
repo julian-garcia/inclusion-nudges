@@ -11,7 +11,7 @@ const Footer = () => (
     <footer className="footer">
       <div className="row-auto">
         <div>
-          <h3>Get in Touch<br/>&nbsp;</h3>
+          <h3>Get <br/>in Touch</h3>
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Us','Send')} />
         </div>
         <div>

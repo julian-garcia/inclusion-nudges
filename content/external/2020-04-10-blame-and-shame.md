@@ -4,5 +4,5 @@ title: >-
 category: Featured in Podcasts
 link: >-
   https://www.voiceamerica.com/episode/94915/diversity-and-inclusion-minus-the-blame-and-shame
-thumbnail: 
+thumbnail: /images/uploads/va-logo.png
 ---

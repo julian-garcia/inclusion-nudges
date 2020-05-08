@@ -21,13 +21,17 @@
   &__image {
     height: auto;
     width: 100%;
-    display: none;
+    max-width: 70px;
   }
 
   &__title {
     font-family: karla;
     margin-bottom: .5rem;
     color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    align-items: center;
   }
 
   .col {
@@ -70,7 +74,11 @@
     border-radius: 2px;
   }
 
-  @media (min-width: $tablet-l) {
+  @media (min-width: $tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $desktop) {
     grid-template-columns: repeat(3, 1fr);
   }
 

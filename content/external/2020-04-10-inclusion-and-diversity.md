@@ -4,5 +4,5 @@ title: >-
 category: Featured in Podcasts
 link: >-
   https://www.voiceamerica.com/episode/92926/hr-inclusion-and-diversity-where-to-from-here
-thumbnail: 
+thumbnail: /images/uploads/va-logo.png
 ---

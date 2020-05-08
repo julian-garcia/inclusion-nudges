@@ -146,12 +146,12 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.1);
   }
 
   &:nth-child(1), &:nth-child(4) {
     &:before {
-      background-color: rgba(0,0,0,.6);
+      background-color: rgba(0,0,0,.4);
     }
   }
 
@@ -159,7 +159,7 @@
     &:before {
       background-image: linear-gradient(rgba($accent-3,.3), rgba(0,0,0,.6));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+        background-image: linear-gradient(transparent);
       }
     }
   }
@@ -168,7 +168,7 @@
     &:before {
       background-image: linear-gradient(rgba($accent-2,.6), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+        background-image: linear-gradient(transparent);
       }
     }
   }
@@ -177,7 +177,7 @@
     &:before {
       background-image: linear-gradient(rgba($accent-4,.6), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+        background-image: linear-gradient(transparent);
       }
     }
   }
@@ -186,7 +186,7 @@
     &:before {
       background-image: linear-gradient(rgba($accent-1,.6), rgba(0,0,0,.6));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+        background-image: linear-gradient(transparent);
       }
     }
   }

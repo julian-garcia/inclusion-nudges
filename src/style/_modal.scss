@@ -74,7 +74,7 @@
   }
 }
 
-.modal-booking {
+.modal-booking, .modal-share {
   .modal__content {
     @media (min-width: $phone) {
       max-width: 700px;

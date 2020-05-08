@@ -1,9 +1,12 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostGridItem from "../components/post-grid-item"
 import { showModal } from "../components/modal"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faMediumM } from "@fortawesome/free-brands-svg-icons"
+import LogoImg from "../images/logo-transparent.png"
 
 const ExternalMediaPage = ({ data }) => {
   const externalMediaData = data.allMarkdownRemark.edges;
@@ -11,14 +14,17 @@ const ExternalMediaPage = ({ data }) => {
     <Layout>
       <SEO title="Articles, Podcasts, Videos" />
       <div className="accent-1">
-        <h2 className="text">Articles, Podcasts, Videos</h2>
+        <h2 className="text">Articles, Podcasts, Videos, Blog</h2>
       </div>
       <div className="post-grid">
         <div className="col founders">
           <h2>By the Founders</h2>
           <hr/>
           <div className="post-grid__item">
-            <Link to="/blog" className="post-grid__title">Inclusion Nudges Blog</Link>
+            <a href="https://medium.com/@InclusionNudges" target="_blank" title="Inclusion Nudges Medium" className="dark post-grid__title" rel="noopener noreferrer">
+              <img src={LogoImg} className="post-grid__image" alt="Feature" />
+              <span>Inclusion Nudges Blog <FontAwesomeIcon icon={faMediumM} /></span>
+            </a>
           </div>
           {externalMediaData.map(({node}, i) => (
             node.frontmatter.category === 'By the Founders' &&

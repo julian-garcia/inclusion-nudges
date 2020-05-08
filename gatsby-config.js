@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Inclusion Nudges`,
-    description: `Inclusion Nudges is a global initiative of people making inclusion the new normal — everywhere, for everyone`,
+    description: `Inclusion Nudges is a global initiative of people making inclusion the norm — everywhere, for everyone`,
     author: `@inclusionnudges`,
   },
   plugins: [
