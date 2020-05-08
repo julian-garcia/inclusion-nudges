@@ -1,0 +1,78 @@
+ul.image-list {
+  padding: 0;
+  margin: 2rem 0 2rem;
+
+  li {
+    padding-left: 70px;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  li:before {
+    content: '';
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 0;
+  }
+
+  li:nth-of-type(1):before { background-image: url('../images/guide/challenge.png'); }
+  li:nth-of-type(2):before { background-image: url('../images/guide/nudge.png'); }
+  li:nth-of-type(3):before { background-image: url('../images/guide/howto.png'); }
+  li:nth-of-type(4):before { background-image: url('../images/guide/virtual.png'); }
+  li:nth-of-type(5):before { background-image: url('../images/guide/impact.png'); }
+  li:nth-of-type(6):before { background-image: url('../images/guide/comments.png'); }
+  li:nth-of-type(7):before { background-image: url('../images/guide/public.png'); }
+  li:nth-of-type(8):before { background-image: url('../images/guide/acknowledge.png'); }
+}
+
+.bordered-section {
+  border: 2px dashed black;
+  border-radius: 30px;
+  padding: 30px 30px 10px;
+  margin: 2rem 0;
+  position: relative;
+  text-align: center;
+
+  img {
+    position: absolute;
+    width: 40px;
+    left: -5px;
+    top: -7px;
+  }
+}
+
+.guide-links {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+  text-align: center;
+
+  > .modal-form__button {
+    margin: 0;
+  }
+
+  &.share {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (min-width: $tablet) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 1rem;
+  }
+}
+
+.front-page {
+  max-width: 260px;
+  float: none;
+  margin: 0 auto 1rem auto;
+  display: block;
+
+  @media (min-width: $tablet) {
+    float: right;
+    margin-left: 1rem;
+    margin: 0 0 1rem 1rem;
+  }
+}

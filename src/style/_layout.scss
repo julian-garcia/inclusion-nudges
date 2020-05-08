@@ -246,6 +246,11 @@
   @media (min-width: $desktop) { display: inherit; }
 }
 
+.tablet-up {
+  display: none;
+  @media (min-width: $tablet) { display: inherit; }
+}
+
 .guide-book-links {
   grid-template-columns: auto;
   gap: 1rem;
