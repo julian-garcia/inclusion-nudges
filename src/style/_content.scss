@@ -21,7 +21,7 @@
 
 .text, .center-content {
   max-width: $maxwidth;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 }
 
 .text {
@@ -100,12 +100,17 @@
   position: absolute;
 
   &-heading {
-    margin: .5rem auto 0;
-    padding: 0 1rem 0 0;
-    font-size: 2.5rem;
+    margin: 1.5rem 1rem 0 1rem;
+    padding: 0;
+    font-size: 1.6rem;
 
     &.large {
-      font-size: 3rem;
+      font-size: 2rem;
+      margin: 0 1rem;
+    }
+
+    .footer & {
+      margin: 1.5rem .5rem 0 0;
     }
   }
 
@@ -119,8 +124,9 @@
       right: 1rem;
     }
     @media (min-width: $desktop) {
-      top: .5rem;
+      top: 50%;
       right: 5%;
+      transform: translateY(-50%);
     }
   }
 }
@@ -144,47 +150,47 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,0);
   }
 
   &:nth-child(1), &:nth-child(4) {
     &:before {
-      background-color: rgba(0,0,0,.4);
+      background-color: rgba(0,0,0,.3);
     }
   }
 
   &:nth-child(1) { 
     &:before {
-      background-image: linear-gradient(rgba($accent-3,.3), rgba(0,0,0,.6));
+      background-image: linear-gradient(rgba($accent-3,.1), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(transparent);
+        background-image: linear-gradient(transparent, transparent);
       }
     }
   }
 
   &:nth-child(2) { 
     &:before {
-      background-image: linear-gradient(rgba($accent-2,.6), rgba(0,0,0,.3));
+      background-image: linear-gradient(rgba($accent-2,.1), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(transparent);
+        background-image: linear-gradient(transparent, transparent);
       }
     }
   }
 
   &:nth-child(3) { 
     &:before {
-      background-image: linear-gradient(rgba($accent-4,.6), rgba(0,0,0,.3));
+      background-image: linear-gradient(rgba($accent-4,.1), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(transparent);
+        background-image: linear-gradient(transparent, transparent);
       }
     }
   }
 
   &:nth-child(4) { 
     &:before {
-      background-image: linear-gradient(rgba($accent-1,.6), rgba(0,0,0,.6));
+      background-image: linear-gradient(rgba($accent-1,.1), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
-        background-image: linear-gradient(transparent);
+        background-image: linear-gradient(transparent, transparent);
       }
     }
   }

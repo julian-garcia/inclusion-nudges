@@ -60,6 +60,13 @@ module.exports = {
         path: `${__dirname}/content/events`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/content/pages`,
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-mailchimp',

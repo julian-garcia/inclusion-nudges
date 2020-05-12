@@ -14,7 +14,7 @@ const Media = () => (
     <div className="row-auto bottom">
       <div className="grid-item-image" style={{backgroundImage:`url(${InitiativeImg})`}} onClick={() => showModal('modal-video-1')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-1')}>
         {/* <h2 className="grid-item-title">Why we started the Inclusion Nudges Initiative?</h2>  */}
-        <h2>Video with the Founders – why?</h2>
+        <h2>Video: Why we started this</h2>
       </div>
       <div className="grid-item-image" style={{backgroundImage:`url(${TinnaImg})`}} onClick={() => showModal('modal-video-2')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-video-2')}>
         <img src={TedXImg} alt="Tedx" className="image-tedx" />

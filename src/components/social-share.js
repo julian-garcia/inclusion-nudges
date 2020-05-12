@@ -7,7 +7,7 @@ import IconHandsWhiteImg from "../images/icon-hands-white.png"
 const SocialShare = () => (
   <>
     <h2 className="page-heading">Share to inspire others</h2>
-    <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"1rem 1rem .5rem"}}>
+    <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"2.5rem 1rem 2.5rem"}}>
       <h3 className="text share">Share with others<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h3>
       <picture>
         <source srcSet={IconHandsWhiteImg} />

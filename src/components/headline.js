@@ -1,15 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import { showModal } from "../components/modal"
-import Modal from "../components/modal"
-import PostGridItem from "../components/post-grid-item"
 
 import NudgesImg from "../images/guidebook.png"
 import NudgesImgSmall from "../images/guidebook-small.png"
 import GuideImg from "../images/quick-guide.png"
 
-const Headline = ({ links }) => (
+const Headline = () => (
   <>
     <h2 className="page-heading">Inclusion Nudges Guidebook</h2>
     <div className="row-left-aside">
@@ -35,22 +32,9 @@ const Headline = ({ links }) => (
       <Link to="/why-what-how" className="guidebook-link">
         <img src={GuideImg} alt="Inclusion Nudges Free Guide" />
       </Link>
-      <button onClick={() => showModal('modal-share')} className="modal-form__button guidebook-link">Get more<br/> resources</button>
+      <Link to="/articles-podcasts-videos" className="modal-form__button guidebook-link">Get more<br/> resources</Link>
     </div>
-    <Modal modalClass='modal-share' signature='none'>
-      {links.allMarkdownRemark.edges.map(({node}, i) => (
-        node.frontmatter.category  &&
-        <PostGridItem key={i}
-                      title={node.frontmatter.title} 
-                      link={node.frontmatter.link} 
-                      imageUrl={node.frontmatter.thumbnail} />
-      ))}
-    </Modal>
   </>
 )
-
-Headline.propTypes = {
-  links: PropTypes.object
-}
 
 export default Headline
