@@ -30,6 +30,7 @@
   &.share {
     display: inline-block;
     max-width: 100%;
+    margin-bottom: 1rem;
 
     @media (min-width: $tablet) { 
       max-width: 440px;
@@ -239,5 +240,20 @@
 
   &__text {
     font-weight: normal;
+  }
+}
+
+@media print
+{
+  html, body {
+    border: 1px solid white;
+    page-break-after: avoid;
+    page-break-before: avoid;
+  }
+
+  .no-print, .no-print *, .footer, .header
+  {
+    display: none !important;
+    visibility: hidden !important;
   }
 }

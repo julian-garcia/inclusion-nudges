@@ -48,7 +48,7 @@ const Footer = () => (
         </div>
       </div>
     </footer>
-    <div className="cc-license">
+    <div className="cc-license no-print">
       <div className="cc-license__image">
         <picture>
           <source srcSet={CreativeCommonsImg} />
@@ -62,7 +62,7 @@ const Footer = () => (
         <Link to="/privacy-policy" className="dark"><FontAwesomeIcon icon={faLockOpen} /> Privacy Policy</Link>
       </div>
     </div>
-    <div className="footer-address">
+    <div className="footer-address no-print">
       <h4 className="footer-address__text">Inclusion Nudges is a non-profit organisation registered in Denmark. VAT: 39140071 Fuglesangs Alle 11, 8210 DK-Aarhus</h4>
     </div>
   </>

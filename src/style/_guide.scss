@@ -63,6 +63,33 @@ ul.image-list {
     margin-bottom: 2rem;
   }
 
+  &.fixed {
+    position: fixed;
+    right: 1rem;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: calc(100vw - 2rem);
+    z-index: 99;
+
+    > * {
+      margin: 0 0 1rem;
+      width: 100%;
+      background: rgba($accent-3, .9);
+      padding: 2px;
+
+      @media (min-width: $desktop) {
+        padding: 10px;
+      }
+    }
+
+    @media (min-width: $desktop) {
+      display: block;
+      right: 5rem;
+      bottom: inherit;
+    }
+  }
+
   @media (min-width: $tablet) {
     grid-template-columns: repeat(4, 1fr);
     gap: 0 1rem;
@@ -73,10 +100,8 @@ ul.image-list {
   width: 100%;
   margin-bottom: 2rem;
   display: block;
-
-  @media (min-width: $tablet) {
-    width: 65%;
-  }
+  border-bottom: 6px solid grey;
+  page-break-before: avoid;
 }
 
 .guide-image {
@@ -84,7 +109,23 @@ ul.image-list {
 
   @media (min-width: $tablet) {
     width: 50%;
-    float: left;
-    margin-right: 1rem;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.make-it-happen {
+  background-image: url('../images/guide/make-it-happen.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 4rem 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  h3 {
+    font-size: .9rem;
+    @media (min-width: $tablet-l) {
+      font-size: 1.1rem;
+    }
   }
 }
