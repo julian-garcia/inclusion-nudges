@@ -243,16 +243,8 @@
   }
 }
 
-@media print
-{
-  html, body {
-    border: 1px solid white;
-    page-break-after: avoid;
-    page-break-before: avoid;
-  }
-
-  .no-print, .no-print *, .footer, .header
-  {
+@media print {
+  .no-print, .no-print *, .footer, .header, head {
     display: none !important;
     visibility: hidden !important;
   }

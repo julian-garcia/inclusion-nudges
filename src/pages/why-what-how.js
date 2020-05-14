@@ -28,9 +28,9 @@ const QuickGuidePage = () => (
         <Link to="/" className="modal-form__button">Visit the <br/>Inclusion&nbsp;Nudges website</Link>
       </div>
       <img src={GuideImg} className="front-page" alt="" />
-      <div className="bordered-section" style={{background:'lightgrey', paddingTop:'1.5rem'}}>
-        <p>This Quick Guide is a brief excerpt from the Inclusion Nudges Guidebook, 3rd edition, 2020, by Lisa Kepinsk & Tinna C. Nielsen.</p>
-        <p>To learn more, go to the website at <Link to="/" style={{color:'black'}}>www.inclusion-nudges.org</Link> and contact us at <a href="mailto:contact@inclusion-nudges.org" target="_blank" rel="noopener noreferrer" style={{fontWeight:'bold',color:'black'}}>contact@inclusion-nudges.org</a></p>
+      <div className="bordered-section" style={{background:'lightgrey', paddingTop:'1.5rem', fontWeight:'bold'}}>
+        <p>This Quick Guide is a brief excerpt from the Inclusion Nudges Guidebook, 3rd edition, 2020,<br/>by Lisa Kepinski & Tinna C. Nielsen.</p>
+        <p>To learn more, go to the website at <Link to="/" style={{color:'black'}}>www.inclusion-nudges.org</Link> <br/>and contact us at <a href="mailto:contact@inclusion-nudges.org" target="_blank" rel="noopener noreferrer" style={{fontWeight:'bold',color:'black'}}>contact@inclusion-nudges.org</a></p>
       </div>
       <p>This Quick Guide navigates you as you apply Inclusion Nudges to de-bias and change your organisations, communities, and society to be inclusive as the default and the norm. The <strong>Inclusion Nudges Guidebook, 3rd edition</strong>, by Lisa Kepinski & Tinna C. Nielsen, is your <strong>go to resource</strong> with over 100 how-to examples that are based on behavioural science. These have been designed and applied by the authors and others in their work as change makers to lessen the influence of bias, increase inclusivity, ensure equality, and leverage the diversity of all of us.</p>
       <p>If you have read the 2nd edition of the guidebook (2016), you'll be pleased to know there are 57 new examples of Inclusion Nudges, and all the examples from the previous version have been updated with new design variations and behavioural insights. A new feature is more designs for virtual working.</p>
@@ -87,7 +87,8 @@ const QuickGuidePage = () => (
           <p>Thank you to the people who have inspired with examples</p>
         </li>
       </ul>
-      <h3>Feel the Need Inclusion Nudges</h3>
+      <h2>Three examples of the three types of Inclusion Nudges</h2>
+      <h3 style={{marginTop:'2rem'}}>Feel the Need Inclusion Nudges</h3>
       <p>Use these to motivate people to change behaviour and engage groups of people in making profound change for inclusiveness by making the brain's unconscious system feel the need for change. These are designed to show the implications of bias rather than tell people that they are biased. These designs make the invisible patterns visible and make people feel the need to change status quo.</p>
       <div className="bordered-section">
         <img src={NudgeImg} alt="" />
