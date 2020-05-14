@@ -29,6 +29,8 @@ ul.image-list {
 }
 
 ul.arrow-list {
+  padding: 0;
+
   li {
     margin-bottom: 1rem;
   }
@@ -37,7 +39,7 @@ ul.arrow-list {
 .bordered-section {
   border: 2px dashed black;
   border-radius: 30px;
-  padding: 0 30px 10px;
+  padding: 0 20px 10px;
   margin: 2rem 0;
   position: relative;
   text-align: center;

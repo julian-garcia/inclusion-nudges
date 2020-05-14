@@ -120,9 +120,9 @@ const QuickGuidePage = () => (
         <p style={{textAlign:'left'}}><strong>Purpose:</strong> Reverse the numbers to change perceptions to see the full picture and see the hidden people behind the numbers and also the consequences.</p>
       </div>
       <p>Learn more about how you can apply Inclusion Nudges in your change efforts to increase inclusivity, leverage diversity, and ensure more equitable decision making and interactions by reading the 3rd edition of the Inclusion Nudges Guidebook. In this, you will be inspired with over 100 how-to examples that are scripted out in details, so you can easily apply these to your context. You can reduce the influence of bias, and change your organisation, community, and society to be inclusive as the default and norm.</p>
-      <p style={{textAlign:'center'}}><strong>Go to the Inclusion Nudges website to learn more<br/>and see how you can purchase your copy of the <br/>Inclusion&nbsp;Nudges&nbsp;Guidebook, 3rd edition.<br/><Link to="/">www.inclusion-nudges.org</Link></strong></p>
+      <p style={{textAlign:'center'}}><strong>Go to the Inclusion Nudges website to learn more<br className="tablet-up"/> and see how you can purchase your copy of the <br className="tablet-up" />Inclusion&nbsp;Nudges&nbsp;Guidebook, 3rd edition.<br/><Link to="/">www.inclusion-nudges.org</Link></strong></p>
       <div className="make-it-happen">
-        <h3>It's time to design an inclusive world!<br/> It's time to make inclusion the default and the norm!<br/> You make it happen!</h3>
+        <h3>It's time to design an inclusive world!<br className="tablet-up" /> It's time to make inclusion the default and the norm!<br className="tablet-up" /> You make it happen!</h3>
       </div>
       <img src={GuideBackImg} className="front-page" alt="" />
       <div className="guide-links no-print">
