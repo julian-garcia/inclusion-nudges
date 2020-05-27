@@ -4,9 +4,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostGridItem from "../components/post-grid-item"
 import { showModal } from "../components/modal"
+import ModalVideo from "../components/modal-video"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMediumM } from "@fortawesome/free-brands-svg-icons"
+
 import LogoImg from "../images/logo-transparent.png"
+import BehaviourImg from "../images/behavioural-designs.png"
+import BehaviourVideo from "../videos/behavioural-designs.mp4"
 
 const ExternalMediaPage = ({ data }) => {
   const externalMediaData = data.allMarkdownRemark.edges;
@@ -21,8 +26,14 @@ const ExternalMediaPage = ({ data }) => {
           <h2>By the Founders</h2>
           <hr/>
           <div className="post-grid__item">
+            <button onClick={() => showModal('modal-video-1')} className="post-grid__title">
+              <img src={LogoImg} className="post-grid__image" alt="" />
+              <span>Hear from the authors about Inclusion&nbsp;Nudges</span>
+            </button>
+          </div>
+          <div className="post-grid__item">
             <a href="https://medium.com/@InclusionNudges" target="_blank" title="Inclusion Nudges Medium" className="dark post-grid__title" rel="noopener noreferrer">
-              <img src={LogoImg} className="post-grid__image" alt="Feature" />
+              <img src={LogoImg} className="post-grid__image" alt="" />
               <span>Inclusion Nudges Blog <FontAwesomeIcon icon={faMediumM} /></span>
             </a>
           </div>
@@ -59,6 +70,11 @@ const ExternalMediaPage = ({ data }) => {
           ))}
         </div>
       </div>
+      <ModalVideo videoClass="modal-video-1"
+                  videoUrl={BehaviourVideo}
+                  placeHolder={BehaviourImg}
+                  signature="Lisa Kepinski and Tinna C. Nielsen" 
+                  roles="Applying Behavioural Designs for Inclusion" />
     </Layout>
   )
 }

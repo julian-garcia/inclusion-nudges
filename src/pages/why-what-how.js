@@ -10,11 +10,14 @@ import { showModal } from "../components/modal"
 import ModalDownload from "../components/modal-download"
 import ModalSignup from "../components/modal-signup"
 import ModalPurchase from "../components/modal-purchase"
+import ModalVideo from "../components/modal-video"
 
 import CognitiveImg from "../images/guide/cognitive.jpg"
 import NudgeImg from "../images/guide/nudge.png"
 import GuideImg from "../images/quick-guide-flat.jpg"
 import GuideBackImg from "../images/guide/guide-back.jpg"
+import BehaviourVideo from "../videos/behavioural-designs.mp4"
+import BehaviourImg from "../images/behavioural-designs.png"
 
 const QuickGuidePage = () => (
   <Layout>
@@ -26,6 +29,7 @@ const QuickGuidePage = () => (
       <div className="guide-links no-print fixed">
         <button onClick={() => showModal('modal-purchase')} className="modal-form__button">Purchase your<br/> Guidebook&nbsp;now</button>
         <Link to="/" className="modal-form__button">Visit the <br/>Inclusion&nbsp;Nudges website</Link>
+        <button onClick={() => showModal('modal-video-1')} className="modal-form__button">Hear from the<br/> authors</button>
       </div>
       <img src={GuideImg} className="front-page" alt="" />
       <div className="bordered-section" style={{background:'lightgrey', paddingTop:'1.5rem', fontWeight:'bold'}}>
@@ -150,6 +154,11 @@ const QuickGuidePage = () => (
     <ModalDownload />
     <ModalSignup />
     <ModalPurchase />
+    <ModalVideo videoClass="modal-video-1"
+                videoUrl={BehaviourVideo}
+                placeHolder={BehaviourImg}
+                signature="Lisa Kepinski and Tinna C. Nielsen" 
+                roles="Applying Behavioural Designs for Inclusion" />
   </Layout>
 )
 
