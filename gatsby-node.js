@@ -12,7 +12,7 @@ exports.createPages = async ({ actions, graphql }) => {
   
   awaitData.forEach((post) => {
     createPage({
-      path: `/blog/${post.title.toLowerCase().replace(/\s/g,'-')}`,
+      path: `/blog/${post.title.toLowerCase().replace(/\s/g,'-').replace(/[^0-9a-z\-]/gi,'')}`,
       component: path.resolve('./src/templates/blog-post.js'),
       context: post
     })

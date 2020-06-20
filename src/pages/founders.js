@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { showModal } from "../components/modal"
 import TinnaImg from "../images/tinna.png"
 import LisaImg from "../images/lisa.png"
 import FoundersImg from "../images/founder-video-poster.png"

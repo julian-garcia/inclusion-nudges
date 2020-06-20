@@ -47,6 +47,16 @@
   }
 }
 
+.big-1st-letter {
+  &::first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Karla';
+    width: 30px;
+    color: $accent-1
+  }
+}
+
 .center-content {
   margin: 2rem 1rem;
 
@@ -242,6 +252,14 @@
   @media (min-width: $desktop) {
     height: 25vw;
     width: 25vw;
+  }
+
+  .why > & {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    & > div { padding: 2rem 1.5rem }
   }
 }
 

@@ -2,9 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import LogoImg from "../images/logo.jpg"
 
 function SEO({ canonical, description, lang, meta, title }) {
-  const { site, allFile } = useStaticQuery(
+  const { site } = useStaticQuery(
     graphql`
       query {
         site {
@@ -14,19 +15,12 @@ function SEO({ canonical, description, lang, meta, title }) {
             author
           }
         }
-        allFile(filter: {name: {eq: "logo"}}) {
-          edges {
-            node {
-              publicURL
-            }
-          }
-        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const siteURL = typeof window !== 'undefined' ? window.location.href : '';
+  const siteURL = typeof window !== 'undefined' ? window.location.protocol + '//' + window.location.host : '';
 
   return (
     <Helmet
@@ -63,11 +57,11 @@ function SEO({ canonical, description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `${siteURL}${allFile.edges[0].node.publicURL.substr(1)}`,
+          content: `${siteURL}${LogoImg}`,
         },
         {
           property: `og:image:secure_url`,
-          content: `${siteURL}${allFile.edges[0].node.publicURL.substr(1)}`,
+          content: `${siteURL}${LogoImg}`,
         },
         {
           property: `og:image:width`,
