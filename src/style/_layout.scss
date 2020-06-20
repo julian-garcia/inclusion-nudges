@@ -31,14 +31,14 @@
 }
 
 .header-logo, .header-nudges {
-  max-height: 120px;
+  max-height: 100px;
 
   @media (min-width: $tablet) { 
-    max-height: 200px;
+    max-height: 140px;
   }
 
   @media (min-width: $desktop) { 
-    max-height: 240px;
+    max-height: 170px;
   }
 }
 
@@ -164,6 +164,10 @@
     text-align: center;
   }
 
+  &.approach {
+    align-items: flex-end;
+  }
+
   &.bottom {
     &>div {
       position: relative;
@@ -184,10 +188,6 @@
         line-height: 1.5rem;
       }
     }
-  }
-
-  &>div {
-    height: 100%;
   }
 
   &.actions [class^="accent-"] {
@@ -232,8 +232,17 @@
     }
   }
 
+  &.founders {
+    @media (min-width: $tablet) { 
+      grid-template-columns: auto;
+    }
+    @media (min-width: $desktop) { 
+      grid-template-columns: repeat(2, minmax(200px,1fr));
+    }
+  }
+
   @media (min-width: $tablet) { 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(200px,1fr));
   }
 
   @media (min-width: $desktop) { 
@@ -249,6 +258,14 @@
 .tablet-up {
   display: none;
   @media (min-width: $tablet) { display: inherit; }
+}
+
+.desktop-down {
+  @media (min-width: $desktop-m) { display: none; }
+}
+
+.desktop-m-up {
+  @media (max-width: $desktop-m) { display: none; }
 }
 
 .guide-book-links {

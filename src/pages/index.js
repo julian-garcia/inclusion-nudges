@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,6 +13,7 @@ import EventList from "../components/event-list"
 import SocialShare from "../components/social-share"
 import Hub from "../components/hub"
 import Headline from "../components/headline"
+import Books from "../components/books"
 import Media from "../components/media"
 // import Blog from "../components/blog"
 
@@ -24,9 +25,10 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Inclusion Nudges" />
     <div className="accent-1">
-      <h3 className="text"><strong>Inclusion Nudges is a change methodology</strong> developed in 2013 by <a href="https://www.amazon.com/Lisa-Kepinski/e/B086QZH4HJ/ref=dp_byline_cont_book_1" target="_blank" rel="noopener noreferrer">Lisa&nbsp;Kepinski</a> and <a href="https://www.amazon.com/Tinna-C-Nielsen/e/B086Q6TP2Q/ref=dp_byline_cont_book_2" target="_blank" rel="noopener noreferrer">Tinna&nbsp;C.&nbsp;Nielsen</a><br className="desktop-only"/> based on our extensive experience as global change makers combined with our background in behavioural sciences</h3>
+      <h3 className="text" style={{fontSize:'1.1rem'}}><strong>Inclusion Nudges is a change approach</strong> developed in 2013 by <Link to="/founders">Lisa&nbsp;Kepinski</Link> and <Link to="/founders">Tinna&nbsp;C.&nbsp;Nielsen</Link><br className="desktop-only"/> based on our extensive experience as global change makers for inclusion combined with our background in behavioural sciences</h3>
     </div>
     <Headline links={data} />
+    <Books />
     <Slider testimonials={data} />
     <Hub />
     <Media />
@@ -56,8 +58,9 @@ const IndexPage = ({ data }) => (
         <h4 style={{marginBottom:'1rem'}}>A conversation with the authors about Inclusion Nudges and the Guidebook</h4>
         <p>Join the founders and authors, Tinna C. Nielsen & Lisa Kepinski, in a conversation.<br/>
         We want to hear what challenges you face when promoting inclusion, diversity, belonging, and equality. We share ways Inclusion Nudges can help address these.</p>
-        <h4 style={{marginBottom:'1rem'}}>Sign up for a web session:</h4>
-        <EventList events={data} />
+        <h4 style={{marginBottom:'1rem'}}>New dates coming soon</h4>
+        {/* <h4 style={{marginBottom:'1rem'}}>Sign up for a web session:</h4>
+        <EventList events={data} /> */}
       </div>
     </Modal>
     <ModalPurchase />

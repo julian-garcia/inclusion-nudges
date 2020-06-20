@@ -8,7 +8,7 @@ import Hub4Img from "../images/hub4.jpg"
 
 const Hub = () => (
   <>
-    <h2 className="page-heading">The Inclusion&nbsp;Nudges Hub - How you can make it happen now</h2>
+    <h2 className="page-heading">How you can make it happen now</h2>
     <div className="row-auto centered actions">
       <div className="action-container">
         <div className="accent-3" onClick={() => showModal('modal-connect')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-connect')}>

@@ -22,9 +22,14 @@ a {
 .headline {
   font-weight: normal;
   margin: .5rem 0 1rem;
+
+  .approach & {
+    @media (min-width: $desktop) { font-size: 1rem }
+    @media (min-width: $desktop-m) { font-size: 1.2rem }
+  }
 }
 
-button.apply-link-style {
+.apply-link-style {
   color: $accent-3;
   font-weight: bold;
 }
