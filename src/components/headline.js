@@ -14,7 +14,7 @@ const Headline = () => (
         <Link to="/why-what-how" className="unstyled-button"></Link>
         <div>
           <h2>Why</h2>
-          <h3 className="headline">There is a need to leverage the diverse human potential of everyone to co-create inclusive organisations, communities, and society</h3>
+          <h3 className="headline">There is a need to leverage the diverse human potential of everyone to co-create inclusive organisations and communities</h3>
           <h3 className="apply-link-style">Learn more...</h3>
         </div>
       </div>

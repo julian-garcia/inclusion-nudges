@@ -1,22 +1,30 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SocialShare from "../components/social-share"
 import { showModal } from "../components/modal"
 import ModalSignup from "../components/modal-signup"
+import ModalVideo from "../components/modal-video"
 import WhyImg from "../images/why.png"
 import WhatImg from "../images/what.png"
 import HowImg from "../images/how.png"
 import NudgeImg from "../images/guide/nudge.png"
-import { Link } from "gatsby"
+import FoundersImg from "../images/founder-video-poster.png"
+import FoundersVideo from "../videos/founders.mp4"
+import FoundersVTT from "file-loader!../videos/founders.vtt"
 
 const WhyPage = () => (
   <Layout>
-    <SEO title="Why Whay How" />
+    <SEO title="Why What How" />
     <div className="accent-4">
       <h2 className="text">Inclusion Nudges – Why What How</h2>
     </div>
     <div className="blog-post">
+      <div className="guide-links no-print fixed">
+        <Link to="/" className="modal-form__button">Visit the <br/>Inclusion&nbsp;Nudges website</Link>
+        <button onClick={() => showModal('modal-video-1')} className="modal-form__button">Listen to the<br/>Founders’ story</button>
+      </div>
       <div className="row-auto approach why" style={{marginBottom:'2rem'}}>
         <div className="grid-item-image" style={{backgroundImage:`url(${WhyImg})`}}>
           <div>
@@ -127,15 +135,15 @@ const WhyPage = () => (
       </div>
       <h2> The inclusive model—an overview of what you can do </h2>
       <p> We all can struggle to understand what can be done to be more inclusive. Having examples of specific behaviours helps to spark action taking. To set the guiding frame, here is a model that we’ve created based on decades of working with leaders, practitioners, change makers, organisations, and communities, and being leaders and global change agents ourselves. It gives an overview of the many components of inclusive actions.  This is what people can do to be inclusive.</p>
-      <p className="big-1st-letter">Include people, information, ideas, & knowledge instead of exclude</p>
-      <p className="big-1st-letter">Nurture & embrace differences with empathy instead of polarising</p>
-      <p className="big-1st-letter">Conquer outdated social norms & discriminatory practices instead of maintaining them</p>
-      <p className="big-1st-letter">Leverage diversity of perspectives & backgrounds instead of under-utilising people’s abilities & the mix</p>
-      <p className="big-1st-letter">Undermine the negative impact of unconscious biases instead of focusing on awareness</p>
-      <p className="big-1st-letter">Seek out diversity instead of homogeneity</p>
-      <p className="big-1st-letter">Implement re-designs of practices, processes, & systems based on facts & behavioural insights</p>
-      <p className="big-1st-letter">Verbalise support & actions for inclusion, diversity, & equality instead of slient consent</p>
-      <p className="big-1st-letter">Empower people & groups instead of disempower</p>
+      <p><span className="big-1st-letter">I</span><span className="rest">Include people, information, ideas, & knowledge instead of exclude</span></p>
+      <p><span className="big-1st-letter">N</span><span className="rest">Nurture & embrace differences with empathy instead of polarising</span></p>
+      <p><span className="big-1st-letter">C</span><span className="rest">Conquer outdated social norms & discriminatory practices instead of maintaining them</span></p>
+      <p><span className="big-1st-letter">L</span><span className="rest">Leverage diversity of perspectives & backgrounds instead of under-utilising people’s abilities & the mix</span></p>
+      <p><span className="big-1st-letter">U</span><span className="rest">Undermine the negative impact of unconscious biases instead of focusing on awareness</span></p>
+      <p><span className="big-1st-letter">S</span><span className="rest">Seek out diversity instead of homogeneity</span></p>
+      <p><span className="big-1st-letter">I</span><span className="rest">Implement re-designs of practices, processes, & systems based on facts & behavioural insights</span></p>
+      <p><span className="big-1st-letter">V</span><span className="rest">Verbalise support & actions for inclusion, diversity, & equality instead of slient consent</span></p>
+      <p><span className="big-1st-letter">E</span><span className="rest">Empower people & groups instead of disempower</span></p>
       <h2 style={{marginTop:'3rem'}}>Three examples of the three types of Inclusion Nudges</h2>
       <p>Here are three examples of Inclusion Nudges, across the three types, to give you inspiration to get started.</p>
       <h3>Feel the Need Inclusion Nudges</h3>
@@ -196,6 +204,12 @@ const WhyPage = () => (
     </div>
     <SocialShare />
     <ModalSignup />
+    <ModalVideo videoClass="modal-video-1"
+                videoUrl={FoundersVideo}
+                placeHolder={FoundersImg}
+                subtitles={FoundersVTT}
+                signature="Lisa Kepinski and Tinna C. Nielsen" 
+                roles="The Inclusion Nudges Founders and Authors" />
   </Layout>
 )
 export default WhyPage

@@ -7,7 +7,7 @@ const ModalVideo = ({ videoClass, videoUrl, placeHolder, subtitles, signature, r
     {!videoUrl.includes('youtube') && 
       <video poster={placeHolder} controls="controls" width="100%" height="auto">
         <source src={videoUrl} type="video/mp4" />
-        <track default kind="captions" srcLang="en" src={subtitles} label="English subtitles" />
+        <track kind="captions" srcLang="en" src={subtitles} label="English subtitles" />
       </video>
     }
     {videoUrl.includes('youtube') && 

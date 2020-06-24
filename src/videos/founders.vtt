@@ -1,6 +1,13 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:03.000
+STYLE
+::cue {
+  top: 0;
+  font-size: 1.2rem;
+  font-family: 'cormorant garamond';
+}
+
+00:00:00.100 --> 00:00:03.000
 Hi, I'm Lisa Kepinski. 
 
 00:00:03.000 --> 00:00:06.000

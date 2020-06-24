@@ -48,12 +48,27 @@
 }
 
 .big-1st-letter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Karla';
+  display: inline-block;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 10px 0;
+  background-image: url('../images/bullet.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.rest {
+  display: block;
+  margin: -25px 0 0 40px;
+
   &::first-letter {
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-family: 'Karla';
-    width: 30px;
-    color: $accent-1
+    visibility: hidden;
+    font-size: 0;
   }
 }
 
