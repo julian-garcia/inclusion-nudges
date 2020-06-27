@@ -135,15 +135,15 @@ const WhyPage = () => (
       </div>
       <h2> The inclusive model—an overview of what you can do </h2>
       <p> We all can struggle to understand what can be done to be more inclusive. Having examples of specific behaviours helps to spark action taking. To set the guiding frame, here is a model that we’ve created based on decades of working with leaders, practitioners, change makers, organisations, and communities, and being leaders and global change agents ourselves. It gives an overview of the many components of inclusive actions.  This is what people can do to be inclusive.</p>
-      <p><span className="big-1st-letter">I</span><span className="rest">Include people, information, ideas, & knowledge instead of exclude</span></p>
-      <p><span className="big-1st-letter">N</span><span className="rest">Nurture & embrace differences with empathy instead of polarising</span></p>
-      <p><span className="big-1st-letter">C</span><span className="rest">Conquer outdated social norms & discriminatory practices instead of maintaining them</span></p>
-      <p><span className="big-1st-letter">L</span><span className="rest">Leverage diversity of perspectives & backgrounds instead of under-utilising people’s abilities & the mix</span></p>
-      <p><span className="big-1st-letter">U</span><span className="rest">Undermine the negative impact of unconscious biases instead of focusing on awareness</span></p>
-      <p><span className="big-1st-letter">S</span><span className="rest">Seek out diversity instead of homogeneity</span></p>
-      <p><span className="big-1st-letter">I</span><span className="rest">Implement re-designs of practices, processes, & systems based on facts & behavioural insights</span></p>
-      <p><span className="big-1st-letter">V</span><span className="rest">Verbalise support & actions for inclusion, diversity, & equality instead of slient consent</span></p>
-      <p><span className="big-1st-letter">E</span><span className="rest">Empower people & groups instead of disempower</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">I</span><span className="rest">Include people, information, ideas, & knowledge instead of exclude</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">N</span><span className="rest">Nurture & embrace differences with empathy instead of polarising</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">C</span><span className="rest">Conquer outdated social norms & discriminatory practices instead of maintaining them</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">L</span><span className="rest">Leverage diversity of perspectives & backgrounds instead of under-utilising people’s abilities & the mix</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">U</span><span className="rest">Undermine the negative impact of unconscious biases instead of focusing on awareness</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">S</span><span className="rest">Seek out diversity instead of homogeneity</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">I</span><span className="rest">Implement re-designs of practices, processes, & systems based on facts & behavioural insights</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">V</span><span className="rest">Verbalise support & actions for inclusion, diversity, & equality instead of slient consent</span></p>
+      <p style={{margin:'0'}}><span className="big-1st-letter">E</span><span className="rest">Empower people & groups instead of disempower</span></p>
       <h2 style={{marginTop:'3rem'}}>Three examples of the three types of Inclusion Nudges</h2>
       <p>Here are three examples of Inclusion Nudges, across the three types, to give you inspiration to get started.</p>
       <h3>Feel the Need Inclusion Nudges</h3>

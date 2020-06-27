@@ -64,7 +64,9 @@
 
 .rest {
   display: block;
-  margin: -25px 0 0 40px;
+  margin: -1.4rem 0 0 40px;
+  line-height: 1.3rem;
+  min-height: 2.6rem;
 
   &::first-letter {
     visibility: hidden;

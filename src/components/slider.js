@@ -76,7 +76,7 @@ const Slider = ({testimonials}) => {
   autoLoop(filteredData.length, 0);
   return (
     <div className="slider" onMouseLeave={() => autoLoop(filteredData.length, 0)} role="button" tabIndex={0}>
-      <h2 className="page-heading" style={{padding:'2rem 0 2rem', margin:'0', background:'white'}}>How we can support you</h2>
+      <h2 className="page-heading" style={{padding:'2rem 0 2rem', margin:'0', background:'white'}}>What people say about Inclusion Nudges</h2>
       {filteredData.map(({node}, i) => (
         node.frontmatter.testimonial &&
         <div className={`slide slide-${i} ${(i === 0 ? 'show' : 'hide')}`} key={`slide-${i}`} data-slide={i}>
