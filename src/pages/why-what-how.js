@@ -26,19 +26,19 @@ const WhyPage = () => (
         <button onClick={() => showModal('modal-video-1')} className="modal-form__button">Listen to the<br/>Founders’ story</button>
       </div>
       <div className="row-auto approach why" style={{marginBottom:'2rem'}}>
-        <div className="grid-item-image" style={{backgroundImage:`url(${WhyImg})`}}>
+        <div className="grid-item-image" style={{backgroundImage:`url(${WhyImg})`, cursor:'default'}}>
           <div>
             <h2>Why</h2>
             <h3 className="headline" style={{margin:'.5rem 0 0'}}>There is a need to leverage the diverse human potential of everyone to co-create inclusive organisations, communities, and society</h3>
           </div>
         </div>
-        <div className="grid-item-image" style={{backgroundImage:`url(${WhatImg})`}}>
+        <div className="grid-item-image" style={{backgroundImage:`url(${WhatImg})`, cursor:'default'}}>
           <div>
             <h2>What</h2>
             <h3 className="headline" style={{margin:'.5rem 0 0'}}>Inclusion Nudges are behavioural designs to debias and enhance inclusive collaboration, leadership, development, and decisions</h3>
           </div>
         </div>
-        <div className="grid-item-image" style={{backgroundImage:`url(${HowImg})`}}>
+        <div className="grid-item-image" style={{backgroundImage:`url(${HowImg})`, cursor:'default'}}>
           <div>
             <h2>How</h2>
             <h3 className="headline" style={{margin:'.5rem 0 0'}}>Empowering you to apply Inclusion Nudges to engage all people in making systems, cultures, and behaviours inclusive as the norm</h3>

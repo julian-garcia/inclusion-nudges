@@ -28,7 +28,7 @@ function showSlide(index) {
         });
         document.querySelector(`.slide-${index}`).classList.add('show');
         document.querySelector(`.slider__bullet-${index}`).classList.add('show');
-        slider.style.height = `calc(${sliderHeight}px + 7rem)`;
+        slider.style.height = `calc(${sliderHeight}px + 4rem)`;
       }
     }
   }, 0)

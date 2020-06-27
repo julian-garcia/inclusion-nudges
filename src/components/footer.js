@@ -11,11 +11,11 @@ const Footer = () => (
     <footer className="footer">
       <div className="row-auto">
         <div>
-          <h3>Get <br/>in Touch</h3>
+          <h3 style={{margin:'0'}}>Get <br/>in Touch</h3>
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Us','Send')} />
         </div>
         <div>
-          <h3>Follow<br/>Inclusion Nudges</h3>
+          <h3 style={{margin:'0'}}>Follow<br/>Inclusion Nudges</h3>
           <a href="https://medium.com/@InclusionNudges" target="_blank" title="Inclusion Nudges Medium" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faMediumM} className="icon-heading" />
           </a>
@@ -27,7 +27,7 @@ const Footer = () => (
           </a>
         </div>
         <div>
-          <h3>Follow Co-Founder<br/>Lisa Kepinski</h3>
+          <h3 style={{margin:'0'}}>Follow Co-Founder<br/>Lisa Kepinski</h3>
           <a href="https://twitter.com/InclusionInst?lang=en" target="_blank" title="Lisa Kepinski Twitter" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="icon-heading" />
           </a>
@@ -37,7 +37,7 @@ const Footer = () => (
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal-lisa','Contact Lisa','Send')} />
         </div>
         <div>
-          <h3>Follow Co-Founder<br/>Tinna Nielsen</h3>
+          <h3 style={{margin:'0'}}>Follow Co-Founder<br/>Tinna Nielsen</h3>
           <a href="https://twitter.com/tinnacnielsen" target="_blank" title="Tinna Nielsen Twitter" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="icon-heading" />
           </a>

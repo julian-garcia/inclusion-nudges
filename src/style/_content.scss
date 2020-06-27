@@ -152,7 +152,7 @@
     }
 
     .footer & {
-      margin: 1.5rem .5rem 0 0;
+      margin: .5rem .5rem 0 0;
     }
   }
 
@@ -211,13 +211,13 @@
     height: 100%;
     background-color: rgba(0,0,0,0);
 
-    .approach & { background-color: rgba(0,0,0,.8); }
+    .approach & { background-color: rgba(0,0,0,.7); }
   }
 
   &:nth-child(1), &:nth-child(4) {
     &:before {
       background-color: rgba(0,0,0,.3);
-      .approach & { background-color: rgba(0,0,0,.8); }
+      .approach & { background-color: rgba(0,0,0,.7); }
     }
   }
 
@@ -310,11 +310,13 @@
   position: relative;
   width: 350px;
   max-width: 90vw;
+  display: block;
+  margin-bottom: 1rem;
 
   @media (min-width: $desktop-m) {
     width: 350px;
     position: absolute;
-    left: 70vw;
+    left: calc(100% + 1rem);
   }
 }
 
