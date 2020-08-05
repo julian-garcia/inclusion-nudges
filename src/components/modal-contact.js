@@ -7,6 +7,7 @@ import addToMailchimp from "gatsby-plugin-mailchimp"
 function sendMail(){
   const templateParams = {
     "reply_to": document.querySelector('.show #email').value,
+    "name": document.querySelector('.show #fullname').value,
     "subject": sessionStorage.getItem('subject'),
     "message_html": document.querySelector('.show .modal-form__textarea').value
   }
@@ -42,6 +43,8 @@ const ModalContact = ({ children, modalClass, signature }) => (
     <form className="modal-form">
       <label htmlFor="email" className="modal-form__label">Email</label><br />
       <input id="email" type="email" name="email" className="modal-form__input" required /><br />
+      <label htmlFor="fullname" className="modal-form__label">Name</label><br />
+      <input id="fullname" type="text" name="fullname" className="modal-form__input" /><br />
       <label htmlFor="message" className="modal-form__label">Message</label><br />
       <textarea name="message" className="modal-form__textarea" required></textarea><br />
       <div className="gdpr-box">

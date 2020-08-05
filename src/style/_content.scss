@@ -173,6 +173,26 @@
   }
 }
 
+.approach{
+  position: relative;
+
+  &-link {
+    display: none;
+    position: absolute;
+    bottom: 1rem;
+    left: 37.5%;
+    transform: translateX(-50%);
+    font-family: 'Karla';
+    font-size: 1.5rem;
+    @media (min-width: $desktop) { display: block; }
+  }
+
+  &-learn-more {
+    display: block;
+    @media (min-width: $desktop) { display: none; }
+  }
+}
+
 .grid-item-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +208,7 @@
     background-size: contain;
     
     & > div {
-      padding: 2rem;
+      padding: 2rem 2rem 4rem;
     }
   }
 
@@ -211,13 +231,13 @@
     height: 100%;
     background-color: rgba(0,0,0,0);
 
-    .approach & { background-color: rgba(0,0,0,.7); }
+    .approach & { background-color: rgba(0,0,0,.5); }
   }
 
   &:nth-child(1), &:nth-child(4) {
     &:before {
       background-color: rgba(0,0,0,.3);
-      .approach & { background-color: rgba(0,0,0,.7); }
+      .approach & { background-color: rgba(0,0,0,.5); }
     }
   }
 

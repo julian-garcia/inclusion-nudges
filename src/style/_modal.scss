@@ -1,7 +1,9 @@
 .modal, .modal-download, .modal-download-confirm, 
 .modal-signup, .modal-connect, .modal-booking, 
 .modal-booking-confirm, .modal-connect,
-.modal-purchase, .modal-share, .modal-tinna, 
+.modal-purchase, .ag-leaders-purchase, 
+.ag-talent-purchase, .ag-allies-purchase, 
+.modal-share, .modal-tinna, 
 .modal-lisa, [class^="modal-video"] {
   position: fixed;
   width: 100%;
@@ -65,7 +67,7 @@
     overflow-y: hidden;
 
     .modal-purchase > & {
-      max-width: 450px;
+      max-width: 750px;
     }
   }
 

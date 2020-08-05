@@ -8,22 +8,22 @@ const SocialShare = () => (
   <>
     <h2 className="page-heading">Share to inspire others</h2>
     <div className="accent-2" style={{textAlign:"center", position:"relative", padding:"2.5rem 1rem 2.5rem"}}>
-      <h3 className="text share">Share with other people<br />Let them know about Inclusion Nudges & the Inclusion&nbsp;Nudges&nbsp;Guidebook</h3>
+      <h3 className="text share">Share with other people<br />Let them know about The Inclusion&nbsp;Nudges&nbsp;Guidebook and the Action&nbsp;Guide&nbsp;Series</h3>
       <picture>
         <source srcSet={IconHandsWhiteImg} />
         <img src={IconHandsWhiteImg} alt="Inclusion Nudges" className="icon icon-right" />
       </picture>
       <div>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finclusion-nudges.org&text=Check%20out%20%23InclusionNudges%20Guidebook.%20You%20get%20100%20examples%20of%20behavioural%20%23designs%20to%20%23debias%20%26%20make%20%23inclusion%20%26%20%23diversity%20the%20norm%20in%20your%20organisation%2C%20community%20and%20society.%20%20A%20%23HowTo%20guide%20for%20%23ChangeMakers%21" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+        <a href="https://twitter.com/home?status=https://inclusion-nudges.org Want to make change for #diversity, #equity, and #inclusion in your organisation and community? Check out The Inclusion Nudges Guidebook and the Action Guide Series. These how-to resources give you lots of #BehaviouralDesigns to #debias and make inclusion the norm. Who wouldn’t want that?  https://inclusion-nudges.org#inclusionnudges" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faTwitter} className="icon-heading large" style={{color:'white'}} />
         </a>
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://inclusion-nudges.org&title=&summary=Want to make change for #diversity, #equity, and #inclusion in your organisation and community? Check out The Inclusion Nudges Guidebook and the Action Guide Series. These how-to resources give you lots of #BehaviouralDesigns to #debias and make inclusion the norm. Who wouldn’t want that?  https://inclusion-nudges.org#inclusionnudges&source=" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading large" style={{color:'white'}} />
         </a>
         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finclusion-nudges.org%2F" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faFacebookF} className="icon-heading large" style={{color:'white'}} />
         </a>
-        <a href="mailto:?subject=Inclusion%20Nudges&body=Hi!%20I%20just%20visited%20this%20website%20and%20thought%20you%20might%20find%20the%20Inclusion%20Nudges%20global%20initiative%20and%20the%20Inclusion%20Nudges%20Guidebook%20interesting.%20%0Awww.inclusion-nudges.org" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+        <a href="mailto:?&subject=&body=Hi, I just visited the Inclusion Nudges global initiative website and thought you might find The Inclusion Nudges Guidebook and Action Guide Series relevant and inspiring. Check it out here: www.inclusion-nudges.orgThe Founders Lisa Kepinski and Tinna C. Nielsen also have a blog – you should check it out." target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading large" style={{color:'white'}} />
         </a>
       </div>

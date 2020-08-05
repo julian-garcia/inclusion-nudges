@@ -1,6 +1,6 @@
 ---
 title: 'Free Guide'
-slug: 'quick-guide'
+slug: 'test-page'
 ---
 ### Title
 

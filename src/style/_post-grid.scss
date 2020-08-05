@@ -47,10 +47,15 @@
     padding: 1rem 1.5rem;
 
     h2 {
+      font-size: 1.2rem;
       min-height: inherit;
-      @media (min-width: $tablet-l) {
-        min-height: 4rem;
-      }
+      margin-bottom: .5rem;
+    }
+    .subtitle {
+      font-family: 'Karla';
+      font-size: 1rem;
+      height: 4rem;
+      display: block;
     }
   }
 

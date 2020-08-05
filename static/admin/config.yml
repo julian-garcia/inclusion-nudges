@@ -45,3 +45,15 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "blog"
+    label: "Blog Post"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Post Date", name: "post_date", widget: "datetime"}
+      - {label: "Feature Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Post Content", name: "body", widget: "markdown"}

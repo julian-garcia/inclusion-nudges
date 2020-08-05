@@ -11,19 +11,19 @@ const Footer = () => (
     <footer className="footer">
       <div className="row-auto">
         <div>
-          <h3 style={{margin:'0'}}>Get <br/>in Touch</h3>
+          <h3 style={{margin:'0'}}>Write us<br/>an email</h3>
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Us','Send')} />
         </div>
         <div>
           <h3 style={{margin:'0'}}>Follow<br/>Inclusion Nudges</h3>
-          <a href="https://medium.com/@InclusionNudges" target="_blank" title="Inclusion Nudges Medium" className="dark" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faMediumM} className="icon-heading" />
+          <a href="https://www.linkedin.com/company/inclusionnudges" target="_blank" title="Inclusion Nudges LinkedIn" className="dark" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" />
           </a>
           <a href="https://twitter.com/inclusionnudges" target="_blank" title="Inclusion Nudges Twitter" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="icon-heading" />
           </a>
-          <a href="https://www.linkedin.com/company/inclusionnudges" target="_blank" title="Inclusion Nudges LinkedIn" className="dark" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" />
+          <a href="https://medium.com/@InclusionNudges" target="_blank" title="Inclusion Nudges Medium" className="dark" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faMediumM} className="icon-heading" />
           </a>
         </div>
         <div>
@@ -34,7 +34,6 @@ const Footer = () => (
           <a href="https://www.linkedin.com/in/lisakepinski" target="_blank" title="Lisa Kepinski LinkedIn" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" />
           </a>
-          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal-lisa','Contact Lisa','Send')} />
         </div>
         <div>
           <h3 style={{margin:'0'}}>Follow Co-Founder<br/>Tinna Nielsen</h3>
@@ -44,7 +43,6 @@ const Footer = () => (
           <a href="https://www.linkedin.com/in/tinna-c-nielsen-115b3b2/" target="_blank" title="Tinna Nielsen LinkedIn" className="dark" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="icon-heading" />
           </a>
-          <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal-tinna','Contact Tinna','Send')} />
         </div>
       </div>
     </footer>
@@ -56,7 +54,7 @@ const Footer = () => (
         </picture>
       </div>
       <div className="cc-license__text">
-        <p>Creative Commons License. The Inclusion Nudges Initative and Guidebook is licensed under the Creative Commons 4.0 International License. This means you can use the material when you share back and don’t use it for commercial purposes.</p>
+        <p>Creative Commons License. The Inclusion Nudges Guidebook, Action Guides, and blog are licensed under the Creative Commons 4.0 International License. This means you can use the material when you share back and don’t use it for commercial purposes.</p>
       </div>
       <div className="cc-license__policy">
         <Link to="/privacy-policy" className="dark"><FontAwesomeIcon icon={faLockOpen} /> Privacy Policy</Link>

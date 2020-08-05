@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Inclusion Nudges`,
-    description: `Inclusion Nudges is a global initiative of people making inclusion the norm — everywhere, for everyone`,
+    description: `The Inclusion Nudges global initiative is on a mission of making inclusion the norm everywhere, for everyone. You to make it happen in your organisation and community by applying the Inclusion Nudges change approach. We empower you with The Inclusion Nudges Guidebook and the Action Guide Series, as well as expertise support to design Inclusion Nudges in your organisation and coaching for change makers. Learn more...`,
     author: `@inclusionnudges`,
   },
   plugins: [
@@ -65,6 +65,13 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/content/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/content/blog`,
       },
     },
     `gatsby-transformer-remark`,

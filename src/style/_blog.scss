@@ -1,13 +1,123 @@
 .blog {
-  a {
-    font-family: karla;
-    font-size: 1.2rem;
+  background: lightgrey;
+  padding: 4rem 1rem 2rem;
+
+  @media (min-width: ($maxwidth + 60px)) { 
+    padding: 4rem 0 1rem;
+  }
+
+  a { font-family: 'Karla'; }
+
+  &__card {
+    margin: auto;
+    background: white;
+    padding: 1rem 1rem 2rem;
+    max-width: 300px;
+
+    .blog__category { margin-left: -2px; }
+  }
+
+  &__image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 120px;
+    border: 2px dotted lightgray;
+    border-radius: 10px;
+  }
+
+  &__category {
+    background: $accent-3;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    margin: 0 .3rem 0 0;
+    font-family: 'Karla';
+    font-size: 1rem;
+  }
+
+  &__title {
+    height: 3rem;
+  }
+
+  &__excerpt {
+    height: 3rem;
+  }
+
+  &__categories {
+    display: inline-block;
+    &-title {
+      font-family: 'Karla';
+    }
+  }
+
+  &__search {
+    clear: both;
+
+    &-label, &-input, &-button {
+      padding: .5rem 1rem;
+      margin: 1rem 0 0;
+      font-family: 'Karla';
+      font-size: 1rem;
+      border: none;
+      
+      @media (min-width: ($tablet-l)) { margin: 0; }
+    }
+
+    &-input {
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 300px;
+      max-width: 60vw;
+    }
+
+    &-label {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background: $accent-3;
+      max-width: 20vw;
+      padding: .5rem;
+    }
+
+    @media (min-width: $tablet-l) { 
+      float: right;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .row-auto {
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 0;
+
+    @media (min-width: $tablet) { 
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }
+
+    @media (min-width: $desktop) { 
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
   }
 }
 
 .blog-post {
   max-width: $maxwidth;
   margin: 1rem 1rem 0;
+
+  &__feature {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    position: relative;
+
+    img {
+      max-width: 400px;
+    }
+  }
 
   figure {
     margin: .5rem 0 1rem;
@@ -43,6 +153,21 @@
 
   ul {
     list-style: none;
+  }
+
+  &__social-share {
+    font-size: 2rem;
+    position: fixed;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(black, .8);
+    text-align: center;
+    padding: .5rem;
+
+    @media (min-width: $maxwidth + 20px) { 
+      right: 15%;
+    }
   }
 
   @media (min-width: $maxwidth + 20px) { 

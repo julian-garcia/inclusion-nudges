@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => (
     <Hub />
     <Media />
     <SocialShare />
-    {/* <Blog posts={data} /> */}
+    {/* <Blog /> */}
     <ModalBook />
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={FoundersVideo}
@@ -64,6 +64,9 @@ const IndexPage = ({ data }) => (
       </div>
     </Modal>
     <ModalPurchase />
+    <ModalPurchase modalClass="ag-leaders-purchase" />
+    <ModalPurchase modalClass="ag-talent-purchase" />
+    <ModalPurchase modalClass="ag-allies-purchase" />
   </Layout>
 )
 
@@ -86,16 +89,8 @@ export const testimonialsQuery = graphql`
             link
             category
             thumbnail
-          }
-        }
-      }
-    }
-    allSitePage(filter: {context: {link: {ne: null}}}) {
-      edges {
-        node {
-          context {
-            title
-            link
+            sequence
+            post_date
           }
         }
       }

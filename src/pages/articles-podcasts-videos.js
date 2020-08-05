@@ -1,13 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostGridItem from "../components/post-grid-item"
 import { showModal } from "../components/modal"
 import ModalVideo from "../components/modal-video"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faMediumM } from "@fortawesome/free-brands-svg-icons"
 
 import LogoImg from "../images/logo-transparent.png"
 import BehaviourImg from "../images/behavioural-designs.png"
@@ -24,18 +21,19 @@ const ExternalMediaPage = ({ data }) => {
       <div className="post-grid">
         <div className="col founders">
           <h2>By the Founders</h2>
+          <span className="subtitle">We write for our own blog, as well as other platforms and media outlets. Here is a selection.</span>
           <hr/>
           <div className="post-grid__item">
             <button onClick={() => showModal('modal-video-1')} className="post-grid__title">
               <img src={LogoImg} className="post-grid__image" alt="" />
-              <span>Hear from the authors about Inclusion&nbsp;Nudges</span>
+              <span>Listen to the Founders introducing Inclusion&nbsp;Nudges</span>
             </button>
           </div>
           <div className="post-grid__item">
-            <a href="https://medium.com/@InclusionNudges" target="_blank" title="Inclusion Nudges Medium" className="dark post-grid__title" rel="noopener noreferrer">
+            <Link to='blog' className="dark post-grid__title">
               <img src={LogoImg} className="post-grid__image" alt="" />
-              <span>Inclusion Nudges Blog <FontAwesomeIcon icon={faMediumM} /></span>
-            </a>
+              <span>Inclusion Nudges Blog</span>
+            </Link>
           </div>
           {externalMediaData.map(({node}, i) => (
             node.frontmatter.category === 'By the Founders' &&
@@ -47,6 +45,7 @@ const ExternalMediaPage = ({ data }) => {
         </div>
         <div className="col podcasts">
           <h2>Featured in podcasts</h2>
+          <span className="subtitle"></span>
           <hr/>
           {externalMediaData.map(({node}, i) => (
             node.frontmatter.category === 'Featured in Podcasts' &&
@@ -58,6 +57,7 @@ const ExternalMediaPage = ({ data }) => {
         </div>
         <div className="col community">
           <h2>By people in this community</h2>
+          <span className="subtitle"></span>
           <hr/>
           <h3 style={{marginTop:'1rem'}}>Have you written about Inclusion Nudges?</h3>
           <button onClick={() => showModal('modal')} className="modal-form__button" style={{margin:'.2rem 0 1rem 0'}}>Let us know</button>
