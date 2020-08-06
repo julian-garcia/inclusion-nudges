@@ -3,13 +3,15 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Blog from "../components/blog"
+import { showModal } from "../components/modal"
+import ModalSignup from "../components/modal-signup"
 
 const BlogPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
       <div className="accent-2">
-        <h2 className="text">Don’t miss out. Stay informed about new blog posts. <span className="colour-accent-3">Subscribe HERE</span></h2>
+        <h2 className="text">Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup')} onKeyPress={() => {}}>Subscribe HERE</span></h2>
       </div>
       <div className="center-content">
         <p style={{textAlign:'center'}}>This blog is part of the Inclusion Nudges global initiative. www.inclusion-nudges.org</p>
@@ -22,6 +24,7 @@ const BlogPage = ({ data }) => {
         <p><strong>We will sprinkle the seriousness of these topics with a dash of humour</strong><br/>– because let’s face it, the irrationalities of human behaviour is leading to absurdities that we will have to embrace to change, and playfulness is proven to be crucial catalysts for change.</p>
       </div>
       <Blog posts={data} />
+      <ModalSignup signupType='blog' />
     </Layout>
   )
 }

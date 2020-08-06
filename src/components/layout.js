@@ -39,8 +39,6 @@ const Layout = ({ children }) => {
       </main>
       <Footer />
       <ModalContact />
-      <ModalContact modalClass='modal-lisa' signature='lisa' />
-      <ModalContact modalClass='modal-tinna' signature='tinna' />
     </>
   )
 }
