@@ -15,7 +15,6 @@ import Hub from "../components/hub"
 import Headline from "../components/headline"
 import Books from "../components/books"
 import Media from "../components/media"
-// import Blog from "../components/blog"
 
 import FoundersImg from "../images/founder-video-poster.png"
 import FoundersVideo from "../videos/founders.mp4"
@@ -33,7 +32,6 @@ const IndexPage = ({ data }) => (
     <Hub />
     <Media />
     <SocialShare />
-    {/* <Blog /> */}
     <ModalBook />
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={FoundersVideo}

@@ -21,13 +21,14 @@ function SEO({ canonical, description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const siteURL = typeof window !== 'undefined' ? window.location.protocol + '//' + window.location.host : '';
+  const titleText = title !== site.siteMetadata.title ? `${title} | ${site.siteMetadata.title}` : site.siteMetadata.title
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title = { title !== site.siteMetadata.title ? `${title} | ${site.siteMetadata.title}` : site.siteMetadata.title }
+      title = {titleText}
       titleTemplate={`%s`}
       link={
             canonical

@@ -11,10 +11,15 @@
   &__card {
     margin: auto;
     background: white;
-    padding: 1rem 1rem 2rem;
+    padding: 1rem;
+    border-radius: 2px;
     max-width: 300px;
+    @media (min-width: ($tablet-l)) { max-width: unset; }
 
-    .blog__category { margin-left: -2px; }
+    .blog__category { 
+      margin-left: -2px; 
+      background: rgba(lightgrey,.5); 
+    }
   }
 
   &__image {
@@ -22,17 +27,15 @@
     background-position: center;
     background-size: contain;
     height: 120px;
-    border: 2px dotted lightgray;
-    border-radius: 10px;
   }
 
   &__category {
-    background: $accent-3;
+    background: white;
     color: black;
     border: none;
-    border-radius: 20px;
-    padding: .5rem 1rem;
-    margin: 0 .3rem 0 0;
+    border-radius: 2px;
+    padding: .2rem .6rem;
+    margin: 0 .5rem 0 0;
     font-family: 'Karla';
     font-size: 1rem;
   }
@@ -66,15 +69,15 @@
     }
 
     &-input {
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
       width: 300px;
       max-width: 60vw;
     }
 
     &-label {
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px;
       background: $accent-3;
       max-width: 20vw;
       padding: .5rem;
@@ -87,13 +90,12 @@
 
   &__link {
     display: block;
-    margin-bottom: 1rem;
+    margin: .5rem 0 1.5rem;
   }
 
   .row-auto {
     column-gap: 2rem;
     row-gap: 2rem;
-    padding: 0;
 
     @media (min-width: $tablet) { 
       grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -195,4 +197,25 @@
   @media (min-width: $desktop-m) { 
     right: 10vw;
   }
+}
+
+.blog-page {
+  &-nav {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  &__prev, &__next {
+    font-family: 'Karla';
+  }
+  &__number { 
+    margin: 0 .2rem; 
+    &.active {
+      background: black;
+      border-radius: 2px;
+      color: $accent-3;
+      padding: .2rem .5rem;
+    }
+  }
+  &__prev { margin-right: .2rem; }
+  &__next { margin-left: .2rem; }
 }

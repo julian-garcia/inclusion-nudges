@@ -1,24 +1,40 @@
 const path = require('path')
 const  slugify = require('slugify')
+const createPaginatedPages = require('gatsby-paginate')
 
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
 
   const posts = await graphql(`
     {
-      allMarkdownRemark(filter: {frontmatter: { post_date: { ne: null } }}) {
+      allMarkdownRemark(sort: { fields: [frontmatter___post_date], order: DESC }
+                        filter: { frontmatter: { post_date: { ne: null } } }) {
         edges {
           node {
+            excerpt(truncate: true, pruneLength: 60, format: PLAIN)
+            rawMarkdownBody
             frontmatter {
-              title,
-              slug,
+              title
+              date
+              slug
               category
+              thumbnail
+              post_date
             }
           }
         }
       }
     }
   `)
+
+  createPaginatedPages({
+    edges: posts.data.allMarkdownRemark.edges,
+    createPage: createPage,
+    pageTemplate: 'src/templates/blog-list.js',
+    pageLength: 3,
+    pathPrefix: '/blog',
+    context: {allPosts: posts.data.allMarkdownRemark.edges}
+  })
 
   posts.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({

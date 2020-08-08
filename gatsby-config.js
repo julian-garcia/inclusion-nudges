@@ -7,6 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `Inclusion Nudges`,
     description: `The Inclusion Nudges global initiative is on a mission of making inclusion the norm everywhere, for everyone. You to make it happen in your organisation and community by applying the Inclusion Nudges change approach. We empower you with The Inclusion Nudges Guidebook and the Action Guide Series, as well as expertise support to design Inclusion Nudges in your organisation and coaching for change makers. Learn more...`,
+    blogDescription: `The Inclusion Nudges blog is a go-to resource for people wanting to make changes in their organisations, communities, and society. Inclusion Nudges are a proven change approach. The change makers and inclusion experts Lisa Kepinski and Tinna C. Nielsen share with you practical behavioural designs, insights, and actions to make inclusion the norm everywhere, for everyone.`,
     author: `@inclusionnudges`,
     siteUrl: `https://inclusion-nudges.org`
   },
@@ -99,7 +100,7 @@ module.exports = {
             site {
               siteMetadata {
                 title
-                description
+                description: blogDescription
                 siteUrl
                 site_url: siteUrl
               }
