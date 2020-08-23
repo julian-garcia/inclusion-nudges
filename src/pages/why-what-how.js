@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SocialShare from "../components/social-share"
 import { showModal } from "../components/modal"
-import ModalSignup from "../components/modal-signup"
 import ModalVideo from "../components/modal-video"
 import WhyImg from "../images/why.png"
 import WhatImg from "../images/what.png"
@@ -203,7 +202,6 @@ const WhyPage = () => (
       <p><span onClick={() => showModal('modal-signup')} role="button" tabIndex={0} onKeyPress={() => {}} className="colour-accent-3" style={{fontWeight:'bold', cursor:'pointer'}}>Sign up</span> to stay informed of new books in the Action Guide series and new articles.</p>
     </div>
     <SocialShare />
-    <ModalSignup />
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={FoundersVideo}
                 placeHolder={FoundersImg}

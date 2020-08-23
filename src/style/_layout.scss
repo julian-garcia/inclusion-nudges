@@ -76,21 +76,21 @@
   padding: 1.2rem 0;
   
   .row-auto {
-    max-width: $maxwidth;
+    max-width: $maxwidth-footer;
     margin: 0 1rem;
     gap: 1.5rem;
     grid-template-columns: auto;
 
-    @media (min-width: $maxwidth + 20px) { 
+    @media (min-width: $maxwidth-footer + 20px) { 
       margin: 0 auto;
     }
 
     @media (min-width: $tablet) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
 
     @media (min-width: $desktop) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(6, 1fr);
     }
   }
 

@@ -9,6 +9,7 @@ import SignatureTinnaImg from "../images/signature-tinna.png"
 
 function closeModal(modalClass, e) {
   const classes = e.target.classList;
+  console.log('a',modalClass)
   if (!(classes.contains('modal__content') || 
         classes.contains('modal-social-icons') || 
         classes.contains('modal-form') || 
@@ -18,14 +19,18 @@ function closeModal(modalClass, e) {
         classes.contains('modal-form__check') ||
         classes.contains('modal-form__checkbox') ||
         classes.contains('modal-form__label') ||
+        e.target.id === 'playpause' ||
+        e.target.id === 'volume' ||
+        e.target.id === 'mute' ||
         e.target.tagName === 'VIDEO')){
-    document.querySelector(`.${modalClass}`).classList.remove('show');
-  }
-  const video = document.querySelector(`.${modalClass} video`);
-  const iframe = document.querySelector(`.${modalClass} iframe`);
+    document.querySelector(`.${modalClass.replace(' ','.')}`).classList.remove('show');
   
-  if (video) { video.pause() }
-	if (iframe) { const iframeSrc = iframe.src; iframe.src = iframeSrc; }
+    const video = document.querySelector(`.${modalClass} video`);
+    const iframe = document.querySelector(`.${modalClass} iframe`);
+    
+    if (video) { video.pause() }
+    if (iframe) { const iframeSrc = iframe.src; iframe.src = iframeSrc; }
+  }
 }
 
 export function showModal(modalClass, modalTitle, buttonName, mailingList) {

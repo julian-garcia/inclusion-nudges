@@ -333,8 +333,12 @@
   display: block;
   margin-bottom: 1rem;
 
+  .controls {
+    text-align: center;
+  }
+
   @media (min-width: $desktop-m) {
-    width: 350px;
+    width: 420px;
     position: absolute;
     left: calc(100% + 1rem);
   }

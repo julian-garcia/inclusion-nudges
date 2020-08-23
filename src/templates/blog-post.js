@@ -12,7 +12,7 @@ const blogPost = ({ data }) => {
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      <div className="accent-1">
+      <div className="accent-2">
         <h2 className="text" dangerouslySetInnerHTML={{ __html: frontmatter.title }}></h2>
       </div>
       <div className="indented-row blog-post__feature">
@@ -32,7 +32,7 @@ const blogPost = ({ data }) => {
           </a>
         </div>
       </div>
-      <div className="blog-post" dangerouslySetInnerHTML={{ __html: html }}></div>
+      <div className="blog-post the-blog" dangerouslySetInnerHTML={{ __html: html }}></div>
     </Layout>
   )
 }

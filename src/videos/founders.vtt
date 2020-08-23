@@ -2,7 +2,7 @@ WEBVTT
 
 STYLE
 ::cue {
-  top: 0;
+  bottom: 0;
   font-size: 1.2rem;
   font-family: 'cormorant garamond';
 }

@@ -2,9 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import { showModal } from "./modal"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faLockOpen } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faLockOpen, faNewspaper, faBlog } from "@fortawesome/free-solid-svg-icons"
 import { faTwitter, faMediumM, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import CreativeCommonsImg from "../images/ccl.png"
+import ModalSignup from "../components/modal-signup"
 
 const Footer = () => (
   <>
@@ -13,6 +14,14 @@ const Footer = () => (
         <div>
           <h3 style={{margin:'0'}}>Write us<br/>an email</h3>
           <FontAwesomeIcon icon={faEnvelope} className="icon-heading contact-us" onClick={() => showModal('modal','Contact Us','Send')} />
+        </div>
+        <div>
+          <h3 style={{margin:'0'}}>Subscribe<br/>to Newsletter</h3>
+          <FontAwesomeIcon icon={faNewspaper} className="icon-heading contact-us" onClick={() => showModal('modal-signup-community')} />
+        </div>
+        <div>
+          <h3 style={{margin:'0'}}>Sign up<br/>to our blog</h3>
+          <FontAwesomeIcon icon={faBlog} className="icon-heading contact-us" onClick={() => showModal('modal-signup-blog')} />
         </div>
         <div>
           <h3 style={{margin:'0'}}>Follow<br/>Inclusion Nudges</h3>
@@ -63,6 +72,8 @@ const Footer = () => (
     <div className="footer-address no-print">
       <h4 className="footer-address__text">Inclusion Nudges is a non-profit organisation registered in Denmark. VAT: 39140071 Fuglesangs Alle 11, 8210 DK-Aarhus</h4>
     </div>
+    <ModalSignup />
+    <ModalSignup signupType='blog' />
   </>
 )
 

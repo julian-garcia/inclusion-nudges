@@ -66,7 +66,7 @@
     max-width: 550px;
     overflow-y: hidden;
 
-    .modal-purchase > & {
+    .modal-purchase > &, [class^="ag-"] > & {
       max-width: 750px;
     }
   }
@@ -223,5 +223,12 @@
 
   &__input, &__select {
     height: 3rem;
+  }
+}
+
+[class^="ag-"], .modal-purchase {
+  p {
+    font-family: 'Karla';
+    text-align: left;
   }
 }

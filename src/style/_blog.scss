@@ -11,10 +11,11 @@
   &__card {
     margin: auto;
     background: white;
-    padding: 1rem;
     border-radius: 2px;
     max-width: 300px;
-    @media (min-width: ($tablet-l)) { max-width: unset; }
+    position: relative;
+
+    @media (min-width: ($tablet-l)) { max-width: 350px; }
 
     .blog__category { 
       margin-left: -2px; 
@@ -25,8 +26,9 @@
   &__image {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    height: 120px;
+    background-size: 100%;
+    height: 190px;
+    border-bottom: 2px solid $footer-address;
   }
 
   &__category {
@@ -35,21 +37,32 @@
     border: none;
     border-radius: 2px;
     padding: .2rem .6rem;
-    margin: 0 .5rem 0 0;
+    margin: 0 .5rem .5rem 0;
     font-family: 'Karla';
     font-size: 1rem;
+    text-transform: uppercase;
+
+    &.active {
+      background: black;
+      color: white;
+    }
   }
 
   &__title {
     height: 3rem;
+    padding: 0 1rem;
+    color: $accent-2;
   }
 
   &__excerpt {
     height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
   }
 
   &__categories {
     display: inline-block;
+    max-width: 600px;
     &-title {
       font-family: 'Karla';
     }
@@ -89,8 +102,17 @@
   }
 
   &__link {
-    display: block;
-    margin: .5rem 0 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: $accent-1;
+  }
+
+  &__date {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-family: 'Karla';
   }
 
   .row-auto {
@@ -102,7 +124,7 @@
     }
 
     @media (min-width: $desktop) { 
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
   }
 }
@@ -117,10 +139,17 @@
     position: relative;
 
     img {
-      max-width: 400px;
+      width: auto;
+      max-height: 200px;
     }
   }
 
+  &.the-blog img {
+    width: 90%;
+  }
+
+  sup { line-height: .5rem; }
+  
   figure {
     margin: .5rem 0 1rem;
   }
@@ -155,6 +184,11 @@
 
   ul {
     list-style: none;
+  }
+
+  &.the-blog ul {
+    padding-left: 20px;
+    list-style: disc;
   }
 
   &__social-share {
@@ -203,19 +237,31 @@
   &-nav {
     font-size: 1.5rem;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
   &__prev, &__next {
     font-family: 'Karla';
+    display: inline-block;
+    margin: 0;
+    border: 2px solid transparent;
+
+    &.inactive {
+      cursor: default;
+      border: 2px solid gray;
+      background: transparent;
+      color: gray;
+    }
   }
   &__number { 
     margin: 0 .2rem; 
+    padding: .2rem .5rem;
     &.active {
       background: black;
       border-radius: 2px;
       color: $accent-3;
-      padding: .2rem .5rem;
     }
   }
-  &__prev { margin-right: .2rem; }
-  &__next { margin-left: .2rem; }
+  &__prev { margin-right: .5rem; }
+  &__next { margin-left: .5rem; }
 }

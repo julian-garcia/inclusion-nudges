@@ -8,7 +8,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { showModal } from "../components/modal"
 import ModalDownload from "../components/modal-download"
-import ModalSignup from "../components/modal-signup"
 import ModalPurchase from "../components/modal-purchase"
 import ModalVideo from "../components/modal-video"
 
@@ -153,7 +152,6 @@ const QuickGuidePage = () => (
       </div>
     </div>
     <ModalDownload />
-    <ModalSignup />
     <ModalPurchase />
     <ModalVideo videoClass="modal-video-1"
                 videoUrl={BehaviourVideo}

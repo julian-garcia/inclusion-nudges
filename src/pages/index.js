@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Modal from "../components/modal"
 import ModalVideo from "../components/modal-video"
-import ModalSignup from "../components/modal-signup"
 import ModalBook from "../components/modal-book"
 import ModalPurchase from "../components/modal-purchase"
 import Slider from "../components/slider"
@@ -49,7 +48,6 @@ const IndexPage = ({ data }) => (
                 placeHolder=""
                 signature="Lisa Kepinski"
                 roles="Co-Founder and Co-author" />
-    <ModalSignup />
     <Modal modalClass='modal-connect'>
       <div style={{textAlign:'center'}}>
         <h3 className="modal-title">Web Sessions</h3>

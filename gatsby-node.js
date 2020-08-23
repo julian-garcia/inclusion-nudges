@@ -1,5 +1,5 @@
 const path = require('path')
-const  slugify = require('slugify')
+const slugify = require('slugify')
 const createPaginatedPages = require('gatsby-paginate')
 
 exports.createPages = async ({ actions, graphql }) => {
@@ -20,6 +20,7 @@ exports.createPages = async ({ actions, graphql }) => {
               category
               thumbnail
               post_date
+              post_date_string: post_date(formatString: "MMM Do, YYYY")
             }
           }
         }
@@ -31,7 +32,7 @@ exports.createPages = async ({ actions, graphql }) => {
     edges: posts.data.allMarkdownRemark.edges,
     createPage: createPage,
     pageTemplate: 'src/templates/blog-list.js',
-    pageLength: 3,
+    pageLength: 6,
     pathPrefix: '/blog',
     context: {allPosts: posts.data.allMarkdownRemark.edges}
   })
