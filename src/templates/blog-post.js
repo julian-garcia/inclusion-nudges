@@ -5,10 +5,11 @@ import SEO from "../components/seo"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faTwitter, faLinkedinIn, faFacebookF } from "@fortawesome/free-brands-svg-icons"
+const slugify = require('slugify')
 
 const blogPost = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark;
-  const postUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const postUrl = `https://inclusion-nudges.org/blog/${slugify(frontmatter.category, {lower: true})}/${slugify(frontmatter.slug, {lower: true})}`;
   return (
     <Layout>
       <SEO title={frontmatter.title} />
@@ -21,13 +22,13 @@ const blogPost = ({ data }) => {
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faFacebookF} className="social-share__link" />
           </a><br/>
-          <a href={`https://twitter.com/home?status=${postUrl}`} target="_blank" rel="noreferrer">
+          <a href={`https://twitter.com/home?status=${postUrl} ${frontmatter.title}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="social-share__link" />
           </a><br/>
-          <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}&title=&summary=&source=`} target="_blank" rel="noreferrer">
+          <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="social-share__link" />
           </a><br/>
-          <a href={`mailto:?&subject=&body=${postUrl}`} target="_blank" rel="noreferrer">
+          <a href={`mailto:?&subject=${frontmatter.title}&body=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelope} className="social-share__link" />
           </a>
         </div>
@@ -46,7 +47,8 @@ export const pageQuery = graphql`
       frontmatter {
         title,
         thumbnail,
-        slug
+        slug,
+        category
       }
     }
   }`

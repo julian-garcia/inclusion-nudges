@@ -56,4 +56,5 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Post Date", name: "post_date", widget: "datetime"}
       - {label: "Feature Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
       - {label: "Post Content", name: "body", widget: "markdown"}

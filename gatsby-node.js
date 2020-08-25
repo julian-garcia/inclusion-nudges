@@ -11,7 +11,7 @@ exports.createPages = async ({ actions, graphql }) => {
                         filter: { frontmatter: { post_date: { ne: null } } }) {
         edges {
           node {
-            excerpt(truncate: true, pruneLength: 60, format: PLAIN)
+            excerpt(truncate: true, pruneLength: 120, format: PLAIN)
             rawMarkdownBody
             frontmatter {
               title
@@ -19,6 +19,7 @@ exports.createPages = async ({ actions, graphql }) => {
               slug
               category
               thumbnail
+              excerpt
               post_date
               post_date_string: post_date(formatString: "MMM Do, YYYY")
             }

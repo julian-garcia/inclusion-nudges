@@ -3,6 +3,7 @@ title: 'WHY WHAT HOW'
 category: 'About Inclusion Nudges'
 slug: 'why what how'
 post_date: 2020-08-22
+excerpt: 'Learn what Inclusion Nudges are all about and why and how we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone.'
 thumbnail: /images/uploads/why-what-how.jpg
 ---
 

@@ -132,7 +132,7 @@
 .indented-row, .row-left-aside  {
   max-width: $maxwidth;
   margin: 0 auto 2rem;
-  padding: 0 1rem;
+  padding: 0;
 
   @media (min-width: $maxwidth) { 
     padding: 0;

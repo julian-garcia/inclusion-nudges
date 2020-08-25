@@ -38,7 +38,8 @@ const Blog = ({pageContext, location}) => {
     if (searchString) {
       if (searchString.length >= 3) {
         setFilteredPosts(posts.filter((item) => 
-          (item.node.rawMarkdownBody.toLowerCase().includes(searchString))))
+          (item.node.rawMarkdownBody.toLowerCase().includes(searchString) ||
+           item.node.frontmatter.title.toLowerCase().includes(searchString))))
       }
     } else {
       setFilteredPosts(group);
@@ -61,16 +62,13 @@ const Blog = ({pageContext, location}) => {
       <div className="blog">
         <div className="indented-row">
           <div className="blog__categories">
-            <span className="blog__categories-title">Categories: </span>
+            <p className="blog__categories-title">Categories: </p>
             <button className="blog__category active" onClick={(e) => { getPosts(e, group, 'all')}}>all</button>
             {uniqueCategories.map((category, i) => (
               <button className="blog__category" onClick={(e) => { getPosts(e, allPosts, category)}} key={`key${i}`}>{category}</button>
             ))}
-          </div>
-          <div className="blog__search">
-            <label htmlFor="blogSearch" className="blog__search-label">Search:</label>
             <input type="text" className="blog__search-input" id="blogSearch"
-                  onChange={(e) => searchBlog(e, allPosts)}>
+                    onChange={(e) => searchBlog(e, allPosts)} placeholder="SEARCH OUR BLOG">
             </input>
           </div>
         </div>
@@ -79,13 +77,13 @@ const Blog = ({pageContext, location}) => {
             <div className="blog__card" key={`key${i}`}>
               <div className="blog__image" style={{backgroundImage: `url(${node.frontmatter.thumbnail})`}}></div>
               <h3 className="blog__title">{node.frontmatter.title}</h3>
-              <p className="blog__excerpt">{node.excerpt}</p>
+              <p className="blog__excerpt">{node.frontmatter.excerpt ? node.frontmatter.excerpt.substr(0,150)+'...' : node.excerpt}</p>
               <span className="blog__date">{node.frontmatter.post_date_string}</span>
               <a className="blog__link" href={`/blog/${slugify(node.frontmatter.category, {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}>Continue Reading</a>
             </div>
           ))}
         </div>
-        {pageCount > 1 &&
+        {pageCount > 0 &&
         <div className="indented-row blog-page-nav">
           {first && <span className="blog-page__prev modal-form__button inactive">
                       Back
