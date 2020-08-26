@@ -33,7 +33,7 @@ exports.createPages = async ({ actions, graphql }) => {
     edges: posts.data.allMarkdownRemark.edges,
     createPage: createPage,
     pageTemplate: 'src/templates/blog-list.js',
-    pageLength: 6,
+    pageLength: 3,
     pathPrefix: '/blog',
     context: {allPosts: posts.data.allMarkdownRemark.edges}
   })

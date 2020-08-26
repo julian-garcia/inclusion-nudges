@@ -34,12 +34,13 @@ const Blog = ({pageContext, location}) => {
       ctgy.classList.remove('active');
     });
     document.querySelectorAll('.blog__category')[0].classList.add('active');
-    const searchString = event.target.value.toLowerCase();
+    const regExpr = /[^a-z0-9]+/gi;
+    const searchString = event.target.value.toLowerCase().replace(regExpr,'');
     if (searchString) {
       if (searchString.length >= 3) {
         setFilteredPosts(posts.filter((item) => 
-          (item.node.rawMarkdownBody.toLowerCase().includes(searchString) ||
-           item.node.frontmatter.title.toLowerCase().includes(searchString))))
+          (item.node.rawMarkdownBody.toLowerCase().replace(regExpr,'').includes(searchString) ||
+           item.node.frontmatter.title.toLowerCase().replace(regExpr,'').includes(searchString))))
       }
     } else {
       setFilteredPosts(group);
@@ -49,17 +50,15 @@ const Blog = ({pageContext, location}) => {
   return (
     <Layout>
       <SEO title="Blog" description="The Inclusion Nudges blog is a go-to resource for people wanting to make changes in their organisations, communities, and society. Inclusion Nudges are a proven change approach. The change makers and inclusion experts Lisa Kepinski and Tinna C. Nielsen share with you practical behavioural designs, insights, and actions to make inclusion the norm everywhere, for everyone." />
-      <div className="accent-2">
-        <h2 className="text">Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe HERE</span></h2>
+      <div className="accent-1">
+        <h2 className="text colour-accent-3">Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe <span style={{color:'white'}}>HERE</span></span></h2>
       </div>
-      <div className="center-content" style={{textAlign:'center', maxWidth:'730px', margin:'2rem auto'}}>
+      <div className="center-content blog-intro" style={{textAlign:'center', maxWidth:'860px', margin:'2rem auto'}}>
         <p><strong>We are Lisa Kepinski and Tinna C. Nielsen,</strong><br/>the Founders of the Inclusion Nudges global initiative <Link to="/founders">www.inclusion-nudges.org</Link> and authors of The Inclusion Nudges Guidebook and the Action Guide Series.</p>
-
-        <p><strong>In this blog</strong>  we share our personal and professional insights from leading change efforts for more diverse, equal, and inclusive organisations and communities worldwide.</p>
-
-        <p><strong>Our purpose</strong> is to inspire and empower you to apply behavioural insights and the Inclusion Nudges change approach to make impactful change in your sphere of influence.</p>
+        <p><strong>In this blog</strong>  we share our personal and professional insights from leading change efforts for more diverse, equal, and inclusive organisations and communities worldwide.<br/>
+        <strong>Our purpose</strong> is to inspire and empower you to apply behavioural insights and the Inclusion Nudges change approach to make impactful change in your sphere of influence.</p>
       </div>
-      <div className="blog">
+      <div className="blog" id='blog'>
         <div className="indented-row">
           <div className="blog__categories">
             <p className="blog__categories-title">Categories: </p>
@@ -68,7 +67,7 @@ const Blog = ({pageContext, location}) => {
               <button className="blog__category" onClick={(e) => { getPosts(e, allPosts, category)}} key={`key${i}`}>{category}</button>
             ))}
             <input type="text" className="blog__search-input" id="blogSearch"
-                    onChange={(e) => searchBlog(e, allPosts)} placeholder="SEARCH OUR BLOG">
+                   onChange={(e) => searchBlog(e, allPosts)} placeholder="SEARCH OUR BLOG">
             </input>
           </div>
         </div>
@@ -80,6 +79,7 @@ const Blog = ({pageContext, location}) => {
               <p className="blog__excerpt">{node.frontmatter.excerpt ? node.frontmatter.excerpt.substr(0,150)+'...' : node.excerpt}</p>
               <span className="blog__date">{node.frontmatter.post_date_string}</span>
               <a className="blog__link" href={`/blog/${slugify(node.frontmatter.category, {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}>Continue Reading</a>
+              <a className="blog__link-card" href={`/blog/${slugify(node.frontmatter.category, {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}> </a>
             </div>
           ))}
         </div>

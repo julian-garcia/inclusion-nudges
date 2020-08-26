@@ -8,6 +8,8 @@
 
   a { font-family: 'Karla'; }
 
+  &-intro p {font-family: karla;}
+
   &__card {
     margin: auto;
     background: white;
@@ -82,8 +84,7 @@
     &-input {
       border-top-right-radius: 2px;
       border-bottom-right-radius: 2px;
-      width: 300px;
-      max-width: 60vw;
+      width: 200px;
       color: $accent-2;
       border: 2px solid $accent-2;
 
@@ -96,6 +97,14 @@
     bottom: 1rem;
     right: 1rem;
     color: $accent-1;
+
+    &-card {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
   }
 
   &__date {
@@ -170,9 +179,9 @@
   }
 
   p, ul {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 1.6rem;
-    letter-spacing: .3px;
+    font-family: 'Karla';
   }
 
   ul {
@@ -230,8 +239,15 @@
   &-nav {
     font-size: 1.5rem;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
+    &>* {
+      margin: 1rem auto;
+      @media (min-width: $tablet) { margin: 0 auto; }
+    }
+
+    @media (min-width: $tablet) { 
+      display: flex;
+      justify-content: space-between;
+    }
   }
   &__prev, &__next {
     font-family: 'Karla';
