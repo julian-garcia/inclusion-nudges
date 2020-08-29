@@ -26,8 +26,8 @@
   &__image {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    padding-top: 100%;
+    background-size: contain;
+    padding-top: 80%;
     border-bottom: 2px solid $footer-address;
   }
 
@@ -53,6 +53,7 @@
     height: 3rem;
     padding: 0 1rem;
     color: $accent-2;
+    text-transform: capitalize;
   }
 
   &__excerpt {
@@ -136,14 +137,23 @@
   margin: 1rem 1rem 0;
 
   &__feature {
-    margin-top: 1rem;
-    margin-bottom: 0;
+    margin: 1rem 1rem 0;
     position: relative;
+    text-align: center;
+    padding-bottom: 0;
+
+    @media (min-width: $maxwidth + 20px) { margin: 1rem auto 0; }
 
     img {
       width: auto;
-      max-height: 200px;
+      max-width: 100%;
+      max-height: 350px;
     }
+  }
+
+  .blog-post &__authors {
+    text-align: left;
+    margin-top: 1.5rem;
   }
 
   &.the-blog img {
@@ -165,7 +175,7 @@
   }
 
   h2 {
-    margin-top: 3rem;
+    margin-top: 0;
   }
 
   h3 {
@@ -199,18 +209,19 @@
     right: 2%;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(black, .8);
     text-align: center;
     padding: .5rem;
+    
+    a {color: grey;}
 
-    @media (min-width: $maxwidth + 20px) { 
+    @media (min-width: $desktop-m) { 
       right: 15%;
     }
   }
 
   @media (min-width: $maxwidth + 20px) { 
     margin: 0 auto;
-    padding: 2rem 15vw 2rem 0; 
+    padding: 2rem 7.5vw 2rem; 
   }
 }
 
@@ -253,7 +264,8 @@
     font-family: 'Karla';
     display: inline-block;
     margin: 0;
-    border: 2px solid transparent;
+    border: 2px solid black;
+    background: transparent;
 
     &.inactive {
       cursor: default;
@@ -265,10 +277,10 @@
   &__number { 
     margin: 0 .2rem; 
     padding: .2rem .5rem;
+    color: gray;
     &.active {
-      background: black;
       border-radius: 2px;
-      color: $accent-3;
+      color: black;
     }
   }
   &__prev { margin-right: .5rem; }

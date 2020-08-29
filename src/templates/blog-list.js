@@ -25,8 +25,10 @@ const Blog = ({pageContext, location}) => {
     });
     e.target.classList.add('active');
     document.querySelector('.blog__search-input').value = '';
+    
     setFilteredPosts(posts.filter((item) => 
-      (item.node.frontmatter.category === category || category === 'all')))
+      (item.node.frontmatter.category.split(',')
+        .map(s => s.trim().toLowerCase()).includes(category) || category === 'all')))
   }
 
   function searchBlog(event, posts) {
@@ -48,20 +50,20 @@ const Blog = ({pageContext, location}) => {
   }
 
   return (
-    <Layout>
+    <Layout siteTitle={`THE INCLUSION NUDGES BLOG<br/>Let’s make inclusion the norm everywhere, for everyone!`} alignment='center'>
       <SEO title="Blog" description="The Inclusion Nudges blog is a go-to resource for people wanting to make changes in their organisations, communities, and society. Inclusion Nudges are a proven change approach. The change makers and inclusion experts Lisa Kepinski and Tinna C. Nielsen share with you practical behavioural designs, insights, and actions to make inclusion the norm everywhere, for everyone." />
       <div className="accent-1">
-        <h2 className="text colour-accent-3">Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe <span style={{color:'white'}}>HERE</span></span></h2>
+        <h2 className="text colour-accent-3" style={{textAlign: 'center'}}>Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe <span style={{color:'white'}}>HERE</span></span></h2>
       </div>
       <div className="center-content blog-intro" style={{textAlign:'center', maxWidth:'860px', margin:'2rem auto'}}>
-        <p><strong>We are Lisa Kepinski and Tinna C. Nielsen,</strong><br/>the Founders of the Inclusion Nudges global initiative <Link to="/founders">www.inclusion-nudges.org</Link> and authors of The Inclusion Nudges Guidebook and the Action Guide Series.</p>
-        <p><strong>In this blog</strong>  we share our personal and professional insights from leading change efforts for more diverse, equal, and inclusive organisations and communities worldwide.<br/>
+        <p><strong>We are <Link to="/founders">Lisa Kepinski</Link> and <Link to="/founders">Tinna C. Nielsen</Link>,</strong><br/>the Founders of the Inclusion Nudges global initiative <Link to="/">www.inclusion-nudges.org</Link> and authors of The Inclusion Nudges Guidebook and the Action Guide Series.</p>
+        <p><strong>In this blog</strong> we share our personal and professional insights from leading change efforts for more diverse, equal, and inclusive organisations and communities worldwide.<br/>
         <strong>Our purpose</strong> is to inspire and empower you to apply behavioural insights and the Inclusion Nudges change approach to make impactful change in your sphere of influence.</p>
       </div>
       <div className="blog" id='blog'>
         <div className="indented-row">
           <div className="blog__categories">
-            <p className="blog__categories-title">Categories: </p>
+            <span className="blog__categories-title">Categories: </span>
             <button className="blog__category active" onClick={(e) => { getPosts(e, group, 'all')}}>all</button>
             {uniqueCategories.map((category, i) => (
               <button className="blog__category" onClick={(e) => { getPosts(e, allPosts, category)}} key={`key${i}`}>{category}</button>
@@ -72,16 +74,21 @@ const Blog = ({pageContext, location}) => {
           </div>
         </div>
         <div className="indented-row row-auto">
-          {filteredPosts.map(({node}, i) => (
-            <div className="blog__card" key={`key${i}`}>
-              <div className="blog__image" style={{backgroundImage: `url(${node.frontmatter.thumbnail})`}}></div>
-              <h3 className="blog__title">{node.frontmatter.title}</h3>
-              <p className="blog__excerpt">{node.frontmatter.excerpt ? node.frontmatter.excerpt.substr(0,150)+'...' : node.excerpt}</p>
-              <span className="blog__date">{node.frontmatter.post_date_string}</span>
-              <a className="blog__link" href={`/blog/${slugify(node.frontmatter.category, {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}>Continue Reading</a>
-              <a className="blog__link-card" href={`/blog/${slugify(node.frontmatter.category, {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}> </a>
-            </div>
-          ))}
+          {filteredPosts.map(({node}, i) => {
+            const postTitle = node.frontmatter.title.toLowerCase().split(' ').map(word => {
+              return word.charAt(0).toUpperCase() + word.slice(1)
+            }).join(' ');
+            return (
+              <div className="blog__card" key={`key${i}`}>
+                <div className="blog__image" style={{backgroundImage: `url(${node.frontmatter.thumbnail})`}}></div>
+                <h3 className="blog__title">{postTitle}</h3>
+                <p className="blog__excerpt">{node.frontmatter.excerpt ? node.frontmatter.excerpt.substr(0,150)+'...' : node.excerpt}</p>
+                {/* <span className="blog__date">{node.frontmatter.post_date_string}</span> */}
+                <a className="blog__link" href={`/blog/${slugify(node.frontmatter.category.split(',')[0], {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}>Continue Reading</a>
+                <a className="blog__link-card" href={`/blog/${slugify(node.frontmatter.category.split(',')[0], {lower: true})}/${slugify(node.frontmatter.slug, {lower: true})}`}> </a>
+              </div>
+            )
+          })}
         </div>
         {pageCount > 0 &&
         <div className="indented-row blog-page-nav">
@@ -92,7 +99,7 @@ const Blog = ({pageContext, location}) => {
                        Back
                      </Link>}
           <div>
-          {pageArray.map((pageNum, i) => {
+          {!(first && last) && pageArray.map((pageNum, i) => {
             pageNum = pageNum === 1 ? '' : pageNum;
             return  <Link className={`blog-page__number ${currentPage === (pageNum || 1) ? 'active': ''}`} 
                           to={`/blog${pageNum ? '/' : ''}${pageNum}`}
@@ -115,7 +122,9 @@ function getCategories(posts) {
   let categories = [];
   posts.filter((item) => {
     if (item.node.frontmatter.post_date) { 
-      categories.push(item.node.frontmatter.category) 
+      item.node.frontmatter.category.split(',').forEach(cat => {
+        categories.push(cat.trim().toLowerCase()) 
+      });
       return true; 
     }
     return false;

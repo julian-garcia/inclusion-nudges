@@ -112,7 +112,7 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
+                  description: edge.node.frontmatter.excerpt ? edge.node.frontmatter.excerpt : edge.node.excerpt,
                   date: edge.node.frontmatter.post_date,
                   url: site.siteMetadata.siteUrl + '/blog/' + 
                        slugify(edge.node.frontmatter.category, {lower: true}) + '/' + 
@@ -136,6 +136,7 @@ module.exports = {
                       html
                       frontmatter {
                         title
+                        excerpt
                         slug
                         category
                         post_date
@@ -146,7 +147,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Inclusion Nudges"
+            title: "Inclusion Nudges Blog"
           },
         ],
       },

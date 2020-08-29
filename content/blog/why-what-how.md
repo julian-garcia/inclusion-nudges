@@ -1,13 +1,13 @@
 ---
 title: 'WHY WHAT HOW'
-category: 'About Inclusion Nudges'
+category: 'About Inclusion Nudges, Change Makers'
 slug: 'why what how'
 post_date: 2020-08-22
 excerpt: 'Learn what Inclusion Nudges are all about and why and how we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone.'
 thumbnail: /images/uploads/why-what-how.jpg
+authors: 'Tinna C. Nielsen and Lisa Kepinski'
+featured: true
 ---
-
-_By **[Tinna C. Nielsen](/founders)** and **[Lisa Kepinski](/founders)**_
 
 ## QUICK VIEW
 
@@ -17,9 +17,7 @@ _Learn_ _**what**_ _Inclusion Nudges are all about and_ _**why**_ _and_ _**how**
 
 ## Introduction
 
-We assume that you are involved with or interested in driving change in organisations, communities, or society in a more inclusive and fair direction. We also assume that means that you, like us, have had the experience of
-
-moving three steps forward and then one step back, or maybe even one step forward and three steps back. We assume you have felt the frustration of seeing change moving forward only to find out later that many people have reverted to default behaviour. We also assume that you are concerned about how to get many people to move in the same direction towards more inclusive behaviour, leadership, collaboration, decision-making, development, and culture – while at the same time allowing them to get there in as many different ways as there are people in the organisation or community.
+We assume that you are involved with or interested in driving change in organisations, communities, or society in a more inclusive and fair direction. We also assume that means that you, like us, have had the experience of moving three steps forward and then one step back, or maybe even one step forward and three steps back. We assume you have felt the frustration of seeing change moving forward only to find out later that many people have reverted to default behaviour. We also assume that you are concerned about how to get many people to move in the same direction towards more inclusive behaviour, leadership, collaboration, decision-making, development, and culture – while at the same time allowing them to get there in as many different ways as there are people in the organisation or community.
 
 Like us, some of you might have found that the change efforts for issues such as diversity, equality, gender parity, human rights, anti-discrimination and inclusion, didn&#39;t pay off as fast or as much as hoped for or anticipated. For sure, this was the case for us when we worked as internal change makers in multinational corporations. And it turns out we were not alone. Across our wide global networks, we heard similar experiences from our peers in other organisations. We knew a new solution was needed!
 

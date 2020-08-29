@@ -9,7 +9,6 @@ import SignatureTinnaImg from "../images/signature-tinna.png"
 
 function closeModal(modalClass, e) {
   const classes = e.target.classList;
-  console.log('a',modalClass)
   if (!(classes.contains('modal__content') || 
         classes.contains('modal-social-icons') || 
         classes.contains('modal-form') || 

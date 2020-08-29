@@ -4,10 +4,10 @@ import React from "react"
 import LogoImg from "../images/logo.jpg"
 import LogoImgSmall from "../images/logo-small.jpg"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, alignment }) => (
   <header className="header">
     <div className="header-title-container">
-      <h1 className="site-title">Let's make inclusion the norm<br/>- everywhere, for everyone</h1>
+      <h1 className="site-title" dangerouslySetInnerHTML={{ __html: siteTitle }} style={{textAlign: alignment}}></h1>
     </div>
     <Link to="/" className="header-logo-container">
       <picture>
@@ -21,10 +21,12 @@ const Header = ({ siteTitle }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  alignment: PropTypes.string
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Let's make inclusion the norm<br/>- everywhere, for everyone`,
+  alignment: 'left'
 }
 
 export default Header

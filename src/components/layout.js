@@ -1,7 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import Footer from "./footer"
 import ModalContact from "./modal-contact"
@@ -20,20 +18,11 @@ function eventListeners() {
   }
 }
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const Layout = ({ children, siteTitle, alignment }) => {
   eventListeners();
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={siteTitle} alignment={alignment} />
       <main className="container">
         {children}
       </main>
@@ -44,7 +33,9 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  siteTitle: PropTypes.string,
+  alignment: PropTypes.string
 }
 
 export default Layout

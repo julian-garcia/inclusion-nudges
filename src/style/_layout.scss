@@ -207,7 +207,7 @@
   &.actions .action-container {
     display: grid;
     grid-template-rows: auto;
-    min-height: 150px;
+    min-height: 200px;
 
     @media (min-width: $tablet) { 
       grid-template-rows: 1fr 1fr;
