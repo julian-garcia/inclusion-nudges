@@ -6,11 +6,10 @@ post_date: 2020-08-29
 excerpt: 'Unconscious bias awareness training has become the most used response to combatting discrimination and inequality, and a quick fix solution to try to achieve equity and inclusion.'
 thumbnail: /images/uploads/bias-awareness.png
 authors: 'Tinna C. Nielsen and Lisa Kepinski'
+featured: true
 ---
 
-**QUICK VIEW**
-
-4 min read
+![](/images/uploads/quick-read.png) 4 min read
 
 **Unconscious bias awareness training has become the most used response
 to combatting discrimination and inequality, and a quick fix solution to

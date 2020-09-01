@@ -39,7 +39,7 @@ const ModalPurchase = ({modalClass}) => (
         </div>
       </div>
       <p style={{textAlign:'center'}}>Note:<br/>Due to the pandemic, Amazon.com has some shipping disruptions. Order your book from your regional Amazon site. You will find the options below..</p>
-      <AmazonLinks productCode="B086PMRGNY" />
+      <AmazonLinks productCode="B08GVCMY24" />
     </>
     }
     {modalClass === 'ag-talent-purchase' &&
@@ -55,7 +55,7 @@ const ModalPurchase = ({modalClass}) => (
         </div>
       </div>
       <p style={{textAlign:'center'}}>Note:<br/>Due to the pandemic, Amazon.com has some shipping disruptions. Order your book from your regional Amazon site. You will find the options below..</p>
-      <AmazonLinks productCode="B086PMRGNY" />
+      <AmazonLinks productCode="B08GV8ZX1F" />
     </>
     }
     {modalClass === 'ag-allies-purchase' &&
@@ -71,7 +71,7 @@ const ModalPurchase = ({modalClass}) => (
         </div>
       </div>
       <p style={{textAlign:'center'}}>Note:<br/>Due to the pandemic, Amazon.com has some shipping disruptions. Order your book from your regional Amazon site. You will find the options below..</p>
-      <AmazonLinks productCode="B086PMRGNY" />
+      <AmazonLinks productCode="B08GV91VYP" />
     </>
     }
   </Modal>

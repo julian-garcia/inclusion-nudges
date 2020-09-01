@@ -17,7 +17,7 @@ const SocialShare = ({origin}) => (
       <div>
         {origin === 'index' &&
         <>
-          <a href="https://twitter.com/home?status=https://inclusion-nudges.org Want to make change for #diversity, #equity, and #inclusion in your organisation and community? Check out The Inclusion Nudges Guidebook and the Action Guide Series. These how-to resources give you lots of #BehaviouralDesigns to #debias and make inclusion the norm. Who wouldn’t want that?  https://inclusion-nudges.org#inclusionnudges" target="_blank" rel="noopener noreferrer" className="modal-social-link">
+          <a href="http://twitter.com/share?text=Want to make change for inclusion in your organisation and community? Check out The Inclusion Nudges Guidebook and the Action Guide Series for BehaviouralDesigns to make inclusion the norm.&url=https://inclusion-nudges.org&hashtags=diversity,equity,inclusion,BehaviouralDesigns,debias" target="_blank" rel="noopener noreferrer" className="modal-social-link">
             <FontAwesomeIcon icon={faTwitter} className="icon-heading large" style={{color:'white'}} />
           </a>
           <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://inclusion-nudges.org&title=&summary=Want to make change for #diversity, #equity, and #inclusion in your organisation and community? Check out The Inclusion Nudges Guidebook and the Action Guide Series. These how-to resources give you lots of #BehaviouralDesigns to #debias and make inclusion the norm. Who wouldn’t want that?  https://inclusion-nudges.org#inclusionnudges&source=" target="_blank" rel="noopener noreferrer" className="modal-social-link">
@@ -33,7 +33,7 @@ const SocialShare = ({origin}) => (
         }
         {origin === 'blog' &&
         <>
-          <a href="https://twitter.com/home?status=https://inclusion-nudges.org/blog Check out the Inclusion Nudges blog. I found it really eye-opening with lots of practical behavioural designs how we can all make inclusion the norm." target="_blank" rel="noopener noreferrer" className="modal-social-link">
+          <a href="http://twitter.com/share?text=Check out the Inclusion Nudges blog. I found it really eye-opening with lots of practical behavioural designs how we can all make inclusion the norm.&url=https://inclusion-nudges.org/blog" target="_blank" rel="noopener noreferrer" className="modal-social-link">
           <FontAwesomeIcon icon={faTwitter} className="icon-heading large" style={{color:'white'}} />
           </a>
           <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://inclusion-nudges.org/blog&title=&summary=Check out the Inclusion Nudges blog. I found it really eye-opening with lots of practical behavioural designs how we can all make inclusion the norm.&source=" target="_blank" rel="noopener noreferrer" className="modal-social-link">

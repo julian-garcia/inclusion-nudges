@@ -6,11 +6,10 @@ post_date: 2020-08-24
 excerpt: 'Learn WHY it matters how we frame diversity, equity, belonging, and inclusion, & belonging work and efforts. The outcomes are impacted by how we define the terms. We share the definitions behind the Inclusion Nudges change approach and how these make a powerful difference in revealing barriers and engaging people to take action to make inclusion the norm.'
 thumbnail: /images/uploads/why.png
 authors: 'Tinna C. Nielsen and Lisa Kepinski'
+featured: true
 ---
 
-**QUICK VIEW**
-
-*7 minutes read*
+![](/images/uploads/quick-read.png) 7 minutes read
 
 _Learn_ **WHY** it matters how we frame diversity, equity, belonging,
 and inclusion, & belonging work and efforts. The outcomes are impacted

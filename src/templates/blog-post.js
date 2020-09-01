@@ -10,7 +10,8 @@ const slugify = require('slugify')
 
 const blogPost = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark;
-  const postUrl = `https://inclusion-nudges.org/blog/${slugify(frontmatter.category, {lower: true})}/${slugify(frontmatter.slug, {lower: true})}`;
+  const firstCategory = frontmatter.category.split(',')[0];
+  const postUrl = `https://inclusion-nudges.org/blog/${slugify(firstCategory, {lower: true})}/${slugify(frontmatter.slug, {lower: true})}`;
   const postTitle = frontmatter.title.toLowerCase().split(' ').map(word => {
     return word.charAt(0).toUpperCase() + word.slice(1)
   }).join(' ');
@@ -22,13 +23,13 @@ const blogPost = ({ data }) => {
       </div>
       <div className="blog-post blog-post__feature" style={{paddingBottom:0}}>
         <h2 style={{textAlign:'left'}}>{postTitle}</h2>
-        <h3 className="blog-post__authors">By <Link to="founders">{frontmatter.authors}</Link></h3>
+        <p className="blog-post__authors">By <Link to="founders">{frontmatter.authors}</Link></p>
         <img src={frontmatter.thumbnail} alt="" />
         <div className="blog-post__social-share">
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faFacebookF} className="social-share__link" />
           </a><br/>
-          <a href={`https://twitter.com/home?status=${postUrl} ${postTitle}`} target="_blank" rel="noreferrer">
+          <a href={`http://twitter.com/share?text=${postTitle}&url=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="social-share__link" />
           </a><br/>
           <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}`} target="_blank" rel="noreferrer">

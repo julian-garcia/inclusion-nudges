@@ -1,17 +1,15 @@
 ---
-title: 'WHY WHAT HOW'
+title: 'The Power of Inclusion Nudges'
 category: 'About Inclusion Nudges, Change Makers'
-slug: 'why what how'
-post_date: 2020-08-22
+slug: 'Power of Inclusion Nudges'
+post_date: 2020-08-30
 excerpt: 'Learn what Inclusion Nudges are all about and why and how we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone.'
 thumbnail: /images/uploads/why-what-how.jpg
 authors: 'Tinna C. Nielsen and Lisa Kepinski'
 featured: true
 ---
 
-## QUICK VIEW
-
-_12 minutes read_
+![](/images/uploads/quick-read.png) 12 minutes read
 
 _Learn_ _**what**_ _Inclusion Nudges are all about and_ _**why**_ _and_ _**how**_ _we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone._
 

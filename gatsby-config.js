@@ -18,6 +18,20 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_blank",
+            rel: "nofollow noreferrer"
+          }
+        }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
         siteUrl: `https://inclusion-nudges.org`,
@@ -77,7 +91,6 @@ module.exports = {
         path: `${__dirname}/content/blog`,
       },
     },
-    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
@@ -111,14 +124,19 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
+                const firstCategory = edge.node.frontmatter.category.split(',')[0];
+                const postTitle = edge.node.frontmatter.title.toLowerCase().split(' ').map(word => {
+                  return word.charAt(0).toUpperCase() + word.slice(1)
+                }).join(' ');
                 return Object.assign({}, edge.node.frontmatter, {
+                  title: postTitle,
                   description: edge.node.frontmatter.excerpt ? edge.node.frontmatter.excerpt : edge.node.excerpt,
                   date: edge.node.frontmatter.post_date,
                   url: site.siteMetadata.siteUrl + '/blog/' + 
-                       slugify(edge.node.frontmatter.category, {lower: true}) + '/' + 
+                       slugify(firstCategory, {lower: true}) + '/' + 
                        slugify(edge.node.frontmatter.slug, {lower: true}),
                   guid: site.siteMetadata.siteUrl + '/blog/' + 
-                        slugify(edge.node.frontmatter.category, {lower: true}) + '/' + 
+                        slugify(firstCategory, {lower: true}) + '/' + 
                         slugify(edge.node.frontmatter.slug, {lower: true}),
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })

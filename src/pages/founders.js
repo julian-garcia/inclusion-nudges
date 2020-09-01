@@ -15,7 +15,7 @@ const FoundersPage = () => (
       <h2 className="text">The Inclusion Nudges Founders’ Story</h2>
       <h3 className="text">How two personal journeys became a global movement</h3>
     </div>
-    <div className="blog-post">
+    <div className="blog-post founders">
       <p style={{position:'relative'}}>
         <div className="founders-video">
           <video id="video" poster={FoundersImg} width="100%" height="auto" >

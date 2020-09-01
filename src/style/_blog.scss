@@ -154,6 +154,7 @@
   .blog-post &__authors {
     text-align: left;
     margin-top: 1.5rem;
+    a { font-weight: normal; }
   }
 
   &.the-blog img {
@@ -172,6 +173,11 @@
 
   figcaption, blockquote {
     font-family: 'cormorant garamond';
+  }
+
+  img[src*="quick-read"] {
+    width: 30px;
+    vertical-align: middle;
   }
 
   h2 {
@@ -198,6 +204,10 @@
     list-style: none;
   }
 
+  .footnotes ol {
+    font-family: 'Karla';
+  }
+
   &.the-blog ul {
     padding-left: 20px;
     list-style: disc;
@@ -222,6 +232,13 @@
   @media (min-width: $maxwidth + 20px) { 
     margin: 0 auto;
     padding: 2rem 7.5vw 2rem; 
+  }
+
+  &.founders {
+    @media (min-width: $maxwidth + 20px) { 
+      margin: 0 auto;
+      padding: 2rem 15vw 2rem 0; 
+    }
   }
 }
 
