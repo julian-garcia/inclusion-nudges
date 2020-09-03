@@ -1,17 +1,18 @@
 ---
-title: 'The Power of Inclusion Nudges'
-category: 'About Inclusion Nudges, Change Makers'
-slug: 'Power of Inclusion Nudges'
-post_date: 2020-08-30
-excerpt: 'Learn what Inclusion Nudges are all about and why and how we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone.'
+title: The Power of Inclusion Nudges
+slug: Power of Inclusion Nudges
+category: About Inclusion Nudges, Change Makers
+post_date: 2020-08-30T00:00:00.000Z
 thumbnail: /images/uploads/why-what-how.jpg
-authors: 'Tinna C. Nielsen and Lisa Kepinski'
 featured: true
+excerpt: Learn what Inclusion Nudges are all about and why and how we can all be
+  a part of re-designing our organisations, communities, and society to make
+  inclusion the norm everywhere, for everyone.
+authors: Tinna C. Nielsen and Lisa Kepinski
 ---
-
 ![](/images/uploads/quick-read.png) 12 minutes read
 
-_Learn_ _**what**_ _Inclusion Nudges are all about and_ _**why**_ _and_ _**how**_ _we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone._
+*Learn* ***what*** *Inclusion Nudges are all about and* ***why*** *and* ***how*** *we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone.*
 
 ## Introduction
 
@@ -21,19 +22,19 @@ Like us, some of you might have found that the change efforts for issues such as
 
 This led us to experiment with applying insights from the sciences of behavioural economics, nudging, psychology, anthropology, linguistics, neuroscience, and complex system and microeconomic theory. We found this made a crucial difference for impact. This is what we want to share with you.
 
-Let&#39;s start by taking a look at what we are up against and why designing and nudging for inclusion is a must.
+Let's start by taking a look at what we are up against and why designing and nudging for inclusion is a must.
 
 **Absurd or an absurd reality?**
 
 Imagine a group of leaders discussing a pool of qualified people for a senior management position. They just interviewed them and one of the leaders says,
 
-&quot;_The best qualified candidate is definitely the tallest of them. No doubt._
+*"The best qualified candidate is definitely the tallest of them. No doubt."*
 
-_Tall leaders are the best at executing strategy._
+*"Tall leaders are the best at executing strategy."*
 
-_Tall people have the most presence and are most resilient in tough times._
+*"Tall people have the most presence and are most resilient in tough times."*
 
-_They are the best leaders.&quot;_
+*"They are the best leaders."*
 
 They know they made the best choice about the best candidate for that l position. No doubt in their mind.
 
@@ -41,12 +42,11 @@ They know they made the best choice about the best candidate for that l position
 
 That is potentially the most important question you should be asking yourself because this is what is at the core of what we need to change.
 
-Surely, no leaders who have the intention to hire the best qualified candidate would _rationally_ believe and consciously argue that tall people are the best leaders because they are tall. No, we wouldn&#39;t. We don&#39;t do that with our conscious and rational mind.
+Surely, no leaders who have the intention to hire the best qualified candidate would *rationally* believe and consciously argue that tall people are the best leaders because they are tall. No, we wouldn&#39;t. We don&#39;t do that with our conscious and rational mind.
 
 **So, the above scenario is absolutely absurd.**
 
-**But the catch is that we do this with our unconscious and instinctive mind,**
-**and thus, also in our behaviours and decisions.**
+**But the catch is that we do this with our unconscious and instinctive mind,** **and thus, also in our behaviours and decisions.**
 
 Evidence from around the world and a wide body of research have proven over and over that height influences more heavily in decisions about leaders than their merit. This is a reality resulting in a population of top leaders where 60% of them are at or above 185 cm (6 ft 1 in) tall. On its own, perhaps this fact may not seem so absurd to you. But when compared to the general population, the irrationality emerges when knowing that only 14% of people have that height. This height-leadership effect is also seen in greater high-status opportunities available to tall people, with more promotions, and higher incomes. Tall leaders are the normative pattern. Local cultures do not mitigate this effect.
 
@@ -74,7 +74,7 @@ When it comes to issues such as inclusion, diversity and equality, this gap mean
 
 **Knowing is not enough. Designing for inclusion is a must.**
 
-Let&#39;s be clear on what we mean by diversity, equity, inclusion, and belonging. See this **blog post** for our understanding of these terms and the definitions that we have assigned to the terms.
+Let's be clear on what we mean by diversity, equity, inclusion, and belonging. See this **[blog post](https://inclusion-nudges.org/blog/about-inclusion-nudges/definitions-matter)** for our understanding of these terms and the definitions that we have assigned to the terms.
 
 ## The power of nudging and Inclusion Nudges
 
@@ -82,13 +82,13 @@ Behavioural economics and nudge theory target the false assumption that almost a
 
 We can apply the same approach when it comes to combating discrimination, reducing the influence of bias, altering stereotypes and prejudices, reducing exclusion and increasing the feeling of belonging. We can do this by increasing the experience of inclusion, giving people a voice, engaging people in change, and acting as allies.
 
-Perhaps you might be thinking, &quot;_Surely, we humans are evolving and getting smarter.&quot;_
+Perhaps you might be thinking, &quot;*Surely, we humans are evolving and getting smarter.&quot;*
 
 But that&#39;s not the case. A body of research shows that rather than diminishing, the power of the unconscious mind is actually increasing. This is due to cognitive overload as a result of increased complexity, social media echo-chambers of homogeneity, and increasingly busy and stressed lives. All of this intensifies our need for mental shortcuts and effortless judgment and choices. This results in greater homogeneity and exclusion at the expense of our collective need for inclusion of diversity.
 
 We can and need to close the gap by targeting the unconscious mind with inclusive behavioural design.
 
-**An Inclusion Nudge is a design based on insights from behavioural and social sciences to steer the unconscious mind to change behaviour in direction of inclusiveness by targeting the behavioural drivers, judgment and choice processes, and perceptions.**
+**<p style="text-align:center">An Inclusion Nudge is a design based on insights from behavioural and social sciences to steer the unconscious mind to change behaviour in direction of inclusiveness by targeting the behavioural drivers, judgment and choice processes, and perceptions.</p>**
 
 Inclusion Nudges help the brain change behaviour and close the intentions-actions gap by addressing the implicit norms in our cultures and systems. Nudging for inclusion is about making it easy to do inclusion as the norm, without the need of convincing with rational arguments, threats, or punishments, nor requiring effortful, conscious thinking.
 
@@ -98,17 +98,34 @@ The Inclusion Nudges **change approach** has three purposes and thus, **three ty
 
 ### 1. Show the hidden issue and make people FEEL THE NEED to engage in the change
 
-The human mind works in mysterious ways. We don&#39;t change behaviour by knowing what is good for us or our organisation or community or society. We change behaviour by seeing and feeling. So, you have to apply a design to _show_ people the issue you want them to engage in changing. By doing this, you motivate the unconscious mind. _Telling_ people that they are biased is _not_ going to mitigate bias, but _showing_ them the implications of bias without _talking_ about bias, will make a difference.
+The human mind works in mysterious ways. We don&#39;t change behaviour by knowing what is good for us or our organisation or community or society. We change behaviour by seeing and feeling. So, you have to apply a design to *show* people the issue you want them to engage in changing. By doing this, you motivate the unconscious mind. *Telling* people that they are biased is *not* going to mitigate bias, but *showing* them the implications of bias without *talking* about bias, will make a difference.
 
-This kind of design below makes the invisible patterns visible and makes people feel the need to change the status quo. We call these _Feel the Need_ Inclusion Nudges. **Nudge everybody to be inclusive.**
+This kind of design below makes the invisible patterns visible and makes people feel the need to change the status quo. We call these *Feel the Need* Inclusion Nudges. **Nudge everybody to be inclusive.**
+
+> ### Seeing those not seen and sponsoring them
+>
+> * Show with visuals what leaders don't see. Create two visual views with small pictures of the leadership pipeline (top talents), one visual with all the top talents and one with only the women.
+> * Show the first visual.
+> * Ask the executives to call out the names of the people they know. Then, show the other visual with the pictures of only women.
+> * Ask them to call out the names of the people they know.
+> * Ask them if they notice a pattern.
+>
+> **Purpose:** Show that many people are not seen for their performance, and that there was not gender equality in the senior executives' formal & informal networks. Reduce the leaders resistance on the need for greater visibility of women talents through a sponsorship program. Increase their buy-in for the sponsorship program by realising the limited gender equality in their networks. By calling out the names of a lot of men, but only a few names for the second visual of the women, they felt the need for a change.
 
 Use this kind of design, what we call a **FEEL THE NEED INCLUSION NUDGE** , to motivate people to change behaviour and engage groups of people in making profound change for inclusiveness by making the brain&#39;s unconscious system feel the need for change.
 
 ### 2. PROCESS DESIGNS to make inclusion the norm without talking about inclusion and diversity
 
-Sometimes motivating people to engage in change and helping them see an issue they are blind to or a behaviour that goes against their own values or intentions, is not enough. Often, it&#39;s much more powerful to help people do inclusion automatically without showing them the need or talking about inclusion. The ability and simplicity to do inclusion is key. You can enable this by designing the facilitation of collaboration or idea generation, or a decision processes, or an IT system, or the physical environment to be inclusive by design. This will ensure the ability in yourself and in others to be and do inclusion automatically in daily actions to reduce the negative influence of bias and be inclusive of diverse perspectives by default. This is an effective way to engage people in making the culture in teams, communities, and organisations inclusive as the norm. We call these _Process Design_ Inclusion Nudges.
+Sometimes motivating people to engage in change and helping them see an issue they are blind to or a behaviour that goes against their own values or intentions, is not enough. Often, it&#39;s much more powerful to help people do inclusion automatically without showing them the need or talking about inclusion. The ability and simplicity to do inclusion is key. You can enable this by designing the facilitation of collaboration or idea generation, or a decision processes, or an IT system, or the physical environment to be inclusive by design. This will ensure the ability in yourself and in others to be and do inclusion automatically in daily actions to reduce the negative influence of bias and be inclusive of diverse perspectives by default. This is an effective way to engage people in making the culture in teams, communities, and organisations inclusive as the norm. We call these *Process Design* Inclusion Nudges.
 
 The design below is addressing the challenge of many people not speaking up in groups and in the way the group does not have access to the diversity of perspectives that is so important for making good decisions and solutions. In groups, people conform to the view of the majority, people self-silence, people use power games, and much more. Creating an inclusive culture where everybody feels heard and has a voice requires psychological safety. This is one example, out of many, of how you can contribute to that. **Nudge everybody to be inclusive.**
+
+> ### Share with a peer to access diversity in groups
+>
+> * Each member in the group shares their perspective with one other person (peer) in the group.
+> * They, then, share each other's perspectives to the larger group in plenary.
+>
+> **Purpose:** Ensure all people feel safe to share their perspective (this intervention does require a level of trust in the group), ensure that individuals do not conform to the view of the majority of group members, and ensure that communication misunderstandings are captured and corrected.
 
 This **PROCESS DESIGN INCLUSION NUDGE** is about empowering and enabling as many people as possible to do inclusiveness automatically without reflection. These designs mitigate bias, and help people make better judgements and decisions and be more inclusive in ways of working and collaborating as the default.
 
@@ -117,6 +134,16 @@ This **PROCESS DESIGN INCLUSION NUDGE** is about empowering and enabling as many
 You can change your own perceptions and split-second judgements, as well as those of other people by the words you use, the way you communicate, how you present a problem, issue, task, or set up the physical space. Yet, often stuck perceptions or focus, stereotypes or narratives and discourses are in the way of achieving inclusion even with all the right intentions. By flipping the numbers, priming specific associations, appealing to identity, altering the frame, or changing the anchor of the thought process, we can influence what people see and pay attention to, how people perceive an issue, a situation, other people, merits, data, and thus their behaviour. By framing perceptions, you can increase inclusion as the norm.
 
 The design below helps our unconscious mind perceive issues related to inclusion, diversity, gender parity, equality, and human rights in a new perspective, and it alters a perception of diversity and inclusion as a burden to be instead something valuable. **Nudge everybody to be inclusive.**
+
+> ### Show the hidden people by reversing the numbers
+>
+> * Re-frame the perception by reversing the numbers to show the hidden facts.
+> * Ask the leaders: “How many people are working here?”\
+>   Ask: “How many is 35 % out of the total number of employees?”
+> * Then say:\
+>   “If 65 % feel empowered and growing, then 22,000 (35 %) of your employees do NOT feel empowered and do not have opportunities to grow. That is a lot of talent to miss out on!”
+>
+> **Purpose:** Reverse the numbers to change perceptions to see the full picture and see the hidden people behind the numbers and also the consequences.
 
 This kind of **FRAMING PERCEPTIONS INCLUSION NUDGE** design is just one of our many ways you can change the narratives, discourses, and stereotypes that influence our behaviours towards others.
 
@@ -130,13 +157,13 @@ The need for fundamentally changing how we make inclusive changes for inclusive 
 
 You can easily make inclusion the norm by applying these types of behavioural designs in your daily actions. All action matters, both in our own local context and collectively in a global context. With Inclusion Nudges you can make everyday experimentation and make this happen without having it feel as a burden. Instead make it a natural and integrated part of your daily work, interactions, and decisions.
 
-To learn more about what kind of actions are needed to achieve true inclusivity in organisations, communities and societies, check out [the Inclusion Nudges INCLUSIVE Action Model in The Inclusion Nudges Guidebook and in the Action Guides](/). We created this model based on our decades of experiences working with people from many contexts and also from our internal work leading change efforts in organisations.
+To learn more about what kind of actions are needed to achieve true inclusivity in organisations, communities and societies, check out the [Inclusion Nudges INCLUSIVE Action Model in The Inclusion Nudges Guidebook and in the Action Guides](https://inclusion-nudges.org). We created this model based on our decades of experiences working with people from many contexts and also from our internal work leading change efforts in organisations.
 
 ## Inclusion Nudges is change approach and a global movement
 
 Inclusion Nudges is more than a change approach and inclusive designs, it is also a global change initiative and community of sharing. The core, and why we started this, is empowerment of many people and joining forces with many people to achieve our mission of making inclusion the norm—everywhere, for everyone.
 
-We don&#39;t know about you, but we often experience that people who are working one way or other on social change don&#39;t share _how_ they do what works. At conferences, we repeatedly experience people talking about _what_ they do, but not _how_ they do it – so we might feel inspired but we don&#39;t feel enabled and empowered to do it on our own. When we were both working internally in multinationals and part of many corporate, professional, and social change networks, we experienced the same tendency. Not enough people were willing to share the &#39;how-to&#39; information. Well, for us that does not make sense because how else would we create a better and more inclusive world, if not by sharing? We were so fed up with this that we decided to share all our own examples of effective change designs in detailed step-by-step descriptions. That&#39;s why we pass on so many how-to details in The Inclusion Nudges Guidebook and in the Action Guide Series, as well as in this blog. That&#39;s why we founded the Inclusion Nudges global initiative on the principles of sharing, reciprocity, and open source.
+We don&#39;t know about you, but we often experience that people who are working one way or other on social change don&#39;t share *how* they do what works. At conferences, we repeatedly experience people talking about *what* they do, but not *how* they do it – so we might feel inspired but we don&#39;t feel enabled and empowered to do it on our own. When we were both working internally in multinationals and part of many corporate, professional, and social change networks, we experienced the same tendency. Not enough people were willing to share the &#39;how-to&#39; information. Well, for us that does not make sense because how else would we create a better and more inclusive world, if not by sharing? We were so fed up with this that we decided to share all our own examples of effective change designs in detailed step-by-step descriptions. That&#39;s why we pass on so many how-to details in The Inclusion Nudges Guidebook and in the Action Guide Series, as well as in this blog. That&#39;s why we founded the Inclusion Nudges global initiative on the principles of sharing, reciprocity, and open source.
 
 ### Sharing
 
@@ -158,4 +185,4 @@ The Inclusion Nudges global initiative is for everybody. It is for those who wan
 
 ![](/images/uploads/make-it-happen.jpg)
 
-_NOTE: All sources and references in this blog article are listed in The Inclusion Nudges Guidebook and Action Guides_
+*NOTE: All sources and references in this blog article are listed in The Inclusion Nudges Guidebook and Action Guides*
