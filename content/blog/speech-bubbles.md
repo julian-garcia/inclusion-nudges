@@ -76,7 +76,7 @@ the world.
 In a global organisation where I use to work, the annual employee survey
 showed an increased number of employees experiencing unacceptable
 behaviour (bullying, discrimination, harassment). The managers and
-leaders saw the numbers and knew ([with their rational mind](/blog/about-inclusion-nudges/why-what-how/)) that changes
+leaders saw the numbers and knew ([with their rational mind](/blog/about-inclusion-nudges/power-of-inclusion-nudges/)) that changes
 needed to happen, but they had not taken action (which happen in the
 unconscious mind).
 
@@ -92,7 +92,7 @@ needed to avoid these kinds of reactions.
 
 So, I designed The Speech Bubble Inclusion Nudges based on behavioural
 insights to target the behavioural drivers in the [unconscious mind
-(system 1)](/blog/about-inclusion-nudges/why-what-how/) to motivate and enable the leaders to take action.
+(system 1)](/blog/about-inclusion-nudges/power-of-inclusion-nudges/) to motivate and enable the leaders to take action.
 
 **This is what we did**
 
@@ -149,7 +149,7 @@ feel what we felt. Let's send this on a tour, so the others can
 experience this as well".* He had captured the very essence and purpose
 of this intervention in one sentence. He intuitively knew [the importance
 of '*feeling* *the need'* to change this problem instead of having a
-rational understanding](/blog/about-inclusion-nudges/why-what-how/). They also made a decision immediately to add the
+rational understanding](/blog/about-inclusion-nudges/power-of-inclusion-nudges/). They also made a decision immediately to add the
 issue of a 'mentally safe work environment' on the agenda together with
 a 'physically safe work environment' (this was an already existing topic
 on the agenda -- it was a manufacturing company) of every weekly
@@ -165,7 +165,7 @@ were 'the people it's about'.
 **How can speech bubbles be so powerful?**
 
 This motivates people not only to listen but to engage in making change
-happen because it appeals to [system 1 in the brain](/blog/about-inclusion-nudges/why-what-how/). It also motivates to
+happen because it appeals to [system 1 in the brain](/blog/about-inclusion-nudges/power-of-inclusion-nudges/). It also motivates to
 co-create solutions with 'the people it's about'. Getting stakeholder
 inclusion right is about making the unconscious mind* feel the need* to
 be inclusive and *feel the need* to take action. This is also a proven

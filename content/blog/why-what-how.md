@@ -159,15 +159,3 @@ The Inclusion Nudges global initiative is for everybody. It is for those who wan
 ![](/images/uploads/make-it-happen.jpg)
 
 _NOTE: All sources and references in this blog article are listed in The Inclusion Nudges Guidebook and Action Guides_
-
-**Want to learn more?**
-
-The Inclusion Nudges Guidebook (2020) for change makers gives you 100 examples of Inclusion Nudges
-
-The Action Guide series are shorter plug-and-play guides with 30 targeted Inclusion Nudges:
-
-- Inclusion Nudges for Leaders
-- Inclusion Nudges for Talent Selection
-- Inclusion Nudges for Motivating Allies
-
-You can learn more and get other free resources on the Inclusion Nudges platform [inclusion-nudges.org](/)

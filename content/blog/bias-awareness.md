@@ -31,7 +31,7 @@ Does this sound like a familiar pattern in organisations?
 
 = Let's do *another* unconscious bias training!
 
-**Employee grievance compliant based on treatment from 1 person**
+**Employee grievance complaint based on treatment from 1 person**
 
 = Bias training for *all people*!
 
@@ -217,15 +217,3 @@ people around the world.
 We encourage you to give it a try.
 
 Let's make inclusion the norm everywhere, for everyone.
-
-**Want to learn more?**
-
-The Inclusion Nudges Guidebook (2020) for change makers gives you 100 examples of Inclusion Nudges
-
-The Action Guide series are shorter plug-and-play guides with 30 targeted Inclusion Nudges:
-
-- Inclusion Nudges for Leaders
-- Inclusion Nudges for Talent Selection
-- Inclusion Nudges for Motivating Allies
-
-You can learn more and get other free resources on the Inclusion Nudges platform [inclusion-nudges.org](/)

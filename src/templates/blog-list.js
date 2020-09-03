@@ -50,7 +50,7 @@ const Blog = ({pageContext, location}) => {
   }
 
   return (
-    <Layout siteTitle={`THE INCLUSION NUDGES BLOG<br/>Let’s make inclusion the norm everywhere, for everyone!`} alignment='center'>
+    <Layout siteTitle={`THE INCLUSION NUDGES BLOG<br/>Let’s make inclusion the norm - everywhere, for&nbsp;everyone,&nbsp;by&nbsp;everyone!`} alignment='center'>
       <SEO title="Blog" description="The Inclusion Nudges blog is a go-to resource for people wanting to make changes in their organisations, communities, and society. Inclusion Nudges are a proven change approach. The change makers and inclusion experts Lisa Kepinski and Tinna C. Nielsen share with you practical behavioural designs, insights, and actions to make inclusion the norm everywhere, for everyone." />
       <div className="accent-1">
         <h2 className="text colour-accent-3" style={{textAlign: 'center'}}>Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe <span style={{color:'white'}}>HERE</span></span></h2>

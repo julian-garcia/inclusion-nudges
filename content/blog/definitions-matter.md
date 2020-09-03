@@ -189,7 +189,7 @@ As the founders of the Inclusion Nudges global initiative, we use the
 definitions as a guide for what we want to achieve - the kind of
 workplaces we want to work in, the kind of communities we want to be
 part of, and the kind of societies we want to live in. (You can learn
-more about the Inclusion Nudges global initiative in [this blog article](/blog/about-inclusion-nudges/why-what-how)).
+more about the Inclusion Nudges global initiative in [this blog article](/blog/about-inclusion-nudges/power-of-inclusion-nudges)).
 We use the definitions to guide the design work needed to achieve this
 in actions, behaviours, systems, and cultures. Before we dig into that
 part, let's begin with the definitions that we use in our work.
@@ -340,20 +340,6 @@ applying this change approach.**
 **Let&#39;s join forces! Together we can make inclusion the norm—everywhere, for everyone!**
 
 ![](/images/uploads/make-it-happen.jpg)
-
-**Want to learn more?**
-
-The Inclusion Nudges Guidebook (2020) for change makers gives you 100
-examples of Inclusion Nudges
-
-The Action Guide series are shorter plug-and-play guides with 30
-targeted Inclusion Nudges:
-
-- Inclusion Nudges for Leaders
-- Inclusion Nudges for Talent Selection
-- Inclusion Nudges for Motivating Allies
-
-You can learn more and get other free resources on the Inclusion Nudges platform [inclusion-nudges.org](/)
 
 ## REFERENCES
 

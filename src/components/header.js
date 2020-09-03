@@ -25,7 +25,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: `Let's make inclusion the norm<br/>- everywhere, for everyone`,
+  siteTitle: `Let's make inclusion the norm<br/>- everywhere, for everyone, by everyone!`,
   alignment: 'left'
 }
 
