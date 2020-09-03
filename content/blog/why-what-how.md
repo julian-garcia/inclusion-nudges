@@ -135,8 +135,7 @@ You can change your own perceptions and split-second judgements, as well as thos
 
 The design below helps our unconscious mind perceive issues related to inclusion, diversity, gender parity, equality, and human rights in a new perspective, and it alters a perception of diversity and inclusion as a burden to be instead something valuable. **Nudge everybody to be inclusive.**
 
-> ### Show the hidden people\
-> by reversing the numbers
+> ### Show the hidden people by reversing the numbers
 >
 > * Re-frame the perception by reversing the numbers to show the hidden facts.
 > * Ask the leaders: “How many people are working here?”\
