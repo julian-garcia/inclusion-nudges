@@ -10,6 +10,7 @@ import { showModal } from "../components/modal"
 import LeaderImg from "../images/ag-leaders.png"
 import TalentImg from "../images/ag-talent-selection.png"
 import AlliesImg from "../images/ag-motivating-allies.png"
+import GuideFrontImg from "../images/guidebook-front.png"
 const slugify = require('slugify')
 
 const blogPost = ({ data }) => {
@@ -48,7 +49,17 @@ const blogPost = ({ data }) => {
       <div className="blog-post the-blog">
         <h2 style={{marginTop:0}}>Want to learn more?</h2>
         <p>The Inclusion Nudges Guidebook (2020) for change makers gives you 100 examples of Inclusion Nudges</p>
-        <p>The Action Guide series are shorter plug-and-play guides with 30 targeted Inclusion Nudges:</p>
+        <div className="row-left-aside" 
+             style={{gridTemplateColumns:'1fr 10fr', margin: 0, cursor:'pointer'}}
+             onClick={() => showModal('modal-purchase')} role="button" onKeyPress={() => {}} tabIndex="0">
+          <div>
+            <img src={GuideFrontImg} alt="" style={{width:'100%'}} />
+          </div>
+          <div>
+            <p>Inclusion Nudges Guidebook</p>
+          </div>
+        </div>
+        <p style={{marginTop:'2rem'}}>The Action Guide series are shorter plug-and-play guides with 30 targeted Inclusion Nudges:</p>
         <div className="row-left-aside" 
              style={{gridTemplateColumns:'1fr 10fr', margin: 0, cursor:'pointer'}}
              onClick={() => showModal('ag-leaders-purchase')} role="button" onKeyPress={() => {}} tabIndex="0">
@@ -81,6 +92,7 @@ const blogPost = ({ data }) => {
         </div>
         <p>You can learn more and get other free resources on the Inclusion Nudges platform <Link to="/">inclusion-nudges.org</Link></p>
       </div>
+      <ModalPurchase />
       <ModalPurchase modalClass="ag-leaders-purchase" />
       <ModalPurchase modalClass="ag-talent-purchase" />
       <ModalPurchase modalClass="ag-allies-purchase" />

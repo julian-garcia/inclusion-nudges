@@ -20,7 +20,7 @@ const Books = () => (
         <h2 className="colour-accent-2" style={{fontWeight:'normal'}}>Quick introduction<br/><span className="colour-black">FOR ALL PEOPLE</span></h2>
         <img src={QuickGuideImg} alt="" style={{height:'350px', padding:'40px 0'}} />
         <h3 className="colour-accent-2">Read free<br/>Quick Guide</h3>
-      </Link>      
+      </Link>
       <div onClick={() => showModal('modal-purchase')} role="button" style={{cursor:'pointer',margin:'1rem 0'}} onKeyPress={() => {}} tabIndex="0">
         <h2 className="colour-accent-1" style={{fontWeight:'normal'}}>100 Inclusion Nudges<br/><span className="colour-black">FOR CHANGE MAKERS</span></h2>
         <img src={GuideFrontImg} alt="" style={{height:'350px', paddingRight:'60px'}} />
