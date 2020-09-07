@@ -9,8 +9,6 @@ authors: 'Tinna C. Nielsen and Lisa Kepinski'
 featured: true
 ---
 
-![](/images/uploads/quick-read.png) 7 minutes read
-
 _Learn_ **WHY** it matters how we frame diversity, equity, belonging,
 and inclusion, & belonging work and efforts. The outcomes are impacted
 by how we define the terms. We share the definitions behind the

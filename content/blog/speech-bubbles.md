@@ -8,8 +8,6 @@ thumbnail: /images/uploads/speech.png
 authors: 'Tinna C. Nielsen'
 ---
 
-![](/images/uploads/quick-read.png) 9 minutes read
-
 Stakeholder inclusion and the voices of 'the people it's about' are
 important in any kind of development and change processes. The
 question is how do we do this? Do we just put these people in front of

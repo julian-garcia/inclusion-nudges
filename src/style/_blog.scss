@@ -175,7 +175,8 @@
     font-family: 'cormorant garamond';
   }
 
-  img[src*="quick-read"] {
+  img[src*="quick-read"], img.quick-read {
+    margin-left: -5px;
     width: 30px;
     vertical-align: middle;
   }

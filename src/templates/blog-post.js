@@ -11,6 +11,7 @@ import LeaderImg from "../images/ag-leaders.png"
 import TalentImg from "../images/ag-talent-selection.png"
 import AlliesImg from "../images/ag-motivating-allies.png"
 import GuideFrontImg from "../images/guidebook-front.png"
+import QuickReadImg from "../images/quick-read.png"
 const slugify = require('slugify')
 
 const blogPost = ({ data }) => {
@@ -44,6 +45,9 @@ const blogPost = ({ data }) => {
             <FontAwesomeIcon icon={faEnvelope} className="social-share__link" />
           </a>
         </div>
+      </div>
+      <div className="blog-post the-blog" style={{paddingBottom:0}}>
+        <p><img src={QuickReadImg} alt="" className="quick-read" /> { Math.ceil(html.split(' ').length / 200) } minute read</p>
       </div>
       <div className="blog-post the-blog" dangerouslySetInnerHTML={{ __html: html }}></div>
       <div className="blog-post the-blog">

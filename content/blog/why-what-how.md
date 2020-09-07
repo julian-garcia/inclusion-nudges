@@ -10,7 +10,6 @@ excerpt: Learn what Inclusion Nudges are all about and why and how we can all be
   inclusion the norm everywhere, for everyone.
 authors: Tinna C. Nielsen and Lisa Kepinski
 ---
-![](/images/uploads/quick-read.png) 12 minutes read
 
 *Learn* ***what*** *Inclusion Nudges are all about and* ***why*** *and* ***how*** *we can all be a part of re-designing our organisations, communities, and society to make inclusion the norm everywhere, for everyone.*
 

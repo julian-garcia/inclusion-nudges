@@ -8,8 +8,6 @@ thumbnail: /images/uploads/insights.png
 authors: 'Tinna C. Nielsen and Lisa Kepinski'
 ---
 
-![](/images/uploads/quick-read.png)  3 minutes read
-
 Do you want make good decisions and come up with new and better
 solutions? Here are 4 practical ways that you get access to diversity
 and reduce the negative influences of biases.

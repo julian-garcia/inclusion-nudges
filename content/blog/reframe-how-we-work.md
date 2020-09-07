@@ -8,8 +8,6 @@ thumbnail: /images/uploads/reframe-how-we-work.png
 authors: 'Lisa Kepinski'
 ---
 
-![](/images/uploads/quick-read.png) 4 min read
-
 **What do we mean?**
 
 Recently, I saw a news story[^1] about a trade agreement meeting. The

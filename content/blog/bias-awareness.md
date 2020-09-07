@@ -9,8 +9,6 @@ authors: 'Tinna C. Nielsen and Lisa Kepinski'
 featured: true
 ---
 
-![](/images/uploads/quick-read.png) 4 min read
-
 **Unconscious bias awareness training has become the most used response
 to combatting discrimination and inequality, and a quick fix solution to
 try to achieve equity and inclusion. It's a global trend and a big

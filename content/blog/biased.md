@@ -8,8 +8,6 @@ thumbnail: /images/uploads/biased.png
 authors: 'Lisa Kepinski'
 ---
 
-![](/images/uploads/quick-read.png) 3 minutes read
-
 Bias is a universal human condition affecting all of us. But seeing bias
 in ourselves can be hard as it happens in our automatic, system 1
 thinking. When we realise we're biased, it can trigger guilt and shame
