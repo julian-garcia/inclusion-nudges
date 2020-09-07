@@ -1,6 +1,6 @@
 ---
 title: 2 ways you can nudge people to be ALLIES
-slug: nudge-allies
+slug: nudge people to be allies
 category: Allies
 post_date: 2020-09-07T20:46:00.394Z
 thumbnail: /images/uploads/allies.png
@@ -73,7 +73,7 @@ The reaction is always surprise. Perhaps you wouldn’t think that this would be
 
 Knowing how the human mind works is the key to changing this and motivating people to be allies for equal opportunities. A body of research shows that the sequence of change is See-Feel-Change, not by knowing and rationally understanding the need for change. This is particularly the case when it comes to making changes for diversity, equity, and inclusion, because of the stuck patterns combined with shame, blame, and blindness at the core of these issues.
 
-**If you want one more examples**, then read the previous blog post [Stakeholder Inclusion – The Power of Speech Bubbles](https://inclusion-nudges.org/blog/inclusive-co-creation/power-of-speech-bubbles). This describes an [Inclusion Nudge](<>) that Tinna designed to make executive leaders realise the kind of unacceptable, discriminating, excluding, and harassing behaviours that employees where experiencing. When she used this with executive leaders, it made the them *feel the need* to take action to change this. It was incredibly powerful and helped to transform what the leaders did to take action.
+**If you want one more examples**, then read the previous blog post [Stakeholder Inclusion – The Power of Speech Bubbles](https://inclusion-nudges.org/blog/inclusive-co-creation/power-of-speech-bubbles). This describes an Inclusion Nudge that Tinna designed to make executive leaders realise the kind of unacceptable, discriminating, excluding, and harassing behaviours that employees where experiencing. When she used this with executive leaders, it made the them *feel the need* to take action to change this. It was incredibly powerful and helped to transform what the leaders did to take action.
 
 This same intervention was later used in the Kakuma refugee camp by Daniel. He’s a young refugee and social entrepreneur who applied this Inclusion Nudge to make multiple clan leaders realise their similarities rather than their differences. The purpose was to motivate them to join forces instead of defeating each other.
 
@@ -83,13 +83,13 @@ That blog post describes in detail how you can also do this to motivate people t
 
 There are several aspects of behavioural science insights applied in the design of these two examples of Inclusion Nudges and that’s why they are so powerful. Below is an overview of some.
 
-**See blindspots.**We are often blind to what is right in front of us. We often leave out information that is present. We overlook the pertinent negative if we are presented with the pertinent positive. To change this, we can ask about it to help people see the blindspots. Using colours is one way to visualise the hidden patterns and biases. Flipping the numbers is another way you can do this – and you should do this in as many situations as possible. If you want to learn more about this, we highly recommend that you take a look at Amy Herman’s book ‘Visual Intelligence’.
+**See blindspots.** We are often blind to what is right in front of us. We often leave out information that is present. We overlook the pertinent negative if we are presented with the pertinent positive. To change this, we can ask about it to help people see the blindspots. Using colours is one way to visualise the hidden patterns and biases. Flipping the numbers is another way you can do this – and you should do this in as many situations as possible. If you want to learn more about this, we highly recommend that you take a look at Amy Herman’s book ‘Visual Intelligence’.
 
-**Humanise the numbers.**When we talk about percentage it appeals to the rational and conscious mind. But to motivate a behavioural change and action taking, it is crucial to talk about ‘people’ and in this way appeal to the unconscious and emotionally-oriented system that feels empathy. This is the mind caring about human beings – not numbers – and since this is the [part of our thinking system](<>) ‘doing our behaviour’, this is the system we have to activate.
+**Humanise the numbers.** When we talk about percentage it appeals to the rational and conscious mind. But to motivate a behavioural change and action taking, it is crucial to talk about ‘people’ and in this way appeal to the unconscious and emotionally-oriented system that feels empathy. This is the mind caring about human beings – not numbers – and since this is the [part of our thinking system](https://inclusion-nudges.org/blog/about-inclusion-nudges/power-of-inclusion-nudges) ‘doing our behaviour’, this is the system we have to activate.
 
-**Activate tribalism.**You can also give it an extra motivational nudge by saying ‘our colleagues’ instead of ‘people’ then you trigger the tribal mentality and we feel even more for these people.
+**Activate tribalism.** You can also give it an extra motivational nudge by saying ‘our colleagues’ instead of ‘people’ then you trigger the tribal mentality and we feel even more for these people.
 
-**Trigger loss aversion bias.**Why should you add the punch line about ‘missing out’ in the ‘humanise the numbers’ Inclusion Nudge? Because it triggers the loss aversion bias, which is a human condition that we will avoid losses. Actually, research has proven that humans are twice as miserable loosing something as we are happy gaining the exact same thing. And it can be a very strong motivational force simply mentioning that we are ‘‘losing’’ something or “*missing out on*” something. It appeals to the [unconscious mind](<>) that is doing our behaviour and it is more likely that we will take action to change this reality.
+**Trigger loss aversion bias.** Why should you add the punch line about ‘missing out’ in the ‘humanise the numbers’ Inclusion Nudge? Because it triggers the loss aversion bias, which is a human condition that we will avoid losses. Actually, research has proven that humans are twice as miserable loosing something as we are happy gaining the exact same thing. And it can be a very strong motivational force simply mentioning that we are ‘losing’ something or “*missing out on*” something. It appeals to the [unconscious mind](https://inclusion-nudges.org/blog/about-inclusion-nudges/power-of-inclusion-nudges) that is doing our behaviour and it is more likely that we will take action to change this reality.
 
 Keep in mind, that it’s important to enable and empower people to do something about it immediately to leverage this motivation. Help people be allies in actions. 
 
