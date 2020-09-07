@@ -1,6 +1,6 @@
 ---
 title: 2 ways you can nudge people to be ALLIES
-slug: allies
+slug: nudge-allies
 category: Allies
 post_date: 2020-09-07T20:46:00.394Z
 thumbnail: /images/uploads/allies.png
@@ -19,7 +19,7 @@ At times in our work over the past decades, we have felt (perhaps like you) the 
 
 It sounds like an unrealistic promise, doesn’t it? But it’s doable when you apply insights about the behavioural drivers of the human mind and design powerful interventions. For many years, we have done this as internal change makers and as behavioural designers in various organisations and communities around the world. When you design this right, you can use the same behavioural interventions to motivate people (such as executives, managers, community leaders, employees, citizens, and refugees) because we are all human beings.
 
-Here we give you two practical examples of [Inclusion Nudges](<>)<!--\[if !supportAnnotations]-->[\[TN1]](#_msocom_1)<!--\[endif]-->anyone (including you!) can do.
+Here we give you two practical examples of [Inclusion Nudges](https://inclusion-nudges.org/) anyone (including you!) can do.
 
 **Use colours to reveal hidden inequality within a decision process**
 
@@ -27,7 +27,7 @@ Image you are in the process of selecting who to promote, or perhaps you are par
 
 You mention this to the others in the meeting. But they can’t see that. You also feel the weight of their scrutiny of you for raising this issue.
 
-You know about [unconscious biases and implicit norms](<>)<!--\[if !supportAnnotations]-->[\[TN2]](#_msocom_2)<!--\[endif]-->and how these cause this kind of inequality in opportunities. You also know the leaders pride themselves of working in a meritocracy, where their decisions and opportunities are based on merit. You know it’s going to be uphill to challenge their strong self-perception of being professional and fair leaders.
+You know about [unconscious biases and implicit norms](https://inclusion-nudges.org/blog/about-inclusion-nudges/bias-awareness) and how these cause this kind of inequality in opportunities. You also know the leaders pride themselves of working in a meritocracy, where their decisions and opportunities are based on merit. You know it’s going to be uphill to challenge their strong self-perception of being professional and fair leaders.
 
 **What do you do to help them see the patterns you see?**
 
@@ -41,7 +41,7 @@ Here is an example of what Stephen Frost did when he was working with a leadersh
 
 **Do this for all the patterns you notice (i.e. introvert/extrovert, age, tenure, nationality etc).**
 
-
+![](/images/uploads/whiteboard.png)
 
 The purpose is to show the hidden patterns and motivate the group of people to de-bias the evaluation and decision process and ensure equal opportunities for all as a means to select the best qualified based on merit.
 
@@ -49,15 +49,13 @@ The purpose is to show the hidden patterns and motivate the group of people to d
 
 And it did lead to an increase in women being promoted over the three years that this process was applied. Some changes were immediate, such as with ‘in the moment’ re-evaluations of the promotion decisions. However, the major changes was that this design of using colours became the default process design and was accepted as a good check against bias and to improve the meritocracy of the decision-making process overall.
 
-This type of Inclusion Nudge influence the unconscious mind and motivate people to take action to ensure that the best qualified person is selected – and the spin-off is more diversity, equity, and inclusion. This design is relevant in many other situations. That could be when discussing and selecting new ideas or projects that people have suggested (in the workplace or community or school or other settings) because the way we evaluate the quality and potential is hugely influenced by biases. [These biases can be affinity bias, cultural fit bias, messenger bias, status quo bias, and many others.](<>)<!--\[if !supportAnnotations]-->[\[TN3]](#_msocom_3)<!--\[endif]-->You can learn more about this in The Inclusion Nudges Guidebook where this design is called ‘Colour Code People to Ensure Meritocracy’.
+This type of Inclusion Nudge influence the unconscious mind and motivate people to take action to ensure that the best qualified person is selected – and the spin-off is more diversity, equity, and inclusion. This design is relevant in many other situations. That could be when discussing and selecting new ideas or projects that people have suggested (in the workplace or community or school or other settings) because the way we evaluate the quality and potential is hugely influenced by biases. These biases can be affinity bias, cultural fit bias, messenger bias, status quo bias, and many others. You can learn more about this in The Inclusion Nudges Guidebook where this design is called ‘Colour Code People to Ensure Meritocracy’.
 
 Let’s look at another example of how you can motivate people to be allies for equity and inclusion. This one you can facilitate on the spot without preparation.
 
 **Flip and humanise the numbers to see the hidden people**
 
 Now, imagine another situation. It’s the beginning of a meeting about the outcome of the people engagement survey and a discussion about where action is needed. The leadership team is celebrating the great results that shows 71% of the employees feel empowered, with opportunities to grow, and supported to share new ideas. Everybody looks quite content and satisfied. But you are wondering about all the rest of the people (the 29%) hidden in those numbers. How do you raise this without being the ‘mood killer’? Instead, how can you create motivation to discuss how to make a more inclusive system and culture where this is a reality for all the people?
-
-
 
 **You ask the group, “*How many people work here?*”.**
 
@@ -67,15 +65,15 @@ Now, imagine another situation. It’s the beginning of a meeting about the outc
 
 **Someone replies, “*21,750*”.**
 
-**This is when you say, “*That means we have 21,750 people who do NOT feel*…**\[mention the same survey issues]**”.**
+**This is when you say, “*That means we have 21,750 people who do NOT feel*…”.**
 
 **And then add the motivational punch line, “*That is a LOT of talent and potential we are MISSING OUT ON!*”.**
 
-The reaction is always surprise. Perhaps you wouldn’t think that this would be a surprise since they have the numbers right in front of them. Surely, all these smart people would know and their rational intellectual mind would automatically think of the opposite reality when presented with the positive numbers. But that is not how the human mind works. It is a fact that we have selective attention bias (and if you want to experience what we mean by this, watch this[awareness test WhoDunnit<!--\[if !supportAnnotations]-->](https://www.youtube.com/watch?v=ubNF9QNEQLA)[\[TN4]](#_msocom_4)<!--\[endif]--><!--\[if !supportNestedAnchors]-->[](<>)<!--\[endif]-->). It is when realising this, that the motivation to change this emerges. In this particular situation, is created high engagement of the leaders to focus more on how to make this a reality for the other 21,750 people as well.
+The reaction is always surprise. Perhaps you wouldn’t think that this would be a surprise since they have the numbers right in front of them. Surely, all these smart people would know and their rational intellectual mind would automatically think of the opposite reality when presented with the positive numbers. But that is not how the human mind works. It is a fact that we have selective attention bias (and if you want to experience what we mean by this, watch this [awareness test WhoDunnit](https://www.youtube.com/watch?v=ubNF9QNEQLA). It is when realising this, that the motivation to change this emerges. In this particular situation, is created high engagement of the leaders to focus more on how to make this a reality for the other 21,750 people as well.
 
 Knowing how the human mind works is the key to changing this and motivating people to be allies for equal opportunities. A body of research shows that the sequence of change is See-Feel-Change, not by knowing and rationally understanding the need for change. This is particularly the case when it comes to making changes for diversity, equity, and inclusion, because of the stuck patterns combined with shame, blame, and blindness at the core of these issues.
 
-**If you want one more examples**, then read the previous blog post [Stakeholder Inclusion – The Power of Speech Bubbles.](<>)<!--\[if !supportAnnotations]-->[\[TN5]](#_msocom_5)<!--\[endif]-->This describes an [Inclusion Nudge](<>)<!--\[if !supportAnnotations]-->[\[TN6]](#_msocom_6)<!--\[endif]-->that Tinna designed to make executive leaders realise the kind of unacceptable, discriminating, excluding, and harassing behaviours that employees where experiencing. When she used this with executive leaders, it made the them *feel the need* to take action to change this. It was incredibly powerful and helped to transform what the leaders did to take action.
+**If you want one more examples**, then read the previous blog post [Stakeholder Inclusion – The Power of Speech Bubbles](https://inclusion-nudges.org/blog/inclusive-co-creation/power-of-speech-bubbles). This describes an [Inclusion Nudge](<>) that Tinna designed to make executive leaders realise the kind of unacceptable, discriminating, excluding, and harassing behaviours that employees where experiencing. When she used this with executive leaders, it made the them *feel the need* to take action to change this. It was incredibly powerful and helped to transform what the leaders did to take action.
 
 This same intervention was later used in the Kakuma refugee camp by Daniel. He’s a young refugee and social entrepreneur who applied this Inclusion Nudge to make multiple clan leaders realise their similarities rather than their differences. The purpose was to motivate them to join forces instead of defeating each other.
 
@@ -87,11 +85,11 @@ There are several aspects of behavioural science insights applied in the design 
 
 **See blindspots.**We are often blind to what is right in front of us. We often leave out information that is present. We overlook the pertinent negative if we are presented with the pertinent positive. To change this, we can ask about it to help people see the blindspots. Using colours is one way to visualise the hidden patterns and biases. Flipping the numbers is another way you can do this – and you should do this in as many situations as possible. If you want to learn more about this, we highly recommend that you take a look at Amy Herman’s book ‘Visual Intelligence’.
 
-**Humanise the numbers.**When we talk about percentage it appeals to the rational and conscious mind. But to motivate a behavioural change and action taking, it is crucial to talk about ‘people’ and in this way appeal to the unconscious and emotionally-oriented system that feels empathy. This is the mind caring about human beings – not numbers – and since this is the [part of our thinking system](<>)<!--\[if !supportAnnotations]-->[\[LK7]](#_msocom_7)<!--\[endif]-->‘doing our behaviour’, this is the system we have to activate.
+**Humanise the numbers.**When we talk about percentage it appeals to the rational and conscious mind. But to motivate a behavioural change and action taking, it is crucial to talk about ‘people’ and in this way appeal to the unconscious and emotionally-oriented system that feels empathy. This is the mind caring about human beings – not numbers – and since this is the [part of our thinking system](<>) ‘doing our behaviour’, this is the system we have to activate.
 
 **Activate tribalism.**You can also give it an extra motivational nudge by saying ‘our colleagues’ instead of ‘people’ then you trigger the tribal mentality and we feel even more for these people.
 
-**Trigger loss aversion bias.**Why should you add the punch line about ‘missing out’ in the ‘humanise the numbers’ Inclusion Nudge? Because it triggers the loss aversion bias, which is a human condition that we will avoid losses. Actually, research has proven that humans are twice as miserable loosing something as we are happy gaining the exact same thing. And it can be a very strong motivational force simply mentioning that we are ‘‘losing’’ something or “*missing out on*” something. It appeals to the [unconscious mind](<>)<!--\[if !supportAnnotations]-->[\[TN8]](#_msocom_8)<!--\[endif]-->that is doing our behaviour and it is more likely that we will take action to change this reality.
+**Trigger loss aversion bias.**Why should you add the punch line about ‘missing out’ in the ‘humanise the numbers’ Inclusion Nudge? Because it triggers the loss aversion bias, which is a human condition that we will avoid losses. Actually, research has proven that humans are twice as miserable loosing something as we are happy gaining the exact same thing. And it can be a very strong motivational force simply mentioning that we are ‘‘losing’’ something or “*missing out on*” something. It appeals to the [unconscious mind](<>) that is doing our behaviour and it is more likely that we will take action to change this reality.
 
 Keep in mind, that it’s important to enable and empower people to do something about it immediately to leverage this motivation. Help people be allies in actions. 
 
