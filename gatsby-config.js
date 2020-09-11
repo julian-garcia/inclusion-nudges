@@ -92,6 +92,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `newsletter`,
+        path: `${__dirname}/content/newsletter`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
           endpoint: `${process.env.GATSBY_MAILCHIMP_ENDPOINT}`,

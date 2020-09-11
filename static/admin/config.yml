@@ -60,4 +60,14 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
       - {label: "Authors", name: "authors", widget: "string"}
       - {label: "Post Content", name: "body", widget: "markdown"}
-
+  - name: "newsletter"
+    label: "Newsletter"
+    folder: "content/newsletter"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Publication Date", name: "publication_date", widget: "datetime"}
+      - {label: "Founders Headline", name: "founders", widget: "text"}
+      - {label: "Insights", name: "insights", widget: "markdown"}
+      - {label: "Coming Up", name: "coming_up", widget: "markdown"}
+      - {label: "Coming Up Link", name: "coming_up_link", widget: "string"}
