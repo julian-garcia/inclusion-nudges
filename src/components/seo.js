@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import LogoImg from "../images/logo.jpg"
 
-function SEO({ canonical, description, lang, meta, title }) {
+function SEO({ canonical, description, lang, meta, title, googleFonts }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -91,9 +91,12 @@ function SEO({ canonical, description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
-        },
+        }
       ].concat(meta)}
-    />
+    >
+      {googleFonts && 
+      <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />}
+    </Helmet>
   )
 }
 
@@ -101,6 +104,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  googleFonts: false
 }
 
 SEO.propTypes = {
@@ -109,6 +113,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  googleFonts: PropTypes.bool
 }
 
 export default SEO
