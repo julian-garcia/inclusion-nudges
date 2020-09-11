@@ -18,7 +18,7 @@ function eventListeners() {
   }
 }
 
-const Layout = ({ children, siteTitle, alignment }) => {
+const Layout = ({ children, siteTitle, alignment, footer }) => {
   eventListeners();
   return (
     <>
@@ -26,16 +26,21 @@ const Layout = ({ children, siteTitle, alignment }) => {
       <main className="container">
         {children}
       </main>
-      <Footer />
+      {footer && <Footer />}
       <ModalContact />
     </>
   )
 }
 
+Layout.defaultProps = {
+  footer: true
+}
+
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   siteTitle: PropTypes.string,
-  alignment: PropTypes.string
+  alignment: PropTypes.string,
+  footer: PropTypes.bool
 }
 
 export default Layout

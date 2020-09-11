@@ -17,7 +17,7 @@ const NewsletterPage = ({ data }) => {
   const bookSeriesImgUrl = data.bookSeriesImgUrl.edges[0].node.publicURL;
 
   return (
-    <Layout siteTitle={`INCLUSION NUDGES<br/>NEWS & BLOG<br/><a href="https://inclusion-nudges.org">inclusion-nudges.org</a>`} alignment='center'>
+    <Layout siteTitle={`INCLUSION NUDGES<br/>NEWS & BLOG<br/><a href="https://inclusion-nudges.org">inclusion-nudges.org</a>`} alignment='center' footer={false}>
       <SEO title="Inclusion Nudges News & Blog" googleFonts={true} />
       <div className="accent-1">
         <h3 className="text" style={{textAlign:'center', maxWidth:'unset'}}>
@@ -87,6 +87,9 @@ const NewsletterPage = ({ data }) => {
             <a href="https://inclusion-nudges.org"><img src={bookSeriesImgUrl} alt="" /></a>
           </div>
         </div>
+      </div>
+      <div className="footer-address no-print">
+        <h4 className="footer-address__text">Inclusion Nudges is a non-profit organisation registered in Denmark. VAT: 39140071 Fuglesangs Alle 11, 8210 DK-Aarhus</h4>
       </div>
     </Layout>
   )

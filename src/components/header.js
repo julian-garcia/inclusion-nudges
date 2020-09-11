@@ -5,7 +5,7 @@ import LogoImg from "../images/logo.jpg"
 import LogoImgSmall from "../images/logo-small.jpg"
 
 const Header = ({ siteTitle, alignment }) => (
-  <header className="header">
+  <div className="header">
     <div className="header-title-container">
       <h1 className="site-title" dangerouslySetInnerHTML={{ __html: siteTitle }} style={{textAlign: alignment}}></h1>
     </div>
@@ -16,7 +16,7 @@ const Header = ({ siteTitle, alignment }) => (
         <img src={LogoImg} alt="Inclusion Nudges" className="header-logo" />
       </picture>
     </Link>
-  </header>
+  </div>
 )
 
 Header.propTypes = {
