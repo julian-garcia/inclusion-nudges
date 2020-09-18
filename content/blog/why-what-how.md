@@ -1,5 +1,5 @@
 ---
-title: The Power of Inclusion Nudges (Quick Guide)
+title: The Power of Inclusion Nudges -  A Quick Guide
 slug: Power of Inclusion Nudges
 category: About Inclusion Nudges, Change Makers
 post_date: 2020-08-30T00:00:00.000Z
