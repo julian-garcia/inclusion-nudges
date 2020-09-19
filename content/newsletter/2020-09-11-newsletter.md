@@ -1,4 +1,5 @@
 ---
+title: October 2020
 publication_date: 2020-09-10T20:46:00.394Z
 founders: >-
   This month we are facing a global change, but some don’t want to change, did you not know that the dog jumped over the moon? And then all bad things started to happen in the air. Then, the black-eye pea turned green & the carrots refused to emerge from the earth. What? Why? Read on.

@@ -66,6 +66,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Publication Date", name: "publication_date", widget: "datetime"}
       - {label: "Founders Headline", name: "founders", widget: "text"}
       - {label: "Insights", name: "insights", widget: "markdown"}

@@ -37,6 +37,13 @@
   overflow-y: scroll;
   height: 100%;
 
+  & .modal-blog-founders, .modal-blog-signature { 
+    width: 100%; 
+    max-width: 250px;
+    display: block;
+    margin: auto;
+  }
+
   & .icon-heading {
     position: absolute;
     top: 0;
@@ -153,8 +160,8 @@
 
   &__check {
     position: absolute;
-    top: .5rem;
-    right: -2.5rem;
+    top: 3px;
+    left: 0;
     width: 2rem;
     height: 2rem;
     border: 2px solid $accent-3;
@@ -168,6 +175,10 @@
     &:hover {
       cursor: pointer;
     }
+  }
+
+  &__privacy {
+    margin: -1rem 0 0 3rem;
   }
 
   &__select {
@@ -184,15 +195,12 @@
     }
 
     &.gdpr {
-      max-width: 200px;
-      display: inline-block;
+      display: block;
+      margin: 1rem 0 2rem;
+      padding-left: 2.5rem;
 
       &:hover {
         cursor: pointer;
-      }
-
-      @media (min-width: $phone) { 
-        max-width: 350px;
       }
     }
   }
@@ -201,7 +209,7 @@
     display: block;
     color: black;
     background: $accent-3;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: normal;
     border-style: none;
     border-radius: 1px;
@@ -209,6 +217,12 @@
     margin: 1rem auto;
     text-align: center;
     cursor: pointer;
+
+    &.dark {
+      background: black;
+      color: $accent-3;
+      font-weight: bold;
+    }
   }
 
   &__input, &__textarea, &__select {

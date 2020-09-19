@@ -134,7 +134,7 @@ export const newsletterQuery = graphql`
     signupImgUrl: allFile(filter: {absolutePath: {regex: "/images/newsletter/signup.png/"}}) {
       edges { node { publicURL } }
     }
-    foundersImgUrl: allFile(filter: {absolutePath: {regex: "/images/newsletter/lisa-tinna.png/"}}) {
+    foundersImgUrl: allFile(filter: {absolutePath: {regex: "/images/newsletter/lisa-tinna.jpg/"}}) {
       edges { node { publicURL } }
     }
     signatureImgUrl: allFile(filter: {absolutePath: {regex: "/images/newsletter/signature.png/"}}) {

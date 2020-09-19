@@ -1,0 +1,100 @@
+.book {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-bottom: 3rem;
+
+  &__subtitle {
+    height: 2rem;
+    display: block;
+  }
+
+  &__image {
+    height: 250px;
+    margin-left: -40px;
+
+    &.quick {
+      padding: 0;
+      margin-left: auto;
+      @media (min-width: $tablet) { padding: 20px 0; }
+    }
+  }
+
+  &__title {
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+
+  @media (min-width: $tablet) {
+    margin-bottom: 0; 
+  }
+}
+
+.books {
+  display: block;
+  padding: 1rem 0 1rem;
+
+  &>*:nth-child(2), &>*:nth-child(5) {
+    position: relative;
+    &::before {
+      display: none;
+      position: absolute;
+      font-family: karla;
+      font-weight: bold;
+      color: black;
+      font-size: 1.6rem;
+      top: -2rem;
+      @media (min-width: $tablet) { display: block; }
+    }
+  }
+
+  &>*:nth-child(2) {
+    &::before {
+      content: 'THE INCLUSION NUDGES GUIDEBOOK';
+      left: 0;
+      width: 100vw;
+      @media (min-width: $desktop-m) { width: 40vw; }
+    }
+  }
+
+  &>*:nth-child(5) {
+    &::before {
+      content: 'ACTION GUIDE SERIES';
+      left: 0;
+      width: 100vw;
+      @media (min-width: $desktop-m) { width: 60vw; }
+  }
+  }
+
+  &>*:nth-child(2) { grid-area: nudge1;}
+  &>*:nth-child(3) { grid-area: nudge2;}
+  &>*:nth-child(5) { grid-area: ag1;}
+  &>*:nth-child(6) { grid-area: ag2;}
+  &>*:nth-child(7) { grid-area: ag3;}
+
+  &>* {
+    text-align: center;
+  }
+
+  &__title {
+    display: block;
+    @media (min-width: $tablet) { display: none; }
+  }
+
+  @media (min-width: $tablet) { 
+    display: grid;
+    padding: 5rem .5rem 2rem;
+    row-gap: 2rem;
+    column-gap: .5rem;
+    grid-auto-columns: minmax(200px,1fr);
+    grid-template-areas: 'nudge1 nudge2' 'ag1 ag2' 'ag3 .';
+  }
+
+  @media (min-width: $tablet-l) { 
+    grid-template-areas: 'nudge1 nudge2 .' 'ag1 ag2 ag3';
+  }
+
+  @media (min-width: $desktop-m) { 
+    grid-template-areas: 'nudge1 nudge2 ag1 ag2 ag3';
+  }
+}

@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ModalPurchase from "../components/modal-purchase"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faBlog, faEnvelope, faPrint } from "@fortawesome/free-solid-svg-icons"
 import { faTwitter, faLinkedinIn, faFacebookF } from "@fortawesome/free-brands-svg-icons"
 import { showModal } from "../components/modal"
 import LeaderImg from "../images/ag-leaders.png"
@@ -24,14 +24,14 @@ const blogPost = ({ data }) => {
   return (
     <Layout siteTitle={`THE INCLUSION NUDGES BLOG<br/>Let’s make inclusion the norm everywhere, for everyone!`} alignment='center'>
       <SEO title={postTitle} />
-      <div className="accent-1">
+      <div className="accent-1 no-print">
         <h2 className="text colour-accent-3" style={{textAlign: 'center'}}>Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe <span style={{color:'white'}}>HERE</span></span></h2>
       </div>
       <div className="blog-post blog-post__feature" style={{paddingBottom:0}}>
         <h2 style={{textAlign:'left'}}>{postTitle}</h2>
         <p className="blog-post__authors">By <Link to="founders">{frontmatter.authors}</Link></p>
         <img src={frontmatter.thumbnail} alt="" />
-        <div className="blog-post__social-share">
+        <div className="blog-post__social-share no-print">
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faFacebookF} className="social-share__link" />
           </a><br/>
@@ -43,14 +43,20 @@ const blogPost = ({ data }) => {
           </a><br/>
           <a href={`mailto:?&subject=${postTitle}&body=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelope} className="social-share__link" />
-          </a>
+          </a><br/>
+          <button className="unstyled-button" onClick={() => window.print()}>
+            <FontAwesomeIcon icon={faPrint} className="social-share__link" />
+          </button><br/>
+          <Link to="/blog" title="See all blog posts">
+            <FontAwesomeIcon icon={faBlog} className="social-share__link" />
+          </Link>
         </div>
       </div>
       <div className="blog-post the-blog" style={{paddingBottom:0}}>
         <p><img src={QuickReadImg} alt="" className="quick-read" /> { Math.ceil(html.split(' ').length / 200) } minute read</p>
       </div>
       <div className="blog-post the-blog" dangerouslySetInnerHTML={{ __html: html }}></div>
-      <div className="blog-post the-blog">
+      <div className="blog-post the-blog no-print">
         <h2 style={{marginTop:0}}>Want to learn more?</h2>
         <p>The Inclusion Nudges Guidebook (2020) for change makers gives you 100 examples of Inclusion Nudges</p>
         <div className="row-left-aside" 

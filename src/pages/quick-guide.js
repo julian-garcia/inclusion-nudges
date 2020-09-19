@@ -132,7 +132,7 @@ const QuickGuidePage = () => (
       <div className="guide-links no-print">
         <button onClick={() => showModal('modal-download')} className="modal-form__button">Download</button>
         <button onClick={() => window.print()} className="modal-form__button">Print</button>
-        <button onClick={() => showModal('modal-signup')} className="modal-form__button">Sign up to stay updated</button>
+        <button onClick={() => showModal('modal-signup-blog')} className="modal-form__button">Sign up to stay updated</button>
         <Link to="/articles-podcasts-videos" className="modal-form__button">More <br className="tablet-up" />Resources</Link>
       </div>
       <h2 className="no-print" style={{textAlign:'center', margin:'2rem 0 1rem'}}>Share with other people</h2>

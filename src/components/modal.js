@@ -18,9 +18,11 @@ function closeModal(modalClass, e) {
         classes.contains('modal-form__check') ||
         classes.contains('modal-form__checkbox') ||
         classes.contains('modal-form__label') ||
+        classes.contains('modal-form__privacy') ||
         e.target.id === 'playpause' ||
         e.target.id === 'volume' ||
         e.target.id === 'mute' ||
+        e.target.tagName === 'IMG' ||
         e.target.tagName === 'VIDEO')){
     document.querySelector(`.${modalClass.replace(' ','.')}`).classList.remove('show');
   
