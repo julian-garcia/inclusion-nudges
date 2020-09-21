@@ -218,10 +218,13 @@
     text-align: center;
     cursor: pointer;
 
-    &.dark {
-      background: black;
-      color: $accent-3;
+    &.subscribe {
       font-weight: bold;
+      font-size: 1.5rem;
+      bottom: -.6rem;
+      position: absolute; 
+      left: 50%; 
+      transform: translateX(-50%);
     }
   }
 

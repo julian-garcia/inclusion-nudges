@@ -10,25 +10,14 @@ const _signup = async (endpoint, signupType) => {
   const email = document.querySelector(`#emailSignup${signupType}`).value;
   const name = document.querySelector(`#nameSignup${signupType}`).value;
   const gdpr = document.querySelector(`#gdprSignup${signupType}`).checked ? 'Y' : 'N';
-  const orgElement = document.querySelector('#orgSignup');
-  let org;
-  if (orgElement) { org = orgElement.value; }
 
   if (email && name && gdpr) { 
-    if (endpoint === `${process.env.GATSBY_MAILCHIMP_ENDPOINT}`) {
-      await addToMailchimp(email, {'NAME': name, 'gdpr[3549]': gdpr, 'ORG': org}, endpoint);
-      typeof window !== "undefined" && window.gtag &&
-      window.gtag("event", "click", 
-                  {'event_category':'Button Click',
-                   'event_label':'Join the Inclusion Nudges Community'});
-    } else {
-      await addToMailchimp(email, {'NAME': name, 'gdpr[44665]': gdpr}, endpoint);
-      showModal('signup-confirmation');
-      typeof window !== "undefined" && window.gtag &&
-      window.gtag("event", "click", 
-                  {'event_category':'Button Click',
-                   'event_label':'Subscribe to blog'});
-    }
+    await addToMailchimp(email, {'NAME': name, 'gdpr[44665]': gdpr}, endpoint);
+    showModal('signup-confirmation');
+    typeof window !== "undefined" && window.gtag &&
+    window.gtag("event", "click", 
+                {'event_category':'Button Click',
+                'event_label':'Subscribe to blog'});
   }
 }
 
@@ -42,7 +31,8 @@ const ModalSignup = ({signupType}) => (
     </>}
     {signupType === 'blog' &&
     <>
-      <h3 className="modal-title" style={{maxWidth:'300px', margin:'auto'}}>Sign up for monthly inspiration</h3>
+      <h2 className="modal-title" style={{margin:'auto'}}>Inclusion&nbsp;Nudges News&nbsp;&&nbsp;Blog</h2>
+      <h3 className="modal-title" style={{margin:'auto'}}>Sign up for monthly inspiration</h3>
       <h4 style={{textAlign:'center'}}>We send you practical examples how to apply behavioural insights and Inclusion Nudges</h4>
       <img src={FoundersImg} className="modal-blog-founders" alt="" />
       <img src={SignatureImg} className="modal-blog-signature" alt="" style={{maxWidth:'150px'}} />

@@ -18,12 +18,13 @@ const blogPost = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark;
   const firstCategory = frontmatter.category.split(',')[0];
   const postUrl = `https://inclusion-nudges.org/blog/${slugify(firstCategory, {lower: true})}/${slugify(frontmatter.slug, {lower: true})}`;
-  const postTitle = frontmatter.title.toLowerCase().split(' ').map(word => {
-    return word.charAt(0).toUpperCase() + word.slice(1)
-  }).join(' ');
+  const postTitle = frontmatter.title.replace(/\b(\w)/gi, (match) => {
+    return match.charAt(0).toUpperCase() + match.slice(1).toLowerCase()
+  });
+
   return (
     <Layout siteTitle={`THE INCLUSION NUDGES BLOG<br/>Let’s make inclusion the norm everywhere, for everyone!`} alignment='center'>
-      <SEO title={postTitle} />
+      <SEO title={postTitle} featureImageUrl={frontmatter.thumbnail} articleExcerpt={frontmatter.excerpt} />
       <div className="accent-1 no-print">
         <h2 className="text colour-accent-3" style={{textAlign: 'center'}}>Don’t miss out. Stay informed about new blog posts. <span role="button" tabIndex="0" className="colour-accent-3" style={{cursor:'pointer'}} onClick={() => showModal('modal-signup-blog')} onKeyPress={() => {}}>Subscribe <span style={{color:'white'}}>HERE</span></span></h2>
       </div>
@@ -34,21 +35,21 @@ const blogPost = ({ data }) => {
         <div className="blog-post__social-share no-print">
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faFacebookF} className="social-share__link" />
-          </a><br/>
+          </a>
           <a href={`http://twitter.com/share?text=${postTitle}&url=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="social-share__link" />
-          </a><br/>
+          </a>
           <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="social-share__link" />
-          </a><br/>
+          </a>
           <a href={`mailto:?&subject=${postTitle}&body=${postUrl}`} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelope} className="social-share__link" />
-          </a><br/>
+          </a>
           <button className="unstyled-button" onClick={() => window.print()}>
             <FontAwesomeIcon icon={faPrint} className="social-share__link" />
-          </button><br/>
+          </button>
           <Link to="/blog" title="See all blog posts">
-            <FontAwesomeIcon icon={faBlog} className="social-share__link" />
+            <FontAwesomeIcon icon={faBlog} className="social-share__link to-blog" />
           </Link>
         </div>
       </div>
@@ -121,6 +122,7 @@ export const pageQuery = graphql`
         authors,
         thumbnail,
         slug,
+        excerpt,
         category
       }
     }

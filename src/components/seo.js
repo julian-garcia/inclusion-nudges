@@ -4,7 +4,9 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import LogoImg from "../images/logo.jpg"
 
-function SEO({ canonical, description, lang, meta, title, googleFonts }) {
+function SEO({ canonical, description, lang, 
+               meta, title, googleFonts, 
+               featureImageUrl, articleExcerpt }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,9 +21,11 @@ function SEO({ canonical, description, lang, meta, title, googleFonts }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
   const siteURL = typeof window !== 'undefined' ? window.location.protocol + '//' + window.location.host : '';
-  const titleText = title !== site.siteMetadata.title ? `${title} | ${site.siteMetadata.title}` : site.siteMetadata.title
+  const pageURL = typeof window !== 'undefined' ? window.location.pathname : '';
+  const titleText = title !== site.siteMetadata.title ? `${title} | ${site.siteMetadata.title}` : site.siteMetadata.title;
+  const imgUrl = featureImageUrl ? `${featureImageUrl}` : `${LogoImg}`;
+  const metaDescription = articleExcerpt ? articleExcerpt : description || site.siteMetadata.description;
 
   return (
     <Helmet
@@ -50,7 +54,7 @@ function SEO({ canonical, description, lang, meta, title, googleFonts }) {
         },
         {
           property: `og:url`,
-          content: siteURL,
+          content: `${siteURL}${pageURL}`,
         },
         {
           property: `og:description`,
@@ -58,23 +62,11 @@ function SEO({ canonical, description, lang, meta, title, googleFonts }) {
         },
         {
           property: `og:image`,
-          content: `${siteURL}${LogoImg}`,
+          content: `${siteURL}${imgUrl}`,
         },
         {
           property: `og:image:secure_url`,
-          content: `${siteURL}${LogoImg}`,
-        },
-        {
-          property: `og:image:width`,
-          content: `200`,
-        },
-        {
-          property: `og:image:height`,
-          content: `200`,
-        },
-        {
-          property: `og:image:type`,
-          content: `image/jpeg`,
+          content: `${siteURL}${imgUrl}`,
         },
         {
           name: `twitter:card`,
@@ -87,6 +79,10 @@ function SEO({ canonical, description, lang, meta, title, googleFonts }) {
         {
           name: `twitter:title`,
           content: title,
+        },
+        {
+          name: `twitter:image`,
+          content: `${siteURL}${imgUrl}`,
         },
         {
           name: `twitter:description`,
@@ -113,7 +109,9 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-  googleFonts: PropTypes.bool
+  googleFonts: PropTypes.bool,
+  featureImageUrl: PropTypes.string,
+  articleExcerpt: PropTypes.string
 }
 
 export default SEO

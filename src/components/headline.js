@@ -35,14 +35,12 @@ const Headline = () => (
         </div>
       </div>
       <div className="accent-3" style={{height:'100%', minHeight:'240px'}}>
-        <Link to="/blog"  className="vertical-center" style={{textAlign:'center', color:'white'}}>
+        <Link to="/blog"  className="vertical-center" style={{textAlign:'center', color:'white', paddingBottom:'1rem'}}>
           <h3>Read | Listen | Watch</h3>
           <h2><span style={{fontWeight:'normal'}}>The<br/>Inclusion&nbsp;Nudges</span><br/>BLOG</h2>
         </Link>
         <button onClick={() => showModal('modal-signup-blog')} 
-          className="modal-form__button dark"
-          style={{position:'absolute', bottom:'1rem', 
-                  left:'50%', transform:'translateX(-50%)'}}>
+          className="modal-form__button subscribe">
           Subscribe
         </button>
       </div>

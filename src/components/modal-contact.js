@@ -32,7 +32,7 @@ async function signup(email) {
   if (email && mailingList === 'webcasts') {
     const gdpr = document.querySelector('#gdprConnect').checked ? 'Y' : 'N';
     await addToMailchimp(email, {}, process.env.GATSBY_MAILCHIMP_WEBCASTS);
-    await addToMailchimp(email, {'gdpr[3549]': gdpr});
+    await addToMailchimp(email, {'gdpr[44665]': gdpr});
   }
 }
 
