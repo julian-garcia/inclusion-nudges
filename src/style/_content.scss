@@ -236,7 +236,7 @@
     .approach & { background-color: rgba(0,0,0,.5); }
   }
 
-  &:nth-child(1), &:nth-child(4) {
+  &:nth-child(1) {
     &:before {
       background-color: rgba(0,0,0,.3);
       .approach & { background-color: rgba(0,0,0,.5); }
@@ -275,6 +275,10 @@
       background-image: linear-gradient(rgba($accent-1,.1), rgba(0,0,0,.3));
       @media (min-width: $tablet) {
         background-image: linear-gradient(transparent, transparent);
+      }
+      .approach & { 
+        background-color: rgba(0,0,0,0); 
+        background-image: none;
       }
     }
   }

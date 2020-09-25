@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { showModal } from "../components/modal"
 
 import WhyImg from "../images/why.png"
 import WhatImg from "../images/what.png"
@@ -34,15 +33,15 @@ const Headline = () => (
           <h3 className="apply-link-style approach-learn-more">Learn more...</h3>
         </div>
       </div>
-      <div className="accent-3" style={{height:'100%', minHeight:'240px'}}>
-        <Link to="/blog"  className="vertical-center" style={{textAlign:'center', color:'white', paddingBottom:'1rem'}}>
+      <div className="accent-3 grid-item-image" style={{textAlign:'center', alignItems:'center'}}>
+        <Link to="/blog" className="unstyled-button"></Link>
+        <div style={{position:'static', padding:'0'}}>
           <h3>Read | Listen | Watch</h3>
           <h2><span style={{fontWeight:'normal'}}>The<br/>Inclusion&nbsp;Nudges</span><br/>BLOG</h2>
-        </Link>
-        <button onClick={() => showModal('modal-signup-blog')} 
-          className="modal-form__button subscribe">
-          Subscribe
-        </button>
+          <h3 className="modal-form__button subscribe ">
+            Subscribe
+          </h3>
+        </div>
       </div>
       <Link to="/blog/about-inclusion-nudges/power-of-inclusion-nudges" className="approach-link">Learn more ABOUT Inclusion&nbsp;Nudges HERE</Link>
     </div>
