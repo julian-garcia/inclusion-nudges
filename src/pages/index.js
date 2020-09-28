@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
+import { showModal } from "../components/modal"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Modal from "../components/modal"
@@ -54,7 +55,12 @@ const IndexPage = ({ data }) => (
         <h4 style={{marginBottom:'1rem'}}>A conversation with the authors about Inclusion Nudges and the Guidebook</h4>
         <p>Join the founders and authors, Tinna C. Nielsen & Lisa Kepinski, in a conversation.<br/>
         We want to hear what challenges you face when promoting inclusion, diversity, belonging, and equality. We share ways Inclusion Nudges can help address these.</p>
-        <h4 style={{marginBottom:'1rem'}}>New dates coming soon</h4>
+        <h4 style={{marginBottom:'.5rem'}}>New dates coming soon</h4>
+        <h4 style={{margin:'0 0 2rem 0'}}>Get the dates in your inbox -&nbsp;
+          <button className="unstyled-button apply-link-style" style={{fontSize:'1rem'}} onClick={() => showModal('modal-signup-blog')}>Sign up</button> 
+          &nbsp;for our&nbsp;
+          <button className="unstyled-button apply-link-style" style={{fontSize:'1rem'}} onClick={() => showModal('modal-signup-blog')}>News & Blog</button>
+        </h4>
         {/* <h4 style={{marginBottom:'1rem'}}>Sign up for a web session:</h4>
         <EventList events={data} /> */}
       </div>
