@@ -10,7 +10,7 @@ import NudgingImg from "../images/nudging.png"
 
 const Hub = () => (
   <>
-    <h2 className="page-heading organisations">
+    <h2 className="page-heading see-who">
       How we can support you <Link to="/organisations" className="organisations__link"><img src={NudgingImg} alt="" style={{width:'50px', margin:'0rem 0 -1rem 1rem'}} /> See who</Link> 
     </h2>
     <div className="row-auto centered actions">
