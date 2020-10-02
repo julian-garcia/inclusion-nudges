@@ -1,11 +1,12 @@
 ---
-title: 'Reframe Language on How We Work Today'
-category: 'FRAME PERCEPTIONS, INCLUSIVE CULTURE, LEADERSHIP'
-slug: 'reframe how we work'
-post_date: 2020-08-30
-excerpt: 'Working from home has become the current norm for many employees in jobs that allow for work to be done in this way.'
+title: Reframe Language on How We Work Today
+slug: reframe how we work
+category: FRAME PERCEPTIONS, INCLUSIVE CULTURE, LEADERSHIP
+post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/reframe-how-we-work.png
-authors: 'Lisa Kepinski'
+excerpt: Working from home has become the current norm for many employees in
+  jobs that allow for work to be done in this way.
+authors: Lisa Kepinski
 ---
 
 **What do we mean?**
