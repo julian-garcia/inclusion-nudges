@@ -2,7 +2,7 @@
 title: The Power of Inclusion Nudges (Quick Guide)
 slug: Power of Inclusion Nudges
 category: About Inclusion Nudges, Change Makers
-post_date: 2020-08-30T00:00:00.000Z
+post_date: 2020-09-12T00:00:00.000Z
 thumbnail: /images/uploads/why-what-how.jpg
 featured: true
 excerpt: Learn what Inclusion Nudges are all about and why and how we can all be
