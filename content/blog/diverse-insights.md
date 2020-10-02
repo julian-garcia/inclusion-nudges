@@ -1,11 +1,13 @@
 ---
-title: '4 Ways You Access Diverse Insights for Innovation'
-category: 'Inclusive decision making, Leadership, Inclusive Culture, Change Makers'
-slug: 'Diverse Insights'
-post_date: 2020-08-31
-excerpt: "Do you want make good decisions and come up with new and better solutions? Here are 4 practical ways that you get access to diversity and reduce the negative influences of biases."
+title: 4 Ways You Access Diverse Insights for Innovation
+slug: Diverse Insights
+category: Inclusive decision making, Leadership, Inclusive Culture, Change Makers
+post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/insights.png
-authors: 'Tinna C. Nielsen and Lisa Kepinski'
+excerpt: Do you want make good decisions and come up with new and better
+  solutions? Here are 4 practical ways that you get access to diversity and
+  reduce the negative influences of biases.
+authors: Tinna C. Nielsen and Lisa Kepinski
 ---
 
 Do you want make good decisions and come up with new and better
