@@ -1,11 +1,13 @@
 ---
-title: 'Yes, I''m Biased...'
-category: 'Behavioural Insights, Cognitive Bias, Allies, Change Makers'
-slug: 'biased'
-post_date: 2020-08-26
-excerpt: 'Bias is a universal human condition affecting all of us. But seeing bias in ourselves can be hard as it happens in our automatic, system 1 thinking'
+title: Yes, I'm Biased...
+slug: biased
+category: Behavioural Insights, Cognitive Bias, Allies, Change Makers
+post_date: 2020-09-10T00:00:00.000Z
 thumbnail: /images/uploads/biased.png
-authors: 'Lisa Kepinski'
+excerpt: Bias is a universal human condition affecting all of us. But seeing
+  bias in ourselves can be hard as it happens in our automatic, system 1
+  thinking
+authors: Lisa Kepinski
 ---
 
 Bias is a universal human condition affecting all of us. But seeing bias
