@@ -1,0 +1,3 @@
+---
+partner: Danish Dentist Association
+---

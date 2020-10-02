@@ -72,3 +72,10 @@ collections:
       - {label: "Insights", name: "insights", widget: "markdown"}
       - {label: "Coming Up", name: "coming_up", widget: "markdown"}
       - {label: "Coming Up Link", name: "coming_up_link", widget: "string"}
+  - name: "organisation"
+    label: "Organisation"
+    folder: "content/organisations"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Organisation", name: "partner", widget: "string"}

@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, button, .modal-form__button, label {
+h1, h2, h3, h4, h5, h6, a, button, .modal-form__button, label {
   font-family: karla;
 }
 
@@ -46,6 +46,12 @@ a {
   margin: 0 0 1rem;
   letter-spacing: -2px;
 
+  .blog-subtitle {
+    font-size: 1.2rem;
+    display: block;
+    @media (min-width: $tablet) { font-size: 1.5rem; }
+  }
+
   @media (min-width: $phone) { 
     font-size: 1.7rem;
   }
@@ -63,4 +69,21 @@ a {
   text-align: center;
   margin: 2rem 0 1.5rem;
   font-size: 1.7rem;
+
+  &.organisations {
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+
+  & .organisations__link {
+    position: relative;
+    display: block;
+
+    @media (min-width: $tablet-l + 100px) {
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+    } 
+  }
 }

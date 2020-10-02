@@ -1,0 +1,3 @@
+---
+partner: Lind Invest Group
+---

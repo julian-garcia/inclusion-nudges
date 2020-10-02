@@ -1,0 +1,3 @@
+---
+partner: World Economic Forum
+---

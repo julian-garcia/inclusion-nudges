@@ -1,0 +1,3 @@
+---
+partner: Norton Rose Fulbright
+---

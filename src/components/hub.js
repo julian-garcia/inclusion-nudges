@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import { showModal } from "../components/modal"
 
@@ -5,10 +6,13 @@ import Hub1Img from "../images/hub1.jpg"
 import Hub2Img from "../images/hub2.jpg"
 import Hub3Img from "../images/hub3.jpg"
 import Hub4Img from "../images/hub4.jpg"
+import NudgingImg from "../images/nudging.png"
 
 const Hub = () => (
   <>
-    <h2 className="page-heading">How we can support you</h2>
+    <h2 className="page-heading organisations">
+      How we can support you <Link to="/organisations" className="organisations__link"><img src={NudgingImg} alt="" style={{width:'50px', margin:'0rem 0 -1rem 1rem'}} /> See who</Link> 
+    </h2>
     <div className="row-auto centered actions">
       <div className="action-container">
         <div className="accent-3" onClick={() => showModal('modal-connect')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-connect')}>

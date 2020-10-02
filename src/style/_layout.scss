@@ -247,6 +247,26 @@
   }
 }
 
+.organisations {
+  max-width: calc(100vw - 2rem);
+  margin: 1rem auto 2rem;
+  column-gap: 1rem;
+  row-gap: 0;
+
+  h3 { 
+    margin: 0 0 5px; 
+    font-size: 1rem;
+  }
+
+  @media (min-width: $desktop-m + 20px) { 
+    max-width: $desktop-m;
+  }
+
+  @media (min-width: $desktop) { 
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
 .desktop-only {
   display: none;
   @media (min-width: $desktop) { display: inherit; }

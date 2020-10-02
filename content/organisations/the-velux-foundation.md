@@ -1,0 +1,3 @@
+---
+partner: The Velux Foundation
+---

@@ -1,0 +1,3 @@
+---
+partner: Copenhagen Business School
+---
