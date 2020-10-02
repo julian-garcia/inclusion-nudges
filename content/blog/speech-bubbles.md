@@ -1,11 +1,14 @@
 ---
-title: 'Stakeholder Inclusion - The Power of Speech Bubbles'
-category: 'Inclusive co-creation, Feel the Need, Change Makers, Leadership, Inclusive Culture'
-slug: 'Power of Speech Bubbles'
-post_date: 2020-08-27
-excerpt: "Stakeholder inclusion and the voices of 'the people it's about' are important in any kind of development and change processes. The question is how do we do this?"
+title: Stakeholder Inclusion - The Power of Speech Bubbles
+slug: Power of Speech Bubbles
+category: Inclusive co-creation, Feel the Need, Change Makers, Leadership,
+  Inclusive Culture
+post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/speech.png
-authors: 'Tinna C. Nielsen'
+excerpt: Stakeholder inclusion and the voices of 'the people it's about' are
+  important in any kind of development and change processes. The question is how
+  do we do this?
+authors: Tinna C. Nielsen
 ---
 
 Stakeholder inclusion and the voices of 'the people it's about' are
