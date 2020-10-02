@@ -3,7 +3,7 @@ title: Bias Awareness Is Not the Solution! It Might Backlash!
 slug: bias awareness
 category: About Inclusion Nudges, Cognitive Bias, Change Makers, Inclusive
   Culture, Behavioural Insights
-post_date: 2020-08-29T00:00:00.000Z
+post_date: 2020-09-11T00:00:00.000Z
 thumbnail: /images/uploads/bias-awareness.png
 featured: true
 excerpt: Unconscious bias awareness training has become the most used response
