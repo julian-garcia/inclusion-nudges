@@ -23,6 +23,7 @@ a {
   margin: .5rem 0 1rem;
 
   .approach & {
+    min-height: 100px;
     @media (min-width: $desktop) { font-size: 1rem }
     @media (min-width: $desktop-m) { font-size: 1.2rem }
   }
@@ -44,7 +45,7 @@ a {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0 0 1rem;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 
   .blog-subtitle {
     font-size: 1.2rem;
@@ -52,12 +53,8 @@ a {
     @media (min-width: $tablet) { font-size: 1.5rem; }
   }
 
-  @media (min-width: $phone) { 
-    font-size: 1.7rem;
-  }
-
   @media (min-width: $tablet) { 
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   @media (min-width: $desktop) { 
@@ -68,7 +65,10 @@ a {
 .page-heading {
   text-align: center;
   margin: 2rem 0 1.5rem;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+
+  @media (min-width: $tablet) { font-size: 1.7rem; }
 
   &.see-who {
     margin-bottom: 2.5rem;
