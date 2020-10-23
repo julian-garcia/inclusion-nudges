@@ -36,7 +36,7 @@ const ModalSignup = ({signupType}) => (
       <h4 style={{textAlign:'center'}}>We send you practical examples how to apply behavioural insights and Inclusion Nudges</h4>
       <img src={FoundersImg} className="modal-blog-founders" alt="" />
       <img src={SignatureImg} className="modal-blog-signature" alt="" style={{maxWidth:'150px'}} />
-      <h4 style={{textAlign:'center'}}>Lisa Kepinski & Tinna C. Nielsen</h4>
+      <h4 style={{textAlign:'center', margin:'0 auto'}}>Lisa Kepinski & Tinna C. Nielsen</h4>
     </>}
     <form className="modal-form">
       <label htmlFor={`nameSignup${signupType}`} className="modal-form__label">Name</label><br />

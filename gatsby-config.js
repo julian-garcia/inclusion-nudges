@@ -139,9 +139,10 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
                 const firstCategory = edge.node.frontmatter.category.split(',')[0];
-                const postTitle = edge.node.frontmatter.title.toLowerCase().split(' ').map(word => {
-                  return word.charAt(0).toUpperCase() + word.slice(1)
-                }).join(' ');
+                const postTitle = edge.node.frontmatter.title.replace(/\b(\w)/gi, (match) => {
+                  return match.charAt(0).toUpperCase() + match.slice(1).toLowerCase()
+                }); 
+
                 return Object.assign({}, edge.node.frontmatter, {
                   title: postTitle,
                   description: edge.node.frontmatter.excerpt ? edge.node.frontmatter.excerpt : edge.node.excerpt,
