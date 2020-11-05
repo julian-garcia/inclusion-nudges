@@ -2,7 +2,7 @@
 title: Ally by actions - not by posting on social media
 slug: ally by actions
 category: allies
-post_date: 2020-11-05T14:15:35.560Z
+post_date: 2020-11-05T14:15:00.000Z
 thumbnail: /images/uploads/picture1.jpg
 excerpt: So, what does it actually mean to be an ally for behavioural and
   cultural change that leads to more diversity, belonging, equity, and
