@@ -1,6 +1,6 @@
 ---
-title: Begin with activating allyship by seeing the unseen
-slug: Allyship by seeing the unseen
+title: Begin With Activating Allyship By Seeing The Unseen
+slug: allyship by seeing the unseen
 category: allies, change makers, feel the need
 post_date: 2020-11-05T14:45:00.693Z
 thumbnail: /images/uploads/jubliee-cookbook-image.png
