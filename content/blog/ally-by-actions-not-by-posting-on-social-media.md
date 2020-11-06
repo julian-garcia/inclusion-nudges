@@ -1,7 +1,7 @@
 ---
 title: Ally by actions - not by posting on social media
 slug: ally by actions
-category: allies
+category: allies, change makers, feel the need
 post_date: 2020-11-05T14:15:00.000Z
 thumbnail: /images/uploads/picture1.jpg
 excerpt: So, what does it actually mean to be an ally for behavioural and
@@ -13,8 +13,6 @@ excerpt: So, what does it actually mean to be an ally for behavioural and
   that we all just do. So, how can we all contribute to that?
 authors: Tinna C. Nielsen & Lisa Kepinski
 ---
-
-
 **What kind of allyship?**
 
  Often allyship is only considered as people in privileged positions standing up and speaking up for other people who lack privilege or are underrepresented minority groups, as well as transferring the benefits of their privileges to those who lack it. It’s about taking on the struggle as your own to address injustice and exclusion, even to the extent of your own loss of power and privileges.
@@ -47,15 +45,20 @@ And last but not least, too often we have seen people who are proclaimed allies,
 
 So, let’s aim for another kind of allyship – the kind we don’t focus on getting people to say the right things, post on social media, or explicitly advocate for equity, anti-discrimination, diversity, and inclusion. We can also do that, but what if we can get more people involved if we supplement with designed that enable and empower large groups of people to do allyship – and  without them having to consciously make a choice about engaging. That’s [the power of Inclusion Nudges ](https://inclusion-nudges.org/blog/about-inclusion-nudges/power-of-inclusion-nudges) 
 
-In these blog posts you get several examples of how you can motivate others to be allies and also help your own mind to take more action as an ally.\
-[Stakeholder Inclusion – The power of Speech Bubbles](https://inclusion-nudges.org/blog/inclusive-co-creation/power-of-speech-bubbles)\
-[2 Ways You Can Nudges People to Be Allies](https://inclusion-nudges.org/blog/allies/nudge-people-to-be-allies)  
+In these blog posts you get several examples of how you can motivate others to be allies and also help your own mind to take more action as an ally.
 
-….and more
+\
+[Stakeholder Inclusion – The power of Speech Bubbles](https://inclusion-nudges.org/blog/inclusive-co-creation/power-of-speech-bubbles)
 
+[2 Ways You Can Nudges People to Be Allies](https://inclusion-nudges.org/blog/allies/nudge-people-to-be-allies)
+
+[Ally Through Empathic Perspective Taking](https://inclusion-nudges.org/blog/allies/ally-through-empathic-perspective-taking)
+
+[Begin With Activating Allyship by Seeing The Unseen](https://inclusion-nudges.org/blog/allies/allyship-by-seeing-the-unseen)
+
+  
 
 **Making the Great Reset inclusive and socially just** 
-
 
 Across several organisations, such as the World Economic Forum and United Nations, there is a call to action for making this current period of history named The Great Reset to be more inclusive and ensure social justice. We have an unprecedented opportunity right now to make stakeholder inclusion the norm and renegotiate the social contract. But what does that mean? And who is going to make it happen? If leaders and politicians would and could, then they would have already made this happen because the need for that has always existed. It’s not new, even though inequality has increased during the pandemic and the global lockdown. 
 
