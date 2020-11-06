@@ -1,5 +1,5 @@
 ---
-title: Ally by actions - not by posting on social media
+title: Ally By Actions - not by posting on social media
 slug: ally by actions
 category: allies, change makers, feel the need
 post_date: 2020-11-05T14:15:00.000Z
