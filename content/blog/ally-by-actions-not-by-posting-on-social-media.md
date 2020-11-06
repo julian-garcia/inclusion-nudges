@@ -27,8 +27,6 @@ Yes, we also know that this kind attention is important to keep focus on issues 
 
 There are several reasons for why we should avoid aiming our change efforts for diversity, equity, and inclusion on getting people to ‘say the right thing’ and practice this type of ‘performative allyship’.
 
-
-
 **When allyship backlashes** 
 
 What has been most devastating for both of us throughout the decades of working for diversity, equity, and inclusion is how often ‘expressed allyship’ or ‘performative allyship’ backfires with negative ramifications. 
@@ -38,8 +36,6 @@ One reason is that when people have established a self-perception that “I am o
 These self-beliefs and conscious intentions are completely opposite of the unconscious and resulting behaviours. This creates a credibility gap between words and actions. Another trouble spot with allyship is that when people state their support and stand up for inclusion and non-discrimination, they are challenging the status quo. They are calling out what is not fair and perhaps not even legal. Doing this is ‘rocking the boat’, and it requires courageous effort. This is especially true for people from minority groups, as research has shown that they receive more negative reactions of being penalised and criticised (‘blame the victim’). Some results of this are lower performance ratings, career limitations, higher rates of stress, and impacts on personal well-being. One U.S. study found that when employees reported harassment, 75% experienced some form of retaliation.
 
 And last but not least, too often we have seen people who are proclaimed allies, stand by and witness harassment, oppression, and misuse of power, but do nothing. This happens even when they hold beliefs that they are allies and would intervene in such situations. The ‘bystander effect’ interferes with taking action, as we feel that someone else will do it. Plus, when we don’t see others speaking up, an unconscious need to fit in with the group (conformity bias) suppresses our individual tendencies to act. Also, we begin to have self-doubts, questioning if we are the ‘right people’ to take such a stand. 
-
-
 
 **Ally by actions** 
 
@@ -56,8 +52,6 @@ In these blog posts you get several examples of how you can motivate others to b
 
 [Begin With Activating Allyship by Seeing The Unseen](https://inclusion-nudges.org/blog/allies/allyship-by-seeing-the-unseen)
 
-  
-
 **Making the Great Reset inclusive and socially just** 
 
 Across several organisations, such as the World Economic Forum and United Nations, there is a call to action for making this current period of history named The Great Reset to be more inclusive and ensure social justice. We have an unprecedented opportunity right now to make stakeholder inclusion the norm and renegotiate the social contract. But what does that mean? And who is going to make it happen? If leaders and politicians would and could, then they would have already made this happen because the need for that has always existed. It’s not new, even though inequality has increased during the pandemic and the global lockdown. 
@@ -68,4 +62,4 @@ We each have the power to do something. We just have to know how to transform ou
 
 To get more practical examples you can read the [Action Guide for Motivating Allies ](https://www.amazon.com/Inclusion-Nudges-Motivating-Allies-behavioural/dp/B08GV91VYP/ref=sr_1_1?dchild=1&keywords=motivating+allies&sr=8-1)with 30 Inclusion Nudge designs. 
 
-Please share with us how you do allyship and how to empower others to be allies.  Drop us an email: tinna_and_lisa@inclusion-nudges.org
+Please share with us how you do allyship and how to empower others to be allies.  Drop us an email: contact@inclusion-nudges.org
