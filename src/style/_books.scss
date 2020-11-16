@@ -92,9 +92,11 @@
 
   @media (min-width: $tablet-l) { 
     grid-template-areas: 'nudge1 nudge2 .' 'ag1 ag2 ag3';
+    row-gap: 4rem;
   }
 
   @media (min-width: $desktop-m) { 
     grid-template-areas: 'nudge1 nudge2 ag1 ag2 ag3';
+    row-gap: 0;
   }
 }

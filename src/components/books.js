@@ -27,18 +27,19 @@ const Books = () => (
       <div onClick={() => showModal('ag-leaders-purchase')} role="button" className="book" onKeyPress={() => {}} tabIndex="0">
         <h2 className="colour-accent-4 book__title" style={{fontWeight:'normal'}}>30 Actions<br/><span className="colour-black book__subtitle">FOR LEADERS</span></h2>
         <img src={LeaderImg} className="book__image" alt="" />
-        <h3 className="colour-accent-4">Order now<br/><span style={{fontWeight:'normal', fontSize:'1rem'}}>Available as eBook soon</span></h3>
+        <h3 className="colour-accent-4">Order now</h3>
       </div>
       <div onClick={() => showModal('ag-allies-purchase')} role="button" className="book" onKeyPress={() => {}} tabIndex="0">
         <h2 className="colour-accent-4 book__title" style={{fontWeight:'normal'}}>30 Actions<br/><span className="colour-black book__subtitle">FOR MOTIVATING ALLIES</span></h2>
         <img src={AlliesImg} className="book__image" alt="" />
-        <h3 className="colour-accent-4">Order now<br/><span style={{fontWeight:'normal', fontSize:'1rem'}}>Available as eBook soon</span></h3>
+        <h3 className="colour-accent-4">Order now</h3>
       </div>
       <div onClick={() => showModal('ag-talent-purchase')} role="button" className="book" onKeyPress={() => {}} tabIndex="0">
         <h2 className="colour-accent-4 book__title" style={{fontWeight:'normal'}}>30 Actions<br/><span className="colour-black book__subtitle">FOR TALENT SELECTION</span></h2>
         <img src={TalentImg} className="book__image" alt="" />
-        <h3 className="colour-accent-4">Order now<br/><span style={{fontWeight:'normal', fontSize:'1rem'}}>Available as eBook soon</span></h3>
+        <h3 className="colour-accent-4">Order now</h3>
       </div>
+      <h3 className="page-heading ebook colour-accent-4 book__title">Available as eBook & Paperback</h3>
     </div>
   </>
 )
