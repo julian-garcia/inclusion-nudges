@@ -70,20 +70,6 @@ a {
 
   @media (min-width: $tablet) { font-size: 1.7rem; }
 
-  &.ebook {
-    display: none;
-
-    @media (min-width: $tablet-l) { 
-      display: block;
-      grid-column: 1 / span 3;
-      margin-top: -4rem;
-    }
-    @media (min-width: $desktop-m) { 
-      grid-column: 3 / span 3;
-      margin-top: -2rem;
-    }
-  }
-
   &.see-who {
     margin-bottom: 2.5rem;
     position: relative;
@@ -99,5 +85,20 @@ a {
       right: 5%;
       transform: translateY(-50%);
     } 
+  }
+}
+
+.ebook {
+  display: none;
+  font-weight: normal;
+
+  @media (min-width: $tablet-l) { 
+    display: block;
+    grid-column: 1 / span 3;
+    margin-top: -4.5rem;
+  }
+  @media (min-width: $desktop-m) { 
+    grid-column: 3 / span 3;
+    margin-top: -2.5rem;
   }
 }

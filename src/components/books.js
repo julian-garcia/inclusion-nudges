@@ -39,7 +39,7 @@ const Books = () => (
         <img src={TalentImg} className="book__image" alt="" />
         <h3 className="colour-accent-4">Order now</h3>
       </div>
-      <h3 className="page-heading ebook colour-accent-4 book__title">Available as eBook & Paperback</h3>
+      <h3 className="ebook">Available as eBook & Paperback</h3>
     </div>
   </>
 )
