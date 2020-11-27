@@ -21,7 +21,13 @@ That same week, I randomly picked two books from my big pile of books – you kn
 
 I read about Haidt’s brain metaphor about the[unconscious mind](https://inclusion-nudges.org/blog/about-inclusion-nudges/power-of-inclusion-nudges) (the system dominating our behaviour) being like a six-ton heavy elephant and the conscious mind being like the rider on top of the elephant. The rider can guide our behaviour in a meaningful direction but is not doing our behaviour – that’s the unconscious mind. The Heath brothers elaborated with examples of how the rider cannot with intellectual and rational understanding get the elephant moving. The unconscious mind is motivated to move when it is emotionally motivated to do so and when it is easy to do. 
 
-This was an aha-moment for me because this was exactly what the CEO had said to me:  **“Don’t make us understand”** = it’s not going to make a difference to talk to the rider.  **“We believe in this with our hearts”** = leverage that belief in the elephant. **“Get us moving and guide us”** = give us practical actions and just make the elephant do it. 
+This was an aha-moment for me because this was exactly what the CEO had said to me:  
+
+**“Don’t make us understand”** = it’s not going to make a difference to talk to the rider.  
+
+**“We believe in this with our hearts”** = leverage that belief in the elephant. 
+
+**“Get us moving and guide us”** = give us practical actions and just make the elephant do it. 
 
 It was the missing piece in the puzzle for me to grasp how to execute my mandate.  So, I made a pledge to myself: From now on, I’ll not present one single business case on DEI to the rational mind. I’ll move the elephant by using behavioural insights design. And so, I did, and this has completely changed my work approach and influence. In the blog article [The Power of Speech Bubbles](https://inclusion-nudges.org/blog/inclusive-co-creation/power-of-speech-bubbles) you can read about the first design I made and the impact it had. 
 
