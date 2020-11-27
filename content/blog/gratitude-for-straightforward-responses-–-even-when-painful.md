@@ -4,7 +4,7 @@ slug: Gratitude for straightforward responses
 category: change maker, frame perceptions, feel the need
 post_date: 2020-11-27T14:57:38.894Z
 thumbnail: /images/uploads/acknowledgement.png
-authors: by Tinna C. Nielsen, Co-Founder Inclusion Nudges
+authors: by Tinna C. Nielsen
 ---
 I**t’s often the ‘straightforward’ responses or reactions from other people that help us make changes – also when it’s painful. That was the case for me many years back and I am grateful for how it changed my approach to achieve diversity, equity, and inclusion. It’s a shame that we leave it up to chance to get such valuable (and sometimes painful) feedback. Perhaps we could seek it out more proactively and that is our path to making more progress?** 
 
