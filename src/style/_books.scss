@@ -165,6 +165,7 @@
 .book-series {
   display: none;
   position: relative;
+  z-index: 99;
 
   &.mobile {
     margin-top: 1rem;
