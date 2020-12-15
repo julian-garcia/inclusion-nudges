@@ -1,8 +1,13 @@
-.accent-1, .accent-2, .accent-3, .accent-4 {
+.accent-1,
+.accent-2,
+.accent-3,
+.accent-4 {
   color: white;
   padding: 1.7rem 1rem;
   position: relative;
-  h2 {margin-top: 0}
+  h2 {
+    margin-top: 0;
+  }
 }
 .accent-1 {
   background-color: $accent-1;
@@ -16,16 +21,31 @@
 .accent-4 {
   background-color: $accent-4;
 }
-.footer-bg { background-color: $footer-bg; }
+.footer-bg {
+  background-color: $footer-bg;
+}
 
-.colour-black { color: black; }
-.colour-white { color: white; }
-.colour-accent-1 { color: $accent-1; }
-.colour-accent-2 { color: $accent-2; }
-.colour-accent-3 { color: $accent-3; }
-.colour-accent-4 { color: $accent-4; }
+.colour-black {
+  color: black;
+}
+.colour-white {
+  color: white;
+}
+.colour-accent-1 {
+  color: $accent-1;
+}
+.colour-accent-2 {
+  color: $accent-2;
+}
+.colour-accent-3 {
+  color: $accent-3;
+}
+.colour-accent-4 {
+  color: $accent-4;
+}
 
-.text, .center-content {
+.text,
+.center-content {
   max-width: $maxwidth;
   margin: 0 auto;
 }
@@ -38,11 +58,11 @@
     max-width: 100%;
     margin-bottom: 1rem;
 
-    @media (min-width: $tablet) { 
+    @media (min-width: $tablet) {
       max-width: 440px;
     }
 
-    @media (min-width: $desktop) { 
+    @media (min-width: $desktop) {
       max-width: inherit;
     }
   }
@@ -51,13 +71,13 @@
 .big-1st-letter {
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: 'Karla';
+  font-family: "Karla";
   display: inline-block;
   color: white;
   width: 40px;
   height: 40px;
   padding: 10px 0;
-  background-image: url('../images/bullet.png');
+  background-image: url("../images/bullet.png");
   background-size: 40px 40px;
   background-repeat: no-repeat;
   text-align: center;
@@ -87,7 +107,7 @@
     margin: 2rem 0 1rem;
   }
 
-  @media (min-width: ($maxwidth + 60px)) { 
+  @media (min-width: ($maxwidth + 60px)) {
     margin: 2rem auto;
   }
 }
@@ -97,12 +117,24 @@
   width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
-.contact-us, .close-modal, button {
+.contact-us,
+.close-modal,
+button {
   &:hover {
     cursor: pointer;
+  }
+}
+
+.show-large-tablet {
+  display: none;
+  @media (min-width: $tablet-l) {
+    display: block;
+  }
+  @media (min-width: $desktop) {
+    display: none;
   }
 }
 
@@ -114,17 +146,17 @@
   width: 40%;
   margin: 0 auto;
 
-  @media (min-width: $tablet) { 
+  @media (min-width: $tablet) {
     width: 100%;
     margin: 1rem 0;
   }
 
   &-button {
-    @media (min-width: $desktop) { 
+    @media (min-width: $desktop) {
       margin: 1rem 0 1rem -4rem;
     }
 
-    @media (min-width: $desktop-m) { 
+    @media (min-width: $desktop-m) {
       margin: 1rem 0 1rem -7rem;
     }
   }
@@ -153,7 +185,7 @@
     }
 
     .footer & {
-      margin: .5rem .5rem 0 0;
+      margin: 0.5rem 0.5rem 0 0;
     }
   }
 
@@ -161,7 +193,7 @@
     display: none;
 
     @media (min-width: $tablet) {
-      display:block;
+      display: block;
       position: absolute;
       top: 1rem;
       right: 1rem;
@@ -174,7 +206,7 @@
   }
 }
 
-.approach{
+.approach {
   position: relative;
 
   &-link {
@@ -183,15 +215,19 @@
     bottom: 1rem;
     left: 63%;
     transform: translateX(-50%);
-    font-family: 'Karla';
+    font-family: "Karla";
     font-size: 1.5rem;
     width: 500px;
-    @media (min-width: $desktop) { display: block; }
+    @media (min-width: $desktop) {
+      display: block;
+    }
   }
 
   &-learn-more {
     display: block;
-    @media (min-width: $desktop) { display: none; }
+    @media (min-width: $desktop) {
+      display: none;
+    }
   }
 }
 
@@ -203,6 +239,7 @@
   position: relative;
   height: 100vw;
   width: 100vw;
+  max-width: 100%;
 
   .approach > & {
     display: grid;
@@ -211,12 +248,16 @@
 
     &:first-child {
       align-items: flex-start;
-      @media (min-width: $phone) { align-items: center; }
+      @media (min-width: $phone) {
+        align-items: center;
+      }
     }
-    
+
     & > div {
       padding: 2rem 1rem 2rem;
-      @media (min-width: $tablet-l) { padding: 2rem 2rem 4rem; }
+      @media (min-width: $tablet-l) {
+        padding: 2rem 2rem 4rem;
+      }
     }
   }
 
@@ -233,57 +274,73 @@
   }
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 
-    .approach & { background-color: rgba(0,0,0,.5); }
+    .approach & {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
   }
 
   &:nth-child(2) {
     &:before {
-      background-color: rgba(0,0,0,.3);
-      .approach & { background-color: rgba(0,0,0,.5); }
+      background-color: rgba(0, 0, 0, 0.3);
+      .approach & {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
     }
   }
 
-  &:nth-child(2) { 
+  &:nth-child(2) {
     &:before {
-      background-image: linear-gradient(rgba($accent-3,.1), rgba(0,0,0,.3));
+      background-image: linear-gradient(
+        rgba($accent-3, 0.1),
+        rgba(0, 0, 0, 0.3)
+      );
       @media (min-width: $tablet) {
         background-image: linear-gradient(transparent, transparent);
       }
     }
   }
 
-  &:nth-child(3) { 
+  &:nth-child(3) {
     &:before {
-      background-image: linear-gradient(rgba($accent-2,.1), rgba(0,0,0,.3));
+      background-image: linear-gradient(
+        rgba($accent-2, 0.1),
+        rgba(0, 0, 0, 0.3)
+      );
       @media (min-width: $tablet) {
         background-image: linear-gradient(transparent, transparent);
       }
     }
   }
 
-  &:nth-child(4) { 
+  &:nth-child(4) {
     &:before {
-      background-image: linear-gradient(rgba($accent-4,.1), rgba(0,0,0,.3));
+      background-image: linear-gradient(
+        rgba($accent-4, 0.1),
+        rgba(0, 0, 0, 0.3)
+      );
       @media (min-width: $tablet) {
         background-image: linear-gradient(transparent, transparent);
       }
     }
   }
 
-  &:nth-child(1) { 
+  &:nth-child(1) {
     &:before {
-      background-image: linear-gradient(rgba($accent-1,.1), rgba(0,0,0,.3));
+      background-image: linear-gradient(
+        rgba($accent-1, 0.1),
+        rgba(0, 0, 0, 0.3)
+      );
       @media (min-width: $tablet) {
         background-image: linear-gradient(transparent, transparent);
       }
-      .approach & { 
-        background-color: rgba(0,0,0,0); 
+      .approach & {
+        background-color: rgba(0, 0, 0, 0);
         background-image: none;
       }
     }
@@ -308,7 +365,9 @@
     width: 100%;
     height: 100%;
     position: relative;
-    & > div { padding: 2rem 1.5rem }
+    & > div {
+      padding: 2rem 1.5rem;
+    }
   }
 }
 
@@ -356,7 +415,11 @@
 }
 
 @media print {
-  .no-print, .no-print *, .footer, .header, head {
+  .no-print,
+  .no-print *,
+  .footer,
+  .header,
+  head {
     display: none !important;
     visibility: hidden !important;
   }

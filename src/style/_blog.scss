@@ -2,13 +2,17 @@
   background: lightgrey;
   padding: 2rem 1rem 1rem;
 
-  @media (min-width: ($maxwidth + 60px)) { 
+  @media (min-width: ($maxwidth + 60px)) {
     padding: 2rem 0 1rem;
   }
 
-  a { font-family: 'Karla'; }
+  a {
+    font-family: "Karla";
+  }
 
-  &-intro p {font-family: karla;}
+  &-intro p {
+    font-family: karla;
+  }
 
   &__card {
     margin: auto;
@@ -17,9 +21,9 @@
     position: relative;
     width: 100%;
 
-    .blog__category { 
-      margin-left: -2px; 
-      background: rgba(lightgrey,.5); 
+    .blog__category {
+      margin-left: -2px;
+      background: rgba(lightgrey, 0.5);
     }
   }
 
@@ -36,9 +40,9 @@
     color: black;
     border: none;
     border-radius: 2px;
-    padding: .5rem .6rem;
-    margin: 0 .5rem .5rem 0;
-    font-family: 'Karla';
+    padding: 0.5rem 0.6rem;
+    margin: 0 0.5rem 0.5rem 0;
+    font-family: "Karla";
     font-size: 1rem;
     text-transform: uppercase;
     border: 2px solid white;
@@ -65,21 +69,24 @@
   &__categories {
     display: inline-block;
     &-title {
-      font-family: 'Karla';
+      font-family: "Karla";
       text-transform: uppercase;
       font-size: 1.2rem;
     }
   }
 
   &__search {
-    &-input, &-button {
-      padding: .5rem 1rem;
+    &-input,
+    &-button {
+      padding: 0.5rem 1rem;
       margin: 0;
-      font-family: 'Karla';
+      font-family: "Karla";
       font-size: 1rem;
       border: none;
-      
-      @media (min-width: ($tablet-l)) { margin: 0; }
+
+      @media (min-width: ($tablet-l)) {
+        margin: 0;
+      }
     }
 
     &-input {
@@ -89,7 +96,9 @@
       color: $accent-2;
       border: 2px solid $accent-2;
 
-      &::placeholder { color: $accent-2; }
+      &::placeholder {
+        color: $accent-2;
+      }
     }
   }
 
@@ -112,21 +121,25 @@
     position: absolute;
     bottom: 1rem;
     left: 1rem;
-    font-family: 'Karla';
+    font-family: "Karla";
 
-    @media (min-width: $tablet) { bottom: 2rem }
-    @media (min-width: $tablet-l) { bottom: 1rem }
+    @media (min-width: $tablet) {
+      bottom: 2rem;
+    }
+    @media (min-width: $tablet-l) {
+      bottom: 1rem;
+    }
   }
 
   .row-auto {
     column-gap: 1.5rem;
     row-gap: 1.5rem;
 
-    @media (min-width: $tablet) { 
+    @media (min-width: $tablet) {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (min-width: $desktop) { 
+    @media (min-width: $desktop) {
       grid-template-columns: repeat(3, 1fr);
     }
   }
@@ -142,7 +155,9 @@
     text-align: center;
     padding-bottom: 0;
 
-    @media (min-width: $maxwidth + 20px) { margin: 1rem auto 0; }
+    @media (min-width: $maxwidth + 20px) {
+      margin: 1rem auto 0;
+    }
 
     img {
       width: auto;
@@ -154,28 +169,34 @@
   .blog-post &__authors {
     text-align: left;
     margin-top: 1.5rem;
-    a { font-weight: normal; }
+    a {
+      font-weight: normal;
+    }
   }
 
   &.the-blog img {
     width: 90%;
   }
 
-  sup { line-height: .5rem; }
-  
+  sup {
+    line-height: 0.5rem;
+  }
+
   figure {
-    margin: .5rem 0 1rem;
+    margin: 0.5rem 0 1rem;
   }
 
   figure img {
     max-width: 200px;
   }
 
-  figcaption, blockquote {
-    font-family: 'cormorant garamond';
+  figcaption,
+  blockquote {
+    font-family: "cormorant garamond";
   }
 
-  img[src*="quick-read"], img.quick-read {
+  img[src*="quick-read"],
+  img.quick-read {
     margin-left: -5px;
     width: 30px;
     vertical-align: middle;
@@ -195,10 +216,11 @@
     font-size: 1.2rem;
   }
 
-  p, ul {
+  p,
+  ul {
     font-size: 1.1rem;
     line-height: 1.6rem;
-    font-family: 'Karla';
+    font-family: "Karla";
   }
 
   ul {
@@ -206,7 +228,7 @@
   }
 
   .footnotes ol {
-    font-family: 'Karla';
+    font-family: "Karla";
   }
 
   &.the-blog ul {
@@ -220,49 +242,55 @@
     bottom: 0;
     transform: translateY(-25%);
     text-align: center;
-    padding: .5rem .2rem;
+    padding: 0.5rem 0.2rem;
     cursor: pointer;
-    background: rgba(white,.8);
-    
-    a, button {
-      color: grey; 
-      font-size: 1.7rem; 
+    background: rgba(white, 0.8);
+
+    a,
+    button {
+      color: grey;
+      font-size: 1.7rem;
       display: block;
       margin-bottom: 10px;
     }
 
-    .to-blog { 
-      font-size: 2.5rem; 
-      color: $accent-3; 
+    .to-blog {
+      font-size: 2.5rem;
+      color: $accent-3;
       position: absolute;
       bottom: -3rem;
       right: 0;
-      @media (min-width: $tablet) { 
-        font-size: 3.5rem; 
-        right: -1.1rem; 
-        bottom: -4rem; 
+      @media (min-width: $tablet) {
+        font-size: 3.5rem;
+        right: -1.1rem;
+        bottom: -4rem;
       }
     }
 
-    @media (min-width: $tablet) { 
-      right: 2%; bottom: 50%; 
-      transform: translateY(50%); 
-      padding: .5rem;
+    @media (min-width: $tablet) {
+      right: 2%;
+      bottom: 50%;
+      transform: translateY(50%);
+      padding: 0.5rem;
     }
-    @media (min-width: $desktop-m) { right: 15%; }
+    @media (min-width: $desktop-m) {
+      right: 15%;
+    }
   }
 
-  @media (min-width: $tablet) { margin: 1rem 4rem 0 1rem; }
+  @media (min-width: $tablet) {
+    margin: 3rem 4rem 0 1rem;
+  }
 
-  @media (min-width: $maxwidth + 20px) { 
+  @media (min-width: $maxwidth + 20px) {
     margin: 0 auto;
-    padding: 2rem 7.5vw 2rem; 
+    padding: 3rem 7.5vw 2rem;
   }
 
   &.founders {
-    @media (min-width: $maxwidth + 20px) { 
+    @media (min-width: $maxwidth + 20px) {
       margin: 0 auto;
-      padding: 2rem 15vw 2rem 0; 
+      padding: 3rem 15vw 2rem 0;
     }
   }
 }
@@ -271,7 +299,7 @@
   position: fixed;
   right: 2vw;
   text-align: center;
-  background: rgba(white,.7);
+  background: rgba(white, 0.7);
 
   .icon-heading {
     color: $accent-4;
@@ -279,11 +307,11 @@
     font-size: 2rem;
   }
 
-  @media (min-width: $desktop) { 
+  @media (min-width: $desktop) {
     right: 6vw;
   }
 
-  @media (min-width: $desktop-m) { 
+  @media (min-width: $desktop-m) {
     right: 10vw;
   }
 }
@@ -292,18 +320,21 @@
   &-nav {
     font-size: 1.5rem;
     text-align: center;
-    &>* {
+    & > * {
       margin: 1rem auto;
-      @media (min-width: $tablet) { margin: 0 auto; }
+      @media (min-width: $tablet) {
+        margin: 0 auto;
+      }
     }
 
-    @media (min-width: $tablet) { 
+    @media (min-width: $tablet) {
       display: flex;
       justify-content: space-between;
     }
   }
-  &__prev, &__next {
-    font-family: 'Karla';
+  &__prev,
+  &__next {
+    font-family: "Karla";
     display: inline-block;
     margin: 0;
     border: 2px solid black;
@@ -316,15 +347,19 @@
       color: gray;
     }
   }
-  &__number { 
-    margin: 0 .2rem; 
-    padding: .2rem .5rem;
+  &__number {
+    margin: 0 0.2rem;
+    padding: 0.2rem 0.5rem;
     color: gray;
     &.active {
       border-radius: 2px;
       color: black;
     }
   }
-  &__prev { margin-right: .5rem; }
-  &__next { margin-left: .5rem; }
+  &__prev {
+    margin-right: 0.5rem;
+  }
+  &__next {
+    margin-left: 0.5rem;
+  }
 }
