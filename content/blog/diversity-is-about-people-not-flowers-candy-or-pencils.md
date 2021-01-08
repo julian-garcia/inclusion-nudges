@@ -1,7 +1,7 @@
 ---
 title: Diversity is about people, not flowers, candy, or pencils
 slug: Diversity is about people, not flowers, candy, or pencils
-category: Frame perceptions, change makers
+category: Frame perceptions, change maker skills
 post_date: 2020-12-02T15:56:21.506Z
 thumbnail: /images/uploads/diversity-is-jelly-bean-flowers-coloured-pencils.png
 excerpt: In trying to convey ‘what is diversity’, many use images of colourful
