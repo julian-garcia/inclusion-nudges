@@ -1,7 +1,7 @@
 ---
 title: Reframe Language on How We Work Today
 slug: reframe how we work
-category: FRAME PERCEPTIONS, INCLUSIVE CULTURE, LEADERSHIP
+category: "Frame perceptions, Inclusive culture, leading inclusively "
 post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/reframe-how-we-work.png
 excerpt: Working from home has become the current norm for many employees in
