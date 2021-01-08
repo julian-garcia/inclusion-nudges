@@ -1,7 +1,7 @@
 ---
 title: Ally through empathic perspective taking
 slug: ally through empathic perspective taking
-category: allies, change makers, feel the need
+category: allies, change maker skills, feel the need
 post_date: 2020-11-05T14:18:27.932Z
 thumbnail: /images/uploads/picture3.jpg
 excerpt: Being an ally is linked to nurturing and embracing differences with
