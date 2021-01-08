@@ -1,7 +1,8 @@
 ---
 title: 4 Ways You Access Diverse Insights for Innovation
 slug: Diverse Insights
-category: Inclusive decision making, Leadership, Inclusive Culture, Change Makers
+category: Inclusive decision making, Leading Inclusively, Inclusive Culture,
+  Change Maker skills
 post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/insights.png
 excerpt: Do you want make good decisions and come up with new and better
