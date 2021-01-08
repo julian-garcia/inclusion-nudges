@@ -1,7 +1,7 @@
 ---
 title: Gratitude for Inclusion at Work
 slug: Gratitude for Inclusion at Work
-category: Process Design, Change Makers
+category: Process Design, Change Maker skills
 post_date: 2020-12-02T15:44:33.494Z
 thumbnail: /images/uploads/thank-you-typewriter.jpg
 excerpt: Gratitude boosts well-being, social connection, and sense of belonging.
