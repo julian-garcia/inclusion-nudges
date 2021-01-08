@@ -1,7 +1,7 @@
 ---
 title: Diversity is about people, not flowers, candy, or pencils
 slug: Diversity is about people, not flowers, candy, or pencils
-category: Frame perceptions, change makers
+category: Frame perceptions, change maker skills
 post_date: 2020-12-02T15:56:21.506Z
 thumbnail: /images/uploads/diversity-is-jelly-bean-flowers-coloured-pencils.png
 excerpt: In trying to convey ‘what is diversity’, many use images of colourful
@@ -14,10 +14,6 @@ authors: By Lisa Kepinski & Tinna C. Nielsen
 ---
 **In trying to convey ‘what is diversity’, many use images of colourful objects. Rarely are people actually shown, and if they are it tends to only be people of minority groups. This creates a problem for how we understand the concept of diversity--quite literally by the images that are shown. Instead, we need to frame perceptions to be inclusive of all people to be able to support the needed changes in behaviours and systems.**
 
-
-
-
-
 **The cost of cute Images of ‘diversity’** 
 
 We have seen first-hand how many well-intended organisations want to show their support of ‘diversity’ but struggle with their perception of the complexity of the concept. Getting clarity on the definition is a first step (as we advise in this [blog article](https://inclusion-nudges.org/blog/about-inclusion-nudges/definitions-matter) ), and doing this engages others in a shared understanding and mobilises them to be a part of the change efforts. As organisations communicate about their diversity, equity, and inclusion initiatives, the same deliberative attention is needed with selecting the images shown as with the words used. Yet all too often, we see photos of a colourful flowers, jelly beans, and drawing crayons used to depict ‘diversity’. The colours and images rarely show what we are talking about, which is PEOPLE, nor do the colours shown reflect the full range of human skin tones. 
@@ -26,23 +22,17 @@ The problem with these types of images is that they can undermine the work done 
 
 And seeing is believing. ‘Cute’ and ‘pleasant’ images like these can indicate a superficial level of commitment to diversity initiatives. One that is more focused on making the people with power, status, and in the majority feel good about ‘diversity’. These metaphorical images don’t accurately reflect reality. They overlook the lived experiences of many people in the minority and out groups. They don’t align with the hard work needed to really ‘be diverse and inclusive’, such as taking responsibility, listening to others, examining power and privilege, spotting ingrained inequalities, doing de-biasing design work, having accountability, and more. An approach that uses ‘cute’ images can contribute to leaders and their organisations appearing disingenuous and merely doing ‘performative allyship’. Their credibility can be undermined, furthering the gap between intentions and actions for leveraging diversity, ensuring equity, and leading inclusively. Surely, no one wants this!
 
-We have also seen in diversity reports, slide presentations, and other forms of communications how shades of gender stereotypical colours are over-used (pink for women, blue for men). This reinforces traditional and binary views of gender, activating stereotypes in our unconscious thinking. It can limit seeing the full range of humanity and gender expression. It also works to undermine any statements that ‘inclusion is of everyone’. The prevalent use of pink shades reduces diversity, equity, and inclusion initiatives to being a ‘women’s issue’ and it can become a hidden barrier to achieving the desired outcomes. Imagines and colours matter in shaping perceptions about diversity, and may actually work against intentions to be inclusive of all.
-
-
+We have also seen in diversity reports, slide presentations, and other forms of communications how shades of gender stereotypical colours are over-used (pink for women, blue for men). This reinforces traditional and binary views of gender, activating stereotypes in our unconscious thinking. It can limit seeing the full range of humanity and gender expression. It also works to undermine any statements that ‘inclusion is of everyone’. The prevalent use of pink shades reduces diversity, equity, and inclusion initiatives to being a ‘women’s issue’ and it can become a hidden barrier to achieving the desired outcomes. Images and colours matter in shaping perceptions about diversity, and may actually work against intentions to be inclusive of all.
 
 **What is diversity?** 
 
 For us in our work with leaders, change makers, communities, and organisations, here is how we define ‘diversity’.
-
-
 
 **“Diversity is about people. This includes their demographic differences, backgrounds, multiple identities, and their unique experiences, perspectives, knowledge, abilities, ideas, and more. Diversity is not referencing specific characteristics of only ‘the minority’ within a group of people or in society. Diversity is referencing all people and differences among us. Diversity is the mix of all of us.”** 
 
 *The Inclusion Nudges Guidebook, by Lisa Kepinski & Tinna C. Nielsen, 2020, pg 42*
 
 You can read more about how we define other terms such as inclusion, equity, and belonging in this Inclusion Nudges [blog article called  ‘Definitions Matter, Just Don’t Talk About Them’](https://inclusion-nudges.org/blog/about-inclusion-nudges/definitions-matter). In that article we also address, how the words we use can shape our diversity, equity, and inclusion initiatives. Here, we’re addressing how images equally play a role in this.
-
-
 
 **Leveraging the power of reality in images** 
 
@@ -54,18 +44,10 @@ Also, seeing real people’s faces (especially people that we know or are famili
 
 We have many examples of designs where images can support intentions for diversity, equity, and inclusion. Some of these Inclusion Nudges are below. Each of these are written out step-by-step to make it easy for you to try them, and they also have behavioural insights and references to research on why they work.
 
-
-
 * **Images Framing Immigrants as One of Us** on page 528 in The Inclusion Nudges Guidebook and also on page 229 in the inclusion Nudges for Motivating Allies
 * **Humanise Diversity Data & Trigger Supportive Behaviours** on page 488 in The Inclusion Nudges Guidebook and also on page 196 in the inclusion Nudges for Motivating Allies
-
 * **Interrupt Gender Caregiver Stereotypes with Images** on page 536 in The Inclusion Nudges Guidebook and also on page 234 in the inclusion Nudges for Motivating Allies
-
 * **Counter Stereotypes Using Images & Social Media** on page 549 in The Inclusion Nudges Guidebook and also on page 118 in the inclusion Nudges for Talent Selection
-
-
-
-
 
 **Get access to more designs to achieve your diversity, equity, & inclusion initiatives**
 
