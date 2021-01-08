@@ -1,7 +1,7 @@
 ---
 title: Yes, I'm Biased...
 slug: biased
-category: Behavioural Insights, Cognitive Bias, Allies, Change Makers
+category: Behavioural Insights, Reduce Bias, Allies, Change Maker skills
 post_date: 2020-09-10T00:00:00.000Z
 thumbnail: /images/uploads/biased.png
 excerpt: Bias is a universal human condition affecting all of us. But seeing
