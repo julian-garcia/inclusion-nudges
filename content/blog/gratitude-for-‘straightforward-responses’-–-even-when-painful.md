@@ -1,7 +1,7 @@
 ---
 title: Gratitude for ‘straightforward responses’ – even when painful
 slug: Gratitude for ‘straightforward responses’ – even when painful
-category: change makers
+category: change maker skills
 post_date: 2020-12-02T16:21:56.570Z
 thumbnail: /images/uploads/acknowledgement.png
 authors: "Tinna C. Nielsen "
