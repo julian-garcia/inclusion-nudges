@@ -1,7 +1,7 @@
 ---
 title: Ally By Actions - not by posting on social media
 slug: ally by actions
-category: allies, change makers, feel the need
+category: allies, change maker skills, feel the need
 post_date: 2020-11-05T14:15:00.000Z
 thumbnail: /images/uploads/picture1.jpg
 excerpt: So, what does it actually mean to be an ally for behavioural and
