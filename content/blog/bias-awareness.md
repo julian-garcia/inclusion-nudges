@@ -1,7 +1,7 @@
 ---
 title: Bias Awareness Is Not the Solution! It Might Backlash!
 slug: bias awareness
-category: About Inclusion Nudges, Cognitive Bias, Change Makers, Inclusive
+category: About Inclusion Nudges, Reduce Bias, change maker skills, Inclusive
   Culture, Behavioural Insights
 post_date: 2020-09-11T00:00:00.000Z
 thumbnail: /images/uploads/bias-awareness.png
