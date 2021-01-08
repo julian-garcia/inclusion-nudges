@@ -1,8 +1,8 @@
 ---
 title: Stakeholder Inclusion - The Power of Speech Bubbles
 slug: Power of Speech Bubbles
-category: Inclusive co-creation, Feel the Need, Change Makers, Leadership,
-  Inclusive Culture
+category: Inclusive co-creation, Feel the Need, Change Maker skills, Leading
+  inclusively, Inclusive Culture
 post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/speech.png
 excerpt: Stakeholder inclusion and the voices of 'the people it's about' are
