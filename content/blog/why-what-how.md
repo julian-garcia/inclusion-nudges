@@ -1,7 +1,7 @@
 ---
 title: The Power of Inclusion Nudges (Quick Guide)
 slug: Power of Inclusion Nudges
-category: About Inclusion Nudges, Change Maker skills, reduce bias, inclusive
+category: About Inclusion Nudges, change maker skills, reduce bias, inclusive
   culture, leading inclusively, process design, feel the need, frame perceptions
 post_date: 2020-10-02T12:35:19.828Z
 thumbnail: /images/uploads/why-what-how.jpg
