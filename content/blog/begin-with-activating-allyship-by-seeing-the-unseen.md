@@ -1,7 +1,7 @@
 ---
 title: Begin With Activating Allyship By Seeing The Unseen
 slug: allyship by seeing the unseen
-category: allies, change makers, feel the need
+category: allies, change maker skills, feel the need
 post_date: 2020-11-05T14:45:00.693Z
 thumbnail: /images/uploads/jubliee-cookbook-image.png
 excerpt: It can be hard to be an advocate for something that you don’t notice.
