@@ -9,7 +9,7 @@ authors: Lisa Kepinski & Tinna C. Nielsen
 ---
 **This question comes from Christie who is a global HR leader in a multinational. We’ve worked with her, DEI leaders, HR Business Partners, and other colleagues by sharing about Inclusion Nudges and how they can apply this approach in their work across the organisation, such as in talent discussions, hiring, development, and more.**
 
-![](/images/uploads/dialogue-2-bubbles-with-dots.svg)
+![](/images/uploads/question-mark-in-speech-bubble.svg)
 
 *Dear Lisa & Tinna,*
 
@@ -19,7 +19,7 @@ authors: Lisa Kepinski & Tinna C. Nielsen
 
 *Christie*
 
-![](/images/uploads/question-mark-in-speech-bubble.svg)
+![](/images/uploads/dialogue-2-bubbles-with-dots.svg)
 
 Great question, Christie! This is an important area for diversity, equity, and inclusion (DEI) change work.
 
