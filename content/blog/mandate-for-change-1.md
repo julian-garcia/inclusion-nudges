@@ -7,16 +7,7 @@ post_date: 2021-02-09T16:45:35.981Z
 thumbnail: /images/uploads/mandate-for-change-signpost.png
 authors: Lisa Kepinski & Tinna C. Nielsen
 ---
-
-
-
-
-
 **Diversity, equity, and inclusion (DEI) strategy is based on creating change from limiting, harming, and ineffective current approaches. The DEI change maker is expected to drive wide-spread transformation. Yet often, there is a gap between this desired outcome and the positioning of the DEI change maker and their work. Missing is explicit clarity on what is the mandate for change. This not only limits impact but also creates an impossible situation for the change maker. Here are some ways to get clarity on the direction desired which will shape the DEI change maker’s path.**
-
-
-
-
 
 
 
@@ -24,26 +15,17 @@ authors: Lisa Kepinski & Tinna C. Nielsen
 
 Imagine that you’ve just been appointed to the role to set and implement diversity, equity, and inclusion (DEI) strategy. You’re excited about the work in the organisation. Leaders are saying all the ‘right things’ about DEI. You’re ready to get going and start by meeting with each of the leaders, partners, stakeholders, and colleagues. They all say to you about how great it is that you’re in the role and how much the organisation needs this attention on DEI. You think, “*We’re going to make so much progress here*!” It seems great, yes?
 
-
-
 And then you start to experience a different situation. It’s not an obvious thing that you can pinpoint but something doesn’t feel ‘right’. It doesn’t align with your initial feelings and expectations about how the work would go when you started in the role. Perhaps like us, you’ve experienced some of these situations below?
-
-
 
 * **The culture is off limits.** In the organisation, the founders and executives are proudly held up as the role models. Their choices and behaviours created the culture that made the organisation the success it is today. With reverence, this culture story is shared and it becomes the identity of the group. Yet as you speak to people in the organisation, you hear stories of harmful, limiting ways that this culture impacts them.
 
-
-
   When you share this with leaders, they don’t want to hear this, even to the point that they attack your work and you personally. This is not what you expected when you started in the role. You were appointed to ‘challenge the culture’, but when you do that with the gathered data and lived experiences, what emerges is that the culture is not to be changed at all. Challenge really means conforming to the status quo.
-
 
 
 * **Hands off of my processes.** Part of DEI work is reviewing existing processes for any unintended biases. Yet when you meet with the key process owners, they don’t welcome your suggestion to do an analysis of the process. They strongly believe in the quality of their processes and take offense to your suggestion that there could be something that may need to be reviewed and fixed. Rather than collaboration, a wall seems to be erected. While this is an ‘invisible wall’ since it’s never expressed as such, the result is real with no progress on reviewing the processes and an undercurrent of strained relations. Through micro-negative actions and communications, you get the message to stay away and go back to ‘your’ place in the organisation. DEI change work is limited.
 
 
 * **Expectations high, but resources poor**. When it comes to voicing support for DEI work, the leaders, stakeholders, and colleagues seem to be on-board. But when it’s time to do the DEI work, where are the resources (people, tools, budget, partners, etc.)? You feel overlooked and isolated. You become reliant upon the good will of people who volunteer. Having their support is uplifting, but it’s not the solid foundation needed for systemic culture change. You wonder how can you achieve the DEI change expectations without tangible support and engagement across the whole organisation?
-
-
 
 In these examples above, and so many others that we’ve experienced and heard about from other change makers, there is a core issue that impacts the progress with DEI. When Tinna worked internally in a global company, she was told “*the executives might have given you a mandate for change, but you do not have a mandate to ask them to change*”. Also, a colleague in HR said “*you might have been given the mandate to make change to the processes, but I have not been told that you have the mandate to change my HR process*”. Having explicit clarity on **what is the mandate for change** and once knowing this, then the change approach can be designed accordingly. In our work with organisations, we have learned the hard way and designed several ways to have this discussion on the mandate for change. Here are some ways that have worked for us and other change makers.
 
@@ -62,8 +44,6 @@ Many (including us at times) have never asked what is the scope for the change w
 It is far better to *show* rather than tell, and to engage people in a way that they have an ‘aha’ realisation. The power of this approach removes the change maker from the ‘firing line’ as people’s own brains become the ‘messenger’. They have greater trust in what they are seeing for themselves, resulting in stronger motivation to make change. You can find inspiration on ways to do this in these Inclusion Nudges that reveal the patterns of bias at play within the organisation. Use these before asking about ‘what is the mandate for change?’.
 
 * **Judgements of Warmth & Competence**on page 131 in The Inclusion Nudges Guidebook and on page 111 in the Inclusion Nudges for Motivating Allies.
-
-
 * **Identical Candidates but Different Ratings**on page 102 in The Inclusion Nudges Guidebook and also on page 82 in the Inclusion Nudges for Motivating Allies.
 
 
@@ -92,6 +72,8 @@ It can be hard to get honest replies when asking “*What is the mandate for cha
 
 This approach leverages two Inclusion Nudges that use in taking alternative perspectives and considering the implications. Learn more by reading these designs and the behavioural science behind why they work.
 
+
+
 * **Ask Flip Questions to Change Your Perceptions in the Moment** on page 452 in The Inclusion Nudges Guidebook and also on page 169 in the Inclusion Nudges for Motivating Allies, and page 114 in the Inclusion Nudges for Leaders, and page 143 in the Inclusion Nudges for Talent Selection.
 
 
@@ -99,21 +81,23 @@ This approach leverages two Inclusion Nudges that use in taking alternative pers
 
 
 
+
+
 **3. COLLABORATION & CO-CREATION PROCESSES**
 
 So, your discussion on the mandate for change is hopefully going well by now. You’ve help them feel and see the need for making change, and you’ve gotten clarity on what is within the remit for your DEI change work. Now it’s time to address the ‘how’ of the change work. How does collaboration happen? How does reward and accountability factor into this?
-
-
 
 One of the first steps can be to start with all are ‘opted in’ to collaborating on DEI change work. This is the default setting. This flips the collaboration to be owned by the many rather than by primarily the DEI change maker. Structures will need to be designed that support this collaboration, such as in job descriptions and performance management. Also, effective collaboration means co-creation. There are many paths to achieve equity, and progress will benefit from this wealth of ideas. Co-creation is a way that brings in key partners and increases their sense of ownership and engagement. The hidden barriers are reduced because people feel a part of the work and not as a target of the work. Here are some inspirations on ways to do this.
 
 
 
-**Keep Focus on Ideas from Residents in Social Housing** on page 238 in The Inclusion Nudges Guidebook and also on page 221 in the Inclusion Nudges for Motivating Allies.
+* **Keep Focus on Ideas from Residents in Social Housing** on page 238 in The Inclusion Nudges Guidebook and also on page 221 in the Inclusion Nudges for Motivating Allies
 
-**Activity Outline of Social Welfare Interventions** on page 247 in The Inclusion Nudges Guidebook and also on page 224 in the Inclusion Nudges for Motivating Allies.
+  .
+* **Activity Outline of Social Welfare Interventions** on page 247 in The Inclusion Nudges Guidebook and also on page 224 in the Inclusion Nudges for Motivating Allies.
 
-**Valuing Staff Contributions for Inclusive Culture** on page 414 in The Inclusion Nudges Guidebook and also on page 174 in the Inclusion Nudges for Leaders and on page 202 in the Inclusion Nudges for Talent Selection.
+
+* **Valuing Staff Contributions for Inclusive Culture** on page 414 in The Inclusion Nudges Guidebook and also on page 174 in the Inclusion Nudges for Leaders and on page 202 in the Inclusion Nudges for Talent Selection.
 
 
 
