@@ -59,9 +59,11 @@ As an investment company, that’s an unequivocal investment in our present and 
 
 ***If you want to learn more from Lynne Connolly about their application of Inclusion Nudges in Standard Life Aberdeen, feel free to reach out to her: lynne.m.connolly@aberdeenstandard.com or her colleague Matt Yates, Head of Talent Acquisition: matt.yates@aberdeen-asset.com***
 
-***You can also read more about diversity and inclusion in Standard Life Aberdeen [here](https://www.standardlifeaberdeen.com/en/careers/diversity-and-inclusion):*** 
+***You can also read more about diversity and inclusion in Standard Life Aberdeen [here](https://www.standardlifeaberdeen.com/en/careers/diversity-and-inclusion)*** 
 
-**Here are some Inclusion Nudges that inspired Lynne and her colleagues in their work. Take a look at these and reflect on how they could support your DEI initiatives in your context.**
+#### **Here are some Inclusion Nudges that inspired Lynne and her colleagues:**
+
+**Take a look at these and reflect on how they could support your DEI initiatives.**
 
 **Inclusive Wording** on page 297 in The Inclusion Nudges Guidebook, and page 101 in Inclusion Nudges for Talent Selection
 
@@ -71,6 +73,6 @@ As an investment company, that’s an unequivocal investment in our present and 
 
 **The Speech Bubble Intervention** on page 148 in The Inclusion Nudges Guidebook, and page 125 in Inclusion Nudges for Motivating Allies.
 
-**Would you like to be a guest blog writer** about how you are applying Inclusion Nudges in your work?  Sharing with other change makers like yourself is a powerful way to join forces to make inclusion the norm everywhere, for everyone, and by everyone. 
+### **Would you like to be a guest blog writer** about how you are applying Inclusion Nudges in your work?  Sharing with other change makers like yourself is a powerful way to join forces to make inclusion the norm everywhere, for everyone, and by everyone. 
 
 Reach out to Tinna C. Nielsen & Lisa Kepinski, Co-Founders Inclusion Nudges to discuss your article submission at tinna_and_lisa@inclusion-nudges.org
