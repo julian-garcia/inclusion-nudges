@@ -8,7 +8,7 @@ authors: "Guest Blog Writer, February: Lynne Connolly, Global Head of Diversity
 ---
 ![](/images/uploads/lynne-connolly-photo-from-linkedin.jpeg "Lynne Connelly")
 
-*Lynne Connolly has been applying Inclusion Nudges in her work since 2019 as Global Head of Diversity & Inclusion in Standard Life Aberdeen. As a guest blog writer, she shares with you her experience. We are really pleased that Lynne is sharing with you about her work as a change maker for diversity & inclusion. Reciprocity and sharing are key principles to the Inclusion Nudges global community. Thanks Lynne, we appreciate all that you are doing.* 
+*Guest Blog Writer, Lynne Connolly has been applying Inclusion Nudges in her work since 2019 as Global Head of Diversity & Inclusion in Standard Life Aberdeen. As a guest blog writer, she shares with you her experience. We are really pleased that Lynne is sharing with you about her work as a change maker for diversity & inclusion. Reciprocity and sharing are key principles to the Inclusion Nudges global community. Thanks Lynne, we appreciate all that you are doing.* 
 
 ***Tinna & Lisa***
 
@@ -59,8 +59,6 @@ As an investment company, that’s an unequivocal investment in our present and 
 ***If you want to learn more from Lynne Connolly about their application of Inclusion Nudges in Standard Life Aberdeen, feel free to reach out to her: lynne.m.connolly@aberdeenstandard.com or her colleague Matt Yates, Head of Talent Acquisition: matt.yates@aberdeen-asset.com***
 
 ***You can also read more about diversity and inclusion in Standard Life Aberdeen [here](https://www.standardlifeaberdeen.com/en/careers/diversity-and-inclusion):*** 
-
-
 
 **Here are some Inclusion Nudges that inspired Lynne and her colleagues in their work. Take a look at these and reflect on how they could support your DEI initiatives in your context.**
 
