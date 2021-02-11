@@ -6,15 +6,11 @@ post_date: 2021-02-11T17:16:33.780Z
 authors: "Guest Blog Writer, February: Lynne Connolly, Global Head of Diversity
   & Inclusion in Standard Life Aberdeen "
 ---
-
-
 ![](/images/uploads/lynne-connolly-photo-from-linkedin.jpeg "Lynne Connelly")
 
 *Lynne Connolly has been applying Inclusion Nudges in her work since 2019 as Global Head of Diversity & Inclusion in Standard Life Aberdeen. As a guest blog writer, she shares with you her experience. We are really pleased that Lynne is sharing with you about her work as a change maker for diversity & inclusion. Reciprocity and sharing are key principles to the Inclusion Nudges global community. Thanks Lynne, we appreciate all that you are doing.* 
 
 ***Tinna & Lisa***
-
-
 
 ### **When there are so many competing priorities for business leaders, how do we make sure that ‘inclusion’ gets the attention it deserves? How do we make sure that it’s ‘in the room’ and embedded in all that we do?**
 
@@ -26,13 +22,11 @@ That is the reason why the work we are doing in Standard Life Aberdeen is based 
 
 That’s where the Inclusion Nudges change and design approach come in. By focusing on the practical techniques to promote behaviour, culture, and system change by mitigating unconscious bias we can design for inclusion to be the norm.  And that is helping us make more progress in our diversity, equity, and inclusion (DEI) work internally. 
 
-### **We mapped our organisations' processes to see patterns** 
+### **We mapped our organisations' processes to see patterns**
 
 With Tinna’s counsel, we took the end-to-end employee journey (in charts, all around the walls in multiple locations) and assessed the processes we were using and the results we were attaining. Was this good enough? No. While we had pockets of great practice, we weren’t leveraging that across the whole, we weren’t learning as well as we could from each other and we weren’t bringing the diverse voices into the room which really matter in breaking down systemic bias in processes.
 
-
-
-### **We imbed process changes systematically** 
+### **We imbed process changes systematically**
 
 With the leadership of our brilliant HR colleagues and the help of our employee networks, we’ve been on a journey over the last year - COVID aside - to embed the process improvements we identified by using the Inclusion Nudges examples and designs. Seeing the examples helped us see our own processes in a new perspective and enabled us to identity areas for improvement. While these are sometimes small re-designs, they can have a powerful impact on equity and mitigating bias in all that we do. 
 
@@ -46,17 +40,11 @@ Here are a few examples:
 
 ![](/images/uploads/image-wording.jpg)
 
-
-
-
-
 **Diverse interview panel.** We have also launched a diverse interview panel in recruitment processes to challenge decision making.
 
 **Anonymised screening**. We’ve significantly shifted the diverse make up of our graduates and interns by using masked screening in early career recruitment as well as working with a wide range of outreach partners.
 
 **Inclusive policies.** We’ve refreshed our policies by changing the default to be inclusive of all types of family, including parental leave policies where we are now seeing a 55% take up of men. 
-
-
 
 ### But it’s not all about Process Design Inclusion Nudges
 
@@ -68,17 +56,9 @@ In the investment management industry our DEI efforts means more than what we do
 
 As an investment company, that’s an unequivocal investment in our present and our future. Of course, I’m a pragmatist. I know that it will take time and that we need to keep edging along. But getting on the journey, which tackles DEI systemically and behaviourally, and staying on it, despite numerous contextual challenges, is what’s important. 
 
-
-
-
-
-
-
 ***If you want to learn more from Lynne Connolly about their application of Inclusion Nudges in Standard Life Aberdeen, feel free to reach out to her: lynne.m.connolly@aberdeenstandard.com or her colleague Matt Yates, Head of Talent Acquisition: matt.yates@aberdeen-asset.com***
 
-***You can also read more about diversity and inclusion in Standard Life Aberdeen here: https://www.standardlifeaberdeen.com/en/careers/diversity-and-inclusion***
-
-
+***You can also read more about diversity and inclusion in Standard Life Aberdeen [here](https://www.standardlifeaberdeen.com/en/careers/diversity-and-inclusion):*** 
 
 
 
@@ -91,12 +71,6 @@ As an investment company, that’s an unequivocal investment in our present and 
 **Humanise Diversity Data & Trigger Supportive Behaviours** on page 488 in The Inclusion Nudges Guidebook and also on page 196 in the Inclusion Nudges for Motivating Allies
 
 **The Speech Bubble Intervention** on page 148 in The Inclusion Nudges Guidebook, and page 125 in Inclusion Nudges for Motivating Allies.
-
-
-
-
-
-
 
 **Would you like to be a guest blog writer** about how you are applying Inclusion Nudges in your work?  Sharing with other change makers like yourself is a powerful way to join forces to make inclusion the norm everywhere, for everyone, and by everyone. 
 
