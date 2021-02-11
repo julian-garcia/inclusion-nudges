@@ -8,7 +8,7 @@ authors: "Guest Blog Writer, February: Lynne Connolly, Global Head of Diversity
 ---
 ![](/images/uploads/lynne-connolly-photo-from-linkedin.jpeg "Lynne Connelly")
 
-*Guest Blog Writer, Lynne Connolly has been applying Inclusion Nudges in her work since 2019 as Global Head of Diversity & Inclusion in Standard Life Aberdeen. As a guest blog writer, she shares with you her experience. We are really pleased that Lynne is sharing with you about her work as a change maker for diversity & inclusion. Reciprocity and sharing are key principles to the Inclusion Nudges global community. Thanks Lynne, we appreciate all that you are doing.* 
+*Guest Blog Writer in February, Lynne Connolly has been applying Inclusion Nudges in her work since 2019 as Global Head of Diversity & Inclusion in Standard Life Aberdeen. As a guest blog writer, she shares with you her experience. We are really pleased that Lynne is sharing with you about her work as a change maker for diversity & inclusion. Reciprocity and sharing are key principles to the Inclusion Nudges global community. Thanks Lynne, we appreciate all that you are doing.* 
 
 ***Tinna & Lisa***
 
