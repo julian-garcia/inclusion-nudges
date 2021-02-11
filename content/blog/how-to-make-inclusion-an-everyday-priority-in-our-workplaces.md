@@ -3,6 +3,7 @@ title: "How to Make Inclusion an Everyday Priority in Our Workplaces "
 slug: "How to Make Inclusion an Everyday Priority in Our Workplaces "
 category: voices from the community, leading inclusively, change maker skills
 post_date: 2021-02-11T17:16:33.780Z
+thumbnail: /images/uploads/title-image.jpg
 authors: "Guest Blog Writer, February: Lynne Connolly, Global Head of Diversity
   & Inclusion in Standard Life Aberdeen "
 ---
