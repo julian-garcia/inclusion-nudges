@@ -23,9 +23,7 @@ And then you start to experience a different situation. It’s not an obvious th
 
 In these examples above, and so many others that we’ve experienced and heard about from other change makers, there is a core issue that impacts the progress with DEI. When Tinna worked internally in a global company, she was told “*the executives might have given you a mandate for change, but you do not have a mandate to ask them to change*”. Also, a colleague in HR said “*you might have been given the mandate to make change to the processes, but I have not been told that you have the mandate to change my HR process*”. Having explicit clarity on **what is the mandate for change** and once knowing this, then the change approach can be designed accordingly. In our work with organisations, we have learned the hard way and designed several ways to have this discussion on the mandate for change. Here are some ways that have worked for us and other change makers.
 
-
-
-**3 ways to get clarity on the mandate for change**
+#### **3 ways to get clarity on the mandate for change**
 
 Many (including us at times) have never asked what is the scope for the change work and what authority and resources are vested to achieve this. Having this discussion is vital to change making work.But sometimes, before the discussion on the change mandate happens, people need to understand that there is a real need for change. While they may say they support change, their unconsciously-driven behaviours and decisions, and the resulting organisational structures, may not in fact be supportive of change happening. Their identity may be tightly linked to the status quo. Change can feel unnecessary and even threatening. And the person trying to make this happen becomes the unconsciously viewed ‘enemy’. So how can you have a discussion in this situation? Here are 3 areas for how you can do this.
 
@@ -33,8 +31,8 @@ Many (including us at times) have never asked what is the scope for the change w
 
 It is far better to *show* rather than tell, and to engage people in a way that they have an ‘aha’ realisation. The power of this approach removes the change maker from the ‘firing line’ as people’s own brains become the ‘messenger’. They have greater trust in what they are seeing for themselves, resulting in stronger motivation to make change. You can find inspiration on ways to do this in these Inclusion Nudges that reveal the patterns of bias at play within the organisation. Use these before asking about ‘what is the mandate for change?’.
 
-* **Judgements of Warmth & Competence**on page 131 in The Inclusion Nudges Guidebook and on page 111 in the Inclusion Nudges for Motivating Allies.
-* **Identical Candidates but Different Ratings**on page 102 in The Inclusion Nudges Guidebook and also on page 82 in the Inclusion Nudges for Motivating Allies.
+* **Judgements of Warmth & Competence** on page 131 in The Inclusion Nudges Guidebook and on page 111 in the Inclusion Nudges for Motivating Allies.
+* **Identical Candidates but Different Ratings** on page 102 in The Inclusion Nudges Guidebook and also on page 82 in the Inclusion Nudges for Motivating Allies.
 
 **2. FRAME THE CHANGE MANDATE DISCUSSION**
 
@@ -67,6 +65,6 @@ One of the first steps can be to start with all are ‘opted in’ to collaborat
 * **Activity Outline of Social Welfare Interventions** on page 247 in The Inclusion Nudges Guidebook and also on page 224 in the Inclusion Nudges for Motivating Allies.
 * **Valuing Staff Contributions for Inclusive Culture** on page 414 in The Inclusion Nudges Guidebook and also on page 174 in the Inclusion Nudges for Leaders and on page 202 in the Inclusion Nudges for Talent Selection.
 
-**Get access to more designs to achieve your diversity, equity, & inclusion initiatives**
+#### **Get access to more designs to achieve your DEI initiatives**
 
 By applying Inclusion Nudges, you can more effectively achieve your diversity, equity, & inclusion initiatives. Inclusion Nudges make it easy to do this in a way that that engages all people and results in them being more motivated to take action. The research studies and the designs referenced in this article are described in step-by-step details in The Inclusion Nudges Guidebook, and also in the books in the Action Guide series. We encourage you to try applying the change methodology of Inclusion Nudges. These make inclusion the norm everywhere, for everyone, and by everyone.
