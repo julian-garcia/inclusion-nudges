@@ -26,7 +26,7 @@ We have also seen in diversity reports, slide presentations, and other forms of 
 
 **What is diversity?** 
 
-For us in our work with leaders, change makers, communities, and organisations, here is how we define ‘diversity’.
+For us in our work with leaders, change maker skills, communities, and organisations, here is how we define ‘diversity’.
 
 **“Diversity is about people. This includes their demographic differences, backgrounds, multiple identities, and their unique experiences, perspectives, knowledge, abilities, ideas, and more. Diversity is not referencing specific characteristics of only ‘the minority’ within a group of people or in society. Diversity is referencing all people and differences among us. Diversity is the mix of all of us.”** 
 

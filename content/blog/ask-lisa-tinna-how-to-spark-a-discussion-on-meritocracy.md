@@ -1,7 +1,7 @@
 ---
 title: "Ask Lisa & Tinna: How to Spark a Discussion on Meritocracy?"
 slug: How to Spark a Discussion on Meritocracy?
-category: Ask Lisa & Tinna, Change Makers Skills, Behavioural Insights,
+category: Ask Lisa & Tinna, Change Maker Skills, Behavioural Insights,
   Inclusive Culture, Reduce Bias, Inclusive Decision Making, Leading Inclusively
 post_date: 2021-02-09T16:50:10.884Z
 thumbnail: /images/uploads/scales-not-in-balance.png
@@ -29,7 +29,7 @@ It can be very seductive for us to hold views of ourselves as being fair and mer
 
 In the situations that we were in, the questioning of “*Are we a meritocracy*?” was taboo. And it became clear that the culture was off limits for any DEI change work to ensure greater equity (read more about this in [this blog article](https://inclusion-nudges.org/blog/change-makers-skills/mandate-for-change)). This completely shut down any work to ensure there was meritocracy, with implications of wide gaps between the declaration of meritocracy and the actual experiences of the people in the organisation. The credibility of the leaders and the organisational reputation were weakened, and staff were disengaged and leaving.
 
-**Another dynamic perpetuating inequalities** within perceived merit-based cultures is [moral licensing](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1751-9004.2010.00263.x). This is when a good act or a positive belief, triggers behaviours that are actually not pro-social and in alignment with our intentions. For example, when we feel good after attending a DEI training, we are less attentive to where bias may be occurring and cases of exclusion and harassment increase. This has strong implications on the success of diversity programs which are often heavily reliant upon training as a solution (see Dobbin and Kalev’s [Why Diversity Programs Fai](https://hbr.org/2016/07/why-diversity-programs-fail)l and [Why Sexual Harassment Programs Backfire](https://hbr.org/2020/05/why-sexual-harassment-programs-backfire#why-sexual-harassment-programs-backfire)). Similarly, when an organisation is focused on doing good in the world, there can be less focus on doing good within their own workplace (recall the many situations of humanitarian organisations with cases of harassment).
+**Another dynamic perpetuating inequalities** within perceived merit-based cultures is [moral licensing](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1751-9004.2010.00263.x). This is when a good act or a positive belief, triggers behaviours that are actually not pro-social and in alignment with our intentions. For example, when we feel good after attending a DEI training, we are less attentive to where bias may be occurring and cases of exclusion and harassment increase. This has strong implications on the success of diversity programs which are often heavily reliant upon training as a solution (see Dobbin and Kalev’s [Why Diversity Programs Fail](https://hbr.org/2016/07/why-diversity-programs-fail) and [Why Sexual Harassment Programs Backfire](https://hbr.org/2020/05/why-sexual-harassment-programs-backfire#why-sexual-harassment-programs-backfire)). Similarly, when an organisation is focused on doing good in the world, there can be less focus on doing good within their own workplace (recall the many situations of humanitarian organisations with cases of harassment).
 
 **So, how can we, as change makers, bring up an honest discussion about meritocracy** when there are such powerful forces discouraging this to happen? In our work, we’ve been at this point many times and sparking the discussion by showing (not telling) about inequalities within the culture through its systems and the decisions and behaviours is a powerful way to start. 
 
@@ -44,9 +44,3 @@ In the situations that we were in, the questioning of “*Are we a meritocracy*?
 And there are many more in the Inclusion Nudges books
 
 ***Thanks again for your question, Christie, and let us know what works for you.***
-
-#### **Got a question about Inclusion Nudges and how to use these designs to achieve your diversity, equity, & inclusion initiatives?**
-
-Send us your questions to [tinna_and_lisa@inclusion-nudges.org](mailto:tinna_and_lisa@inclusion-nudges.org)
-
-[](<>)

@@ -74,7 +74,3 @@ As an investment company, that’s an unequivocal investment in our present and 
 **Humanise Diversity Data & Trigger Supportive Behaviours** on page 488 in The Inclusion Nudges Guidebook and also on page 196 in the Inclusion Nudges for Motivating Allies
 
 **The Speech Bubble Intervention** on page 148 in The Inclusion Nudges Guidebook, and page 125 in Inclusion Nudges for Motivating Allies.
-
-### **Would you like to be a guest blog writer** about how you are applying Inclusion Nudges in your work?  Sharing with other change makers like yourself is a powerful way to join forces to make inclusion the norm everywhere, for everyone, and by everyone.
-
-Reach out to Tinna C. Nielsen & Lisa Kepinski, Co-Founders Inclusion Nudges to discuss your article submission at tinna_and_lisa@inclusion-nudges.org

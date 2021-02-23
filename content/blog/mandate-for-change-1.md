@@ -1,7 +1,7 @@
 ---
 title: "Mandate For Change "
 slug: "mandate for change "
-category: Change Makers Skills, Leading Inclusively, Inclusive Co-Creation,
+category: Change Maker Skills, Leading Inclusively, Inclusive Co-Creation,
   Inclusive Culture
 post_date: 2021-02-09T16:45:35.981Z
 thumbnail: /images/uploads/mandate-for-change-signpost.png

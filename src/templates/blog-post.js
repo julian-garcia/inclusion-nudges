@@ -44,7 +44,7 @@ const blogPost = ({ data }) => {
       <div className="accent-1 no-print strapline strapline-blog">
         <h2 className="text colour-accent-3">
           <span>
-            Don’t miss out. Stay informed
+            Don’t miss out. Stay informed&nbsp;
             <br className="show-large-tablet" />
             about new blog posts.
             <br />
@@ -81,7 +81,14 @@ const blogPost = ({ data }) => {
       >
         <h2 style={{ textAlign: "left" }}>{postTitle}</h2>
         <p className="blog-post__authors">
-          By <Link to="founders">{frontmatter.authors}</Link>
+          {firstCategory.toUpperCase() !== "VOICES FROM THE COMMUNITY" && (
+            <>
+              By <Link to="founders">{frontmatter.authors}</Link>
+            </>
+          )}
+          {firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (
+            <>By {frontmatter.authors}</>
+          )}
         </p>
         <img src={frontmatter.thumbnail} alt="" />
         <div className="blog-post__social-share no-print">
@@ -140,6 +147,52 @@ const blogPost = ({ data }) => {
         className="blog-post the-blog"
         dangerouslySetInnerHTML={{ __html: html }}
       ></div>
+      <div
+        className="blog-post the-blog no-print"
+        style={{ paddingTop: "0", paddingBottom: "0" }}
+      >
+        {firstCategory.toUpperCase() === "ASK LISA & TINNA" && (
+          <>
+            <h3 style={{ marginTop: "0" }}>
+              Got a question about Inclusion Nudges and how to use these designs
+              to achieve your diversity, equity, & inclusion initiatives?
+            </h3>
+            <h4>
+              Send us your questions to&nbsp;
+              <a
+                href="mailto:tinna_and_lisa@inclusion-nudges.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontWeight: "bold" }}
+              >
+                tinna_and_lisa@inclusion-nudges.org
+              </a>
+            </h4>
+          </>
+        )}
+        {firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (
+          <>
+            <h3 style={{ marginTop: "0" }}>
+              Would you like to be a guest blog writer about how you are
+              applying Inclusion Nudges in your work? Sharing with other change
+              makers like yourself is a powerful way to join forces to make
+              inclusion the norm everywhere, for everyone, and by everyone.
+            </h3>
+            <h4>
+              Reach out to Tinna C. Nielsen & Lisa Kepinski, Co-Founders
+              Inclusion Nudges to discuss your article submission at&nbsp;
+              <a
+                href="mailto:tinna_and_lisa@inclusion-nudges.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontWeight: "bold" }}
+              >
+                tinna_and_lisa@inclusion-nudges.org
+              </a>
+            </h4>
+          </>
+        )}
+      </div>
       <div className="blog-post the-blog no-print">
         <h2 style={{ marginTop: 0 }}>Want to learn more?</h2>
         <p>

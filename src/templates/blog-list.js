@@ -82,7 +82,7 @@ const Blog = ({ pageContext, location }) => {
       <div className="accent-1 strapline strapline-blog">
         <h2 className="text colour-accent-3">
           <span>
-            Don’t miss out. Stay informed
+            Don’t miss out. Stay informed&nbsp;
             <br className="show-large-tablet" />
             about new blog posts.
             <br />

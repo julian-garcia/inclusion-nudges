@@ -176,6 +176,14 @@
 
   &.the-blog img {
     width: 90%;
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    &[src$=".svg"] {
+      float: left;
+      max-width: 30px;
+      margin-right: 20px;
+    }
   }
 
   sup {
@@ -198,6 +206,9 @@
   img[src*="quick-read"],
   img.quick-read {
     margin-left: -5px;
+    margin-right: 5px;
+    margin-top: -3px;
+    float: left;
     width: 30px;
     vertical-align: middle;
   }

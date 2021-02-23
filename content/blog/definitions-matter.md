@@ -2,7 +2,7 @@
 title: DEFINITIONS MATTER – JUST DON’T TALK ABOUT THEM. DIVERSITY, EQUITY,
   BELONGING, INCLUSION
 slug: definitions matter
-category: About Inclusion Nudges, Frame Perceptions, Change Makers
+category: About Inclusion Nudges, Frame Perceptions, Change maker skills
 post_date: 2020-09-09T00:00:00.000Z
 thumbnail: /images/uploads/why.png
 featured: true

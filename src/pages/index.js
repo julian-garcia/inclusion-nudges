@@ -34,7 +34,14 @@ const IndexPage = ({ data }) => (
           <Link to="/founders">Tinna&nbsp;C.&nbsp;Nielsen</Link>
           <br className="desktop-only" /> based on our extensive experience as
           global change makers for inclusion combined with our background in
-          behavioural sciences
+          behavioural sciences.{" "}
+          <a
+            href="https://forumworkplaceinclusion.org/the-forum-on-workplace-inclusion-2021-diversity-award-winners-announced/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Winds of Change Award Honorable Mention 2021
+          </a>
           <Link
             className="book-series"
             onClick={() => scrollTo("#books")}

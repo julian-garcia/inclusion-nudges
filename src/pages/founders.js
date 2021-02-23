@@ -293,10 +293,10 @@ const FoundersPage = () => (
             within an inclusive culture for sustainable and equitable growth.
             She also coaches change makers and leaders to enable them to carry
             the work forward in their own organisations. Lisa works with groups
-            to focus on inclusion, such as by serving on several advisory boards
-            (including Barilla’s D&I Advisory Board), chairing conferences,
-            founding the Europe-based Global D&I Forum, and as an expert
-            panellist for the Global Diversity & Inclusion Benchmarks.{" "}
+            to focus on inclusion, such as by serving on several advisory
+            boards, chairing conferences, founding the Europe-based Global D&I
+            Forum, and as an expert panellist for the Global Diversity &
+            Inclusion Benchmarks.{" "}
           </p>
           <p>
             {" "}
