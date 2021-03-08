@@ -1,5 +1,5 @@
 ---
-title: Begin With Activating Allyship By Seeing The Unseen
+title: Begin With Activating Allyship by Seeing The Unseen
 slug: allyship by seeing the unseen
 category: allies, change maker skills, feel the need
 post_date: 2020-11-05T14:45:00.693Z

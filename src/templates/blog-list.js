@@ -172,15 +172,7 @@ const Blog = ({ pageContext, location }) => {
         <div className="indented-row row-auto">
           {filteredPosts.map(({ node }, i) => {
             const ellipsis = node.frontmatter.title.length > 60 ? "..." : ""
-            const postTitle =
-              node.frontmatter.title
-                .toLowerCase()
-                .split(" ")
-                .map(word => {
-                  return word.charAt(0).toUpperCase() + word.slice(1)
-                })
-                .join(" ")
-                .substr(0, 60) + ellipsis
+            const postTitle = node.frontmatter.title.substr(0, 60) + ellipsis
             return (
               <div className="blog__card" key={`key${i}`}>
                 <div

@@ -1,5 +1,5 @@
 ---
-title: 2 ways you can nudge people to be ALLIES
+title: 2 Ways You Can Nudge People To Be Allies
 slug: nudge people to be allies
 category: Allies, change maker skills
 post_date: 2020-09-11T20:46:00.394Z

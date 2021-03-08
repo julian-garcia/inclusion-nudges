@@ -1,6 +1,6 @@
 ---
-title: DEFINITIONS MATTER – JUST DON’T TALK ABOUT THEM. DIVERSITY, EQUITY,
-  BELONGING, INCLUSION
+title: Definitions Matter – Just Don’t Talk About Them. Diversity, Equity,
+  Belonging, Inclusion
 slug: definitions matter
 category: About Inclusion Nudges, Frame Perceptions, Change maker skills
 post_date: 2020-09-09T00:00:00.000Z

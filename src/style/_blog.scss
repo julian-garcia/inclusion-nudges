@@ -57,7 +57,6 @@
     height: 3rem;
     padding: 0 1rem;
     color: $accent-2;
-    text-transform: capitalize;
   }
 
   &__excerpt {
@@ -162,7 +161,7 @@
     img {
       width: auto;
       max-width: 100%;
-      max-height: 350px;
+      max-height: 200px;
     }
   }
 
@@ -184,6 +183,16 @@
       max-width: 30px;
       margin-right: 20px;
     }
+  }
+
+  &.the-blog li {
+    margin-bottom: 10px;
+  }
+
+  &.the-blog hr {
+    border: none;
+    border-top: 1px solid $guide-grey;
+    margin: 2rem 0;
   }
 
   sup {

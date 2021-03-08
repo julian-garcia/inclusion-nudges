@@ -1,5 +1,5 @@
 ---
-title: "Mandate For Change "
+title: "Mandate for Change "
 slug: "mandate for change "
 category: Change Maker Skills, Leading Inclusively, Inclusive Co-Creation,
   Inclusive Culture

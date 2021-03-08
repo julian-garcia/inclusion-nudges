@@ -18,6 +18,7 @@ import AlliesImg from "../images/ag-motivating-allies.png"
 import GuideFrontImg from "../images/guidebook-front.png"
 import QuickReadImg from "../images/quick-read.png"
 import BooksImg from "../images/book-series.png"
+import SignatureImg from "../images/signature.png"
 
 const slugify = require("slugify")
 
@@ -27,9 +28,7 @@ const blogPost = ({ data }) => {
   const postUrl = `https://inclusion-nudges.org/blog/${slugify(firstCategory, {
     lower: true,
   })}/${slugify(frontmatter.slug, { lower: true })}`
-  const postTitle = frontmatter.title.replace(/\b(\w)/gi, match => {
-    return match.charAt(0).toUpperCase() + match.slice(1).toLowerCase()
-  })
+  const postTitle = frontmatter.title
 
   return (
     <Layout
@@ -153,6 +152,12 @@ const blogPost = ({ data }) => {
       >
         {firstCategory.toUpperCase() === "ASK LISA & TINNA" && (
           <>
+            <h3>Thank you for asking the question.</h3>
+            <img
+              src={SignatureImg}
+              alt="Lisa & Tinna"
+              className="modal-signature"
+            />
             <h3 style={{ marginTop: "0" }}>
               Got a question about Inclusion Nudges and how to use these designs
               to achieve your diversity, equity, & inclusion initiatives?
@@ -168,6 +173,10 @@ const blogPost = ({ data }) => {
                 tinna_and_lisa@inclusion-nudges.org
               </a>
             </h4>
+            <p>
+              Questions will be slightly edited to fit the posting and for
+              confidentiality as needed.
+            </p>
           </>
         )}
         {firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (

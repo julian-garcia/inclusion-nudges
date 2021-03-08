@@ -1,5 +1,5 @@
 ---
-title: Gratitude for ‘straightforward responses’ – even when painful
+title: Gratitude for ‘Straightforward Responses’ – Even When Painful
 slug: Gratitude for ‘straightforward responses’ – even when painful
 category: change maker skills
 post_date: 2020-12-02T16:21:56.570Z
