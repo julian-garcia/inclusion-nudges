@@ -1,5 +1,6 @@
 ---
-title: "ASK: How can we ensure intersectionality is best reflected in KPIs"
+title: "Ask Lisa & Tinna: How Can We Ensure Intersectionality is Best Reflected
+  in KPIs"
 slug: Intersectionality in KPI
 category: Ask Lisa & Tinna, Change Maker Skills, Behavioural Insights, Inclusive
   Culture, Reduce Bias, Inclusive Decision Making, Leading Inclusively
