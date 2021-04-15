@@ -174,8 +174,7 @@
   }
 
   &.the-blog img {
-    width: 90%;
-    max-width: 400px;
+    max-width: 100%;
     margin: auto;
     display: block;
     &[src$=".svg"] {
