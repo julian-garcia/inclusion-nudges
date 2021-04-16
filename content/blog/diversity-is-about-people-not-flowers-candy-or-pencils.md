@@ -10,7 +10,7 @@ excerpt: In trying to convey ‘what is diversity’, many use images of colourf
   concept of diversity--quite literally by the images that are shown. Instead,
   we need to frame perceptions to be inclusive of all people to be able to
   support the needed changes in behaviours and systems.
-authors: By Lisa Kepinski & Tinna C. Nielsen
+authors: Lisa Kepinski & Tinna C. Nielsen
 ---
 **In trying to convey ‘what is diversity’, many use images of colourful objects. Rarely are people actually shown, and if they are it tends to only be people of minority groups. This creates a problem for how we understand the concept of diversity--quite literally by the images that are shown. Instead, we need to frame perceptions to be inclusive of all people to be able to support the needed changes in behaviours and systems.**
 

@@ -4,7 +4,7 @@ slug: "Calling in calling out"
 category: Inclusive Culture, Voices from the Community, Change Maker Skills, Allies, Leading inclusively
 post_date: 2021-04-13T18:33:10.884Z
 thumbnail: /images/uploads/calling.png
-authors: Lisa Kepinski in an interview with Dr. Robert L. Canida, from the University of Lynchburg, Virginia, USA
+authors: By <a href="/founders">Lisa Kepinski</a> in an interview with <a href="https://www.linkedin.com/in/dr-robert-l-canida-ii-ph-d-450b8619/">Dr. Robert L. Canida</a>, from the University of Lynchburg, Virginia, USA
 ---
 <style>
   .blog-post.the-blog img[src$="signature.jpg"] {
@@ -25,9 +25,9 @@ It’s triggered by real experiences that happened to the accusers themselves or
 ## Some ‘calling out’ backlashes
 There can be a downside when ‘calling out’ is done with the intent of only shaming someone rather than seeking a change. ‘Calling out’ can backfire by deepening ‘us against them’, ideology entrenchment, a lack of understanding the ‘other’ person, and with no opening for apology or forgiveness. We miss out on achieving impactful behavioural and system changes. 
 
-**This is amplified when ‘calling out’ on social media with its distance, anonymity, superficiality, snap reactions, and group dynamics. **
+**This is amplified when ‘calling out’ on social media with its distance, anonymity, superficiality, snap reactions, and group dynamics.**
 
-Calling out’ harmful, inappropriate, discriminatory behaviours is fundamental to creating change especially by disenfranchised groups of people within an unjust system. We can’t change what we don’t see, and often we need others to point out what we may not notice in ourselves or our organisations. But when ‘calling out’ is done through online postings alone, it becomes like a ‘hit and run’ with no deeper engagement or dialogue for change. 
+‘Calling out’ harmful, inappropriate, discriminatory behaviours is fundamental to creating change especially by disenfranchised groups of people within an unjust system. We can’t change what we don’t see, and often we need others to point out what we may not notice in ourselves or our organisations. But when ‘calling out’ is done through online postings alone, it becomes like a ‘hit and run’ with no deeper engagement or dialogue for change. 
 
 Fear, embarrassment, shame, and resentment become the dominate emotional drivers in the ‘accused’ person. This is not to say that we should emotionally protect the ‘offender’ but it is to ensure that we have clarity on how, when, and why we use the ‘calling out’ change technique. If the purpose is merely to shame or punish, then we miss out on engaging them into dialogue and them becoming an ally. This is how ‘calling out’ can become a barrier to change.
 

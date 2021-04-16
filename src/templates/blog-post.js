@@ -29,6 +29,7 @@ const blogPost = ({ data }) => {
     lower: true,
   })}/${slugify(frontmatter.slug, { lower: true })}`
   const postTitle = frontmatter.title
+  const customAuthor = frontmatter.authors.toLowerCase().startsWith("by ")
 
   return (
     <Layout
@@ -80,14 +81,23 @@ const blogPost = ({ data }) => {
       >
         <h2 style={{ textAlign: "left" }}>{postTitle}</h2>
         <p className="blog-post__authors">
-          {firstCategory.toUpperCase() !== "VOICES FROM THE COMMUNITY" && (
+          {customAuthor && (
             <>
-              By <Link to="founders">{frontmatter.authors}</Link>
+              <div
+                dangerouslySetInnerHTML={{ __html: frontmatter.authors }}
+              ></div>
             </>
           )}
-          {firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (
-            <>By {frontmatter.authors}</>
-          )}
+          {!customAuthor &&
+            firstCategory.toUpperCase() !== "VOICES FROM THE COMMUNITY" && (
+              <>
+                By <Link to="founders">{frontmatter.authors}</Link>
+              </>
+            )}
+          {!customAuthor &&
+            firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (
+              <>By {frontmatter.authors}</>
+            )}
         </p>
         <img src={frontmatter.thumbnail} alt="" />
         <div className="blog-post__social-share no-print">
