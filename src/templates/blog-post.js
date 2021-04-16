@@ -80,25 +80,24 @@ const blogPost = ({ data }) => {
         style={{ paddingBottom: 0 }}
       >
         <h2 style={{ textAlign: "left" }}>{postTitle}</h2>
-        <p className="blog-post__authors">
-          {customAuthor && (
-            <>
-              <div
-                dangerouslySetInnerHTML={{ __html: frontmatter.authors }}
-              ></div>
-            </>
-          )}
-          {!customAuthor &&
-            firstCategory.toUpperCase() !== "VOICES FROM THE COMMUNITY" && (
+        {customAuthor && (
+          <p
+            className="blog-post__authors"
+            dangerouslySetInnerHTML={{ __html: frontmatter.authors }}
+          ></p>
+        )}
+        {!customAuthor && (
+          <p className="blog-post__authors">
+            {firstCategory.toUpperCase() !== "VOICES FROM THE COMMUNITY" && (
               <>
                 By <Link to="founders">{frontmatter.authors}</Link>
               </>
             )}
-          {!customAuthor &&
-            firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (
+            {firstCategory.toUpperCase() === "VOICES FROM THE COMMUNITY" && (
               <>By {frontmatter.authors}</>
             )}
-        </p>
+          </p>
+        )}
         <img src={frontmatter.thumbnail} alt="" />
         <div className="blog-post__social-share no-print">
           <a
