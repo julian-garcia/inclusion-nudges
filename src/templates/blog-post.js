@@ -161,7 +161,9 @@ const blogPost = ({ data }) => {
       >
         {firstCategory.toUpperCase() === "ASK LISA & TINNA" && (
           <>
-            <h3>Thank you for asking the question.</h3>
+            <h3 style={{ marginTop: "0" }}>
+              Thank you for asking the question.
+            </h3>
             <img
               src={SignatureImg}
               alt="Lisa & Tinna"

@@ -7,7 +7,7 @@ thumbnail: /images/uploads/elastic.png
 authors: Lisa Kepinski & Tinna C. Nielsen
 ---
 
-**During 2020 and onward, there have been urgent calls to action for creating a more inclusive and equitable world. As change makers for creating equitable systems and expanding perspectives, interactions, and decisions to be more inclusive of all people, we can be up against a seemingly ‘invisible’ force within ourselves that blocks change happening—a deep unconscious preference for the STATUS QUO. Here we give you 2 practical ways that you can apply behavioural insights to overcome this trap (in yourself and others), avoid performative diversity, equity, & inclusion (DEI) efforts, and foster a ‘catapult’ change mindset in all people.**
+**During 2020 and onward, there have been urgent calls to action for creating a more inclusive and equitable world. As change makers for creating equitable systems and expanding perspectives, interactions, and decisions to be more inclusive of all people, we can be up against a seemingly ‘invisible’ force within ourselves that blocks change happening—a deep unconscious preference for the STATUS QUO. Here we give you a practical way that you can apply behavioural insights to overcome this trap (in yourself and others), avoid performative diversity, equity, & inclusion (DEI) efforts, and foster a ‘catapult’ change mindset in all people.**
 
 The ease and comfort of the familiar! Ohh, do we know it! We (Lisa and Tinna) have as change makers, let the status quo bias drive our actions, even when we know it’s not ideal and will not create the needed changes. It’s a reality that it stems from a natural human need for predictability, order, and familiarity which increases when faced with what seems like chaos and uncertainty. 
 
