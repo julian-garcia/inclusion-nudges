@@ -9,7 +9,7 @@ authors: Lisa Kepinski & Tinna C. Nielsen
 
 **During 2020 and onward, there have been urgent calls to action for creating a more inclusive and equitable world. As change makers for creating equitable systems and expanding perspectives, interactions, and decisions to be more inclusive of all people, we can be up against a seemingly ‘invisible’ force within ourselves that blocks change happening—a deep unconscious preference for the STATUS QUO. Here we give you a practical way that you can apply behavioural insights to overcome this trap (in yourself and others), avoid performative diversity, equity, & inclusion (DEI) efforts, and foster a ‘catapult’ change mindset in all people.**
 
-The ease and comfort of the familiar! Ohh, do we know it! We (Lisa and Tinna) have as change makers, let the status quo bias drive our actions, even when we know it’s not ideal and will not create the needed changes. It’s a reality that it stems from a natural human need for predictability, order, and familiarity which increases when faced with what seems like chaos and uncertainty. 
+The ease and comfort of the familiar! Ohh, do we know it! We (Lisa and Tinna) have as change makers, let the status quo bias drive our actions, even when we know it’s not ideal and will not create the needed changes. It’s a reality that stems from a natural human need for predictability, order, and familiarity which increases when faced with what seems like chaos and uncertainty. 
 
 We have all been affected by the globally-shared pandemic experience, but not all people’s realities have been equal. Nor is the recovery ahead one that is on a fair, level platform for all.  In many countries, people are voicing their discontent and demands for change. There are now, more than ever, heightened awareness and calls for substantive actions to address inequities. As change makers for diversity, equity, and inclusion (DEI), it’s an urgent time for us to lead the way with effective change actions and avoid [performative](/blog/allies/ally-by-actions) steps and maintaining the harmful status quo.
 
@@ -43,7 +43,7 @@ A ‘Catapult Mindset’ focuses on creating new solutions to address past probl
 
 **So how can DEI change makers help to get more people onboard with innovating for a more inclusive future to realise all people’s potential instead of waiting on getting back to ‘normal’?**
 
-What works to increase support, engagement, & achievement for your DEI change initiative
+**What works to increase support, engagement, & achievement for your DEI change initiative**\
 To achieve impactful change, we need to make people ‘Feel the Need’ to be inclusive. To have true impact, we need to help other people see and feel hidden problems and solutions in ways that influence their emotions and perceptions. Research shows that the sequence of change is ‘See-Feel-Change’ and it’s not by knowing and rationally understanding the need for change. This is particularly the case when it comes with changes for diversity, equity, and inclusion because of the stuck patterns combined with shame, blame, and blindness at the core of these issues. 
 
 When we developed the Inclusion Nudges change approach it was to enforce a catapult mindset in all of us and make it easy for all people to enable change by appealing to the behavioural drivers, biases, and emotions in the [unconscious mind](/blog/about-inclusion-nudges/power-of-inclusion-nudges). 
