@@ -171,7 +171,7 @@ const FoundersPage = () => (
             Co-Author the Inclusion Nudges Guidebook & Inclusion&nbsp;Nudges
             Action Guide Series{" "}
           </h3>
-          <p>contact@inclusion-nudges.org</p>
+          <p>tinna_and_lisa@inclusion-nudges.org</p>
           <h3>Founder, Move the Elephant for Inclusiveness </h3>
           <p>tinna@movetheelephant.org</p>
           <p>
@@ -263,7 +263,7 @@ const FoundersPage = () => (
             Co-Author the Inclusion Nudges Guidebook & Inclusion&nbsp;Nudges
             Action Guide Series{" "}
           </h3>
-          <p>contact@inclusion-nudges.org</p>
+          <p>tinna_and_lisa@inclusion-nudges.org</p>
           <h3>Founder, Inclusion Institute </h3>
           <p>lisa.kepinski@inclusion-institute.com</p>
           <p>

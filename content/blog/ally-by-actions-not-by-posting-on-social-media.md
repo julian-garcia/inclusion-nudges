@@ -62,4 +62,4 @@ We each have the power to do something. We just have to know how to transform ou
 
 To get more practical examples you can read the [Action Guide for Motivating Allies ](https://www.amazon.com/Inclusion-Nudges-Motivating-Allies-behavioural/dp/B08GV91VYP/ref=sr_1_1?dchild=1&keywords=motivating+allies&sr=8-1)with 30 Inclusion Nudge designs. 
 
-Please share with us how you do allyship and how to empower others to be allies.  Drop us an email: contact@inclusion-nudges.org
+Please share with us how you do allyship and how to empower others to be allies.  Drop us an email: tinna_and_lisa@inclusion-nudges.org
