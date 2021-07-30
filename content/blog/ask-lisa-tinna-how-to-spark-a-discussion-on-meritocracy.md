@@ -35,11 +35,11 @@ In the situations that we were in, the questioning of “*Are we a meritocracy*?
 
 #### Here are some motivational Inclusion Nudges to inspire how to do this.
 
-* **Judgements of Warmth & Competence** on page 131 in The Inclusion Nudges Guidebook and on page 111 in the Inclusion Nudges for Motivating Allies
-* **Identical Candidates but Different Ratings** on page 101 in The Inclusion Nudges Guidebook and also on page 82 in the Inclusion Nudges for Motivating Allies
-* **Show Hidden Patterns in Performance Calibration Data** on page 177 in The Inclusion Nudges Guidebook and on page 155 in the Inclusion Nudges for Motivating Allies
-* **Show the Hidden People by Reversing the Numbers** on page 475 in The Inclusion Nudges Guidebook and also on page 171 in the Inclusion Nudges for Leaders and on page 181 in the Inclusion Nudges for Motivating Allies
-* **Colour Code People to Ensure Meritocracy** on page 322 in The Inclusion Nudges Guidebook and on page 158 in the Inclusion Nudges for Talent Selection
+* **Judgements of Warmth & Competence** in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Motivating Allies
+* **Identical Candidates but Different Ratings** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies
+* **Show Hidden Patterns in Performance Calibration Data** in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Motivating Allies
+* **Show the Hidden People by Reversing the Numbers** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Leaders and in the Inclusion Nudges for Motivating Allies
+* **Colour Code People to Ensure Meritocracy** in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Talent Selection
 
 And there are many more in the Inclusion Nudges books
 

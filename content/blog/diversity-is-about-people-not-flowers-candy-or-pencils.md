@@ -44,10 +44,10 @@ Also, seeing real people’s faces (especially people that we know or are famili
 
 We have many examples of designs where images can support intentions for diversity, equity, and inclusion. Some of these Inclusion Nudges are below. Each of these are written out step-by-step to make it easy for you to try them, and they also have behavioural insights and references to research on why they work.
 
-* **Images Framing Immigrants as One of Us** on page 528 in The Inclusion Nudges Guidebook and also on page 229 in the inclusion Nudges for Motivating Allies
-* **Humanise Diversity Data & Trigger Supportive Behaviours** on page 488 in The Inclusion Nudges Guidebook and also on page 196 in the inclusion Nudges for Motivating Allies
-* **Interrupt Gender Caregiver Stereotypes with Images** on page 536 in The Inclusion Nudges Guidebook and also on page 234 in the inclusion Nudges for Motivating Allies
-* **Counter Stereotypes Using Images & Social Media** on page 549 in The Inclusion Nudges Guidebook and also on page 118 in the inclusion Nudges for Talent Selection
+* **Images Framing Immigrants as One of Us** in The Inclusion Nudges Guidebook and also in the inclusion Nudges for Motivating Allies
+* **Humanise Diversity Data & Trigger Supportive Behaviours** in The Inclusion Nudges Guidebook and also in the inclusion Nudges for Motivating Allies
+* **Interrupt Gender Caregiver Stereotypes with Images** in The Inclusion Nudges Guidebook and also in the inclusion Nudges for Motivating Allies
+* **Counter Stereotypes Using Images & Social Media** in The Inclusion Nudges Guidebook and also in the inclusion Nudges for Talent Selection
 
 **Get access to more designs to achieve your diversity, equity, & inclusion initiatives**
 

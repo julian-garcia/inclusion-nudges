@@ -92,9 +92,9 @@ Shame withers when you talk about it. So, tell others.  If people share their �
 
 ## These Inclusion Nudges can support honest conversations and connections:
  
-**Telling Employees’ Stories For Inclusion** on page 159 in **The Inclusion Nudges Guidebook** (2020)\
-**The Speech Bubble Intervention** on page 148 in **The Inclusion Nudges Guidebook** (2020)\
-**Prompters To Connect & Increase Belonging** on page 417 in **The Inclusion Nudges Guidebook** (2020)
+**Telling Employees’ Stories For Inclusion** in **The Inclusion Nudges Guidebook** (2020)\
+**The Speech Bubble Intervention** in **The Inclusion Nudges Guidebook** (2020)\
+**Prompters To Connect & Increase Belonging** in **The Inclusion Nudges Guidebook** (2020)
 
 ## Previous blog articles relevant for this topic of wellbeing, connection, and shame:
 

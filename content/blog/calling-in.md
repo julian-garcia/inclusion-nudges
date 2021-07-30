@@ -31,7 +31,7 @@ There can be a downside when ‘calling out’ is done with the intent of only s
 
 Fear, embarrassment, shame, and resentment become the dominate emotional drivers in the ‘accused’ person. This is not to say that we should emotionally protect the ‘offender’ but it is to ensure that we have clarity on how, when, and why we use the ‘calling out’ change technique. If the purpose is merely to shame or punish, then we miss out on engaging them into dialogue and them becoming an ally. This is how ‘calling out’ can become a barrier to change.
 
-Learn more about this hidden barrier in the long list of stuck patterns for achieving diversity, equity, and inclusion in The Inclusion Nudges Guidebook. We call the ‘blaming and shaming’ approach “Finger Pointing & Finger Wagging” and it is on pages 77-78. You can also find it on pages 41-42 in the Action Guide Inclusion Nudges for Motivating Allies.
+Learn more about this hidden barrier in the long list of stuck patterns for achieving diversity, equity, and inclusion in The Inclusion Nudges Guidebook. We call the ‘blaming and shaming’ approach “Finger Pointing & Finger Wagging”. You can also find it in the Action Guide Inclusion Nudges for Motivating Allies.
 
 ## ‘Calling in’
 

@@ -42,7 +42,7 @@ or\
 
 We (Tinna and Lisa) use these constantly ourselves in our work, and we also hear from others on how effective this Inclusion Nudge is to their inclusive leadership. You can do this design both with yourself and within a group. And if you’re a leader, talking about your own vulnerabilities such as misjudgements revealed by ‘Flip Questions’ is a way to set the tone for trust giving—one of the foundations for psychological safety.
 
-You can learn more about this design called **Ask Flip Questions to Change Your Perceptions in the Moment** on page 452 in The Inclusion Nudges Guidebook, page 143 in Inclusion Nudges for Talent Selection, page 114 in Inclusion Nudges for Leaders, and page 169 in Inclusion Nudges for Motivating Allies.
+You can learn more about this design called **Ask Flip Questions to Change Your Perceptions in the Moment** in The Inclusion Nudges Guidebook, Inclusion Nudges for Talent Selection, Inclusion Nudges for Leaders, and Inclusion Nudges for Motivating Allies.
 
 ## Use designs to facilitate greater connection with people in a group
 
@@ -52,7 +52,7 @@ So, we need to use designs that ensure connection happens. This is [even more th
 
 One connection enabler is **group check-ins** which can simply be an opening question like *“How’s the weather where you are?”* or an anonymous question to gauge how the people on the team are doing (feeling, performing, etc.). This can also incorporate some survey questions to measure psychological safety within the team (use your organisation’s existing framework of questions or others suggested by [researchers](https://www.midss.org/content/team-learning-and-psychological-safety-survey)).
 
-There are several more ways to support connection in **Prompters to Connect & Increase Belonging** on page 417 in The Inclusion Nudges Guidebook and on page 70 in Inclusion Nudges for Leaders.
+There are several more ways to support connection in **Prompters to Connect & Increase Belonging** in The Inclusion Nudges Guidebook and Inclusion Nudges for Leaders.
 
 ## Show that you are open to critical input and invite people to give it to you
 
@@ -62,7 +62,7 @@ To achieve psychological safety, we need to support interpersonal risking taking
 
 **Prime group members with the statement, *“The task at hand requires critical thinking”***. When a group is primed with ‘critical thinking’, they engage more in constructive confrontations and they are far more likely to disclose what they know. And they have trust that they won’t be negatively judged for doing this. 
 
-You can learn more about this design called **Start with ‘Critical Thinking’ Statement** on page 389 in The Inclusion Nudges Guidebook and page 104 in Inclusion Nudges for Leaders. 
+You can learn more about this design called **Start with ‘Critical Thinking’ Statement** in The Inclusion Nudges Guidebook and in Inclusion Nudges for Leaders. 
 
 Here are two other techniques for when brainstorming, and since both are based on taking new steps (which may be perceived as ‘risks’), psychological safety is a must for optimal success.
 - **Suggest a Bad Idea Brainstorm**. This is suggested by Liz Fosslien & Mollie West Duffy in their book [No Hard Feelings](https://www.lizandmollie.com/book). Group members are challenged to come up with the most *“purposefully absurd ideas”* or *“the worst suggestions they can think of”*. This is a way to support more playfulness. It also loosens up the constrictions of group norms that hold people back from making new suggestions.

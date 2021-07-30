@@ -53,9 +53,9 @@ Why not give these a try in your change making work?
 
 Use data to reveal patterns and cultural norms happening now within the group. Use these to ‘show’ and not ‘tell’ so you [speak to the part of the brain that does the ‘doing’](https://inclusion-nudges.org/blog/about-inclusion-nudges/power-of-inclusion-nudges)  (action taking). Engage participants to spot the patterns in the data themselves to increase their ownership and action taking for change. This supports a more effective change effort based on co-creation, context relevancy, and identity/motivation alignment. Check out these Inclusion Nudges to do this.
 
-* **Identical Candidates but Different Ratings** on page 101 in The Inclusion Nudges Guidebook and also on page 82 in the Inclusion Nudges for Motivating Allies
-* **Show Hidden Patterns in Performance Calibration Data** on page 177 in The Inclusion Nudges Guidebook and on page 155 in the Inclusion Nudges for Motivating Allies
-* **Expand Beyond the Talent Prototype** on page 191 in The Inclusion Nudges Guidebook 
+* **Identical Candidates but Different Ratings** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies
+* **Show Hidden Patterns in Performance Calibration Data** in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Motivating Allies
+* **Expand Beyond the Talent Prototype** in The Inclusion Nudges Guidebook 
 
 
 
@@ -63,13 +63,13 @@ Use data to reveal patterns and cultural norms happening now within the group. U
 
 How data is positioned can spark stronger reactions and prompt change actions. Here are some effective yet simple changes in how you can organise and present data.
 
-* **Humanise Diversity Data & Trigger Supportive Behaviours** on page 488 in The Inclusion Nudges Guidebook and also on page 196 in the Inclusion Nudges for Motivating Allies
+* **Humanise Diversity Data & Trigger Supportive Behaviours** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies
 
 
-* **Show Both Majority & Minority Data** on page 484 in The Inclusion Nudges Guidebook and also on page 190 in the Inclusion Nudges for Motivating Allies
+* **Show Both Majority & Minority Data** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies
 
 
-* **Show the Hidden People by Reversing the Numbers** on page 475 in The Inclusion Nudges Guidebook and also on page 171 in the Inclusion Nudges for Leaders and on page 181 in the Inclusion Nudges for Motivating Allies
+* **Show the Hidden People by Reversing the Numbers** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Leaders and in the Inclusion Nudges for Motivating Allies
 
 
 
@@ -77,13 +77,13 @@ How data is positioned can spark stronger reactions and prompt change actions. H
 
 Data can sometimes be skewed to only a part of the wider system, and thus it limits our understanding and ability to effect systemic change. Here are some ways to broaden the data insights to support change.
 
-* **Maximum 70% Homogeneity Team Composition & Target** on page 446 in The Inclusion Nudges Guidebook and also on page 163 in the inclusion Nudges for Motivating Allies and page 83 in the Inclusion Nudges for Talent Selection and page 138 in the Inclusion Nudges for Leaders
+* **Maximum 70% Homogeneity Team Composition & Target** in The Inclusion Nudges Guidebook and also in the inclusion Nudges for Motivating Allies and page 83 in the Inclusion Nudges for Talent Selection and page 138 in the Inclusion Nudges for Leaders
 
 
-* **Show Data to Easily See Problems & Do Actions** on page 144 in The Inclusion Nudges Guidebook and also on page 138 in the Inclusion Nudges for Leaders 
+* **Show Data to Easily See Problems & Do Actions** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Leaders 
 
 
-* **Ask Identity Data Last in a Survey or Test** on page 492 in The Inclusion Nudges Guidebook and on page 89 in the Inclusion Nudges for Talent Selection
+* **Ask Identity Data Last in a Survey or Test** in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Talent Selection
 
 
 

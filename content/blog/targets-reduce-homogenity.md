@@ -36,4 +36,4 @@ This design has since been used by many other organisations and team leaders.
 
 **It's a really powerful way to motivate and engage all people in achieving better balance, more diversity, and high-performance teams by using data and setting targets.**
 
-If you want to learn more about the How-To steps and research behind this Inclusion Nudge called **Maximum 70% Homogeneity Team Composition & Target**, read on page 446 in The Inclusion Nudges Guidebook or on page 83 the action guide Inclusion Nudges for Talent Selection.
+If you want to learn more about the How-To steps and research behind this Inclusion Nudge called **Maximum 70% Homogeneity Team Composition & Target**, read in The Inclusion Nudges Guidebook or the action guide Inclusion Nudges for Talent Selection.

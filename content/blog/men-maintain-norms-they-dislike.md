@@ -88,15 +88,15 @@ Many such conversation prompters (games, cards, guides) have been developed for 
 
 ## These Inclusion Nudges can help start up honest conversations:
  
-**TELLING EMPLOYEES’ STORIES FOR INCLUSION** on page 159 in **The Inclusion Nudges Guidebook** (2020)\
-**THE SPEECH BUBBLE INTERVENTION** on page 148 in **The Inclusion Nudges Guidebook** (2020)
+**TELLING EMPLOYEES’ STORIES FOR INCLUSION** in **The Inclusion Nudges Guidebook** (2020)\
+**THE SPEECH BUBBLE INTERVENTION** in **The Inclusion Nudges Guidebook** (2020)
 
 ## [Inclusion Nudges](/blog/about-inclusion-nudges/power-of-inclusion-nudges) that ensure psychological safety in groups
 
-**WRITE BEFORE TALKING** [described in detail on page 381 in **The Inclusion Nudges Guidebook**]
+**WRITE BEFORE TALKING** [described in detail in **The Inclusion Nudges Guidebook**]
 Avoid group dynamics such as group conformity and self-silencing. This ensures that contributors experience psychological safety and everyone has access to a diversity of voices and perspectives. Instruct participants to write their input, perspective, thoughts, experiences on notes (anonymously) before anyone talks. Take turns in reading out loud for each other and talk about the issues being raised (and not the person who raised them).  
 
-**SHARE WITH A PEER** [described in detail on page 385 in **The Inclusion Nudges Guidebook**]
+**SHARE WITH A PEER** [described in detail in **The Inclusion Nudges Guidebook**]
 Even when the intentions to be inclusive in groups are present, it can be difficult to do this in practice. Divide participants in pairs – two people share with each other. They then share the input of their peer in plenary with the larger group. 
 
 ***There is another challenge to take into consideration.***\

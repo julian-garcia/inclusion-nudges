@@ -31,8 +31,8 @@ Many (including us at times) have never asked what is the scope for the change w
 
 It is far better to *show* rather than tell, and to engage people in a way that they have an ‘aha’ realisation. The power of this approach removes the change maker from the ‘firing line’ as people’s own brains become the ‘messenger’. They have greater trust in what they are seeing for themselves, resulting in stronger motivation to make change. You can find inspiration on ways to do this in these Inclusion Nudges that reveal the patterns of bias at play within the organisation. Use these before asking about ‘what is the mandate for change?’.
 
-* **Judgements of Warmth & Competence** on page 131 in The Inclusion Nudges Guidebook and on page 111 in the Inclusion Nudges for Motivating Allies.
-* **Identical Candidates but Different Ratings** on page 102 in The Inclusion Nudges Guidebook and also on page 82 in the Inclusion Nudges for Motivating Allies.
+* **Judgements of Warmth & Competence** in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Motivating Allies.
+* **Identical Candidates but Different Ratings** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies.
 
 **2. FRAME THE CHANGE MANDATE DISCUSSION**
 
@@ -52,8 +52,8 @@ It can be hard to get honest replies when asking “*What is the mandate for cha
 
 This approach leverages two Inclusion Nudges that use in taking alternative perspectives and considering the implications. Learn more by reading these designs and the behavioural science behind why they work.
 
-* **Ask Flip Questions to Change Your Perceptions in the Moment** on page 452 in The Inclusion Nudges Guidebook and also on page 169 in the Inclusion Nudges for Motivating Allies, and page 114 in the Inclusion Nudges for Leaders, and page 143 in the Inclusion Nudges for Talent Selection.
-* **‘Why Not?’ Inclusion & Diversity** on page 498 and another design called **‘Why Not?’ Add Macro & Micro Relevance’** on page 501 in The Inclusion Nudges Guidebook. The example **‘Why Not?’ Inclusion & Diversity** is also on page 199 in the Inclusion Nudges for Motivating Allies.
+* **Ask Flip Questions to Change Your Perceptions in the Moment** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies, and page 114 in the Inclusion Nudges for Leaders, and page 143 in the Inclusion Nudges for Talent Selection.
+* **‘Why Not?’ Inclusion & Diversity** and another design called **‘Why Not?’ Add Macro & Micro Relevance’** in The Inclusion Nudges Guidebook. The example **‘Why Not?’ Inclusion & Diversity** is also in the Inclusion Nudges for Motivating Allies.
 
 **3. COLLABORATION & CO-CREATION PROCESSES**
 
@@ -61,9 +61,9 @@ So, your discussion on the mandate for change is hopefully going well by now. Yo
 
 One of the first steps can be to start with all are ‘opted in’ to collaborating on DEI change work. This is the default setting. This flips the collaboration to be owned by the many rather than by primarily the DEI change maker. Structures will need to be designed that support this collaboration, such as in job descriptions and performance management. Also, effective collaboration means co-creation. There are many paths to achieve equity, and progress will benefit from this wealth of ideas. Co-creation is a way that brings in key partners and increases their sense of ownership and engagement. The hidden barriers are reduced because people feel a part of the work and not as a target of the work. Here are some inspirations on ways to do this.
 
-* **Keep Focus on Ideas from Residents in Social Housing** on page 238 in The Inclusion Nudges Guidebook and also on page 221 in the Inclusion Nudges for Motivating Allies.
-* **Activity Outline of Social Welfare Interventions** on page 247 in The Inclusion Nudges Guidebook and also on page 224 in the Inclusion Nudges for Motivating Allies.
-* **Valuing Staff Contributions for Inclusive Culture** on page 414 in The Inclusion Nudges Guidebook and also on page 174 in the Inclusion Nudges for Leaders and on page 202 in the Inclusion Nudges for Talent Selection.
+* **Keep Focus on Ideas from Residents in Social Housing** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies.
+* **Activity Outline of Social Welfare Interventions** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies.
+* **Valuing Staff Contributions for Inclusive Culture** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Leaders and in the Inclusion Nudges for Talent Selection.
 
 #### **Get access to more designs to achieve your DEI initiatives**
 
