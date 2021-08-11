@@ -91,8 +91,8 @@ Many such conversation prompters (games, cards, guides) have been developed for 
 
 ## These Inclusion Nudges can help start up honest conversations:
  
-**TELLING EMPLOYEES’ STORIES FOR INCLUSION** in **The Inclusion Nudges Guidebook** (2020)\
-**THE SPEECH BUBBLE INTERVENTION** in **The Inclusion Nudges Guidebook** (2020)
+**TELLING EMPLOYEES’ STORIES FOR INCLUSION** in **The Inclusion Nudges Guidebook**\
+**THE SPEECH BUBBLE INTERVENTION** in **The Inclusion Nudges Guidebook**
 
 ## [Inclusion Nudges](/blog/about-inclusion-nudges/power-of-inclusion-nudges) that ensure psychological safety in groups
 

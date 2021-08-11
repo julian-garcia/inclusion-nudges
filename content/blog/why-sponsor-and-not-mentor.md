@@ -84,7 +84,7 @@ Here are some motivational Inclusion Nudges to inspire how to do this.
 
 - **‘Walk the Line’ to Engage in Sponsorship Programs** in The Inclusion Nudges Guidebook and in Inclusion Nudges for Motivating Allies
 - **Seeing Those Not Seen & Sponsoring Them** in The Inclusion Nudges Guidebook and also in Inclusion Nudges for Motivating Allies
-- **How Diverse is Your Network Inner Circle?** in The Inclusion Nudges Guidebook and also page 132 in Inclusion Nudges for Leaders
+- **How Diverse is Your Network Inner Circle?** in The Inclusion Nudges Guidebook and also Inclusion Nudges for Leaders
 - And there are many more in the Inclusion Nudges guidebooks
 
 **Here are some more related Inclusion Nudges blog articles to inspire you:**\

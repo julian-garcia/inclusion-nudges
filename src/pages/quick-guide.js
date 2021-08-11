@@ -63,7 +63,7 @@ const QuickGuidePage = () => (
       >
         <p>
           This Quick Guide is a brief excerpt from the Inclusion Nudges
-          Guidebook, 3rd edition, 2020,
+          Guidebook
           <br />
           by Lisa Kepinski & Tinna C. Nielsen.
         </p>

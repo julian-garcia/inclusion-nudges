@@ -1,7 +1,7 @@
 ---
 title: A Secret Straitjacket of Shame
 slug: A Secret Straitjacket of Shame
-category: inclusive leadership, behavioural insights, inclusive culture,
+category: Leading inclusively, behavioural insights, inclusive culture,
   wellbeing, belonging
 post_date: 2021-06-14T16:50:10.884Z
 thumbnail: /images/uploads/strait-jacket.jpg
@@ -84,9 +84,9 @@ We can make sure these components are integrated parts of DEI efforts for all le
 
 ## These Inclusion Nudges can support honest conversations and connections:
  
-**Telling Employees’ Stories For Inclusion** in **The Inclusion Nudges Guidebook** (2020)\
-**The Speech Bubble Intervention** in **The Inclusion Nudges Guidebook** (2020)\
-**Prompters To Connect & Increase Belonging** in **The Inclusion Nudges Guidebook** (2020)
+**Telling Employees’ Stories For Inclusion** in **The Inclusion Nudges Guidebook**\
+**The Speech Bubble Intervention** in **The Inclusion Nudges Guidebook**\
+**Prompters To Connect & Increase Belonging** in **The Inclusion Nudges Guidebook**
 
 ## Previous blog articles relevant for this topic of wellbeing, connection, and shame:
 

@@ -216,7 +216,7 @@ const blogPost = ({ data }) => {
       <div className="blog-post the-blog no-print">
         <h2 style={{ marginTop: 0 }}>Want to learn more?</h2>
         <p>
-          The Inclusion Nudges Guidebook (2020) for change makers gives you 100
+          The Inclusion Nudges Guidebook for change makers gives you 100
           examples of Inclusion Nudges
         </p>
         <div

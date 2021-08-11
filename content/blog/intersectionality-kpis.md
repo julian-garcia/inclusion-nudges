@@ -9,7 +9,7 @@ thumbnail: /images/uploads/intersectionality.png
 authors: Lisa Kepinski & Tinna C. Nielsen
 ---
 
-**This question comes from Misel Ahom, who is the recently appointed Global Director of Diversity & Inclusion in Beiersdorf, a consumer products multinational.  Lisa and Tinna are working with Misel and her colleagues on applying Inclusion Nudges within their D&I strategic framework to support inclusive behaviours and processes.**
+**This question comes from Misel Ahom, who is the Global Director of Diversity & Inclusion in Beiersdorf, a consumer products multinational.  Lisa and Tinna are working with Misel and her colleagues on applying Inclusion Nudges within their D&I strategic framework to support inclusive behaviours and processes.**
 ***
 ![](/images/uploads/question-mark-in-speech-bubble.svg)
 
@@ -89,7 +89,7 @@ Here are some ways that we can apply a lens of intersectionality in DEI strategy
 - **Get clear**: Push on assumptions about what can and can’t be measured. Get informed advice (legal, government agencies on equalities, benchmark, etc.). We have often heard, “Oh, that's (xx) not possible or legal”’ but in reality, there wasn’t any legal barrier to collecting that data set as long as data privacy conditions were in place.
 - **Invite more information**: Have voluntary self-identification data collection options, such as on sexual orientation, abilities, etc. If you aren’t getting the rate of sharing on voluntary data, explore deeper on why. Is there lack of trust in how the data will be used and if action will be taken? Is there fear about how people would be treated if this were known about them?
 - **Be data inclusive**: Ensure identity is fully represented in demographic data response options, such as with gender, sexual orientation, range of age groups, etc.
-- Use multiple data sources: Interviews and focus groups expand data sets when quantitative data collection is not possible. Stories are powerful and revealing. Use both quantitative and qualitative data in DEI.
+- **Use multiple data sources**: Interviews and focus groups expand data sets when quantitative data collection is not possible. Stories are powerful and revealing. Use both quantitative and qualitative data in DEI.
 - **Design to mitigate bias**: Develop a checklist to use when collecting and reviewing data to ensure questions on intersectionality are raised in all situations, rather than relying on people to remember or be brave to ask about it. 
 - **Stand out with honesty and openness**. Be transparent with your data. This supports action-taking and accountability. It also builds trust.
 

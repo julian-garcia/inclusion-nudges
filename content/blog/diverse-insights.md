@@ -76,7 +76,7 @@ You also get more inspiration to make your own Flip Questions as well as
 other process designs.
 
 [^1]: **THE INCLUSION NUDGES GUIDEBOOK.** Lisa Kepinski & Tinna C.
-    Nielsen, 2020 www.inclusion-nudges.org
+    Nielsen, www.inclusion-nudges.org
 
 [^2]: **PERSPECTIVE-TAKING: DECREASING STEREOTYPE EXPRESSION, STEREOTYPE
     ACCESSIBILITY, AND IN-GROUP FAVORITISM**. Adam Galinsky & Gordon

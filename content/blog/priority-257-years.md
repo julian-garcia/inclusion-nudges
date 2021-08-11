@@ -28,11 +28,11 @@ By designing and applying techniques based on behavioural science, we can increa
 
 Here are some Inclusion Nudges to support challenging the status quo.
 
-- **Judgements of Warmth & Competence** to show how bias creeps into our decisions of people. See page 131 in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Motivating Allies.
-- **Ask Flip Questions to Change Your Perceptions in the Moment** to challenge your own thinking and that of others. See page 452 in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies, and page 114 in the Inclusion Nudges for Leaders, and page 143 in the Inclusion Nudges for Talent Selection.
-- **‘Why Not?’ Inclusion & Diversity** to change the default on getting started with gender equity. See page 498 in The Inclusion Nudges Guidebook and page 199 in the Inclusion Nudges for Motivating Allies.
-- **Write Before Talking to Reduce Group Conformity** to get wider perspectives and challenging positions into the deliberation process. See page 381 in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Leaders.
-- **Share with a Peer to Access Diversity in Groups** to get wider perspectives and challenging positions into the deliberation process. See page 385 in The Inclusion Nudges Guidebook and in the Inclusion Nudges for Leaders.
+- **Judgements of Warmth & Competence** to show how bias creeps into our decisions of people. See The Inclusion Nudges Guidebook and in the Inclusion Nudges for Motivating Allies.
+- **Ask Flip Questions to Change Your Perceptions in the Moment** to challenge your own thinking and that of others. See The Inclusion Nudges Guidebook, the Inclusion Nudges for Motivating Allies, the Inclusion Nudges for Leaders, and the Inclusion Nudges for Talent Selection.
+- **‘Why Not?’ Inclusion & Diversity** to change the default on getting started with gender equity. See The Inclusion Nudges Guidebook and the Inclusion Nudges for Motivating Allies.
+- **Write Before Talking to Reduce Group Conformity** to get wider perspectives and challenging positions into the deliberation process. See The Inclusion Nudges Guidebook and the Inclusion Nudges for Leaders.
+- **Share with a Peer to Access Diversity in Groups** to get wider perspectives and challenging positions into the deliberation process. See The Inclusion Nudges Guidebook and the Inclusion Nudges for Leaders.
 
 ## Get access to more designs to achieve your diversity, equity, & inclusion initiatives
 

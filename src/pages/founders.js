@@ -295,7 +295,7 @@ const FoundersPage = () => (
             the work forward in their own organisations. Lisa works with groups
             to focus on inclusion, such as by serving on several advisory
             boards, chairing conferences, founding the Europe-based Global D&I
-            Forum, and as an expert panellist for the Global Diversity &
+            Forum, and as an expert panellist for the Global Diversity, Equity &
             Inclusion Benchmarks.{" "}
           </p>
           <p>
@@ -314,9 +314,9 @@ const FoundersPage = () => (
             {" "}
             Lisa grew up in a lower middle-class, military, conservative family
             in the U.S. Her family came from many generations of Southern poor,
-            farming, and working-class white people who immigrated in the late
-            1700’s from England. Her maternal grandmother's mother was Cherokee
-            Native American, but unfortunately this culture was not passed
+            farming, and working-class white people who immigrated in the
+            1700’s from England and Ireland. Her maternal grandmother's mother was
+            Cherokee Native American, but unfortunately this culture was not passed
             through the family. Social mobility came from Lisa and her family
             having white privilege within a deeply racist, sexist,
             discriminatory, and violent culture. Her grandmother's gentle

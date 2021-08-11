@@ -11,7 +11,7 @@ const ModalPurchase = ({modalClass}) => (
   <Modal modalClass={modalClass}>
     {modalClass === 'modal-purchase' &&
     <>
-      <h3 className="modal-title">Order<br/>THE INCLUSION NUDGES GUIDEBOOK (2020)</h3>
+      <h3 className="modal-title">Order<br/>THE INCLUSION NUDGES GUIDEBOOK</h3>
       <h3 className="modal-title">100 Inclusion Nudges for Change Makers</h3>
       <div className="row-left-aside">
         <div>

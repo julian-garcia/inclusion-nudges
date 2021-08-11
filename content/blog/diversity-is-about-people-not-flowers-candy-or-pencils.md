@@ -30,7 +30,7 @@ For us in our work with leaders, change maker skills, communities, and organisat
 
 **“Diversity is about people. This includes their demographic differences, backgrounds, multiple identities, and their unique experiences, perspectives, knowledge, abilities, ideas, and more. Diversity is not referencing specific characteristics of only ‘the minority’ within a group of people or in society. Diversity is referencing all people and differences among us. Diversity is the mix of all of us.”** 
 
-*The Inclusion Nudges Guidebook, by Lisa Kepinski & Tinna C. Nielsen, 2020, pg 42*
+*The Inclusion Nudges Guidebook, by Lisa Kepinski & Tinna C. Nielsen
 
 You can read more about how we define other terms such as inclusion, equity, and belonging in this Inclusion Nudges [blog article called  ‘Definitions Matter, Just Don’t Talk About Them’](https://inclusion-nudges.org/blog/about-inclusion-nudges/definitions-matter). In that article we also address, how the words we use can shape our diversity, equity, and inclusion initiatives. Here, we’re addressing how images equally play a role in this.
 

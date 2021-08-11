@@ -52,7 +52,7 @@ It can be hard to get honest replies when asking “*What is the mandate for cha
 
 This approach leverages two Inclusion Nudges that use in taking alternative perspectives and considering the implications. Learn more by reading these designs and the behavioural science behind why they work.
 
-* **Ask Flip Questions to Change Your Perceptions in the Moment** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies, and page 114 in the Inclusion Nudges for Leaders, and page 143 in the Inclusion Nudges for Talent Selection.
+* **Ask Flip Questions to Change Your Perceptions in the Moment** in The Inclusion Nudges Guidebook, the Inclusion Nudges for Motivating Allies, the Inclusion Nudges for Leaders, and the Inclusion Nudges for Talent Selection.
 * **‘Why Not?’ Inclusion & Diversity** and another design called **‘Why Not?’ Add Macro & Micro Relevance’** in The Inclusion Nudges Guidebook. The example **‘Why Not?’ Inclusion & Diversity** is also in the Inclusion Nudges for Motivating Allies.
 
 **3. COLLABORATION & CO-CREATION PROCESSES**

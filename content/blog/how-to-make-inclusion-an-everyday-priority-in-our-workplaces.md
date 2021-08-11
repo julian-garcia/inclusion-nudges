@@ -67,10 +67,10 @@ As an investment company, that’s an unequivocal investment in our present and 
 
 **Take a look at these and reflect on how they could support your DEI initiatives.**
 
-**Inclusive Wording** in The Inclusion Nudges Guidebook, and page 101 in Inclusion Nudges for Talent Selection
+**Inclusive Wording** in The Inclusion Nudges Guidebook, and in Inclusion Nudges for Talent Selection
 
-**Anonymise People to Focus on Merit** in The Inclusion Nudges Guidebook, and page 131 in Inclusion Nudges for Talent Selection
+**Anonymise People to Focus on Merit** in The Inclusion Nudges Guidebook, and in Inclusion Nudges for Talent Selection
 
 **Humanise Diversity Data & Trigger Supportive Behaviours** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Motivating Allies
 
-**The Speech Bubble Intervention** in The Inclusion Nudges Guidebook, and page 125 in Inclusion Nudges for Motivating Allies.
+**The Speech Bubble Intervention** in The Inclusion Nudges Guidebook, and in Inclusion Nudges for Motivating Allies.

@@ -195,7 +195,7 @@ const WhyPage = () => (
       </div>
       <p style={{fontSize:'.9rem'}}>NOTE: All sources and references in this article are listed in The Inclusion Nudges Guidebook and Actions Guides</p>
       <h2>Want to learn more? </h2>
-      <p>The Inclusion Nudges Guidebook (2020) give you 100 examples of Inclusion Nudges – this is for change makers.</p>
+      <p>The Inclusion Nudges Guidebook give you 100 examples of Inclusion Nudges – this is for change makers.</p>
       <h3>The Action Guide series are shorter plug-and-play guides with 30 targeted inclusive actions:</h3>
       <p>Inclusion Nudges for Leaders<br/>Inclusion Nudges for Talent Selection<br/>Inclusion Nudges for Motivating Allies</p>
       <p>You can also learn more on the <a href="https://medium.com/@InclusionNudges" target="_blank" rel="noreferrer">Inclusion Nudges blog on Medium</a> and get other free resources on the Inclusion Nudges platform <Link to="/">www.inclusion-nudges.org</Link></p>

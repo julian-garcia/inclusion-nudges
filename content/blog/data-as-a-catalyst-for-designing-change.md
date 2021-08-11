@@ -77,7 +77,7 @@ How data is positioned can spark stronger reactions and prompt change actions. H
 
 Data can sometimes be skewed to only a part of the wider system, and thus it limits our understanding and ability to effect systemic change. Here are some ways to broaden the data insights to support change.
 
-* **Maximum 70% Homogeneity Team Composition & Target** in The Inclusion Nudges Guidebook and also in the inclusion Nudges for Motivating Allies and page 83 in the Inclusion Nudges for Talent Selection and page 138 in the Inclusion Nudges for Leaders
+* **Maximum 70% Homogeneity Team Composition & Target** in The Inclusion Nudges Guidebook, the inclusion Nudges for Motivating Allies, the Inclusion Nudges for Talent Selection and the Inclusion Nudges for Leaders
 
 
 * **Show Data to Easily See Problems & Do Actions** in The Inclusion Nudges Guidebook and also in the Inclusion Nudges for Leaders 
