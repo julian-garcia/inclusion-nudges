@@ -98,7 +98,8 @@ const blogPost = ({ data }) => {
             )}
           </p>
         )}
-        <img src={frontmatter.thumbnail} alt="" />
+        {frontmatter.feature && (<img src={frontmatter.feature} alt="" />)}
+        {!frontmatter.feature && (<img src={frontmatter.thumbnail} alt="" />)}
         <div className="blog-post__social-share no-print">
           <a
             href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`}
@@ -317,6 +318,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         authors
+        feature
         thumbnail
         slug
         excerpt

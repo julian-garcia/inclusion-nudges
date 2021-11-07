@@ -19,6 +19,7 @@ exports.createPages = async ({ actions, graphql }) => {
               date
               slug
               category
+              feature
               thumbnail
               excerpt
               featured

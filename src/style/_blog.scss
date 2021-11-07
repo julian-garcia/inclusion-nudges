@@ -148,6 +148,13 @@
   max-width: $maxwidth;
   margin: 1rem 2.7rem 0 1rem;
 
+  & .center-bold {
+    text-align: center;
+    font-weight: bold;
+    max-width: 650px;
+    margin: 1.5rem auto;
+  }
+
   &__feature {
     margin: 1rem 1rem 0;
     position: relative;
@@ -211,6 +218,15 @@
     font-family: "cormorant garamond";
   }
 
+  blockquote {
+    max-width: 600px;
+    margin: 1rem auto;
+
+    h3 {
+      margin-top: 0;
+    }
+  }
+
   img[src*="quick-read"],
   img.quick-read {
     margin-left: -5px;
@@ -222,7 +238,7 @@
   }
 
   h2 {
-    margin-top: 0;
+    margin-top: 3rem;
   }
 
   h3 {
@@ -236,7 +252,7 @@
   }
 
   p,
-  ul {
+  ul, ol, table {
     font-size: 1.1rem;
     line-height: 1.6rem;
     font-family: "Karla";
@@ -244,6 +260,17 @@
 
   ul {
     list-style: none;
+  }
+
+  table {
+    td {
+      padding: 0 0 10px;
+    }
+  }
+
+  .box {
+    background: whitesmoke;
+    height: 90px;
   }
 
   .footnotes ol {
