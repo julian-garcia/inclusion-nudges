@@ -1,7 +1,7 @@
 ---
 title: "Change: From an Elastic Band to a Catapult Mindset"
 slug: Elastic Band Catapult Mindset
-category: Change Maker Skills, Leading Inclusively, Inclusive Co-Creation, Inclusive Culture, Behavioural Insights, Data-Driven Change, Inclusive Decision Making
+category: Change Maker Skills, Leading Inclusively, Inclusive Co-Creation, Inclusive Culture, Behavioural Insights, Data-Driven Change, Inclusive Decision Making, Future of Work
 post_date: 2021-05-16T12:00:10.884Z
 thumbnail: /images/uploads/elastic.png
 authors: Lisa Kepinski & Tinna C. Nielsen

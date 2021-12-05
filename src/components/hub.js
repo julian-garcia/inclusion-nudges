@@ -15,22 +15,22 @@ const Hub = () => (
     </h2>
     <div className="row-auto centered actions">
       <div className="action-container">
-        <div className="accent-3" onClick={() => showModal('modal-connect')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-connect')}>
+        <div className="accent-3" onClick={() => showModal('modal','Write us about your strategic advisory needs','Send')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Write us about your strategic advisory needs','Send')}>
           <div className="vertical-center">
-            <h2>Join our webinars</h2>
-            <p><strong>Web sessions to learn<br/> about Inclusion Nudges</strong></p>
-            <button onClick={() => showModal('modal-connect')} className="contact-us unstyled-button">Book now</button>
+            <h2>Get strategic advice for your  Board & Leadership Teams </h2>
+            <p>Internal & external development focused on diversity, sustainability, social impact, & inclusive growth</p>            
+            <button onClick={() => showModal('modal','Write us about your strategic advisory needs','Send')} className="contact-us unstyled-button">Contact us</button>
           </div>
         </div>
-        <div className="action-image" style={{backgroundImage:'url(' + Hub1Img + ')'}}></div>
+        <div className="action-image" style={{backgroundImage:'url(' + Hub1Img + ')', backgroundPosition:'center left'}}></div>
       </div>
       <div className="action-container">
         <div className="action-image" style={{backgroundImage:'url(' + Hub2Img + ')'}}></div>
-        <div className="accent-2" onClick={() => showModal('modal','Get online coaching','Write us')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Get online coaching','Write us')}>
+        <div className="accent-2" onClick={() => showModal('modal','Write us about your change coaching needs','Write us')} role="button" tabIndex={0} onKeyPress={() => showModal('modal','Write us about your change coaching needs','Write us')}>
           <div className="vertical-center">
-            <h2>Get online coaching</h2>
+            <h2>Get change coaching</h2>
             <p><strong>from the experts<br />Lisa & Tinna</strong></p>
-            <button onClick={() => showModal('modal','Get online coaching','Write us')} className="contact-us unstyled-button">Write us</button>
+            <button onClick={() => showModal('modal','Write us about your change coaching needs','Write us')} className="contact-us unstyled-button">Write us</button>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Hub = () => (
         <div className="accent-4" onClick={() => showModal('modal-booking')} role="button" tabIndex={0} onKeyPress={() => showModal('modal-booking')}>
           <div className="vertical-center">
             <h2>Book talks & learning</h2> 
-            <p><strong>in-person or virtual</strong><br/>&nbsp;</p>
+            <p><strong>Online or in-person</strong><br/>&nbsp;</p>
             <button onClick={() => showModal('modal-booking')} className="contact-us unstyled-button">Book now</button>
           </div>
         </div>

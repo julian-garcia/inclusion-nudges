@@ -1,7 +1,7 @@
 ---
 title: Business Travel Checklist for a Wiser Work Approach
 slug: Business Travel Checklist Wiser Work Approach
-category: inclusive culture, change maker skills, process design, frame perceptions, inclusive decision making, leading inclusively, wellbeing
+category: inclusive culture, change maker skills, process design, frame perceptions, inclusive decision making, leading inclusively, wellbeing, Future of Work
 post_date: 2021-10-30T20:46:00.394Z
 thumbnail: /images/uploads/travel-checklist.png
 excerpt: Checklists enables us to act and make decisions based on facts and considered perspectives rather than leaving our decision-making to unreflective thinking based on old habits and out-of-date defaults.
@@ -56,59 +56,59 @@ We will for sure use these ourselves to make sure traveling for business actuall
 
 **Checklist questions:**
 
-|                                                                                               |        |
-| --------------------------------------------------------------------------------------------- | :----: |
-| Is business travel optional?                                                                  | Yes/No |
-| Is business travel an explicit request?                                                       | Yes/No |
-| Do I just assume business travel is needed?                                                   | Yes/No |
-| Did I tell the ‘requestor’ that my default is doing ‘the task’ online/remote?                 | Yes/No |
-| If they deem traveling ‘essential’, did I ask for the reasons?                                | Yes/No |
-| Do I agree with those arguments for the need to travel for business?                          | Yes/No |
-| Did I ask the following questions:                                                            |        |
-| - If lockdown were still in place, how would this work be approached without travel?          | Yes/No |
-| - Has that been done before?                                                                  | Yes/No |
-| - If so, how did it go? How could it be done even better (still without travel)?              | Yes/No |
-| - Are the current tech platforms being fully used to enable doing the work without traveling? | Yes/No |
-| - Are new tech solutions needed?                                                              | Yes/No |
-|                                                                                               |        |
-| Write the answers here and consider them as part of the final decision.                       |        |
-| <p class="box"></p>                                                                           |        |
-| Do any of these arguments make the case for me traveling?                                     | Yes/No |
-| - Meeting in-person is needed to start up this collaboration.                                 |        |
-| - Meeting in-person is the only way we build trust.                                           |        |
-| - Meeting in-person is needed to build strong relationships.                                  |        |
-| - We can only idea-generate and innovate new solutions by being in the same room.             |        |
-| - We have to be in the same location to be able to collaborate and make good decisions.       |        |
-| - Seeing and hearing you give your keynote talk in-person makes it more effective.            |        |
-| - When you give a talk in-person it’s more entertaining and inspiring for other people.       |        |
-| - I don’t like working online/remote (I feel incompetent, I feel lonely, I ….).               |        |
-| - I get a better understanding of other cultures.                                             |        |
-| - I can visit family/friends at that location.                                                |        |
-| - I love traveling.                                                                           |        |
-| - [Add other reasons…]                                                                        |        |
-| <p class="box"></p>                                                                           |        |
-| Did I share my arguments for why business traveling is not needed?                            | Yes/No |
-| Does the collaborator/boss/other have the power to decide on my behalf?                       | Yes/No |
-| Can I walk away from the job/task if I do not agree on the need for travel?                   | Yes/No |
-| Am I willing to walk away from the job if I do not agree?                                     | Yes/No |
-| Are there negative business/career implications if I don’t travel?                            | Yes/No |
-| - If yes, write them here and consider them as part of the final decision.                    |        |
-| <p class="box"></p>                                                                           |        |
-| Are there negative physical and mental health risks/implications to myself,                   |        |
-| my family, and to others if I travel?                                                         | Yes/No |
-| - What are the needed protection health logistics for travel? Write these here.               |        |
-| <p class="box"></p>                                                                           |        |
-| **Facts – I also need information about:**                                                    |        |
-| **ENVIRONMENT**:                                                                              |        |
-| What form of transportation will be used?        |        |
-| Are there ways to maximise the trip to include other work (and thus reduce the number of future trips)?                                                                                  |        |
-| What’s the estimated environmental cost and impact for this travel by me and all others traveling for the in-person work?                                                                                           |        |
-| How does the organisation’s commitments to the climate, UN SDGs, sustainability, etc. shape the travel policy and approach to work?                                                                                           |        |
-| **EXPENSE:** ||
-| What’s the estimated cost for travel, not only for myself but all participants for the in-person work? ||
-| Will the travel requestor cover all health expenses associated with the trip (i.e., tests, masks, potential quarantine requirements, cancellation penalties, etc.)?||
-| Is there an extra bonus paid to the person who agrees to travel?  If so, what is it?||
-| How much could be saved by not traveling? What are two ways that this money could be used differently (instead of on travel)?||
+|                                                                                                                                                                     |        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: |
+| Is business travel optional?                                                                                                                                        | Yes/No |
+| Is business travel an explicit request?                                                                                                                             | Yes/No |
+| Do I just assume business travel is needed?                                                                                                                         | Yes/No |
+| Did I tell the ‘requestor’ that my default is doing ‘the task’ online/remote?                                                                                       | Yes/No |
+| If they deem traveling ‘essential’, did I ask for the reasons?                                                                                                      | Yes/No |
+| Do I agree with those arguments for the need to travel for business?                                                                                                | Yes/No |
+| Did I ask the following questions:                                                                                                                                  |        |
+| - If lockdown were still in place, how would this work be approached without travel?                                                                                | Yes/No |
+| - Has that been done before?                                                                                                                                        | Yes/No |
+| - If so, how did it go? How could it be done even better (still without travel)?                                                                                    | Yes/No |
+| - Are the current tech platforms being fully used to enable doing the work without traveling?                                                                       | Yes/No |
+| - Are new tech solutions needed?                                                                                                                                    | Yes/No |
+|                                                                                                                                                                     |        |
+| Write the answers here and consider them as part of the final decision.                                                                                             |        |
+| <p class="box"></p>                                                                                                                                                 |        |
+| Do any of these arguments make the case for me traveling?                                                                                                           | Yes/No |
+| - Meeting in-person is needed to start up this collaboration.                                                                                                       |        |
+| - Meeting in-person is the only way we build trust.                                                                                                                 |        |
+| - Meeting in-person is needed to build strong relationships.                                                                                                        |        |
+| - We can only idea-generate and innovate new solutions by being in the same room.                                                                                   |        |
+| - We have to be in the same location to be able to collaborate and make good decisions.                                                                             |        |
+| - Seeing and hearing you give your keynote talk in-person makes it more effective.                                                                                  |        |
+| - When you give a talk in-person it’s more entertaining and inspiring for other people.                                                                             |        |
+| - I don’t like working online/remote (I feel incompetent, I feel lonely, I ….).                                                                                     |        |
+| - I get a better understanding of other cultures.                                                                                                                   |        |
+| - I can visit family/friends at that location.                                                                                                                      |        |
+| - I love traveling.                                                                                                                                                 |        |
+| - [Add other reasons…]                                                                                                                                              |        |
+| <p class="box"></p>                                                                                                                                                 |        |
+| Did I share my arguments for why business traveling is not needed?                                                                                                  | Yes/No |
+| Does the collaborator/boss/other have the power to decide on my behalf?                                                                                             | Yes/No |
+| Can I walk away from the job/task if I do not agree on the need for travel?                                                                                         | Yes/No |
+| Am I willing to walk away from the job if I do not agree?                                                                                                           | Yes/No |
+| Are there negative business/career implications if I don’t travel?                                                                                                  | Yes/No |
+| - If yes, write them here and consider them as part of the final decision.                                                                                          |        |
+| <p class="box"></p>                                                                                                                                                 |        |
+| Are there negative physical and mental health risks/implications to myself,                                                                                         |        |
+| my family, and to others if I travel?                                                                                                                               | Yes/No |
+| - What are the needed protection health logistics for travel? Write these here.                                                                                     |        |
+| <p class="box"></p>                                                                                                                                                 |        |
+| **Facts – I also need information about:**                                                                                                                          |        |
+| **ENVIRONMENT**:                                                                                                                                                    |        |
+| What form of transportation will be used?                                                                                                                           |        |
+| Are there ways to maximise the trip to include other work (and thus reduce the number of future trips)?                                                             |        |
+| What’s the estimated environmental cost and impact for this travel by me and all others traveling for the in-person work?                                           |        |
+| How does the organisation’s commitments to the climate, UN SDGs, sustainability, etc. shape the travel policy and approach to work?                                 |        |
+| **EXPENSE:**                                                                                                                                                        |        |
+| What’s the estimated cost for travel, not only for myself but all participants for the in-person work?                                                              |        |
+| Will the travel requestor cover all health expenses associated with the trip (i.e., tests, masks, potential quarantine requirements, cancellation penalties, etc.)? |        |
+| Is there an extra bonus paid to the person who agrees to travel?  If so, what is it?                                                                                |        |
+| How much could be saved by not traveling? What are two ways that this money could be used differently (instead of on travel)?                                       |        |
 
 
 **My final test: I mentally walk-through the travel and the work from ‘door to door’/step by step.**

@@ -1,7 +1,7 @@
 ---
 title: "3 Inclusive Actions for Psychological Safety"
 slug: "3 Inclusive Actions Psychological Safety"
-category: Allies, Behavioural Insights, Change Maker Skills, Inclusive Co-Creation, Inclusive Culture, Inclusive Decision Making, Leading Inclusively, Reduce Bias, belonging, wellbeing
+category: Allies, Behavioural Insights, Change Maker Skills, Inclusive Co-Creation, Inclusive Culture, Inclusive Decision Making, Leading Inclusively, Reduce Bias, belonging, wellbeing, Future of Work
 post_date: 2021-06-14T16:50:10.884Z
 thumbnail: /images/uploads/3-people.svg
 authors: Lisa Kepinski & Tinna C. Nielsen

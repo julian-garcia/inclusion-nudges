@@ -2,7 +2,7 @@
 title: "Mandate for Change "
 slug: "mandate for change "
 category: Change Maker Skills, Leading Inclusively, Inclusive Co-Creation,
-  Inclusive Culture
+  Inclusive Culture, Future of Work
 post_date: 2021-02-09T16:45:35.981Z
 thumbnail: /images/uploads/mandate-for-change-signpost.png
 authors: Lisa Kepinski & Tinna C. Nielsen

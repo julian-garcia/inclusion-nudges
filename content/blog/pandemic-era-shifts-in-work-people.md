@@ -1,7 +1,7 @@
 ---
 title: Pandemic-Era Shifts in Work & DEI Series - People
 slug: Pandemic-Era Shifts People
-category: inclusive culture, change maker skills, inclusive decision making, inclusive leadership, reduce bias, belonging, inclusive co-creation, process design, wellbeing
+category: inclusive culture, change maker skills, inclusive decision making, inclusive leadership, reduce bias, belonging, inclusive co-creation, process design, wellbeing, Future of Work
 post_date: 2021-11-05T20:46:00.394Z
 thumbnail: /images/uploads/people.png
 feature: /images/uploads/people-large.png

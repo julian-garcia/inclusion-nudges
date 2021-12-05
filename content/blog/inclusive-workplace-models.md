@@ -1,7 +1,7 @@
 ---
 title: "Ask Lisa & Tinna: How Do I Create New Inclusive Workplace Models?"
 slug: Inclusive Workplace Models
-category: Ask Lisa & Tinna, Change Maker Skills, Behavioural Insights, Inclusive Culture, Inclusive Co-Creation, Reduce Bias, Inclusive Decision Making, Leading Inclusively, Frame Perceptions
+category: Ask Lisa & Tinna, Change Maker Skills, Behavioural Insights, Inclusive Culture, Inclusive Co-Creation, Reduce Bias, Inclusive Decision Making, Leading Inclusively, Frame Perceptions, Future of Work
 post_date: 2021-05-16T12:00:10.884Z
 thumbnail: /images/uploads/workplace.png
 authors: Lisa Kepinski & Tinna C. Nielsen

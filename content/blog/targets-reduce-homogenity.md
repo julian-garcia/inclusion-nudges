@@ -1,7 +1,7 @@
 ---
 title: "Don't Set Targets for Women - but for Max 70% of the Same Gender"
 slug: "targets"
-category: Data-driven change, change maker skills, frame perceptions
+category: Data-driven change, change maker skills, frame perceptions, Future of Work
 post_date: 2021-03-06T16:50:10.884Z
 thumbnail: /images/uploads/targets.png
 authors: Lisa Kepinski & Tinna C. Nielsen

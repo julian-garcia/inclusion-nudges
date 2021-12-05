@@ -2,7 +2,7 @@
 title: Data as a Catalyst for Designing Change
 slug: Data as catalyst for designing effective change
 category: Frame Perceptions, Change Maker skills, Behavioural Insights, Leading
-  inclusively, data-driven change
+  inclusively, data-driven change, Future of Work
 post_date: 2021-01-08T10:44:35.185Z
 thumbnail: /images/uploads/data-as-a-catalyst-for-change-image.png
 authors: Lisa Kepinski & Tinna C. Nielsen

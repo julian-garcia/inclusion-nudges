@@ -69,7 +69,10 @@ const Modal = ({ children, modalClass, signature }) => (
       <FontAwesomeIcon icon={faTimes} className="icon-heading close-modal" onClick={(e) => closeModal(modalClass, e)} />
       {children}
       {signature === 'both' &&
-        <img src={SignatureImg} alt="Lisa & Tinna" className="modal-signature" />
+        <>
+          <img src={SignatureImg} alt="Lisa & Tinna" className="modal-signature" />
+          <h3 style={{textAlign:'center'}}>Lisa Kepinski & Tinna C. Nielsen<br/>Founders, Inclusion Nudges</h3>
+        </>
       }
       {signature === 'lisa' &&
         <img src={SignatureLisaImg} alt="Lisa" className="modal-signature-single" />

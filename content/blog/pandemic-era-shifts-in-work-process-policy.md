@@ -1,7 +1,7 @@
 ---
 title: Pandemic-Era Shifts in Work & DEI Series - Process & Policy 
 slug: Pandemic-Era Shifts Process Policy
-category: inclusive culture, change maker skills, inclusive decision making, inclusive leadership, reduce bias, belonging, inclusive co-creation, process design, wellbeing
+category: inclusive culture, change maker skills, inclusive decision making, inclusive leadership, reduce bias, belonging, inclusive co-creation, process design, wellbeing, Future of Work
 post_date: 2021-11-05T20:46:00.394Z
 thumbnail: /images/uploads/process.png
 feature: /images/uploads/process-large.png
