@@ -11,6 +11,16 @@ Gatsby implementation for non profit organisation [Inclusion Nudges](https://inc
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e7d6731f-169b-4c36-a55a-03573ae63739/deploy-status)](https://app.netlify.com/sites/inclusion-nudges/deploys)
 
+## Hosting details for inclusion-nudges.org
+|                 |                                                                                                         |                                                                                                   |
+| --------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Github**      | Code repository - all code developed to build the site sits here                                        | [github.com/julian-garcia/inclusion-nudges](https://github.com/julian-garcia/inclusion-nudges)    |
+| **Simply**      | Domain host (owner of `inclusion-nudges.org` domain)                                                    | [simply.com/en/controlpanel](https://www.simply.com/en/controlpanel/)                             |
+| **Netlify**     | Web host (serves the website)                                                                           | [app.netlify.com/sites/inclusion-nudges](https://app.netlify.com/sites/inclusion-nudges/overview) |
+| **Gatsby**      | Front end framework used to develop this code                                                           | [gatsbyjs.com](https://www.gatsbyjs.com/)                                                         |
+| **Netlify CMS** | Write and publish content (articles/pages) - see [netlifycms.org](https://www.netlifycms.org/) for info | [inclusion-nudges.org/admin](https://inclusion-nudges.org/admin)                                  |
+---
+
 ## Technology Used (framework/languages)
 - **Gatsby** - React based static site generator
 - **Netlify, Netlify CMS** - site hosting & content management
